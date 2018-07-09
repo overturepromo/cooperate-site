@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Hero from './Hero'
+import Hero from './Hero';
+import Jobs from './Jobs'
 import SubFooter from '../SubFooter';
 
 
@@ -9,6 +10,7 @@ const index = () => {
     return (
         <div>
             <Hero />
+            <Jobs />
             <SubFooter />
         </div>
     )

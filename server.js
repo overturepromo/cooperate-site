@@ -16,7 +16,6 @@ app.get('/api/hello', (req, res) => {
 });
 
 app.post('/contact', (req, res) => {
-  console.log(req.body)
   fn.contactEmail(req.body.name, req.body.company, req.body.email, req.body.phone, req.body.message)
 })
 

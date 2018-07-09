@@ -5,7 +5,10 @@ import '../../styles/Careers.css'
 const Hero = () => {
     return (
         <div className="hero-careers">
-            
+            <div className="career-hero-box container">
+                <p className="work-cta-top">CAREERS</p>
+                <p className="work-cta-bottom">Now hiring rockstar employees. We're a growing company that is looking for exceptional individuals that embody a "work hard, play hard" mentality.</p>
+            </div>
         </div>
     )
 }
