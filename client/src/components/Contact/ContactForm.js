@@ -50,6 +50,7 @@ class ContactForm extends Component {
           });
         alert('Your message has been sent. :-)')
         this.setState({name: '', company: '', email: '', phone: '', message: ''})
+        return null;
     }
 
     render(){
