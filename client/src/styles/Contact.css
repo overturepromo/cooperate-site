@@ -11,6 +11,65 @@
     padding-top: 14%;
 }
 
+.overture-contact-address {
+    color: #ef7521;
+    font-size: 22px;
+}
+
+.info-contact {
+    font-size: 22px;
+    line-height: .8;
+    color: #7a7a7a;
+}
+
+.infoBreak-contact {
+    font-size: 22px;
+    line-height: .8;
+    padding-bottom: 20px;
+    color: #7a7a7a;
+}
+
+.socials-contact{
+    margin-top: 40px;
+}
+
+.social-contact{
+    color: #7a7a7a;
+    font-size: 2em;
+    margin-right: 20px
+}
+
+.contact-inputs-box{
+    margin: 10px 0
+}
+
+.contact-inputs{
+    width: 100%;
+    background-color: #eeeeee;
+    border: none;
+    padding: 15px 0 15px 10px;
+}
+
+.text-area-contact{
+    height: 175px
+}
+
+.contact-button-send {
+    color: white;
+    font-size: 18px;
+    padding: 5px 30px;
+    background-color: #ef7521;
+    border-radius: 7px;
+    font-family: 'Proxima-bold';
+    border: none;
+}
+
+.contact-button-send:hover{
+    background-color: #Ce5400;
+    color: white;
+    text-decoration: none;
+}
+
 @media(max-width:991px){
     .hero-contact{
         margin-top: 0;
