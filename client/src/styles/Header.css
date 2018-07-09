@@ -1,0 +1,63 @@
+.headers-div{
+    padding-top: 40px
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    color: white;
+    font-size: 16px;
+    font-family: 'Proxima'
+}
+
+.contact-button{
+    color: white;
+    font-size: 18px;
+    padding: 11px 30px;
+    background-color: #ef7521;
+    border-radius: 7px;
+    font-family: 'Proxima-bold'
+}
+
+.contact-button:hover{
+    background-color: #Ce5400;
+    color: white;
+    text-decoration: none;
+}
+
+.header-mobile{
+    display: none
+}
+
+/* Mobile Stuff */
+
+ .fa-bars:before {
+    font-size: 2em;
+    color: #3babc5;
+}
+
+.mobile-logo{
+    font-size: 25px;
+    color: #ef7521;
+    font-family: Proxima-bold;
+    margin: 0;
+    text-align: center;
+    transform: translateX(-12%);
+}
+
+@media (max-width: 991px){
+    .header-desktop {
+        display: none;
+    }
+    .header-mobile {
+        display: block
+    }
+    .headers-div{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+}

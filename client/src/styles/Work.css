@@ -1,0 +1,102 @@
+.hero-work {
+    background-image: url('../images/work/work_heroimg.jpg');
+    margin-top: -90px;
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.work-cta-top{
+    font-size: 70px;
+    color: white;
+    font-family: proxima-bold
+}
+
+.work-cta-bottom{
+    font-size: 30px;
+    color: white;
+}
+
+.work-hero-box{
+    padding-top: 22%;
+    padding-right: 25%
+}
+
+.work-blue{
+    font-size: 60px;
+    color: #3babc5;
+    font-family: Proxima-bold
+}
+
+.work-paragraph{
+    color: #919191;
+    font-size: 20px;
+}
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.columns {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 7px;
+}
+
+.columns img {
+    margin-top: 14px;
+    vertical-align: middle;
+}
+
+@media(max-width:991px){
+    .hero-work{
+        margin-top: 0;
+    }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+/* @media screen and (max-width: 767px) {
+    .columns {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+} */
+
+@media (max-width: 767px){
+    .about-music {
+        margin-left: 0;
+        height: 275px;
+    }
+    .work-cta-top{
+        font-size: 42px;
+    }
+    .work-hero-box{
+        padding-right: 5%;
+    }
+    .work-cta-bottom{
+        font-size: 20px
+    }
+    .hero-work{
+        height: 500px
+    }
+    .work-blue{
+        font-size: 45px;
+    }
+}
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 600px) {
+    .columns {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+} */

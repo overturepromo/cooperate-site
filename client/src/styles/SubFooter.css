@@ -1,0 +1,45 @@
+.some-fun {
+    background-image: url('../images/home/blue_bg.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-box {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-small {
+    text-align: center;
+    width: 750px
+}
+
+.contact-fun {
+    font-size: 60px;
+    color: white;
+    font-family: Proxima-bold;
+}
+
+.contact-p {
+    font-size: 24px;
+    color: white;
+    font-family: Proxima;
+    padding-bottom: 35px;
+}
+
+@media(max-width:991px){
+    .contact-small{
+        width: 100%
+    }
+}
+
+@media(max-width:767px){
+    .sub-footer{
+        height: 450px;
+    }
+}

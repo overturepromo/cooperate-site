@@ -1,0 +1,63 @@
+.whole-burger{
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+
+.hamburger-div{
+    padding: 10px 0 5px 0;
+    background-color: #5fc1d9
+}
+
+.fa-times:before{
+    font-size: 2em;
+    color: #ffffff
+}
+
+.mobile-logo-burger{
+    font-size: 25px;
+    color: #ffffff;
+    font-family: Proxima-bold;
+    margin: 0;
+    text-align: center;
+    transform: translateX(-12%);
+}
+
+.burger-links{
+    height: 60vh;
+    background-color: #5fc1d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.burger-link{
+    color: white;
+    font-family: Proxima;
+    font-size: 18px;
+}
+
+.burger-contact{
+    background-color: #3babc5;
+    height: 35vh
+}
+
+.burger-address{
+    color: white;
+    line-height: 1;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.burger-phone{
+    color: white;
+    line-height: 1;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.burger-social{
+    color: white;
+    font-size: 2em;
+    margin: 0 15px 
+}

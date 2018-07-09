@@ -1,0 +1,268 @@
+.hero {
+    background-image: url('../images/home/home_heroimg.jpg');
+    margin-top: -90px;
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cta-home {
+    padding-top: 22%;
+}
+
+.home-cta-top,
+.home-cta-bottom {
+    color: white;
+    font-size: 24px;
+    line-height: 0
+}
+
+.home-cta-middle {
+    color: white;
+    font-size: 70px;
+    font-family: Proxima-bold
+}
+
+.scroll-down {
+    text-align: right;
+    margin-top: 9%;
+}
+
+.big-words{
+    font-size: 160px;
+    font-family: Proxima-bold;
+    color: #eeeeee
+}
+.green-words-box{
+    margin-top: -109px
+}
+
+.small-green-words{
+    font-size: 60px;
+    color: #b4cb22;
+    font-family: Proxima-bold
+}
+
+.home-descriptions{
+    color: #919191;
+    font-size: 24px
+}
+
+.uber {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.nbc, .cubs {
+    width: 100%;
+}
+
+.nbc-box{
+    width: 80%;
+    margin-left: 20%
+}
+
+.speaker {
+    margin-bottom: 15px;
+    height: 400px;
+    width: 100%;
+}
+
+.cubs-box{
+    width: 80%;
+}
+
+.words-overlay-two{
+    text-align: right;
+}
+
+.big-clients{
+    font-size: 160px;
+    font-family: Proxima-bold;
+    color: #eeeeee;
+    text-align: right;
+}
+
+.small-blue-words{
+    margin-top: -120px;
+}
+
+.small-clients{
+    font-size: 60px;
+    color: #3babc5;
+    font-family: Proxima-bold
+}
+
+.logos-top{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.logos-bottom{
+    margin-bottom: 50px
+}
+
+.clients-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+}
+
+.arrow{
+    font-size: 16px;
+    margin-top: 40px;
+    color: #383939;
+}
+
+.big-words-video{
+    font-size: 140px;
+    font-family: Proxima-bold;
+    color: #eeeeee;
+    text-align: right;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.small-words-video{
+    font-size: 60px;
+    color: #b4cb22;
+    font-family: Proxima-bold
+}
+
+.video-container{
+    margin-top: -109px
+}
+
+.cta-video-text{
+    color: #b4cb22;
+    font-family: Proxima-bold;
+    font-size: 18px;
+    margin-top: 10px
+}
+
+.image-grid{
+    width: 100%;
+    margin: 40px 0
+}
+
+.uber, .nbc, .speaker, .cubs{
+    cursor: pointer;
+}
+
+.fa-window-close:before{
+    font-size: 3em;
+    color: #ef7521;
+    margin-left: 810%;
+}
+.fa-window-close:hover{
+    cursor: pointer;
+}
+
+.video-modal{
+    outline: none;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 25%;
+}
+
+.office-video-box:hover{
+    cursor: pointer;
+}
+
+/* Mobile Stuff */
+
+.cta-mobile {
+    display: none;
+    background-image: url('../images/home/blue_bg.png')
+}
+
+@media(max-width: 1110px){
+    .big-words{
+        font-size: 125px;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero {
+        margin-top: 0px;
+        height: 415px
+    }
+    .cta-mobile {
+        display: block;
+    }
+    .cta-home {
+        display: none;
+    }
+    .home-cta-top {
+        line-height: 1;
+        padding-top: 30px
+    }
+    .home-cta-middle {
+        line-height: 1;
+        font-size: 40px;
+    }
+    .home-cta-bottom {
+        padding-bottom: 50px;
+    }
+    .big-words {
+        display: none;
+    }
+    .words-overlay{
+        margin-top: 140px;
+    }
+    .nbc-box{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .speaker{
+        height: auto
+    }
+    .cubs-box{
+        width: 100%
+    }
+    .big-clients{
+        display: none;
+    }
+    .words-overlay-two{
+        margin-top: 145px;
+    }
+    .big-words-video{
+        display: none;
+    }
+    .video-container{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero {
+        height: 250px;
+    }
+    .home-descriptions{
+        font-size: 20px
+    }
+    .small-green-words{
+        font-size: 32px;
+        color: #ef7521;
+    }
+    .small-clients{
+        font-size: 32px 
+    }
+    .words-overlay-two{
+        text-align: left;
+    }
+    .logos-top{
+        margin-top: 0
+    }
+    .small-words-video{
+        font-size: 32px;
+    }
+    .image-grid{
+        width: 160%;
+    }
+}

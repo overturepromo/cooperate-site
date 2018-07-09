@@ -1,0 +1,34 @@
+.hero-team {
+    background-image: url('../images/team/team_heroimg.jpg');
+    margin-top: -90px;
+    width: 100%;
+    height: 620px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jump-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.jump-link{
+    list-style-type: none;
+}
+
+.employee-card:hover{
+    cursor: pointer;
+}
+
+@media(max-width:991px){
+    .hero-team{
+        margin-top: 0;
+    }
+}
+
+@media(max-width:767px){
+    .employee-card{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}

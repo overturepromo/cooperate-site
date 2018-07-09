@@ -1,0 +1,224 @@
+.hero-about {
+    background-image: url('../images/about/aboutus_heroimg.jpg');
+    margin-top: -90px;
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-cta-top{
+    font-size: 70px;
+    color: white;
+    font-family: proxima-bold
+}
+
+.about-cta-bottom{
+    font-size: 30px;
+    color: white;
+}
+
+.about-hero-box{
+    padding-top: 22%;
+    padding-right: 25%
+}
+
+.big-words-about{
+    font-size: 140px;
+    font-family: Proxima-bold;
+    color: #eeeeee;
+    margin-left: 40px;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.about-bike{
+    height: 66%;
+    width: 100%
+}
+
+.about-warehouse{
+    height: 66%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.about-core-values{
+    height: 100%;
+    width: 100%
+}
+
+.about-ladies{
+    height: 62%;
+    width: 100%
+}
+
+.green-history, .green-network{
+    font-size: 60px;
+    color: #b4cb22;
+    font-family: Proxima-bold
+}
+
+.history-paragraph, .network-paragraph{
+    color: #919191;
+    font-size: 20px;
+}
+
+.programs-orange{
+    font-size: 60px;
+    color: #ef7521;
+    font-family: Proxima-bold
+}
+
+.programs-paragraph{
+    color: #919191;
+    font-size: 20px;
+    width: 90%;
+}
+
+.about-corona{
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about-music{
+    margin-left: 25%
+}
+
+.about-program-links{
+    color: #ef7521;
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.about-program-links:hover{
+    cursor: pointer;
+    color: #ce5400;
+}
+
+.awards-div{
+    background-image: url('../images/about/awards_bg.png')
+}
+
+.awards-title{
+    text-align: center;
+    color: white;
+    width: 560px;
+    margin: auto;
+    padding: 50px 0
+}
+
+.awards-top-title{
+    font-family: Proxima-bold;
+    font-size: 60px;
+}
+
+.awards-bottom-title{
+    font-size: 24px;
+}
+
+.ribbon-paragraph{
+    color: white;
+    font-size: 18px;
+}
+
+.ribbon-box{
+    text-align: center;
+    width: 210px;
+    margin: auto;
+    height: 140px
+}
+
+.network-globe{
+    text-align: right;
+}
+
+.orange-network{
+    color: #ef7521;
+    font-size: 20px;
+}
+
+.mobile-abstract, .mobile-globe{
+    display: none;
+}
+
+@media(max-width:991px){
+    .hero-about{
+        margin-top: 0;
+    }
+    .big-words-about{
+        font-size: 69px;
+    }
+}
+
+@media(max-width:767px){
+    .about-hero-box{
+        padding-right: 10px;
+    }
+    .about-cta-top{
+        font-size: 34px;
+    }
+    .about-cta-bottom{
+        font-size: 20px
+    }
+    .hero-about{
+        height: 375px
+    }
+    .big-words-about {
+        font-size: 28px;
+    }
+    .green-history, .green-network{
+        font-size: 45px;
+    }
+    .history-box{
+        margin-top: 40px
+    }
+    .mobile-abstract{
+        display: block;
+    }
+    .desktop-abstract{
+        display: none !important;
+    }
+    .history-paragraph{
+        margin-bottom: -60px;
+    }
+    .about-corona{
+        height: 110px;
+        margin-left: 15px
+    }
+    .about-hats{
+        height: 110px
+    }
+    .about-music{
+        margin-left: 5%
+    }
+    .programs-orange{
+        font-size: 45px;
+    }
+    .awards-title{
+        width: 100%;
+    }
+    .awards-top-title{
+        font-size: 36px;
+    }
+    .awards-bottom-title {
+        font-size: 20px;
+    }
+    .network-globe{
+        display: none;
+    }
+    .mobile-globe{
+        display: block;
+    }
+    .mobile-globe-image{
+        width: 90%;
+    }
+}
+
+/* Iphone 5... why? */
+@media(max-width: 325px){
+    .about-music{
+        margin: 0
+    }
+}
