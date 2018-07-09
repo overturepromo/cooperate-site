@@ -2,10 +2,11 @@ var nodemailer = require('nodemailer');
 
 exports.contactEmail = (name, company, email, phone, message) => {
     var transporter = nodemailer.createTransport({
-      host: 'mail.overturepromo.com',
-      port: 25,
-      secure: false,
-      ignoreTLS: true
+      service: 'gmail',
+      auth: {
+        user: 'overturepromotions@gmail.com',
+        pass: 'X13Bilxzs'
+      }
     });
     var mailOptions = {
       from: email,
@@ -28,3 +29,8 @@ exports.contactEmail = (name, company, email, phone, message) => {
   //   user: auth.USERNAME,
   //   pass: auth.PASSWORD
   // }
+
+  // host: 'mail.overturepromo.com',
+  // port: 25,
+  // secure: false,
+  // ignoreTLS: true
