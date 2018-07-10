@@ -20,7 +20,7 @@ app.post('/contact', (req, res) => {
 })
 
 app.post('/apply', (req, res) => {
-  fn.applyEmail(req.body.position, req.body.first, req.body.last, req.body.email, req.body.phone, req.body.movies, req.body.coverLetter)
+  fn.applyEmail(req.body.position, req.body.first, req.body.last, req.body.email, req.body.phone, req.body.movies, req.body.coverLetter, req.body.resume)
 })
 
 if (process.env.NODE_ENV === 'production') {

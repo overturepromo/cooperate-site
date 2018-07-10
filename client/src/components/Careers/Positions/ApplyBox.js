@@ -34,6 +34,9 @@ class ApplyBox extends Component {
             case 'coverLetter':
                 this.setState({coverLetter: e.target.value})
                 break;
+            case 'resume':
+                this.setState({resume: e.target.value})
+                break;
             default:
                 break;
        }
@@ -49,7 +52,8 @@ class ApplyBox extends Component {
             email: this.state.email,
             phone: this.state.phone,
             movies: this.state.movies,
-            coverLetter: this.state.coverLetter
+            coverLetter: this.state.coverLetter,
+            resume: this.state.resume
         })
         .then(function (response) {
             console.log(response);
@@ -62,6 +66,7 @@ class ApplyBox extends Component {
     }
 
     render(){
+        console.log(this.state.resume)
         return (
             <div>
                 <button onClick={this.props.close}>Close</button>
@@ -74,6 +79,7 @@ class ApplyBox extends Component {
                     <input className="contact-inputs" type='text' name="phone" placeholder="Phone" required value={this.state.phone} onChange={this.handleChange} />
                     <input className="contact-inputs" type='text' name="movies" placeholder="What are your 3 favorite movies?" required value={this.state.movies} onChange={this.handleChange} />
                     <textarea className="contact-inputs text-area-contact" type='text' name="coverLetter" placeholder="Paste your cover letter" value={this.state.coverLetter} onChange={this.handleChange} />
+                    <input className="contact-file" type='file' name='resume' accept="file_extension" value={this.state.resume} onChange={this.handleChange} />
                     <button className="contact-button-send">Send</button>
                 </form>
             </div>

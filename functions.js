@@ -12,7 +12,7 @@ exports.contactEmail = (name, company, email, phone, message) => {
       from: email,
       to: 'jacobg@overturepromo.com',
       subject: 'You have a new contact request',
-      html: `<h4>name:</h4> ${name} <h4>company:</h4> ${company} <h4>email:</h4> ${email} <h4>phone:</h4> ${phone} <h4>message:</h4> ${message}` 
+      html: `<h4>name:</h4> ${name} <h4>company:</h4> ${company} <h4>email:</h4> ${email} <h4>phone:</h4> ${phone} <h4>message:</h4> ${message}`,
     };
     transporter.sendMail(mailOptions, function (error, info) {
       if (error) {
@@ -23,7 +23,7 @@ exports.contactEmail = (name, company, email, phone, message) => {
     });
   };
 
-  exports.applyEmail = (position, first, last, email, phone, movies, coverLetter) => {
+  exports.applyEmail = (position, first, last, email, phone, movies, coverLetter, resume) => {
     var transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
@@ -40,7 +40,7 @@ exports.contactEmail = (name, company, email, phone, message) => {
              <h4>Email:</h4> ${email} 
              <h4>Phone:</h4> ${phone} 
              <h4>Movies:</h4> ${movies}
-             <h4>Cover Letter</h4> ${coverLetter}` 
+             <h4>Cover Letter</h4> ${coverLetter} `
     };
     transporter.sendMail(mailOptions, function (error, info) {
       if (error) {
@@ -50,6 +50,15 @@ exports.contactEmail = (name, company, email, phone, message) => {
       }
     });
   };
+
+//   const transporter = nodemailer.createTransport({
+    // host: 'smtp.ethereal.email',
+    // port: 587,
+    // auth: {
+    //     user: 'l4ulcdjrietnchxt@ethereal.email',
+    //     pass: 'vKRrRj9Jdj63BsUR5c'
+    // }
+// });
 
 
   // service: 'gmail',
@@ -62,3 +71,10 @@ exports.contactEmail = (name, company, email, phone, message) => {
   // port: 25,
   // secure: false,
   // ignoreTLS: true
+
+  // attachments: [
+  //   {   // file on disk as an attachment
+  //     filename: 'beer.jpg',
+  //     path: './beer.jpg' // stream this file
+  //   },
+  // ]  
