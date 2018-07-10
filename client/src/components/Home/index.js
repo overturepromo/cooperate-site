@@ -9,7 +9,7 @@ import Video from './Video'
 
 const index = () => {
     return (
-        <div>
+        <div> 
             <Hero />
             <Work />
             <BigImages />
@@ -19,5 +19,6 @@ const index = () => {
         </div>
     )
 }
+
 
 export default index;

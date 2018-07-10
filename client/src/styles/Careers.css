@@ -11,6 +11,31 @@
     padding-top: 175px
 }
 
+.view-button{
+    color: #ef7521;
+}
+
+.view-button:hover{
+    color: #Ce5400;
+    cursor: pointer;
+}
+
+.apply-button {
+    color: white;
+    font-size: 18px;
+    padding: 5px 30px;
+    background-color: #ef7521;
+    border-radius: 7px;
+    font-family: 'Proxima-bold';
+    border: none;
+}
+
+.apply-button:hover{
+    background-color: #Ce5400;
+    color: white;
+    text-decoration: none;
+}
+
 @media(max-width:991px){
     .hero-careers{
         margin-top: 0;

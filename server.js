@@ -19,6 +19,10 @@ app.post('/contact', (req, res) => {
   fn.contactEmail(req.body.name, req.body.company, req.body.email, req.body.phone, req.body.message)
 })
 
+app.post('/apply', (req, res) => {
+  fn.applyEmail(req.body.position, req.body.first, req.body.last, req.body.email, req.body.phone, req.body.movies, req.body.coverLetter)
+})
+
 if (process.env.NODE_ENV === 'production') {
   // Serve any static files
   app.use(express.static(path.join(__dirname, 'client/build')));

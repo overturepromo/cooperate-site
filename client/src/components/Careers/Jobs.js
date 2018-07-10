@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import Hr from './Positions/Hr'
 import Web from './Positions/Web'
 
-// Thic component will pass in all the information that will hold the details of the Jobs. The details will be shown based of the state and which 
-// is open.
+import '../../styles/Careers.css'
 
 class Jobs extends Component {
 
@@ -23,21 +22,27 @@ class Jobs extends Component {
     handleOff = (position) => {
         if(position === 'hr'){
             this.setState({hr: false})
+            document.documentElement.scrollTop = 500;
         } else if(position === 'web'){
             this.setState({web: false})
+            document.documentElement.scrollTop = 500;
         }
     }
 
     render(){
         return (
-            <div className='container'>
-                <div className="hr-box">
-                    <h3>HR Manager</h3>
-                    <h5 onClick={() => this.handleOn('hr')}>View Details</h5>
-                    {this.state.hr ? <Hr bye={this.handleOff} /> : null}
-                    <h3>Web Dev</h3>
-                    <h5 onClick={() => this.handleOn('web')}>View Details</h5>
-                    {this.state.web ? <Web bye={this.handleOff} /> : null}
+            <div className='container' style={{marginTop: '20px'}}>
+                <div className="jobs-box">
+                    <div style={{borderTop: '1px solid gray'}}>
+                        <h3>HR Manager</h3>
+                        <h5 onClick={() => this.handleOn('hr')} className="view-button">View Details</h5>
+                        {this.state.hr ? <Hr bye={this.handleOff} /> : null}
+                    </div>
+                    <div style={{borderTop: '1px solid gray'}}>
+                        <h3>Web Dev</h3>
+                        <h5 onClick={() => this.handleOn('web')} className="view-button">View Details</h5>
+                        {this.state.web ? <Web bye={this.handleOff} /> : null}
+                    </div>
                 </div>
             </div>
         )
