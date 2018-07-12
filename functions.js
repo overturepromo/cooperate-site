@@ -40,7 +40,10 @@ exports.contactEmail = (name, company, email, phone, message) => {
              <h4>Email:</h4> ${email} 
              <h4>Phone:</h4> ${phone} 
              <h4>Movies:</h4> ${movies}
-             <h4>Cover Letter</h4> ${coverLetter} `
+             <h4>Cover Letter</h4> ${coverLetter} `,
+      attachments: [{
+        path: 'uploads/' + resume
+      }]
     };
     transporter.sendMail(mailOptions, function (error, info) {
       if (error) {

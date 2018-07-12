@@ -11,7 +11,7 @@ class ApplyBox extends Component {
         phone: '',
         movies: '',
         coverLetter: '',
-        resume: ''
+        selectedFile: ''
     }
 
     handleChange = (e) => {
@@ -35,7 +35,7 @@ class ApplyBox extends Component {
                 this.setState({coverLetter: e.target.value})
                 break;
             case 'resume':
-                this.setState({resume: e.target.value})
+                this.setState({selectedFile: e.target.files[0]})
                 break;
             default:
                 break;
@@ -45,23 +45,26 @@ class ApplyBox extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('/apply', {
-            position: this.props.title,
-            first: this.state.first,
-            last: this.state.last,
-            email: this.state.email,
-            phone: this.state.phone,
-            movies: this.state.movies,
-            coverLetter: this.state.coverLetter,
-            resume: this.state.resume
-        })
+        const { first, last, email, phone, movies, coverLetter, selectedFile } = this.state;
+
+        let formData = new FormData();
+        formData.append('position', this.props.title)
+        formData.append('first', first );
+        formData.append('last', last);
+        formData.append('email', email);
+        formData.append('phone', phone);
+        formData.append('movies', movies);
+        formData.append('coverLetter', coverLetter);
+        formData.append('selectedFile', selectedFile);
+
+        axios.post('/apply', formData)
         .then(function (response) {
             console.log(response);
           })
           .catch(function (error) {
             console.log(error);
           });
-        this.setState({first: '', last: '', email: '', phone: '', movies: '', coverLetter: ''})
+        this.setState({first: '', last: '', email: '', phone: '', movies: '', coverLetter: '', selectedFile: ''})
         this.props.history.push("/");
     }
 
@@ -79,7 +82,7 @@ class ApplyBox extends Component {
                     <input className="contact-inputs" type='text' name="phone" placeholder="Phone" required value={this.state.phone} onChange={this.handleChange} />
                     <input className="contact-inputs" type='text' name="movies" placeholder="What are your 3 favorite movies?" required value={this.state.movies} onChange={this.handleChange} />
                     <textarea className="contact-inputs text-area-contact" type='text' name="coverLetter" placeholder="Paste your cover letter" value={this.state.coverLetter} onChange={this.handleChange} />
-                    <input className="contact-file" type='file' name='resume' accept="file_extension" value={this.state.resume} onChange={this.handleChange} />
+                    <input className="contact-file" type='file' name='resume' value={this.state.resume} onChange={this.handleChange} />
                     <button className="contact-button-send">Send</button>
                 </form>
             </div>
