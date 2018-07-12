@@ -36,6 +36,72 @@
     text-decoration: none;
 }
 
+.apply-close-button{
+    margin-left: 88%;
+    margin-top: 20px;
+    background-color: #ef7521;
+    color: white;
+    border: 1px solid #ef7521;
+}
+
+.apply-close-button:hover{
+    color: #ef7521;
+    background-color: white;
+}
+
+.apply-inputs{
+    width: 100%;
+    background-color: #eeeeee;
+    border: none;
+    padding: 15px 0 15px 10px;
+    margin: 5px;
+}
+
+.orange-bar-apply{
+    height: 1.5px;
+    width: 50px;
+    background-color: #ef7521;
+    margin-bottom: 20px;
+}
+
+.apply-file{
+    display: inline;
+    margin-left: 20px;
+}
+
+.apply-lightbox{
+    position: absolute;
+    top: 40px;
+    left: 25%;
+    right: 25%;
+    bottom: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+}
+
+.apply-button-send {
+    color: white;
+    font-size: 18px;
+    padding: 5px 30px;
+    background-color: #ef7521;
+    border-radius: 7px;
+    font-family: 'Proxima-bold';
+    border: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+.apply-button-send:hover{
+    background-color: #Ce5400;
+    color: white;
+    text-decoration: none;
+}
+
 @media(max-width:991px){
     .hero-careers{
         margin-top: 0;

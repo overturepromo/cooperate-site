@@ -72,18 +72,28 @@ class ApplyBox extends Component {
         console.log(this.state.resume)
         return (
             <div>
-                <button onClick={this.props.close}>Close</button>
-                <h3>Apply for</h3>
-                <h3>{this.props.title}</h3>
+                <div className='row'>
+                    <div className="col-xs-6">
+                        <h3 style={{lineHeight: 0}}>Apply for</h3>
+                        <h3 style={{fontFamily: 'Proxima-bold'}}>{this.props.title}</h3>
+                    <div className="orange-bar-apply"></div>
+                    </div>
+                    <div className="col-xs-6">
+                        <button onClick={this.props.close} className="apply-close-button">Close</button>
+                    </div>
+                </div>
                 <form onSubmit={this.handleSubmit}>
-                    <input className="contact-inputs" type='text' name="first" placeholder="First Name" required value={this.state.first} onChange={this.handleChange} />
-                    <input className="contact-inputs" type='text' name="last" placeholder="Last Name" required value={this.state.last} onChange={this.handleChange} />
-                    <input className="contact-inputs" type='text' name="email" placeholder="Email" required value={this.state.email} onChange={this.handleChange} />
-                    <input className="contact-inputs" type='text' name="phone" placeholder="Phone" required value={this.state.phone} onChange={this.handleChange} />
-                    <input className="contact-inputs" type='text' name="movies" placeholder="What are your 3 favorite movies?" required value={this.state.movies} onChange={this.handleChange} />
-                    <textarea className="contact-inputs text-area-contact" type='text' name="coverLetter" placeholder="Paste your cover letter" value={this.state.coverLetter} onChange={this.handleChange} />
-                    <input className="contact-file" type='file' name='resume' value={this.state.resume} onChange={this.handleChange} />
-                    <button className="contact-button-send">Send</button>
+                    <input className="apply-inputs" type='text' name="first" placeholder="First Name" required value={this.state.first} onChange={this.handleChange} />
+                    <input className="apply-inputs" type='text' name="last" placeholder="Last Name" required value={this.state.last} onChange={this.handleChange} />
+                    <input className="apply-inputs" type='text' name="email" placeholder="Email" required value={this.state.email} onChange={this.handleChange} />
+                    <input className="apply-inputs" type='text' name="phone" placeholder="Phone" required value={this.state.phone} onChange={this.handleChange} />
+                    <input className="apply-inputs" type='text' name="movies" placeholder="What are your 3 favorite movies?" required value={this.state.movies} onChange={this.handleChange} />
+                    <textarea className="apply-inputs text-area-contact" type='text' name="coverLetter" placeholder="Paste your cover letter" value={this.state.coverLetter} onChange={this.handleChange} />
+                    <div style={{display: 'flex'}}>
+                        <lable>Attach your resume </lable>
+                        <input className="apply-file" type='file' name='resume' value={this.state.resume} onChange={this.handleChange} />
+                    </div>
+                    <button className="apply-button-send">Send</button>
                 </form>
             </div>
         )

@@ -47,7 +47,7 @@ class Hr extends Component {
                 </ul>
                 <button className="apply-button" onClick={this.openModal}>Apply For Position</button>
                 <h5 onClick={() => this.props.bye('hr')} className="view-button">Hide Details</h5>
-                <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal}>
+                <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
                     <ApplyBox title="HR Manager" close={this.closeModal} />
                 </Modal>
             </div>
