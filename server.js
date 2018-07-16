@@ -7,7 +7,7 @@ const multer = require('multer');
 const uuidv4 = require('uuid/v4');
 const fn = require("./functions.js");
 const knox = require('knox');
-const awsS3Url = "https://s3.amazonaws.com/jacobimageboard";
+const awsS3Url = "https://s3.amazonaws.com/overture-site-resumes/";
 const fs = require('fs');
 
 app.use(bodyParser.urlencoded({
@@ -37,7 +37,7 @@ const upload = multer({
 const client = knox.createClient({
   key: process.env.AWS_KEY,
   secret: process.env.AWS_SECRET,
-  bucket: 'jacobimageboard'
+  bucket: 'overture-site-resumes'
 });
 
 
