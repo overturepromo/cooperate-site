@@ -3,7 +3,7 @@ import React from 'react';
 import Hero from './Hero'
 import SubFooter from '../SubFooter';
 import Work from './Work'
-import BigImages from './BigImages';
+import BigImages from './BigImages2';
 import Clients from './Clients'
 import Video from './Video'
 

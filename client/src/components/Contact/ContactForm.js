@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 import '../../styles/Contact.css'
+import { IncomingMessage } from 'http';
 
 class ContactForm extends Component {
 
@@ -72,10 +73,10 @@ class ContactForm extends Component {
                             <h5 className="info-contact">F. 847.680.0114</h5>
                         </div>
                         <div className="socials-contact">
-                            <a href="" target="blank"><i className="fa fa-facebook social-contact"></i></a>
-                            <a href="" target="blank"><i className="fa fa-instagram social-contact"></i></a>
-                            <a href="" target="blank"><i className="fa fa-twitter social-contact"></i></a>
-                            <a href="" target="blank"><i className="fa fa-youtube social-contact"></i></a>
+                            <a href="" target="blank"><i className="fa fa-facebook" style={icons}></i></a>
+                            <a href="" target="blank"><i className="fa fa-instagram" style={icons}></i></a>
+                            <a href="" target="blank"><i className="fa fa-twitter" style={icons}></i></a>
+                            <a href="" target="blank"><i className="fa fa-youtube" style={icons}></i></a>
                         </div>
                     </div>
                     <div className="col-md-8">
@@ -104,6 +105,13 @@ class ContactForm extends Component {
             </div>
         )
     }
+}
+
+//this is because font awesome can only take on one style. Must override it 
+const icons = {
+    color: "#7a7a7a",
+    marginRight: "20px",
+    fontSize: '2.2em'
 }
 
 export default ContactForm;

@@ -20,6 +20,20 @@
     cursor: pointer;
 }
 
+.employee-modal{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    right: 80px;
+    bottom: 80px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+}
+
 @media(max-width:991px){
     .hero-team{
         margin-top: 0;

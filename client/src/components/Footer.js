@@ -37,10 +37,10 @@ class Footer extends Component {
                             </Link>
                         </div>
                         <div className="socials" style={{padding: '40px 0'}}>
-                            <a href="" target="blank"><i className="fa fa-facebook social"></i></a>
-                            <a href="" target="blank"><i className="fa fa-instagram social"></i></a>
-                            <a href="" target="blank"><i className="fa fa-twitter social"></i></a>
-                            <a href="" target="blank"><i className="fa fa-youtube social"></i></a>
+                            <a href="" target="blank"><i className="fa fa-facebook" style={footerIcons}></i></a>
+                            <a href="" target="blank"><i className="fa fa-instagram" style={footerIcons}></i></a>
+                            <a href="" target="blank"><i className="fa fa-twitter" style={footerIcons}></i></a>
+                            <a href="" target="blank"><i className="fa fa-youtube" style={footerIcons}></i></a>
                         </div>
                         <h5>&copy; 2017 Overture, LLC</h5>
                     </div>
@@ -48,6 +48,14 @@ class Footer extends Component {
             </div>
         )
     }
+}
+
+//This is the font awesome only being able to take on one css so inline are necessary
+
+const footerIcons = {
+    color: "#ef7521",
+    fontSize: "2.2em",
+    marginLeft: "35px"
 }
 
 export default Footer;

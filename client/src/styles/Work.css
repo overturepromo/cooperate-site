@@ -53,6 +53,10 @@
     vertical-align: middle;
 }
 
+.work-music{
+    margin-left: 8%;
+}
+
 @media(max-width:991px){
     .hero-work{
         margin-top: 0;

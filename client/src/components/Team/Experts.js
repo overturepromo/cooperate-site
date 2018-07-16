@@ -36,7 +36,7 @@ class Experts extends Component {
 
 
                 {/* All The modals */}
-                <Modal isOpen={this.state.showModal[0]} onRequestClose={this.closeModal} style={customStyles}>
+                <Modal isOpen={this.state.showModal[0]} onRequestClose={this.closeModal} className="employee-modal">
                     <WorkCard image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} bio={People.JoG.bio} close={() => this.closeModal()}  />
                 </Modal>
                 <Modal isOpen={this.state.showModal[1]} onRequestClose={this.closeModal}>

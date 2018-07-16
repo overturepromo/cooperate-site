@@ -155,7 +155,9 @@
 .fa-window-close:before{
     font-size: 3em;
     color: #ef7521;
-    margin-left: 810%;
+    position: absolute;
+    left: 100%;
+    top: 4%;
 }
 .fa-window-close:hover{
     cursor: pointer;
@@ -171,6 +173,14 @@
 
 .office-video-box:hover{
     cursor: pointer;
+}
+
+.home-modals{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    outline: 0;
+    transform: translateX(-50%);;
 }
 
 /* Mobile Stuff */

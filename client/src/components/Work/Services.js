@@ -11,7 +11,7 @@ const Services = () => {
                 <div className="col-md-5">
                     <img src={House1} className="about-hats" alt="" />
                     <img src={House2} className="about-corona" alt="" />
-                    <img src={House3} className="about-music" alt="about-music" />
+                    <img src={House3} className="work-music" alt="about-music" />
                 </div>
                 <div className="col-md-7" style={{marginTop: '100px'}}>
                     <h4 className="programs-orange">In-house Services</h4>

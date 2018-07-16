@@ -32,7 +32,7 @@ class Header extends Component{
                                 <Link className="nav-links" to="/about">ABOUT</Link>
                                 <Link className="nav-links" to="/team">TEAM</Link>
                                 <Link className="nav-links" to="/work">WORK</Link>
-                                <a href="" target="blank" className="nav-links">CATALOG</a>
+                                <a href="http://catalog.overturepromo.com/" target="blank" className="nav-links">CATALOG</a>
                                 <Link className="contact-button" to="/contact">CONTACT US</Link>
                             </nav>
                         </div>

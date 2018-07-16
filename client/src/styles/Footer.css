@@ -38,15 +38,6 @@
 }
 
 
-.social{
-    color: #ef7521;
-    font-size: 2.2em;
-    margin-left: 35px
-}
-
-a i.social:hover{
-    color: #ce5400
-}
 
 @media(max-width:991px){
     .footer-nav-links{
