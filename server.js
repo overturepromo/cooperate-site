@@ -36,8 +36,8 @@ const upload = multer({
 
 //amazon s3 bucket storage
 const client = knox.createClient({
-  key: ENV[AWS_KEY],
-  secret: ENV[secrets.AWS_SECRET],
+  key: process.env.AWS_KEY,
+  secret: process.env.AWS_SECRET,
   bucket: 'jacobimageboard'
 });
 
