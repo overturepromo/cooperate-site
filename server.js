@@ -7,7 +7,7 @@ const multer = require('multer');
 const uuidv4 = require('uuid/v4');
 const fn = require("./functions.js");
 const knox = require('knox');
-const awsS3Url = "https://s3-us-west-2.amazonaws.com/overture-site-resumes/";
+const awsS3Url = "https://s3.amazonaws.com/test-bucket-overture/";
 const fs = require('fs');
 
 app.use(bodyParser.urlencoded({
@@ -37,7 +37,7 @@ const upload = multer({
 const client = knox.createClient({
   key: process.env.AWS_KEY,
   secret: process.env.AWS_SECRET,
-  bucket: 'overture-site-resumes'
+  bucket: 'test-bucket-overture'
 });
 
 
@@ -55,7 +55,7 @@ app.post('/apply', upload.single('selectedFile'), (req, res) => {
     'Content-Length': req.file.size,
     'x-amz-acl': 'public-read'
   });
-  const amazonFile = awsS3Url +  req.file.filename
+  const amazonFile = awsS3Url + req.file.filename
   console.log(amazonFile)
   const readStream = fs.createReadStream(req.file.path);
   readStream.pipe(s3Request);
