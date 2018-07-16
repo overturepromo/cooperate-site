@@ -8,7 +8,6 @@ const uuidv4 = require('uuid/v4');
 const fn = require("./functions.js");
 const knox = require('knox');
 const awsS3Url = "https://s3.amazonaws.com/jacobimageboard";
-const secrets = require('./secrets.json');
 const fs = require('fs');
 
 app.use(bodyParser.urlencoded({
