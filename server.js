@@ -6,7 +6,10 @@ var nodemailer = require('nodemailer');
 const multer = require('multer');
 const uuidv4 = require('uuid/v4');
 const fn = require("./functions.js");
-
+const knox = require('knox');
+const awsS3Url = "https://s3.amazonaws.com/jacobimageboard";
+const secrets = require('./secrets.json');
+const fs = require('fs');
 
 app.use(bodyParser.urlencoded({
   extended: false
@@ -31,6 +34,14 @@ const upload = multer({
   storage
 });
 
+//amazon s3 bucket storage
+const client = knox.createClient({
+  key: secrets.AWS_KEY,
+  secret: secrets.AWS_SECRET,
+  bucket: 'jacobimageboard'
+});
+
+
 
 
 //api calls
@@ -40,8 +51,17 @@ app.post('/contact', (req, res) => {
 
 app.post('/apply', upload.single('selectedFile'), (req, res) => {
   console.log(req.body)
+  const s3Request = client.put(req.file.filename, {
+    'Content-Type': req.file.mimetype,
+    'Content-Length': req.file.size,
+    'x-amz-acl': 'public-read'
+  });
+  const amazonFile = awsS3Url + '/' + req.file.filename
+  console.log(amazonFile)
+  const readStream = fs.createReadStream(req.file.path);
+  readStream.pipe(s3Request);
   res.send()
-  fn.applyEmail(req.body.position, req.body.first, req.body.last, req.body.email, req.body.phone, req.body.movies, req.body.coverLetter, newFilename)
+  fn.applyEmail(req.body.position, req.body.first, req.body.last, req.body.email, req.body.phone, req.body.movies, req.body.coverLetter, amazonFile)
 })
 
 

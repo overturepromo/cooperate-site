@@ -42,7 +42,7 @@ exports.contactEmail = (name, company, email, phone, message) => {
              <h4>Movies:</h4> ${movies}
              <h4>Cover Letter</h4> ${coverLetter} `,
       attachments: [{
-        path: 'uploads/' + resume
+        href: resume
       }]
     };
     transporter.sendMail(mailOptions, function (error, info) {
