@@ -22,7 +22,7 @@ import Univision from '../../images/work/univision.jpg';
 
 const ImageGrid = () => {
     return (
-        <div className="container">
+        <div className="container" style={{marginTop: '30px'}}>
            <div className="rows">
                 <div className="columns">
                     <img src={NBC} alt={'NBC'} style={{width: '100%'}} />

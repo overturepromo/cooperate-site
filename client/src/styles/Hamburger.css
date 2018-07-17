@@ -1,6 +1,9 @@
 .whole-burger{
     min-height: 100vh;
     overflow-y: hidden;
+    z-index: 6;
+    position: fixed;
+    top: 0;
 }
 
 .hamburger-div{

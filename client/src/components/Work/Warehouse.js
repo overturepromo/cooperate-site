@@ -4,7 +4,7 @@ import Jeff from '../../images/work/warehouse_img1.jpg';
 
 const Warehouse = () => {
     return (
-        <div className="container" style={{marginTop: '70px'}}>
+        <div className="container" style={{marginTop: '70px', marginBottom: '70px'}}>
             <div className="row">
                 <div className="col-md-8">
                     <h4 className="green-network">Warehouse, Fulfillment & Distribution</h4>

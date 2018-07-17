@@ -42,7 +42,7 @@ class Programs extends Component {
         return (
             <div className="container-fluid" style={{marginTop: '50px'}}>
                 <div className="row">
-                    <div className="col-md-5">
+                    <div className="col-md-5 strange-images">
                         <img src={AboutHats} className="about-hats" alt="" />
                         <img src={AboutCorna} className="about-corona" alt="" />
                         <img src={AboutMusic} className="about-music" alt="about-music" />

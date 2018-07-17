@@ -17,7 +17,7 @@ nav {
 .contact-button{
     color: white;
     font-size: 18px;
-    padding: 11px 30px;
+    padding: 11px 25px;
     background-color: #ef7521;
     border-radius: 7px;
     font-family: 'Proxima-bold'
@@ -54,10 +54,16 @@ nav {
         display: none;
     }
     .header-mobile {
-        display: block
+        display: block;
+        padding-top: 10px;
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        padding-bottom: 7px;
+        z-index: 5;
     }
     .headers-div{
-        padding-top: 10px;
+        padding-top: 0px;
         padding-bottom: 5px;
     }
 }

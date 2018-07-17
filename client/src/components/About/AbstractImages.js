@@ -10,7 +10,7 @@ import '../../styles/About.css'
 const AbstractImages = () => {
     return (
         <div>
-            <div style={{overflowX: 'hidden'}}>
+            <div className="abstract-div">
                 <span className="big-words-about">we're unconventional.</span>
             </div>
             <div style={{display: 'flex'}} className="desktop-abstract">

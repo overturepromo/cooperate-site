@@ -23,11 +23,12 @@
 .apply-button {
     color: white;
     font-size: 18px;
-    padding: 5px 30px;
+    padding: 11px 30px;
     background-color: #ef7521;
     border-radius: 7px;
     font-family: 'Proxima-bold';
     border: none;
+    margin: 20px;
 }
 
 .apply-button:hover{
@@ -86,7 +87,7 @@
 .apply-button-send {
     color: white;
     font-size: 18px;
-    padding: 5px 30px;
+    padding: 11px 30px;
     background-color: #ef7521;
     border-radius: 7px;
     font-family: 'Proxima-bold';

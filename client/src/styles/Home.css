@@ -252,6 +252,7 @@
 @media (max-width: 767px) {
     .hero {
         height: 250px;
+        margin-top: 44px;
     }
     .home-descriptions{
         font-size: 20px

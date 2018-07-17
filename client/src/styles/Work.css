@@ -2,7 +2,7 @@
     background-image: url('../images/work/work_heroimg.jpg');
     margin-top: -90px;
     width: 100%;
-    height: 750px;
+    height: 635px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20,7 +20,7 @@
 }
 
 .work-hero-box{
-    padding-top: 22%;
+    padding-top: 12%;
     padding-right: 25%
 }
 

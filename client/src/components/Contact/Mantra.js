@@ -10,7 +10,7 @@ const Mantra = () => {
                     <div className="contact-small">
                         <h2 className="contact-fun">Is "work hard play hard" your mantra?</h2>
                         <p className="contact-p">If so, we've got a special spot for you on our team.</p>
-                        <Link className="contact-button" to="/careers">VIEW OPEN POSITIONS</Link>
+                        <Link className="contact-button-footer" to="/careers">VIEW OPEN POSITIONS</Link>
                     </div>
                 </div>
             </div>

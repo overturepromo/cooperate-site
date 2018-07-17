@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Hero from './Hero';
+import Avail from './Avail'
 import Jobs from './Jobs'
 import SubFooter from '../SubFooter';
 
@@ -10,6 +11,7 @@ const index = () => {
     return (
         <div>
             <Hero />
+            <Avail />
             <Jobs />
             <SubFooter />
         </div>

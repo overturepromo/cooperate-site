@@ -37,6 +37,10 @@
     text-decoration: none;
 }
 
+.map-paragraph{
+    font-size: 16px;
+    text-align: center
+}
 
 
 @media(max-width:991px){
@@ -50,4 +54,15 @@
         margin-left: 0px;
         margin-right: 35px;
     }
+    .map-paragraph{
+        text-align: left !important;
+    }
+    .footer-container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media(max-width:767px){
+    
 }

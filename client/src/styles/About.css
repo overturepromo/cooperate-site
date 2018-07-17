@@ -2,7 +2,7 @@
     background-image: url('../images/about/aboutus_heroimg.jpg');
     margin-top: -90px;
     width: 100%;
-    height: 750px;
+    height: 636px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -19,8 +19,12 @@
 }
 
 .about-hero-box{
-    padding-top: 22%;
+    padding-top: 15%;
     padding-right: 25%
+}
+
+.abstract-div{
+    overflow-x: hidden;
 }
 
 .big-words-about{
@@ -150,6 +154,9 @@
     .big-words-about{
         font-size: 69px;
     }
+    .strange-images{
+        text-align: center;
+    }
 }
 
 @media(max-width:767px){
@@ -165,8 +172,13 @@
     .hero-about{
         height: 375px
     }
+    .abstract-div{
+        text-align: center;
+        margin-top: 20px
+    }
     .big-words-about {
-        font-size: 28px;
+        font-size: 32px;
+        margin: 0;
     }
     .green-history, .green-network{
         font-size: 45px;
@@ -182,16 +194,6 @@
     }
     .history-paragraph{
         margin-bottom: -60px;
-    }
-    .about-corona{
-        height: 110px;
-        margin-left: 15px
-    }
-    .about-hats{
-        height: 110px
-    }
-    .about-music{
-        margin-left: 5%
     }
     .programs-orange{
         font-size: 45px;
@@ -214,11 +216,15 @@
     .mobile-globe-image{
         width: 90%;
     }
-}
-
-/* Iphone 5... why? */
-@media(max-width: 325px){
+    .about-corona{
+        height: 110px;
+        margin-left: 15px
+    }
+    .about-hats{
+        height: 110px
+    }
     .about-music{
+        margin-left: 5%;
         margin: 0
     }
 }

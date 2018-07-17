@@ -22,7 +22,7 @@ class Footer extends Component {
                     </div>
                     <div className="col-md-3">
                         <img src={Map} alt="map" />
-                        <p style={{fontSize: '16px', textAlign: 'center'}}>Headquarted in Chicago with over 200 warehouses nationwide</p>
+                        <p className="map-paragraph">Headquarted in Chicago with over 200 warehouses nationwide</p>
                     </div>
                     <div className="col-md-5 footer-right-nav">
                         <div className="footer-nav-links" style={{display: 'flex', justifyContent: "flex-end"}}>

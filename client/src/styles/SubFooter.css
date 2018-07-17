@@ -32,6 +32,21 @@
     padding-bottom: 35px;
 }
 
+.contact-button-footer {
+    color: white;
+    font-size: 18px;
+    padding: 15px 25px;
+    background-color: #ef7521;
+    border-radius: 7px;
+    font-family: 'Proxima-bold';
+}
+
+.contact-button-footer:hover{
+    background-color: #Ce5400;
+    color: white;
+    text-decoration: none;
+}
+
 @media(max-width:991px){
     .contact-small{
         width: 100%
