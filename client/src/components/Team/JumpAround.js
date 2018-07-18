@@ -5,7 +5,7 @@ class JumpAround extends Component {
         return (
             <div className="jump-div container">
                 <ul className="jump-list">
-                    <li><strong>Jump to:</strong></li>
+                    <li className="jump-link"><strong>Jump to:</strong></li>
                     <li className="jump-link">The Experts</li>
                     <li className="jump-link">Account Coordinators</li>
                     <li className="jump-link">E-Commerce</li>

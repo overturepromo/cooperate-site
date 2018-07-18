@@ -4,7 +4,10 @@ import '../../styles/Team.css'
 const Hero = () => {
     return (
         <div className="hero-team">
-            
+            <div className="team-box container">
+            <p className="team-cta-top">NICE TO MEET YOU</p>
+                <p className="team-cta-bottom">We're more than just pretty faces, we're promotional marketing and branding experts. Meet our team of talented individuals.</p>
+            </div>   
         </div>
     )
 }

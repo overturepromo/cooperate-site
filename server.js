@@ -49,14 +49,12 @@ app.post('/contact', (req, res) => {
 })
 
 app.post('/apply', upload.single('selectedFile'), (req, res) => {
-  console.log(req.body)
   const s3Request = client.put(req.file.filename, {
     'Content-Type': req.file.mimetype,
     'Content-Length': req.file.size,
     'x-amz-acl': 'public-read'
   });
   const amazonFile = awsS3Url + req.file.filename
-  console.log(amazonFile)
   const readStream = fs.createReadStream(req.file.path);
   readStream.pipe(s3Request);
   res.send()

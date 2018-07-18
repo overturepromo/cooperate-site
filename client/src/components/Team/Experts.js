@@ -27,6 +27,7 @@ class Experts extends Component {
     render(){
         return (
             <div className="container">
+                <h4 id="experts-orange">The Experts</h4>
                 <div className="row">
                     <Employee image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} clicked={() => this.openModal(0)} />
                     <Employee name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />
