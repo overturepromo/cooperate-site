@@ -4,6 +4,10 @@ import Employee from './Employee';
 import WorkCard from './WorkCard';
 import { People } from './People';
 
+import '../../styles/Team.css'
+
+import Speaker from '../../images/home/rocknroll_img.jpg';
+
 class Experts extends Component {
 
     state = {
@@ -30,9 +34,9 @@ class Experts extends Component {
                 <h4 id="experts-orange">The Experts</h4>
                 <div className="row">
                     <Employee image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} clicked={() => this.openModal(0)} />
-                    <Employee name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />
-                    <Employee name="Tej Shah" title="" clicked={() => this.openModal(2)} />
-                    <Employee name="Mike Wilson" title="" clicked={() => this.openModal(3)} />
+                    <Employee image={People.JoG.image} name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />
+                    <Employee image={People.JoG.image} name="Tej Shah" title="" clicked={() => this.openModal(2)} />
+                    <Employee image={People.JoG.image} name="Mike Wilson" title="" clicked={() => this.openModal(3)} />
                 </div>
 
 
@@ -41,33 +45,19 @@ class Experts extends Component {
                     <WorkCard image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} bio={People.JoG.bio} close={() => this.closeModal()}  />
                 </Modal>
                 <Modal isOpen={this.state.showModal[1]} onRequestClose={this.closeModal}>
-                    <WorkCard name={People.RonG.name} title={People.RonG.title} bio={People.RonG.bio} close={() => this.closeModal()} />
+                    <WorkCard image={People.JoG.image} name={People.RonG.name} title={People.RonG.title} bio={People.RonG.bio} close={() => this.closeModal()} />
                 </Modal>
                 <Modal isOpen={this.state.showModal[2]} onRequestClose={this.closeModal}>
-                    <WorkCard name="Tej" />
+                    <WorkCard image={People.JoG.image} close={() => this.closeModal()} />
                 </Modal>
-                <Modal isOpen={this.state.showModal[3]} onRequestClose={this.closeModal}>
-                    <WorkCard name="Mike" />
+                <Modal isOpen={this.state.showModal[3]} onRequestClose={this.closeModal} className="employee-modal">
+                <WorkCard image={People.JoG.image} close={() => this.closeModal()} />
                 </Modal>
             </div>
         )
     }
 }
 
-const customStyles = {
-    content : {
-        position: 'absolute',
-        top: '80px',
-        left: '80px',
-        right: '80px',
-        bottom: '80px',
-        border: '1px solid rgb(204, 204, 204)',
-        background: 'rgb(255, 255, 255)',
-        overflow: 'auto',
-        borderRadius: '4px',
-        outline: 'none',
-        padding: '20px',
-    }
-  };
+
 
 export default Experts;

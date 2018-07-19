@@ -64,5 +64,7 @@
 }
 
 @media(max-width:767px){
-    
+    .fa.fa-facebook{
+        margin-left: 0 !important;
+    }
 }

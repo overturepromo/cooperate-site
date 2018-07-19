@@ -44,7 +44,7 @@ class Header extends Component{
                             <i className="fa fa-bars" onClick={() => this.handleClick(true)}></i>
                         </div>
                         <div className="col-xs-10">
-                            <h4 className="mobile-logo">OVERTURE</h4>
+                            <Link to="/"><h4 className="mobile-logo">OVERTURE</h4></Link>
                         </div>
                     </div>
                 </div>

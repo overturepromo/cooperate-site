@@ -8,7 +8,7 @@ const Services = () => {
     return (
         <div className="container-fluid" style={{marginTop: '50px'}}>
             <div className="row">
-                <div className="col-md-5">
+                <div className="col-md-5 work-images-odd">
                     <img src={House1} className="about-hats" alt="" />
                     <img src={House2} className="about-corona" alt="" />
                     <img src={House3} className="work-music" alt="about-music" />

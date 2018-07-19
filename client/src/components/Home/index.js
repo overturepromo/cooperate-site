@@ -8,6 +8,7 @@ import Clients from './Clients'
 import Video from './Video'
 
 const index = () => {
+    topFunction();
     return (
         <div> 
             <Hero />
@@ -20,5 +21,9 @@ const index = () => {
     )
 }
 
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
 export default index;

@@ -61,6 +61,9 @@
     .hero-work{
         margin-top: 0;
     }
+    .work-images-odd{
+        text-align: center;
+    }
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -73,7 +76,7 @@
 } */
 
 @media (max-width: 767px){
-    .about-music {
+    .work-music {
         margin-left: 0;
         height: 275px;
     }

@@ -58,7 +58,9 @@ class Video extends Component {
                 onRequestClose={this.closeModal}
                 className="video-modal"
             >
-            <iframe 
+            <div style={{width: '100%'}}>
+            <iframe
+                className="iframe-video" 
                 title="office" 
                 width="500" 
                 height="281" 
@@ -66,11 +68,18 @@ class Video extends Component {
                 frameBorder="0" 
                 allowFullScreen>
             </iframe>
+            </div>
             </Modal>
             </div>
         )
     }
 }
+
+
+var size = {
+    width: window.innerWidth || document.body.clientWidth,
+    height: window.innerHeight || document.body.clientHeight
+  }
 
 Modal.defaultStyles.overlay.backgroundColor = 'rgba(0,0,0,.8)';
 

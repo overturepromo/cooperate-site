@@ -28,10 +28,10 @@ const AbstractImages = () => {
                 </div>
             </div>
             <div className="mobile-abstract">
-                <img src={Bike} className="about-bike" alt="" style={{width: '50%', marginTop: '50px'}} />
-                <img src={Warehouse} className="about-warehouse" alt="" style={{width: '50%'}} />
-                <img src={CoreValues} className="about-core-values" alt="" style={{width: '50%'}} />
-                <img src={Ladies} className="about-ladies" alt="" style={{width: '50%'}} />
+                <img src={Bike} className="about-bike" alt="" />
+                <img src={Warehouse} className="about-warehouse" alt="" />
+                <img src={CoreValues} className="about-core-values" alt="" />
+                <img src={Ladies} className="about-ladies" alt="" />
             </div>
         </div>
     )

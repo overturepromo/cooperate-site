@@ -81,16 +81,16 @@ class ContactForm extends Component {
                     </div>
                     <div className="col-md-8">
                         <form onSubmit={this.handleSubmit} className="contact-form row">
-                            <div className="col-xs-6 contact-inputs-box">
+                            <div className="col-xs-12 col-md-6 contact-inputs-box">
                                 <input className="contact-inputs" type='text' name="name" placeholder="Name*" required value={this.state.name} onChange={this.handleChange} />
                             </div>
-                            <div className="col-xs-6 contact-inputs-box">
+                            <div className="col-xs-12 col-md-6 contact-inputs-box">
                                 <input className="contact-inputs" type='text' name="company" placeholder="Company" value={this.state.company} onChange={this.handleChange} />
                             </div> 
-                            <div className="col-xs-6 contact-inputs-box">
+                            <div className="col-xs-12 col-md-6 contact-inputs-box">
                                 <input className="contact-inputs" type='email' name="email" placeholder="Email*" required value={this.state.email} onChange={this.handleChange} />
                             </div> 
-                            <div className="col-xs-6 contact-inputs-box">
+                            <div className="col-xs-12 col-md-6 contact-inputs-box">
                                 <input className="contact-inputs" type='text' name="phone" placeholder="Phone" value={this.state.phone} onChange={this.handleChange} />
                             </div>  
                             <div className="col-xs-12 contact-inputs-box">

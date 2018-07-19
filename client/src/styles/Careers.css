@@ -106,5 +106,23 @@
 @media(max-width:991px){
     .hero-careers{
         margin-top: 0;
+        height: 400px;
+    }
+    .work-blue{
+        font-size: 32px
+    }
+    .apply-lightbox{
+        top: 60px;
+        left: 5%;
+        right: 5%;
+    }
+    .apply-close-button{
+        margin-left: 60%;
+    }
+}
+
+@media(max-width:767px){
+    .apply-button-send{
+        width: 100%;
     }
 }

@@ -48,29 +48,38 @@ class BigImages extends Component {
                     isOpen={this.state.showModal[0]}
                     onRequestClose={this.closeModal}
                     className="home-modals">
-                        <i className="fa fa-window-close" onClick={this.closeModal}></i><br />
-                        <img src={Uber} className="uber-open" alt="uber" />
+                        <div style={{width: '100%'}}>
+                            <i className="fa fa-window-close" onClick={this.closeModal}></i><br />
+                            <img src={Uber} className="uber-open" alt="uber" />
+                        </div>
+                        
                 </Modal>
                 <Modal
                     isOpen={this.state.showModal[1]}
                     onRequestClose={this.closeModal}
                     className="home-modals">
-                        <i className="fa fa-window-close" onClick={this.closeModal}></i><br />
-                        <img src={Nbc} className="nbc-open" alt="nbc" />
+                        <div style={{width: '100%'}}>
+                            <i className="fa fa-window-close" onClick={this.closeModal}></i><br />
+                            <img src={Nbc} className="nbc-open" alt="nbc" />
+                        </div>
                 </Modal>
                 <Modal
                     isOpen={this.state.showModal[2]}
                     onRequestClose={this.closeModal}
                     className="home-modals">
-                        <i className="fa fa-window-close" onClick={this.closeModal}></i><br />
-                        <img src={Speaker} className="speaker-open" alt="speaker" />
+                        <div style={{width: '100%'}}>
+                            <i className="fa fa-window-close" onClick={this.closeModal}></i><br />
+                            <img src={Speaker} className="speaker-open" alt="speaker" />
+                        </div>
                 </Modal>
                 <Modal
                     isOpen={this.state.showModal[3]}
                     onRequestClose={this.closeModal}
                     className="home-modals">
-                        <i className="fa fa-window-close" onClick={this.closeModal}></i><br />
-                        <img src={Cubs}  className="cubs-open" alt="cubs" />
+                        <div style={{width: '100%'}}>
+                            <i className="fa fa-window-close" onClick={this.closeModal}></i><br />
+                            <img src={Cubs}  className="cubs-open" alt="cubs" />
+                        </div>
                 </Modal>
             </div>
         )

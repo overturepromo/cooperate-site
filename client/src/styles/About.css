@@ -180,6 +180,21 @@
         font-size: 32px;
         margin: 0;
     }
+    .about-bike, .about-warehouse{
+        width: 48%
+    }
+    .about-warehouse{
+        margin-left: 4%;
+        margin-bottom: 4%;
+    }
+    .about-core-values{
+        width: 60%
+    }
+    .about-ladies{
+        width: 36%;
+        margin-left: 4%;
+        margin-bottom: 24%
+    }
     .green-history, .green-network{
         font-size: 45px;
     }

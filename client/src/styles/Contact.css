@@ -72,5 +72,9 @@
 @media(max-width:991px){
     .hero-contact{
         margin-top: 0;
+        height: 400px;
+    }
+    .contact-button-send{
+        width: 100%
     }
 }
