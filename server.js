@@ -45,6 +45,7 @@ const client = knox.createClient({
 
 //api calls
 app.post('/contact', (req, res) => {
+  res.send();
   fn.contactEmail(req.body.name, req.body.company, req.body.email, req.body.phone, req.body.message)
 })
 
