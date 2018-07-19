@@ -44,10 +44,10 @@ class Experts extends Component {
                 <Modal isOpen={this.state.showModal[0]} onRequestClose={this.closeModal} className="employee-modal">
                     <WorkCard image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} bio={People.JoG.bio} close={() => this.closeModal()}  />
                 </Modal>
-                <Modal isOpen={this.state.showModal[1]} onRequestClose={this.closeModal}>
+                <Modal isOpen={this.state.showModal[1]} onRequestClose={this.closeModal} className="employee-modal">
                     <WorkCard image={People.JoG.image} name={People.RonG.name} title={People.RonG.title} bio={People.RonG.bio} close={() => this.closeModal()} />
                 </Modal>
-                <Modal isOpen={this.state.showModal[2]} onRequestClose={this.closeModal}>
+                <Modal isOpen={this.state.showModal[2]} onRequestClose={this.closeModal} className="employee-modal">
                     <WorkCard image={People.JoG.image} close={() => this.closeModal()} />
                 </Modal>
                 <Modal isOpen={this.state.showModal[3]} onRequestClose={this.closeModal} className="employee-modal">
