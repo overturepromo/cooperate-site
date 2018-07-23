@@ -6,14 +6,14 @@ import House3 from '../../images/work/inhouse_img3.jpg';
 
 const Services = () => {
     return (
-        <div className="container-fluid" style={{marginTop: '50px'}}>
+        <div className="container-fluid how-we-do">
             <div className="row">
                 <div className="col-md-5 work-images-odd">
                     <img src={House1} className="about-hats" alt="" />
                     <img src={House2} className="about-corona" alt="" />
                     <img src={House3} className="work-music" alt="about-music" />
                 </div>
-                <div className="col-md-7" style={{marginTop: '100px'}}>
+                <div className="col-md-7 how-we-service">
                     <h4 className="programs-orange">In-house Services</h4>
                     <p className="programs-paragraph">Our in-house services provide impeccable quality, affordable prices and ultimate quality assurance. Need a different type of printing method? Not a problem; through our extensive network of supplier partners we can complete any job.</p>
                     <div className="row">

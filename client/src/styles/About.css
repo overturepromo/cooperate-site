@@ -14,7 +14,7 @@
 }
 
 .about-cta-bottom{
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 
@@ -102,7 +102,8 @@
 }
 
 .awards-div{
-    background-image: url('../images/about/awards_bg.png')
+    background-image: url('../images/about/awards_bg.png');
+    margin-top: 100px;
 }
 
 .awards-title{
@@ -162,6 +163,7 @@
 @media(max-width:767px){
     .about-hero-box{
         padding-right: 10px;
+        padding-top: 33%;
     }
     .about-cta-top{
         font-size: 34px;
@@ -212,6 +214,9 @@
     }
     .programs-orange{
         font-size: 45px;
+    }
+    .awards-div{
+        margin-top: 10px !important;
     }
     .awards-title{
         width: 100%;

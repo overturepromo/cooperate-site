@@ -1,4 +1,5 @@
 import React from 'react'
+import Close from '../../images/home/close.svg'
 
 const WorkCard = (props) => {
     return (
@@ -7,13 +8,13 @@ const WorkCard = (props) => {
                 <div className='col-xs-6'>
                     <img src={props.image} alt="" style={styles.image} />
                 </div>
-                <div className='col-xs-6'>
-                <button onClick={props.close} className="team-close-button">close</button>
+                <div className='col-xs-6' style={{textAlign: 'right'}}>
+                <img src={Close} className="close-img-team" onClick={props.close} /><br />
                 </div>
             </div>
             <div>
-                <h3>{props.name}</h3>
-                <h4>{props.title}</h4>
+                <h3 className="employee-name">{props.name}</h3>
+                <h4 className="employee-title">{props.title}</h4>
                 <div style={styles.orange}></div>
                 <p>{props.bio}</p>
             </div>
@@ -29,7 +30,8 @@ const styles= {
     orange: {
         height: '1.5px',
         width: '50px',
-        backgroundColor: 'orange'
+        backgroundColor: 'orange',
+        marginBottom: '10px'
     },
     button:{
         backgroundColor: 'orange',

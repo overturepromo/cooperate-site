@@ -14,7 +14,7 @@
 }
 
 .team-cta-bottom{
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 
@@ -43,6 +43,15 @@
     height: 225px;
 }
 
+.employee-name{
+    font-family: Proxima-bold;
+    color: #5d5d5e;
+}
+
+.employee-title{
+    font-size: 15px;
+    color: #888888;
+}
 
 .employee-modal{
     position: absolute;
@@ -64,17 +73,8 @@
     font-family: Proxima-bold;
 }
 
-.team-close-button{
-    margin-left: 80%;
-    margin-top: 5px;
-    background-color: #ef7521;
-    color: white;
-    border: 1px solid #ef7521;
-}
-
-.team-close-button:hover{
-    color: #ef7521;
-    background-color: white;
+.close-img-team{
+    cursor: pointer;
 }
 
 
@@ -110,6 +110,9 @@ THIS GRAY LINE IS KILLING ME MARK!
     .employee-modal{
         left: 25%;
         transform: translateX(-16%)
+    }
+    .team-box{
+        padding-top: 28%; 
     }
     .team-close-button{
         margin-left: 55%;

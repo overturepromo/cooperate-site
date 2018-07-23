@@ -4,6 +4,11 @@ import Uber from '../../images/home/uber_img.jpg';
 import Speaker from '../../images/home/rocknroll_img.jpg';
 import Nbc from '../../images/home/nbc_img.jpg';
 import Cubs from '../../images/home/cubs_img.jpg';
+import UberBig from '../../images/home/uber_img_lg.jpg';
+import SpeakerBig from '../../images/home/rocknroll_img_lg.jpg';
+import NbcBig from '../../images/home/nbc_img_lg.jpg';
+import CubsBig from '../../images/home/cubs_img_lg.jpg';
+import Close from '../../images/home/close.svg'
 
 import '../../styles/Home.css'
 
@@ -49,8 +54,8 @@ class BigImages extends Component {
                     onRequestClose={this.closeModal}
                     className="home-modals">
                         <div style={{width: '100%'}}>
-                            <i className="fa fa-window-close" onClick={this.closeModal}></i><br />
-                            <img src={Uber} className="uber-open" alt="uber" />
+                            <img src={Close} className="close-img" onClick={this.closeModal} /><br />
+                            <img src={UberBig} className="uber-open" alt="uber" />
                         </div>
                         
                 </Modal>
@@ -59,8 +64,8 @@ class BigImages extends Component {
                     onRequestClose={this.closeModal}
                     className="home-modals">
                         <div style={{width: '100%'}}>
-                            <i className="fa fa-window-close" onClick={this.closeModal}></i><br />
-                            <img src={Nbc} className="nbc-open" alt="nbc" />
+                            <img src={Close} className="close-img" onClick={this.closeModal} /><br />
+                            <img src={NbcBig} className="nbc-open" alt="nbc" />
                         </div>
                 </Modal>
                 <Modal
@@ -68,8 +73,8 @@ class BigImages extends Component {
                     onRequestClose={this.closeModal}
                     className="home-modals">
                         <div style={{width: '100%'}}>
-                            <i className="fa fa-window-close" onClick={this.closeModal}></i><br />
-                            <img src={Speaker} className="speaker-open" alt="speaker" />
+                            <img src={Close} className="close-img" onClick={this.closeModal} /><br />
+                            <img src={SpeakerBig} className="speaker-open" alt="speaker" />
                         </div>
                 </Modal>
                 <Modal
@@ -77,8 +82,8 @@ class BigImages extends Component {
                     onRequestClose={this.closeModal}
                     className="home-modals">
                         <div style={{width: '100%'}}>
-                            <i className="fa fa-window-close" onClick={this.closeModal}></i><br />
-                            <img src={Cubs}  className="cubs-open" alt="cubs" />
+                            <img src={Close} className="close-img" onClick={this.closeModal} /><br />
+                            <img src={CubsBig}  className="cubs-open" alt="cubs" />
                         </div>
                 </Modal>
             </div>

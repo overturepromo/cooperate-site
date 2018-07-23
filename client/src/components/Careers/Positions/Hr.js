@@ -23,9 +23,9 @@ class Hr extends Component {
     render(){
         return (
             <div>
-                <p>Bacon ipsum dolor amet beef ribs salami filet mignon doner. Brisket buffalo chuck turkey. Porchetta chicken swine landjaeger biltong pork, salami bacon cupim jowl meatloaf chuck ground round corned beef. Jowl flank alcatra kevin buffalo doner. Chuck hamburger tail pancetta picanha andouille t-bone, pork spare ribs short ribs flank. Rump pork spare ribs drumstick beef ribs chuck doner bacon pork chop. Capicola burgdoggen pancetta sausage short loin alcatra leberkas.</p>
+                <p style={{color: 'gray'}}>Bacon ipsum dolor amet beef ribs salami filet mignon doner. Brisket buffalo chuck turkey. Porchetta chicken swine landjaeger biltong pork, salami bacon cupim jowl meatloaf chuck ground round corned beef. Jowl flank alcatra kevin buffalo doner. Chuck hamburger tail pancetta picanha andouille t-bone, pork spare ribs short ribs flank. Rump pork spare ribs drumstick beef ribs chuck doner bacon pork chop. Capicola burgdoggen pancetta sausage short loin alcatra leberkas.</p>
                 <h4>YOUR RESPONSIBILITIES</h4>
-                <ul>
+                <ul style={{color: "gray"}}>
                     <li>Provide Hr advice and counsel to company managers</li>
                     <li>Provide Hr advice and counsel to company managers</li>
                     <li>Provide Hr advice and counsel to company managers</li>
@@ -38,7 +38,7 @@ class Hr extends Component {
                     <li>Provide Hr advice and counsel to company managers</li>
                 </ul>
                 <h4>SKILLS/EXPERIENCE REQUIRED</h4>
-                <ul>
+                <ul style={{color: "gray"}}>
                     <li>Excellent interpersonal and written communication skills</li>
                     <li>Excellent interpersonal and written communication skills</li>
                     <li>Excellent interpersonal and written communication skills</li>

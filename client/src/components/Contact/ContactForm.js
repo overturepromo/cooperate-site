@@ -11,7 +11,8 @@ class ContactForm extends Component {
         company: '',
         email: '',
         phone: '',
-        message: ''
+        message: '',
+        form: true
     }
 
     handleChange = (e) => {
@@ -51,10 +52,7 @@ class ContactForm extends Component {
           .catch(function (error) {
             console.log(error);
           });
-        alert('Your message has been sent. :-)')
-        this.setState({name: '', company: '', email: '', phone: '', message: ''})
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
+        this.setState({name: '', company: '', email: '', phone: '', message: '', form: false})
     }
 
     render(){
@@ -73,12 +71,15 @@ class ContactForm extends Component {
                             <h5 className="info-contact">F. 847.680.0114</h5>
                         </div>
                         <div className="socials-contact">
-                            <a href="" target="blank"><i className="fa fa-facebook" style={icons}></i></a>
-                            <a href="" target="blank"><i className="fa fa-instagram" style={icons}></i></a>
-                            <a href="" target="blank"><i className="fa fa-twitter" style={icons}></i></a>
-                            <a href="" target="blank"><i className="fa fa-youtube" style={icons}></i></a>
+                            <a href="https://www.facebook.com/OverturePromotions/" target="blank"><i className="fa fa-facebook" style={icons}></i></a>
+                            <a href="https://www.instagram.com/overturepromotions/" target="blank"><i className="fa fa-instagram" style={icons}></i></a>
+                            <a href="https://twitter.com/overturepromo?lang=en" target="blank"><i className="fa fa-twitter" style={icons}></i></a>
+                            <a href="https://www.youtube.com/channel/UC2UrwEV2nWeT1r0buLXRfXw" target="blank"><i className="fa fa-youtube" style={icons}></i></a>
                         </div>
                     </div>
+                    {this.state.form === false
+                        ? <div>I am a placeholder. What would you like me to say? :-)</div>
+                        :
                     <div className="col-md-8">
                         <form onSubmit={this.handleSubmit} className="contact-form row">
                             <div className="col-xs-12 col-md-6 contact-inputs-box">
@@ -101,6 +102,7 @@ class ContactForm extends Component {
                             </div>
                         </form>
                     </div>
+                    }
                 </div>
             </div>
         )

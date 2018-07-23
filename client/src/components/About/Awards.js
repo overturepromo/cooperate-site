@@ -3,7 +3,7 @@ import AwardCard from './AwardCard';
 
 const Awards = () => {
     return (
-        <div className="awards-div" style={{marginTop: '100px'}}>
+        <div className="awards-div">
             <div className="awards-title">
                 <h2 className="awards-top-title">Awards & accolades</h2>
                 <h6 className="awards-bottom-title">We're good at what we do. But don't take our word for it, see what others have to say about us.</h6>

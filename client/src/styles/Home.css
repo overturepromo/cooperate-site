@@ -157,14 +157,11 @@
     height: 100%
 }
 
-.fa-window-close:before{
-    font-size: 3em;
-    color: #ef7521;
+
+.close-img{
     position: absolute;
     left: 100%;
-    top: 5%;
-}
-.fa-window-close:hover{
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -188,7 +185,7 @@
 
 .home-modals{
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 50%;
     outline: 0;
     transform: translateX(-50%);;

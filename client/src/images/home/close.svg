@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="43px" viewBox="0 0 44 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home-Zoom" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1276.000000, -1492.000000)">
+        <g id="Close" transform="translate(1275.250634, 1491.500000)">
+            <rect id="Rectangle-3" fill="#EF7521" x="0.897438957" y="0.999293781" width="43.0688579" height="41.6081552"></rect>
+            <g id="close-button" transform="translate(11.233965, 10.985251)" fill="#FFFFFF" fill-rule="nonzero">
+                <polygon id="Shape" points="21.7632323 2.44772976 19.6097894 0.367321995 10.9960178 8.68895303 2.3822462 0.367321995 0.228803308 2.44772976 8.84257489 10.7693608 0.228803308 19.0909918 2.3822462 21.1713996 10.9960178 12.8497686 19.6097894 21.1713996 21.7632323 19.0909918 13.1494607 10.7693608"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

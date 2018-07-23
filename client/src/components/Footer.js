@@ -37,12 +37,12 @@ class Footer extends Component {
                             </Link>
                         </div>
                         <div className="socials" style={{padding: '40px 0'}}>
-                            <a href="" target="blank"><i className="fa fa-facebook" style={footerIcons}></i></a>
-                            <a href="" target="blank"><i className="fa fa-instagram" style={footerIcons}></i></a>
-                            <a href="" target="blank"><i className="fa fa-twitter" style={footerIcons}></i></a>
-                            <a href="" target="blank"><i className="fa fa-youtube" style={footerIcons}></i></a>
+                            <a href="https://www.facebook.com/OverturePromotions/" target="blank"><i className="fa fa-facebook" style={footerIcons}></i></a>
+                            <a href="https://www.instagram.com/overturepromotions/" target="blank"><i className="fa fa-instagram" style={footerIcons}></i></a>
+                            <a href="https://twitter.com/overturepromo?lang=en" target="blank"><i className="fa fa-twitter" style={footerIcons}></i></a>
+                            <a href="https://www.youtube.com/channel/UC2UrwEV2nWeT1r0buLXRfXw" target="blank"><i className="fa fa-youtube" style={footerIcons}></i></a>
                         </div>
-                        <h5>&copy; 2017 Overture, LLC</h5>
+                        <h5>&copy; 2018 Overture, LLC</h5>
                     </div>
                 </div>
             </div>

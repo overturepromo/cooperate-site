@@ -33,12 +33,12 @@ class Jobs extends Component {
         return (
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
-                    <div style={{borderTop: '1px solid gray'}}>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>HR Manager</h3>
                         <h5 onClick={() => this.handleOn('hr')} className="view-button">View Details</h5>
                         {this.state.hr ? <Hr bye={this.handleOff} /> : null}
                     </div>
-                    <div style={{borderTop: '1px solid gray'}}>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Web Dev</h3>
                         <h5 onClick={() => this.handleOn('web')} className="view-button">View Details</h5>
                         {this.state.web ? <Web bye={this.handleOff} /> : null}

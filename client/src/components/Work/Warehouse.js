@@ -2,9 +2,11 @@ import React from 'react';
 
 import Jeff from '../../images/work/warehouse_img1.jpg';
 
+import '../../styles/Work.css'
+
 const Warehouse = () => {
     return (
-        <div className="container" style={{marginTop: '70px', marginBottom: '70px'}}>
+        <div className="container how-we-warehouse">
             <div className="row">
                 <div className="col-md-8">
                     <h4 className="green-network">Warehouse, Fulfillment & Distribution</h4>

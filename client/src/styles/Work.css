@@ -15,7 +15,7 @@
 }
 
 .work-cta-bottom{
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 
@@ -57,6 +57,18 @@
     margin-left: 8%;
 }
 
+.how-we-do{
+    margin-top: 50px;
+}
+
+.how-we-service{
+    margin-top: 100px;
+}
+
+.how-we-warehouse{
+    margin: 70px 0
+}
+
 @media(max-width:991px){
     .hero-work{
         margin-top: 0;
@@ -85,6 +97,7 @@
     }
     .work-hero-box{
         padding-right: 5%;
+        padding-top: 30%;
     }
     .work-cta-bottom{
         font-size: 20px
@@ -94,6 +107,21 @@
     }
     .work-blue{
         font-size: 45px;
+    }
+    .columns{
+        padding: 0 4px;
+    }
+    .columns img {
+        margin-top: 8px;
+    }
+    .how-we-do{
+        margin-top: 10px;
+    }
+    .how-we-service{
+        margin-top: 10px;
+    }
+    .how-we-warehouse{
+        margin: 10px 0
     }
 }
 

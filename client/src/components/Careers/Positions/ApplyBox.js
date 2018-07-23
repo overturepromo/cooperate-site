@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import {withRouter} from "react-router-dom";
+import Close from '../../../images/home/close.svg'
 
 class ApplyBox extends Component {
 
@@ -78,8 +79,8 @@ class ApplyBox extends Component {
                         <h3 style={{fontFamily: 'Proxima-bold'}}>{this.props.title}</h3>
                     <div className="orange-bar-apply"></div>
                     </div>
-                    <div className="col-xs-6">
-                        <button onClick={this.props.close} className="apply-close-button">Close</button>
+                    <div className="col-xs-6" style={{textAlign: 'right'}}>
+                        <img src={Close} className="close-img-team" onClick={this.props.close} /><br />
                     </div>
                 </div>
                 <form onSubmit={this.handleSubmit}>
