@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import ArrowRight from '../../images/home/up_arrow.svg'
 import ScrollDown from '../../images/home/scrollDown.png'
 import '../../styles/Home.css'
 import MobileCta from './MobileCta';
 
+import {Link as LinkScroll} from "react-scroll";
 
 const Hero = () => {
     return (
@@ -18,8 +19,10 @@ const Hero = () => {
                         <span><img src={ArrowRight} style={{marginLeft: '10px'}} alt="arrow" /></span>
                     </p>
                 </Link>
-                <div className='scroll-down' >
-                    <img src={ScrollDown} alt="scroll-down" />
+                <div className='scroll-down'>
+                    <LinkScroll to="wordsOverlay" smooth={true} duration={500} >
+                        <img src={ScrollDown} alt="scroll-down" />
+                    </LinkScroll>
                 </div>   
             </div>
         </div>

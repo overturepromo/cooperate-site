@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
+import {Element} from "react-scroll";
 import Employee from './Employee';
 import WorkCard from './WorkCard';
 import { People } from './People';
@@ -8,6 +9,8 @@ import '../../styles/Team.css'
 
 import Speaker from '../../images/home/rocknroll_img.jpg';
 import Close from '../../images/home/close.svg'
+
+
 
 class Experts extends Component {
 
@@ -32,7 +35,7 @@ class Experts extends Component {
     render(){
         return (
             <div className="container">
-                <h4 id="experts-orange">The Experts</h4>
+                <Element id="experts-orange" name="experts">The Experts</Element>
                 <div className="row">
                     <Employee image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} clicked={() => this.openModal(0)} />
                     <Employee image={People.JoG.image} name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />

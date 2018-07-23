@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import {Element} from "react-scroll";
 import ArrowRight from '../../images/home/up_arrow.svg'
 import '../../styles/Home.css'
 
@@ -7,7 +8,7 @@ const Work = () => {
     return (
         <div>
             <div className="words-overlay">
-                <span className='big-words'>promo experts.</span>
+                <Element className='big-words' name="wordsOverlay">promo experts.</Element>
                 <div className="container green-words-box">
                     <span className="small-green-words">What we do</span>
                 </div>
