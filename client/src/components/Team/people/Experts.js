@@ -1,15 +1,24 @@
-import Jo from '../../images/team/ExpertsPhotos/Jo.jpg'
-import Ron from '../../images/team/ExpertsPhotos/Ron.jpg'
-import Joe from '../../images/team/ExpertsPhotos/Joe.jpg'
-import Tej from '../../images/team/ExpertsPhotos/Tej.jpg'
-import Mike from '../../images/team/ExpertsPhotos/Mike.jpg'
-import Brian from '../../images/team/ExpertsPhotos/Brian.jpg'
-import Christina from '../../images/team/ExpertsPhotos/Christina.jpg'
-import Sue from '../../images/team/ExpertsPhotos/Sue.jpg'
-import Aimee from '../../images/team/ExpertsPhotos/Aimee.jpg'
-import Ben from '../../images/team/ExpertsPhotos/Ben.jpg'
-import Bobby from '../../images/team/ExpertsPhotos/Bobby.jpg'
-import Cody from '../../images/team/ExpertsPhotos/Cody.jpg'
+import Jo from '../../../images/team/ExpertsPhotos/Jo.jpg'
+import Ron from '../../../images/team/ExpertsPhotos/Ron.jpg'
+import Joe from '../../../images/team/ExpertsPhotos/Joe.jpg'
+import Tej from '../../../images/team/ExpertsPhotos/Tej.jpg'
+import Mike from '../../../images/team/ExpertsPhotos/Mike.jpg'
+import Brian from '../../../images/team/ExpertsPhotos/Brian.jpg'
+import Christina from '../../../images/team/ExpertsPhotos/Christina.jpg'
+import Sue from '../../../images/team/ExpertsPhotos/Sue.jpg'
+import Aimee from '../../../images/team/ExpertsPhotos/Aimee.jpg'
+import Ben from '../../../images/team/ExpertsPhotos/Ben.jpg'
+import Bobby from '../../../images/team/ExpertsPhotos/Bobby.jpg'
+import Cody from '../../../images/team/ExpertsPhotos/Cody.jpg'
+import Cynthia from '../../../images/team/ExpertsPhotos/Cynthia.jpg'
+import Dave from '../../../images/team/ExpertsPhotos/Dave.jpg'
+import Frank from '../../../images/team/ExpertsPhotos/Frank.jpg'
+import Jeremy from '../../../images/team/ExpertsPhotos/Jeremy.jpg'
+import Larry from '../../../images/team/ExpertsPhotos/Larry.jpg';
+import Laura from '../../../images/team/ExpertsPhotos/Laura.jpg';
+import Amy from '../../../images/team/ExpertsPhotos/Amy.jpg';
+// import Blake from '../../../images/team/ExpertsPhotos/Blake.jpg';
+import Bruce from '../../../images/team/ExpertsPhotos/Bruce.jpg';
 
 export const People = {
     JoG: {
@@ -119,5 +128,86 @@ export const People = {
         vacation: "",
         why: "",
         image: Cody
-    }
+    },
+    CynthiaL: {
+        name: "Cynthia Lavin",
+        title: "Sales Manager",
+        bio: "I am passionate about life and relationships; I bring enthusiasm, creativity, service and value to business. I received a BFA from The Art Institute of Chicago and have completed graduate work at Loyola University Chicago in Organizational Development. With 30 years experience in the field of sales and marketing of custom and branded merchandise, I have maintained long term business relationships and have been recognized nationally in our industry representing client projects.",
+        movie: "Coco, La La Land, Shape of Water, Lion, Gladiator, Avatar, Dead Poets Society, American Pie",
+        vacation: "Storfjord Hotel, Skodje, Norway, Bora Bora, New Zealand-South Island ",
+        why: "Overture is a service business comprised of strong characters that are motivated to excel while working together. I am grateful and proud of the relationships I share in partnership with clients, at the office with my support staff and associates, as well as our valued suppliers.",
+        image: Cynthia
+    },
+    DaveR: {
+        name: "Dave Robbins",
+        title: "Sales Manager",
+        bio: "",
+        movie: "",
+        vacation: "",
+        why: "",
+        image: Dave
+    },
+    FrankM: {
+        name: "Frank Mixter",
+        title: "Sales Manager",
+        bio: "",
+        movie: "",
+        vacation: "",
+        why: "",
+        image: Frank
+    },
+    JeremyM: {
+        name: "Jeremy Manning",
+        title: "Sales Manager",
+        bio: "",
+        movie: "",
+        vacation: "",
+        why: "",
+        image: Jeremy
+    },
+    LarryB: {
+        name: "Larry Bluestone",
+        title: "Sales Manager",
+        bio: "",
+        movie: "",
+        vacation: "",
+        why: "",
+        image: Larry
+    },
+    LauraI: {
+        name: "Laura Isaacs",
+        title: "Sales Manager",
+        bio: "",
+        movie: "",
+        vacation: "",
+        why: "",
+        image: Laura
+    },
+    AmyW: {
+        name: "Amy Waldorf",
+        title: "Sales Manager",
+        bio: "",
+        movie: "",
+        vacation: "",
+        why: "",
+        image: Amy
+    },
+    BlakeW: {
+        name: "Blake Wasson",
+        title: "Sales Manager",
+        bio: "",
+        movie: "",
+        vacation: "",
+        why: "",
+        // image: Blake
+    },
+    BruceR: {
+        name: "Bruce Robbin",
+        title: "Sales Manager",
+        bio: "",
+        movie: "",
+        vacation: "",
+        why: "",
+        image: Bruce
+    },
 }

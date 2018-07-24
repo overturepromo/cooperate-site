@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from "react-scroll";
+import { Link } from 'react-router-dom'
 
 class JumpAround extends Component {
     render(){
@@ -7,13 +7,13 @@ class JumpAround extends Component {
             <div className="jump-div container">
                 <ul className="jump-list">
                     <li id="na-jump-link" className="jump-link"><strong>Jump to:</strong></li>
-                    <Link className="jump-link" to="experts" smooth={true} duration={500}>The Experts</Link>
-                    <li className="jump-link">Account Coordinators</li>
-                    <li className="jump-link">E-Commerce</li>
-                    <li className="jump-link">Creative</li>
-                    <li className="jump-link">Operations & Logistics</li>
-                    <li className="jump-link">Embrodiery & Screen Printing</li>
-                    <li className="jump-link">Warehouse</li>
+                    <Link to="/team/experts" className="jump-link">The Experts</Link>
+                    <Link to="/team/sales" className="jump-link">Sales Staff</Link>
+                    <Link to="/team/e-commerce" className="jump-link">E-Commerce</Link>
+                    <Link to="/team/creative" className="jump-link">Creative</Link>
+                    <Link to="/team/operations" className="jump-link">Operations & Logistics</Link>
+                    <Link to="/team/embrodiery" className="jump-link">Embrodiery & Screen Printing</Link>
+                    <Link to="/team/warehouse" className="jump-link">Warehouse</Link>
                 </ul>
             </div>
         )
