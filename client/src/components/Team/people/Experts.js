@@ -168,10 +168,10 @@ export const People = {
     LarryB: {
         name: "Larry Bluestone",
         title: "Sales Manager",
-        bio: "",
-        movie: "",
-        vacation: "",
-        why: "",
+        bio: "Larry has over 20 years of experience in the promotions and premiums industries while managing national consumer programs and developing unique products for clients including McDonald's, Abbott Laboratories, Caesars Entertainment, Procter & Gamble, OfficeMax Office Depot, Reynolds, Hyatt, and many more.  Larry makes sure his team addresses customers’ needs from more of a strategic-planning approach to ensure we deliver break-through, targeted, and highly-memorable solutions to help our clients positively impact their audiences and stand apart from their competition.   ",
+        movie: "Any sophomoric comedy works for me.  After all, laughter is the best medicine. (Hold on. Actually, a warm Krispy Kreme donut with sprinkles is best).",
+        vacation: "Anywhere on a boat, with hot weather, hotter fishing, and lots of cold drinks.  As they say… “I'd rather be in a boat with a drink on the rocks than in the drink with a boat on the rocks.”",
+        why: "It was a crystal clear choice when seeing that Overture does more in-house and provides more value-added services to its customers, well beyond its competitors.  Just look at all we offer. Also, absolutely no one has a better company culture or a better reputation across this industry for providing truly extraordinary customer service.",
         image: Larry
     },
     LauraI: {

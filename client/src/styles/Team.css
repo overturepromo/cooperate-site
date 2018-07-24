@@ -115,7 +115,7 @@ THIS GRAY LINE IS KILLING ME MARK!
     .hero-team{
         margin-top: 0;
     }
-    .jump-list{
+    .jump-list, .jump-link{
         display: block;
     }
     .jump-link{
@@ -146,5 +146,9 @@ THIS GRAY LINE IS KILLING ME MARK!
     }
     .hero-team{
         height: 400px;
+    }
+    /* This is the issue with the last name wrapping... */
+    .employee-name{
+        font-size: 14px
     }
 }

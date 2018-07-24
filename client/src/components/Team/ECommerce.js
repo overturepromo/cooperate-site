@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 import {Element} from "react-scroll";
 import Employee from './Employee';
 import WorkCard from './WorkCard';
-import { People } from './people/Experts';
+import { People } from './people/ECom';
 
 import '../../styles/Team.css'
 
@@ -32,28 +32,20 @@ class ECommerce extends Component {
             <div className="container">
                 <Element id="e-commerce-orange">E-Commerce</Element>
                 <div className="row">
-                    <Employee image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} clicked={() => this.openModal(0)} />
-                    <Employee image={People.RonG.image} name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />
+                    <Employee image={People.Ethan.image} name={People.Ethan.name} title={People.Ethan.title} />
+                    <Employee image={People.Anne.image} name={People.Anne.name} title={People.Anne.title} />
+                    <Employee image={People.Ashley.image} name={People.Ashley.name} title={People.Ashley.title} />
+                    <Employee image={People.Brittany.image} name={People.Brittany.name} title={People.Brittany.title} />
+                    <Employee image={People.Dean.image} name={People.Dean.name} title={People.Dean.title} />
+                    <Employee image={People.Jeff.image} name={People.Jeff.name} title={People.Jeff.title} />
+                    <Employee image={People.John.image} name={People.John.name} title={People.John.title} />
+                    <Employee image={People.Katelynn.image} name={People.Katelynn.name} title={People.Katelynn.title} />
+                    <Employee image={People.Michael.image} name={People.Michael.name} title={People.Michael.title} />
+                    <Employee image={People.Nicole.image} name={People.Nicole.name} title={People.  Nicole.title} />
+                    <Employee image={People.Victoria.image} name={People.Victoria.name} title={People.Victoria.title} />
+                    <Employee image={People.Gabrielle.image} name={People.Gabrielle.name} title={People.Gabrielle.title} />
+                    <Employee image={People.Sarah.image} name={People.Sarah.name} title={People.Sarah.title} />
                 </div>
-
-
-                {/* All The modals */}
-                <Modal isOpen={this.state.showModal[0]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.JoG.image} 
-                        name={People.JoG.name} 
-                        title={People.JoG.title} 
-                        bio={People.JoG.bio} movie={People.JoG.movie} vacation={People.JoG.vacation} why={People.JoG.why}
-                    close={() => this.closeModal()}  />
-                </Modal>
-                <Modal isOpen={this.state.showModal[1]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.RonG.image} 
-                        name={People.RonG.name} 
-                        title={People.RonG.title} 
-                        bio={People.RonG.bio} movie={People.RonG.movie} vacation={People.RonG.vacation} why={People.RonG.why}
-                    close={() => this.closeModal()} />
-                </Modal>
             </div>
         )
     }
@@ -62,16 +54,3 @@ class ECommerce extends Component {
 
 
 export default ECommerce;
-
-
-{/* <Employee image={People..image} name={People..name} title={People..title} clicked={() => this.openModal(7)} /> */}
-
-
-{/* <Modal isOpen={this.state.showModal[7]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People..image} 
-                        name={People..name} 
-                        title={People..title} 
-                        bio={People..bio} movie={People..movie} vacation={People..vacation} why={People..why}
-                    close={() => this.closeModal()} />
-                </Modal> */}
