@@ -51,6 +51,7 @@
 .employee-title{
     font-size: 15px;
     color: #888888;
+    height: 35px;
 }
 
 .employee-modal{
@@ -75,6 +76,21 @@
 
 .close-img-team{
     cursor: pointer;
+}
+
+.jump-link{
+    color: #8d8d8d
+}
+
+.jump-link:hover{
+    text-decoration: none;
+    color: #ef7521;
+    cursor: pointer;
+}
+
+#na-jump-link{
+    color: #5d5d5d;
+    font-family: Proxima-bold;
 }
 
 

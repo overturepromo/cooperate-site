@@ -6,7 +6,7 @@ class JumpAround extends Component {
         return (
             <div className="jump-div container">
                 <ul className="jump-list">
-                    <li className="jump-link"><strong>Jump to:</strong></li>
+                    <li id="na-jump-link" className="jump-link"><strong>Jump to:</strong></li>
                     <Link className="jump-link" to="experts" smooth={true} duration={500}>The Experts</Link>
                     <li className="jump-link">Account Coordinators</li>
                     <li className="jump-link">E-Commerce</li>

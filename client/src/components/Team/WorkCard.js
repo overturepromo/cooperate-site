@@ -16,7 +16,14 @@ const WorkCard = (props) => {
                 <h3 className="employee-name">{props.name}</h3>
                 <h4 className="employee-title">{props.title}</h4>
                 <div style={styles.orange}></div>
+                <h4 style={styles.question}>Bio:</h4>
                 <p>{props.bio}</p>
+                <h4 style={styles.question}>What is your favorite movie?</h4>
+                <p>{props.movie}</p>
+                <h4 style={styles.question}>What is your favorite vacation spot?</h4>
+                <p>{props.vacation}</p>
+                <h4 style={styles.question}>Why did you choose overture promotions?</h4>
+                <p>{props.why}</p>
             </div>
         </div>
     )
@@ -31,10 +38,15 @@ const styles= {
         height: '1.5px',
         width: '50px',
         backgroundColor: 'orange',
-        marginBottom: '10px'
+        marginBottom: '20px'
     },
     button:{
         backgroundColor: 'orange',
+    },
+    question:{
+        fontFamily: 'Proxima-bold',
+        marginTop: '20px',
+        marginBottom: '0'
     }
 }
 
