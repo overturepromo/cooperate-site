@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 import {Element} from "react-scroll";
 import Employee from './Employee';
 import WorkCard from './WorkCard';
-import { People } from './people/Experts';
+import { People } from './people/Warehouse';
 
 import '../../styles/Team.css'
 
@@ -32,28 +32,25 @@ class Warehouse extends Component {
             <div className="container">
                 <Element id="warehouse-orange">Warehouse</Element>
                 <div className="row">
-                    <Employee image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} clicked={() => this.openModal(0)} />
-                    <Employee image={People.RonG.image} name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />
+                    <Employee image={People.Carolyn.image} name={People.Carolyn.name} title={People.Carolyn.title} />
+                    <Employee image={People.Mario.image} name={People.Mario.name} title={People.Mario.title} />
+                    <Employee image={People.Michelle.image} name={People.Michelle.name} title={People.Michelle.title} />
+                    <Employee image={People.Mayla.image} name={People.Mayla.name} title={People.Mayla.title} />
+                    <Employee image={People.MattC.image} name={People.MattC.name} title={People.MattC.title} />
+                    <Employee image={People.MattN.image} name={People.MattN.name} title={People.MattN.title} />
+                    <Employee image={People.Elijah.image} name={People.Elijah.name} title={People.Elijah.title} />
+                    <Employee image={People.Lupe.image} name={People.Lupe.name} title={People.Lupe.title} />
+                    <Employee image={People.Will.image} name={People.Will.name} title={People.Will.title} />
+                    <Employee image={People.Yeni.image} name={People.Yeni.name} title={People.Yeni.title} />
+                    <Employee image={People.Juvenita.image} name={People.Juvenita.name} title={People.Juvenita.title} />
+                    <Employee image={People.Jeff.image} name={People.Jeff.name} title={People.Jeff.title} />
+                    <Employee image={People.Karla.image} name={People.Karla.name} title={People.Karla.title} />
+                    <Employee image={People.Abi.image} name={People.Abi.name} title={People.Abi.title} />
+                    <Employee image={People.Jose.image} name={People.Jose.name} title={People.Jose.title} />
+                    <Employee image={People.Ryan.image} name={People.Ryan.name} title={People.Ryan.title} />
+                    <Employee image={People.Juan.image} name={People.Juan.name} title={People.Juan.title} />
+                    <Employee image={People.Salvador.image} name={People.Salvador.name} title={People.Salvador.title} />
                 </div>
-
-
-                {/* All The modals */}
-                <Modal isOpen={this.state.showModal[0]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.JoG.image} 
-                        name={People.JoG.name} 
-                        title={People.JoG.title} 
-                        bio={People.JoG.bio} movie={People.JoG.movie} vacation={People.JoG.vacation} why={People.JoG.why}
-                    close={() => this.closeModal()}  />
-                </Modal>
-                <Modal isOpen={this.state.showModal[1]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.RonG.image} 
-                        name={People.RonG.name} 
-                        title={People.RonG.title} 
-                        bio={People.RonG.bio} movie={People.RonG.movie} vacation={People.RonG.vacation} why={People.RonG.why}
-                    close={() => this.closeModal()} />
-                </Modal>
             </div>
         )
     }
@@ -62,16 +59,3 @@ class Warehouse extends Component {
 
 
 export default Warehouse;
-
-
-{/* <Employee image={People..image} name={People..name} title={People..title} clicked={() => this.openModal(7)} /> */}
-
-
-{/* <Modal isOpen={this.state.showModal[7]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People..image} 
-                        name={People..name} 
-                        title={People..title} 
-                        bio={People..bio} movie={People..movie} vacation={People..vacation} why={People..why}
-                    close={() => this.closeModal()} />
-                </Modal> */}
