@@ -6,6 +6,7 @@ import Team from './Team'
 import Work from './Work'
 import Contact from './Contact/index.js'
 import Careers from './Careers'
+import Privacy from './Privacy'
 
 
 const Main = () => (
@@ -17,6 +18,7 @@ const Main = () => (
       <Route path='/work' component={Work} />
       <Route path='/contact' component={Contact} />
       <Route path='/careers' component={Careers} />
+      <Route path='/privacy' component={Privacy} />
     </Switch>
   </main>
 )

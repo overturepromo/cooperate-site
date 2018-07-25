@@ -12,7 +12,8 @@ class ApplyBox extends Component {
         phone: '',
         movies: '',
         coverLetter: '',
-        selectedFile: ''
+        selectedFile: '',
+        applied: false
     }
 
     handleChange = (e) => {
@@ -65,8 +66,7 @@ class ApplyBox extends Component {
           .catch(function (error) {
             console.log(error);
           });
-        this.setState({first: '', last: '', email: '', phone: '', movies: '', coverLetter: '', selectedFile: ''})
-        this.props.history.push("/");
+        this.setState({first: '', last: '', email: '', phone: '', movies: '', coverLetter: '', selectedFile: '', applied: true})
     }
 
     render(){
@@ -83,6 +83,9 @@ class ApplyBox extends Component {
                         <img src={Close} className="close-img-team" onClick={this.props.close} /><br />
                     </div>
                 </div>
+                {this.state.applied === true
+                        ? <div style={{fontSize: '20px'}}>Thank you for your interest in joining our team! If we see a fit, we will be in contact with you shortly!</div>
+                        :
                 <form onSubmit={this.handleSubmit}>
                     <input className="apply-inputs" type='text' name="first" placeholder="First Name" required value={this.state.first} onChange={this.handleChange} />
                     <input className="apply-inputs" type='text' name="last" placeholder="Last Name" required value={this.state.last} onChange={this.handleChange} />
@@ -96,6 +99,7 @@ class ApplyBox extends Component {
                     </div>
                     <button className="apply-button-send">Send</button>
                 </form>
+                }
             </div>
         )
     }
