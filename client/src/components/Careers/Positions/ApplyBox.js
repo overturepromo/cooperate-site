@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import {withRouter} from "react-router-dom";
 import Close from '../../../images/home/close.svg'
 
 class ApplyBox extends Component {
@@ -105,4 +104,4 @@ class ApplyBox extends Component {
     }
 }
 
-export default withRouter(ApplyBox);
+export default ApplyBox;
