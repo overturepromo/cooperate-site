@@ -38,9 +38,9 @@ export const People = {
         name: 'Brandon Hawks',
         title: 'Graphic Designer',
         bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        movie: 'Mad Max',
+        vacation: 'Someplace new!',
+        why: 'Great work atmosphere with great people! ',
         image: Brandon
     },
     Emily: {

@@ -21,10 +21,10 @@ export const People = {
     Wendy: {
         name: 'Wendy Parsons',
         title: 'Production Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        bio: 'Wendy’s educational background includes a B.A. in elementary education as well as post-graduate work in the field of training and development. It was while working as an embroidery software trainer that she discovered her interest in digitizing. She enjoys overseeing the busy and ever-expanding embroidery and screen print departments at Overture, as well as preparation of screen print art and film, digitizing of embroidery logos, and various administrative duties. Her problem-solving side loves the variety of challenges that a dynamic operation provides daily; striving for excellence and keeping a good sense of humor are among her personal goals.',
+        movie: 'The Princess Bride',
+        vacation: 'Anywhere my husband and I can ride our motorcycle and the scenery takes my breath away.',
+        why: 'I was recruited to come to work here, but liked the sense of excitement as well as the opportunity to develop professionally.',
         image: Wendy
     },
     Nastia: {

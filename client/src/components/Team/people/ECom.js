@@ -90,9 +90,9 @@ export const People = {
         name: 'Michael Santiago',
         title: 'Account Manager',
         bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        movie: 'Sniper',
+        vacation: 'Miami',
+        why: 'Overture Chose me',
         image: Michael
     },
     Nicole: {

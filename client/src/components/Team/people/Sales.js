@@ -54,10 +54,10 @@ export const People = {
     Danny: {
         name: 'Danny Hazan',
         title: 'Account Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        bio: 'Danny joined Overture after 8 years as a journalist covering sports and music. He resides in Evanston.',
+        movie: 'Fargo',
+        vacation: 'Jackson Hole',
+        why: 'There weren’t enough Hazan’s',
         image: Danny
     },
     Jenna: {

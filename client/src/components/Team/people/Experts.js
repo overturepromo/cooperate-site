@@ -141,10 +141,10 @@ export const People = {
     DaveR: {
         name: "Dave Robbins",
         title: "Sales Manager",
-        bio: "",
-        movie: "",
-        vacation: "",
-        why: "",
+        bio: "Dave Robbins has been with Overture Premiums and Promotions since its infancy and continues to remain a vital part of the organizations growth. As a graduate from the University of Illinois with a degree in accounting, it didn't take long for Dave to realize that his passion wasn't in finance. Joining the ad specialty industry in 1980, Dave found his passion and quickly established a loyal client base. Dave enjoys playing golf, tennis and basketball... when he's not busy watching them (in his office).",
+        movie: "Goodfellas ",
+        vacation: "Cabo San Lucas",
+        why: "Dave came with Joe Hazan to create the new company along with Heather Sanderson.",
         image: Dave
     },
     FrankM: {
@@ -159,10 +159,10 @@ export const People = {
     JeremyM: {
         name: "Jeremy Manning",
         title: "Sales Manager",
-        bio: "",
-        movie: "",
-        vacation: "",
-        why: "",
+        bio: "Jeremy believes that every project is different, which is why he strives to understand the intricacies of each client's needs and campaigns to help with concept development. He prefers to take a proactive approach when it comes to idea generation, and excels at binding strategy with creativity. He's able to craft programs for internal and external communication for product launches and focused projects of all sizes, and he excels at recognizing opportunities for bulk-purchasing, strategic planning, and controlling unnecessary spend. Jeremy joined Overture in 2006, shortly after graduating from Northern Illinois University's College of Business with a Bachelor's Degree in Marketing.  Jeremy spends most of his time away from the office with his wife, Ashley and their three children.  ",
+        movie: "Burnt",
+        vacation: "Don't think I've found it quite yet.",
+        why: "The best thing about my position is that it combines the strategy of sales with the creativity of marketing, so no two days are the same.",
         image: Jeremy
     },
     LarryB: {
