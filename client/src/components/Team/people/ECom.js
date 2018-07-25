@@ -108,9 +108,9 @@ export const People = {
         name: 'Victoria Robinson',
         title: 'Marketing Coordinator',
         bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        movie: 'Some Like it Hot',
+        vacation: 'Fiji',
+        why: 'Overture’s values are ones that I share in my personal life, which made this role the perfect fit for me. Oh, and there was the opening in marketing. But mostly the values thing.',
         image: Victoria
     },
     Gabrielle: {
