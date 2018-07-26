@@ -44,12 +44,12 @@ class Hamburger extends Component {
             <div className='container burger-contact'>
                 <div className="row">
                     <div className="col-xs-12 burger-address">
-                        <p>595 Lakeview Parkway</p>
-                        <p>Vernon Hills, IL 60061</p>
+                        <p style={{fontSize: '17px'}}>595 Lakeview Parkway</p>
+                        <p style={{fontSize: '17px'}}>Vernon Hills, IL 60061</p>
                     </div>
                     <div className="col-xs-12 burger-phone">
-                        <p>P. 888.456.9564</p>
-                        <p>F. 847.680.0114</p>
+                        <p style={{fontSize: '17px'}}>P. 888.456.9564</p>
+                        <p style={{fontSize: '17px'}}>F. 847.680.0114</p>
                     </div>
                     <div className="col-xs-12" style={{textAlign: 'center'}}>
                         <a href="" target="blank"><i className="fa fa-facebook burger-social"></i></a>

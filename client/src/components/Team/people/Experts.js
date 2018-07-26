@@ -51,10 +51,10 @@ export const People = {
     TejS: {
         name: 'Tej Shah',
         title: 'VP, Marketing & E-Commerce',
-        bio: "Tej brings a unique business minded skill-set and proven track record in marketing to Overture Promotions. Prior to joining Overture, Tej co-founded an internet company, WeRemember.org, which was featured in a handful of publications, including The Wall Street Journal and US News & World Report. His experience also consists of developing and implementing the marketing and e-commerce strategies for a variety of companies, including ServiceMaster, SharkZoo and Bank of America. Tej was previously nominated as one of BusinessWeek's Top 25 Entrepreneurs Under 25. Additionally, Tej is a guest speaker, writer and trainer on business and marketing strategy. Tej has a bachelor's degree in both business and pre-medical biochemistry from Loyola University Chicago.",
-        movie: 'Superbad, Step Brothers, Bad Boys II, Gladiator, Remember the Titans, Rocky, Donnie Brasco, Bourne Identity... AHHHH!!! Too many to pick just one!',
-        vacation: 'Anywhere with beer and a beach.',
-        why: "I joined Overture mainly because of the free bagels every morning and mandatory happy hour outings. But… I decided to stay with Overture because of what they have managed to achieve in the past ten years as well as where they are going in the future. Overture separates itself from its competitors by offering in house services that can't be found anywhere else, consistently investing in technology and most importantly, by truly offering creativity, concept and service to their clients rather than just products.",
+        bio: "A true nerd at heart that embraces his newfound dad-bod, Tej is responsible for overseeing all marketing, new business and e-commerce strategies for Overture. Prior to joining Overture, Tej co-founded WeRemember.org, which was later acquired by Ancestry.com. His experience also consists of marketing and e-commerce for ServiceMaster, SharkZoo and Bank of America. Tej was previously nominated as one of BusinessWeek's Top 25 Entrepreneurs Under 25 and has been featured in The New York Times and Wall Street Journal. Tej has a bachelor's degree in pre-medical biochemistry from Loyola University Chicago.",
+        movie: "Superbad, Step Brothers, The Fighter, Donnie Brasco, Million Dollar Baby, Lone Survivor, Bourne Identity... AHHHH!!! Too many to pick just one!",
+        vacation: 'Maui. But, I’ll take anywhere with beer and a beach.',
+        why: "I joined Overture for many reasons, but mainly because of the free bagels and regular happy hour outings. But, I decided to stay with Overture because of how they believe branded merchandise should be managed; I might be biased, but Overture offers a solution unlike any other (cutting edge technology + vertical supply chain in-house + insane creativity).",
         image: Tej
     },
     MikeW: {

@@ -36,9 +36,9 @@ export const People = {
         name: 'Ashley Anderson',
         title: 'Sr. Account Manager',
         bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        movie: 'Blow or The Blind Side. ',
+        vacation: 'Conover, WI',
+        why: 'They chose me!',
         image: Ashley
     },
     Brittany: {

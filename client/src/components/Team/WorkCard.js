@@ -22,7 +22,7 @@ const WorkCard = (props) => {
                 <p>{props.movie}</p>
                 <h4 style={styles.question}>What is your favorite vacation spot?</h4>
                 <p>{props.vacation}</p>
-                <h4 style={styles.question}>Why did you choose overture promotions?</h4>
+                <h4 style={styles.question}>Why did you choose Overture Promotions?</h4>
                 <p>{props.why}</p>
             </div>
         </div>

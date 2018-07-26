@@ -13,7 +13,7 @@ class Network extends Component {
                         <div className="col-md-4 mobile-globe">
                             <img src={Globe} alt="globe" className="mobile-globe-image" />
                         </div>
-                        <h4 className="green-network">We're a global network</h4>
+                        <h4 id="program-globe" className="green-network">We're a global network</h4>
                         <p className="network-paragraph">There are no limits to what we can do. We regularly import from our accredited factories overseas and have international shipments leaving our warehouse daily. The bottom line is what matters, and we understand that. To help reduce your costs, we have negotiated exclusive rates with our vendors, developed global partnerships and created import sourcing programs for large quantity or custom order.</p>
                     </div>
                     <div className="col-md-4 network-globe">
@@ -23,7 +23,7 @@ class Network extends Component {
                         <img src={Data} alt="data" className="mobile-globe-image"  />
                     </div>
                     <div className="col-md-8" style={{marginTop: '70px'}}>
-                        <h4 className="green-network">Data-driven decisions</h4>
+                        <h4 id="data-title" className="green-network">Data-driven decisions</h4>
                         <p className="network-paragraph">We don't just make decisions based off of gut instinct. We combine thorough data analysis, comprehensive reporting and historical behavior to develop a custom promotional program for your company that reduces costs and increases efficiencies.</p>
                         <p className="network-paragraph">Our reporting capabilities are completely customizable and flexible. What this means for your company is that essentially any metric or values that you want tracked can be exported in endless combinations to create a report that best suits your needs. Reports can be scheduled to be automatically sent out daily, weekly, monthly or quarterly. Example reports include:</p>
                         <div className="row" style={{margin: '30px 0 70px 0'}}>

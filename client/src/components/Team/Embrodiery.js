@@ -30,7 +30,7 @@ class Embrodiery extends Component {
     render(){
         return (
             <div className="container">
-                <Element id="embrodiery-orange">Embrodiery & Screen Printing</Element>
+                <Element id="embrodiery-orange">Embroidery & Screen Printing</Element>
                 <div className="row">
                     <Employee image={People.Wendy.image} name={People.Wendy.name} title={People.Wendy.title} />
                     <Employee image={People.Nastia.image} name={People.Nastia.name} title={People.Nastia.title} />

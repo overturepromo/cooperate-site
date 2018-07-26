@@ -20,9 +20,8 @@ nav {
 }
 
 .nav-links:focus{
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: #ef7521;
+    color: #ef7521;
+    text-decoration: none
 }
 
 .contact-button{

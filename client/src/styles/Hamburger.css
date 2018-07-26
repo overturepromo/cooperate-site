@@ -37,7 +37,7 @@
 .burger-link{
     color: white;
     font-family: Proxima;
-    font-size: 18px;
+    font-size: 26px;
 }
 
 .burger-contact{
@@ -63,4 +63,12 @@
     color: white;
     font-size: 2em;
     margin: 0 15px 
+}
+
+
+/* For iphone 5se */
+@media (max-width: 325px){
+    .burger-phone{
+        margin: 0
+    }
 }

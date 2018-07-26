@@ -186,10 +186,10 @@
 
 .home-modals{
     position: absolute;
-    top: 15%;
-    left: 50%;
+    top: 0%;
+    left: 32%;
     outline: 0;
-    transform: translateX(-50%);;
+    transform: translateX(-23%);;
 }
 
 /* Mobile Stuff */

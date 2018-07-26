@@ -90,6 +90,10 @@
     margin-left: 25%
 }
 
+.customized-programs{
+    margin-top: 100px;
+}
+
 .about-program-links{
     color: #ef7521;
     font-size: 24px;
@@ -216,7 +220,7 @@
         font-size: 45px;
     }
     .awards-div{
-        margin-top: 10px !important;
+        margin-top: 50px !important;
     }
     .awards-title{
         width: 100%;
@@ -246,5 +250,14 @@
     .about-music{
         margin-left: 5%;
         margin: 0
+    }
+    .customized-programs{
+        margin-top: 30px;
+    }
+    #program-globe{
+        margin-top: 35px;
+    }
+    #data-title{
+        margin-top: -25px;
     }
 }

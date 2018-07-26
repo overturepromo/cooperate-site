@@ -136,9 +136,9 @@ export const People = {
         name: 'Megan Murphy',
         title: 'Account Coordinator',
         bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        movie: 'Homeward Bound (if you don’t love this movie you have no soul)',
+        vacation: 'MEXICO!! ',
+        why: 'Loved the idea of working for a woman owned company. Working for women, with women, as a woman, was right up my alley!',
         image: Megan
     },
     Lupe: {

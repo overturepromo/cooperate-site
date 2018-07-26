@@ -12,7 +12,7 @@ class JumpAround extends Component {
                     <Link to="/team/e-commerce" className="jump-link">E-Commerce</Link>
                     <Link to="/team/creative" className="jump-link">Creative</Link>
                     <Link to="/team/operations" className="jump-link">Operations & Logistics</Link>
-                    <Link to="/team/embrodiery" className="jump-link">Embrodiery & Screen Printing</Link>
+                    <Link to="/team/embrodiery" className="jump-link">Embroidery & Screen Printing</Link>
                     <Link to="/team/warehouse" className="jump-link">Warehouse</Link>
                 </ul>
             </div>

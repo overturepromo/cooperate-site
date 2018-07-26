@@ -47,7 +47,7 @@ class Programs extends Component {
                         <img src={AboutCorna} className="about-corona" alt="" />
                         <img src={AboutMusic} className="about-music" alt="about-music" />
                     </div>
-                    <div className="col-md-7" style={{marginTop: '100px'}}>
+                    <div className="col-md-7" className="customized-programs">
                         <h4 className="programs-orange">Customized programs</h4>
                         <p className="programs-paragraph">Let us help you create an effective promotional program that speaks to your brand name, appeals to your demographics, is comprised of high-quality products, and most importantly, is effective. In addition to promotional product programs, we provide:</p>
                         <div className="row">

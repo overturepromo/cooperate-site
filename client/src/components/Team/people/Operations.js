@@ -104,9 +104,9 @@ export const People = {
     Morgan: {
         name: 'Morgan Skofstad',
         title: 'Billing Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
+        bio: 'Morgan joined the Overture team at the very beginning of 2017 knowing that Overture Promotions was a fun place to work and she would gain valuable experiences. She came from a wide background in auditing, data entry, and retail management and is pursuing a degree in Business and Accounting. She enjoys learning about all aspects of a business through school and applying it first-hand at Overture. Outside of the office and school, she spends her time riding her horses and being at the local dragway where she is a crew chief for a motorcycle racing enterprise. She also loves to travel. ',
+        movie: 'Top Gun and The Notebook',
+        vacation: 'Nashville, San Diego, and Puerto Rico',
         why: '',
         image: Morgan
     },
