@@ -91,9 +91,9 @@ export const People = {
         name: 'Katie Puente',
         title: 'Account Coordinator',
         bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        movie: 'The Man Who Knew Too Little',
+        vacation: 'Mexico',
+        why: 'The job description included a preferred (but not required) “a love for The Office and Chipotle burritos”. I knew I could get along with these people.',
         image: Katie
     },
     Kat: {

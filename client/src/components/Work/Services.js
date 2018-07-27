@@ -13,26 +13,26 @@ const Services = () => {
                     <img src={House2} className="about-corona" alt="" />
                     <img src={House3} className="work-music" alt="about-music" />
                 </div>
-                <div className="col-md-7 how-we-service">
+                <div className="container col-md-7 how-we-service">
                     <h4 className="programs-orange">In-house Services</h4>
                     <p className="programs-paragraph">Our in-house services provide impeccable quality, affordable prices and ultimate quality assurance. Need a different type of printing method? Not a problem; through our extensive network of supplier partners we can complete any job.</p>
                     <div className="row">
-                        <div className="col-md-6 about-program-links">
+                        <div className="col-md-6 work-program-links">
                             Pad Printing
                         </div>
-                        <div className="col-md-6 about-program-links">
+                        <div className="col-md-6 work-program-links">
                             Embroidery
                         </div>
-                        <div className="col-md-6 about-program-links">
+                        <div className="col-md-6 work-program-links">
                             Screen Printing
                         </div>
-                        <div className="col-md-6 about-program-links">
+                        <div className="col-md-6 work-program-links">
                             Digitizing and Banner Production
                         </div>
-                        <div className="col-md-6 about-program-links">
+                        <div className="col-md-6 work-program-links">
                             Hot Stamping
                         </div>
-                        <div className="col-md-6 about-program-links">
+                        <div className="col-md-6 work-program-links">
                             ... And much more!
                         </div>
                     </div>

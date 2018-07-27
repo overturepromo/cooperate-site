@@ -30,10 +30,10 @@ export const People = {
     Nastia: {
         name: 'Nastia Ilnitska',
         title: 'Production Assistant',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        bio: 'Nastia joined Overture team in July of 2015. Coming with an Associate degree in Graphic Design she started out as a graphic design intern in the art department. After working there part-time, and then splitting her day between art department and the warehouse, she became Production Assistant working closely with Wendy Parsons. Her main responsibilities include assisting Wendy with processing screen print orders, providing sales staff with proofs, creating logo separations and printing films for burning screens, tracking daily production in screen print and embroidery departments, and working on various production-related projects.',
+        movie: 'Rory O’Shea Was Here (Inside I’m Dancing)',
+        vacation: 'Toronto, Canada',
+        why: 'For its fun environment, and opportunity to learn lots of new work skills while improving existing ones. ',
         image: Nastia
     },
     Gabriel: {

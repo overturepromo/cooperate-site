@@ -4,7 +4,7 @@ const Privacy = () => {
     topFunction();
     return (
         <div style={{background: 'linear-gradient(to bottom right, #5fc1d9, #3babc5)', marginTop: '-90px', paddingTop: '150px'}}>
-            <div className="container" style={{color: 'gray'}}>
+            <div className="container" style={{color: 'white'}}>
                 <h2 style={headlines}>PRIVACY POLICY</h2>
                 <p>We appreciate any concerns you may have about the privacy and security of your personal information on the Web. We value your personal information as if it is our own. We want your experience on our site to be of value and importance to you as well as provide you with fun products. We also want you to trust that we make every effort to protect your confidentiality. Personal information is requested in some areas of this site in order to enable us to provide you with the best customer experience possible. The amount and type of information received depends on how you use this site. Information may be stored and used in order to enhance your experience. Your use of overturepromotions.com implies your agreement to the terms of this Privacy Policy. You also grant overturepromotions.com permission to collect information about the pages served to you as an anonymous user for the purpose of calculating aggregate site statistics.</p>
                 <p>&nbsp;</p>
@@ -60,7 +60,6 @@ const Privacy = () => {
 
 const headlines = {
     fontSize: '17px',
-    color: '#ef7521',
     fontFamily: 'Proxima-bold'
 }
 
