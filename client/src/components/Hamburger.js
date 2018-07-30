@@ -52,16 +52,22 @@ class Hamburger extends Component {
                         <p style={{fontSize: '17px'}}>F. 847.680.0114</p>
                     </div>
                     <div className="col-xs-12" style={{textAlign: 'center'}}>
-                        <a href="" target="blank"><i className="fa fa-facebook burger-social"></i></a>
-                        <a href="" target="blank"><i className="fa fa-instagram burger-social"></i></a>
-                        <a href="" target="blank"><i className="fa fa-twitter burger-social"></i></a>
-                        <a href="" target="blank"><i className="fa fa-youtube burger-social"></i></a>
+                        <a style={socialStyle} href="" target="blank"><i className="fa fa-facebook burger-social"></i></a>
+                        <a style={socialStyle} href="" target="blank"><i className="fa fa-instagram burger-social"></i></a>
+                        <a style={socialStyle} href="" target="blank"><i className="fa fa-twitter burger-social"></i></a>
+                        <a style={socialStyle} href="" target="blank"><i className="fa fa-youtube burger-social"></i></a>
                     </div>
                 </div>
             </div>
             </div>
         )
     }
+}
+
+const socialStyle = {
+    color: 'white',
+    fontSize: '2em',
+    margin: '0 15px'
 }
 
 export default Hamburger
