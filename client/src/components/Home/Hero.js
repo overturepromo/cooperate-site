@@ -31,8 +31,5 @@ const Hero = () => {
     )
 }
 
-function scrollWin() {
-    window.scrollTo(0, 800);
-}
 
 export default Hero;

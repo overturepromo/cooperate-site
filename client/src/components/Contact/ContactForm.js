@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 import '../../styles/Contact.css'
-import { IncomingMessage } from 'http';
 
 class ContactForm extends Component {
 

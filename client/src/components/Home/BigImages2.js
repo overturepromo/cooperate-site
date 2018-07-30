@@ -54,7 +54,7 @@ class BigImages extends Component {
                     onRequestClose={this.closeModal}
                     className="home-modals">
                         <div style={{width: '100%'}}>
-                            <img src={Close} className="close-img" onClick={this.closeModal} /><br />
+                            <img src={Close} alt="" className="close-img" onClick={this.closeModal} /><br />
                             <img src={UberBig} className="uber-open" alt="uber" />
                         </div>
                         
@@ -64,7 +64,7 @@ class BigImages extends Component {
                     onRequestClose={this.closeModal}
                     className="home-modals">
                         <div style={{width: '100%'}}>
-                            <img src={Close} className="close-img" onClick={this.closeModal} /><br />
+                            <img src={Close} alt="" className="close-img" onClick={this.closeModal} /><br />
                             <img src={NbcBig} className="nbc-open" alt="nbc" />
                         </div>
                 </Modal>
@@ -73,7 +73,7 @@ class BigImages extends Component {
                     onRequestClose={this.closeModal}
                     className="home-modals">
                         <div style={{width: '100%'}}>
-                            <img src={Close} className="close-img" onClick={this.closeModal} /><br />
+                            <img src={Close} alt="" className="close-img" onClick={this.closeModal} /><br />
                             <img src={SpeakerBig} className="speaker-open" alt="speaker" />
                         </div>
                 </Modal>
@@ -82,7 +82,7 @@ class BigImages extends Component {
                     onRequestClose={this.closeModal}
                     className="home-modals">
                         <div style={{width: '100%'}}>
-                            <img src={Close} className="close-img" onClick={this.closeModal} /><br />
+                            <img src={Close} alt="" className="close-img" onClick={this.closeModal} /><br />
                             <img src={CubsBig}  className="cubs-open" alt="cubs" />
                         </div>
                 </Modal>

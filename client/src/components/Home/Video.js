@@ -76,10 +76,10 @@ class Video extends Component {
 }
 
 
-var size = {
-    width: window.innerWidth || document.body.clientWidth,
-    height: window.innerHeight || document.body.clientHeight
-  }
+// var size = {
+//     width: window.innerWidth || document.body.clientWidth,
+//     height: window.innerHeight || document.body.clientHeight
+//   }
 
 Modal.defaultStyles.overlay.backgroundColor = 'rgba(0,0,0,.8)';
 

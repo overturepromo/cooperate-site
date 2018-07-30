@@ -9,7 +9,7 @@ const WorkCard = (props) => {
                     <img src={props.image} alt="" style={styles.image} />
                 </div>
                 <div className='col-xs-6' style={{textAlign: 'right'}}>
-                <img src={Close} className="close-img-team" onClick={props.close} /><br />
+                <img src={Close} alt="" className="close-img-team" onClick={props.close} /><br />
                 </div>
             </div>
             <div>

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Modal from 'react-modal';
 import {Element} from "react-scroll";
 import Employee from './Employee';
-import WorkCard from './WorkCard';
 import { People } from './people/Sales';
 
 import '../../styles/Team.css'
@@ -65,17 +64,3 @@ class Sales extends Component {
 
 
 export default Sales;
-
-
-{/* <Employee image={People..image} name={People..name} title={People..title} clicked={() => this.openModal(7)} /> */}
-{/* <Employee image={People..image} name={People..name} title={People..title} /> */}
-
-
-{/* <Modal isOpen={this.state.showModal[7]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People..image} 
-                        name={People..name} 
-                        title={People..title} 
-                        bio={People..bio} movie={People..movie} vacation={People..vacation} why={People..why}
-                    close={() => this.closeModal()} />
-                </Modal> */}

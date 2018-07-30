@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Modal from 'react-modal';
 import {Element} from "react-scroll";
 import Employee from './Employee';
-import WorkCard from './WorkCard';
 import { People } from './people/Embrodiery';
 
 import '../../styles/Team.css'

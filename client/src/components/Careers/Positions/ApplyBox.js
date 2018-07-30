@@ -79,7 +79,7 @@ class ApplyBox extends Component {
                     <div className="orange-bar-apply"></div>
                     </div>
                     <div className="col-xs-6" style={{textAlign: 'right'}}>
-                        <img src={Close} className="close-img-team" onClick={this.props.close} /><br />
+                        <img src={Close} alt="" className="close-img-team" onClick={this.props.close} /><br />
                     </div>
                 </div>
                 {this.state.applied === true
