@@ -69,6 +69,22 @@
     text-decoration: none;
 }
 
+.confirm-title{
+    color: #ef7521;
+    font-family: Proxima-bold;
+    font-size: 40px;
+}
+
+.confirm-p{
+    font-size: 17px;
+    color: gray;
+}
+
+.confirm-box{
+    text-align: center;
+    margin: 5% 23%
+}
+
 @media(max-width:991px){
     .hero-contact{
         margin-top: 0;

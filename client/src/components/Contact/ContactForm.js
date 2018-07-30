@@ -77,7 +77,12 @@ class ContactForm extends Component {
                         </div>
                     </div>
                     {this.state.form === false
-                        ? <div>I am a placeholder. What would you like me to say? :-)</div>
+                        ? <div className="col-md-8">
+                            <div className="confirm-box">
+                                <h4 className="confirm-title">You have questions, we have answers!</h4>
+                                <p className="confirm-p">In fact, we'll have your answers within one business day! We look forward to speaking with you then!</p>
+                            </div>
+                          </div>
                         :
                     <div className="col-md-8">
                         <form onSubmit={this.handleSubmit} className="contact-form row">
@@ -114,5 +119,6 @@ const icons = {
     marginRight: "20px",
     fontSize: '2.2em'
 }
+
 
 export default ContactForm;

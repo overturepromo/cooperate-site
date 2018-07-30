@@ -35,7 +35,7 @@ const styles= {
         width: '125px'
     },
     orange: {
-        height: '1.5px',
+        height: '2px',
         width: '50px',
         backgroundColor: '#ef7521',
         marginBottom: '20px'
