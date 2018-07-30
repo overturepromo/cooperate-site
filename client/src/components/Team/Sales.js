@@ -3,6 +3,7 @@ import Modal from 'react-modal';
 import {Element} from "react-scroll";
 import Employee from './Employee';
 import { People } from './people/Sales';
+import PlaceHolder from '../../images/team/ExpertsPhotos/PortraitPlaceholder.png'
 
 import '../../styles/Team.css'
 
@@ -31,8 +32,8 @@ class Sales extends Component {
             <div className="container">
                 <Element id="sales-orange" name="experts">Sales Staff</Element>
                 <div className="row">
-                    <Employee image={People.Amy.image} name={People.Amy.name} title={People.Amy.title} />
-                    <Employee image={People.Angela.image} name={People.Angela.name} title={People.Angela.title} />
+                    <Employee image={PlaceHolder} name={People.Amy.name} title={People.Amy.title} />
+                    <Employee image={PlaceHolder} name={People.Angela.name} title={People.Angela.title} />
                     <Employee image={People.Beth.image} name={People.Beth.name} title={People.Beth.title} />
                     <Employee image={People.Danny.image} name={People.Danny.name} title={People.Danny.title} />
                     <Employee image={People.Jenna.image} name={People.Jenna.name} title={People.Jenna.title} />

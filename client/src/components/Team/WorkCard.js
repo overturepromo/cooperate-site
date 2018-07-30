@@ -37,7 +37,7 @@ const styles= {
     orange: {
         height: '1.5px',
         width: '50px',
-        backgroundColor: 'orange',
+        backgroundColor: '#ef7521',
         marginBottom: '20px'
     },
     button:{

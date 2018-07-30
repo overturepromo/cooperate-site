@@ -4,6 +4,7 @@ import {Element} from "react-scroll";
 import Employee from './Employee';
 import WorkCard from './WorkCard';
 import { People } from './people/Experts';
+import PlaceHolder from '../../images/team/ExpertsPhotos/PortraitPlaceholder.png'
 
 import '../../styles/Team.css'
 
@@ -51,7 +52,7 @@ class Experts extends Component {
                     <Employee image={People.LarryB.image} name={People.LarryB.name} title={People.LarryB.title} clicked={() => this.openModal(16)} />
                     <Employee image={People.LauraI.image} name={People.LauraI.name} title={People.LauraI.title} clicked={() => this.openModal(17)} />
                     <Employee image={People.AmyW.image} name={People.AmyW.name} title={People.AmyW.title} clicked={() => this.openModal(18)} />
-                    <Employee image={People.BlakeW.image} name={People.BlakeW.name} title={People.BlakeW.title} clicked={() => this.openModal(19)} />
+                    <Employee image={PlaceHolder} name={People.BlakeW.name} title={People.BlakeW.title} clicked={() => this.openModal(19)} />
                     <Employee image={People.BruceR.image} name={People.BruceR.name} title={People.BruceR.title} clicked={() => this.openModal(20)} />
                 </div>
 
