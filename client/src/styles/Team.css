@@ -67,6 +67,19 @@
     overflow-y: auto
 }
 
+.employee-two-modal{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 68%;
+    outline: 0;
+    transform: translateX(-111%);
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    overflow-y: auto
+}
+
 #experts-orange, #sales-orange, #e-commerce-orange, #creative-orange, #operations-orange, #embrodiery-orange, #warehouse-orange{
     color: #ef7521;
     font-size: 40px;
@@ -98,19 +111,6 @@
     font-family: Proxima-bold;
 }
 
-
-/*
-THIS GRAY LINE IS KILLING ME MARK!
-#experts-orange:after {
-    position: absolute;
-    margin-top: 20px;
-    width: 57%;
-    margin-left: 20px;
-    height: 1px;
-    content: '\a0';
-    background-color: gray;
-} */
-
 @media(max-width:991px){
     .hero-team{
         margin-top: 0;
@@ -128,7 +128,7 @@ THIS GRAY LINE IS KILLING ME MARK!
         width: 125px;
         height: 125px;
     }
-    .employee-modal{
+    .employee-modal, .employee-two-modal{
         left: 25%;
         transform: translateX(-16%)
     }

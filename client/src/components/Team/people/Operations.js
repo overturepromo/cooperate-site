@@ -68,10 +68,10 @@ export const People = {
     Lisa: {
         name: 'Lisa Brandwein',
         title: 'Accounts Receivable',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        bio: 'Lisa came to the Overture Family in 2014 to join our Accounting Department. With her vast background in billing, customer service and account management, working within Accounts Receivable is a perfect fit for Lisa. Lisa prides herself on being detail oriented, proactive and communicative in all aspects of her job. Connecting with our customers and going the extra step is really what is most rewarding about working at Overture. Outside of the office, Lisa spends most of her time with her husband and three children. She also enjoys working out, reading, and loves a night out with friends! ',
+        movie: 'I can’t pick just one…..but I love a comedy',
+        vacation: 'Anywhere tropical with a lounge chair',
+        why: 'The moment I walked in, I was sold on the quality of people!',
         image: Lisa
     },
     Jen: {
@@ -163,6 +163,15 @@ export const People = {
         vacation: '',
         why: '',
         image: Melissa
+    },
+    Leyla:{
+        name: 'Leyla Anderfuren',
+        title: 'Fulfillment Coordinator',
+        bio: '',
+        movie: 'Pee-Wee’s Big Adventure',
+        vacation: 'Hawaii (even though I’ve never been there!)',
+        why: 'It was love at first site when I saw the video ',
+        // image: ''
     },
     Shawn: {
         name: 'Shawn Wohlt',

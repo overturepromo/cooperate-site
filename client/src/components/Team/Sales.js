@@ -3,6 +3,7 @@ import Modal from 'react-modal';
 import {Element} from "react-scroll";
 import Employee from './Employee';
 import { People } from './people/Sales';
+import WorkCardTwo from './WorkCardTwo';
 import PlaceHolder from '../../images/team/ExpertsPhotos/PortraitPlaceholder.png'
 
 import '../../styles/Team.css'
@@ -53,14 +54,25 @@ class Sales extends Component {
                     <Employee image={People.Shannon.image} name={People.Shannon.name} title={People.Shannon.title} />
                     <Employee image={People.Stefanie.image} name={People.Stefanie.name} title={People.Stefanie.title} />
                     <Employee image={People.Cindy.image} name={People.Cindy.name} title={People.Cindy.title} />
-                    <Employee image={People.Oksana.image} name={People.Oksana.name} title={People.Oksana.title} />
+                    <Employee image={People.Oksana.image} name={People.Oksana.name} title={People.Oksana.title} clicked={() => this.openModal(0)} />
                     <Employee image={People.Brittany.image} name={People.Brittany.name} title={People.Brittany.title} />
                     <Employee image={People.Anna.image} name={People.Anna.name} title={People.Anna.title} />
                 </div>
+                {/* All The modals */}
+                <Modal isOpen={this.state.showModal[0]} onRequestClose={this.closeModal} className="employee-two-modal">
+                    <WorkCardTwo 
+                    image={People.Oksana.image} 
+                    name={People.Oksana.name} 
+                    title={People.Oksana.title} 
+                    movie={People.Oksana.movie} vacation={People.Oksana.vacation} why={People.Oksana.why}
+                    close={() => this.closeModal()}  />
+                </Modal>
             </div>
         )
     }
 }
+
+
 
 
 

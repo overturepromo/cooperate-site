@@ -18,9 +18,9 @@ export const People = {
         name: 'Ethan Collins',
         title: 'Director of Sales',
         bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        movie: 'Saving Private Ryan',
+        vacation: 'Reykjavik, Iceland',
+        why: 'Because creativity is the driving force behind Overture’s growth. From product design to logistical problem solving, this is a company that has fun innovating!',
         image: Ethan
     },
     Anne: {

@@ -217,9 +217,9 @@ export const People = {
         name: 'Oksana Tupikov',
         title: 'Account Coordinator',
         bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        movie: 'If Oksana was stranded on a deserted island, the three items she would take with her are a metal firestarter, a book about plants, and a German Shepard.',
+        vacation: 'If she could be any animal in the world, she would be a falcon.',
+        why: 'A job she would be terrible at is a truck driver.',
         image: Oksana
     },
     Brittany: {
