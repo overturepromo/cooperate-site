@@ -85,6 +85,11 @@
     margin: 5% 23%
 }
 
+.contact-form-div{
+    margin-top: 60px;
+    margin-bottom: 60px
+}
+
 @media(max-width:991px){
     .hero-contact{
         margin-top: 0;
@@ -96,4 +101,10 @@
     .contact-fun{
         font-size: 40px;
     }
+    .contact-form-div{
+        margin-bottom: 10px
+    }
+    .contact-form{
+        margin-top: 40px;
+    } 
 }

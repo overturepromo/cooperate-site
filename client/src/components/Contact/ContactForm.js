@@ -56,7 +56,7 @@ class ContactForm extends Component {
 
     render(){
         return (
-            <div className="container" style={{marginTop: '60px', marginBottom: '60px'}}>
+            <div className="container contact-form-div">
                 <div className="row">
                     <div className="col-md-4">
                     <div className="address">
