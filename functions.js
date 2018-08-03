@@ -27,8 +27,8 @@ exports.contactEmail = (name, company, email, phone, message) => {
     var transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'overturepromotions@gmail.com',
-        pass: 'X13Bilxzs'
+        user: process.env.MAIL_USER,
+        pass: process.env.MAIL_PASS
       }
     });
     var mailOptions = {
