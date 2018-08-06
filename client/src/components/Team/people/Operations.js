@@ -17,7 +17,7 @@ import Melissa from '../../../images/team/Operations/Melissa.jpg'
 import Shawn from '../../../images/team/Operations/Shawn.jpg'
 import Chintan from '../../../images/team/Operations/Chintan.jpg'
 import Kevin from '../../../images/team/Operations/Kevin.jpg'
-// import Jacob from '../../../images/team/Operations/Jacob.jpg'
+import Jacob from '../../../images/team/Operations/Jacob.jpg'
 
 export const People = {
     Don: {
@@ -207,6 +207,6 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        // image: Jacob
+        image: Jacob
     },
 }

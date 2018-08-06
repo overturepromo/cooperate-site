@@ -10,7 +10,7 @@ exports.contactEmail = (name, company, email, phone, message) => {
     });
     var mailOptions = {
       from: email,
-      to: 'jacobg@overturepromo.com',
+      to: 'jacobg@overturepromo.com', //hr@overturepromo.com 
       subject: 'You have a new contact request',
       html: `<h4>name:</h4> ${name} <h4>company:</h4> ${company} <h4>email:</h4> ${email} <h4>phone:</h4> ${phone} <h4>message:</h4> ${message}`,
     };
