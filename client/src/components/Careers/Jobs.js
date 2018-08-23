@@ -47,11 +47,11 @@ class Jobs extends Component {
         return (
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Director, National Accounts</h3>
                         <h5 onClick={() => this.handleOn('national')} className="view-button">View Details</h5>
                         {this.state.national ? <National bye={this.handleOff} /> : null}
-                    </div>
+                    </div> */}
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Account Coordinator</h3>
                         <h5 onClick={() => this.handleOn('accountCoordinator')} className="view-button">View Details</h5>

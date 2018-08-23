@@ -69,7 +69,7 @@ export const People = {
     BrianL: {
         name: "Brian Lisinski",
         title: "CFO",
-        bio: "",
+        bio: "Brian brings 10 years of experience in Corporate Banking where he spent the majority of his time advising middle market companies on a multitude of financial topics. The people, the energy in the office, and the growth story are what attracted Brian to Overture and his financial expertise will make sure the Company can continue to afford those mandatory happy hours well into the future! When he is not in the office, Brian loves spending time with his (almost) high school sweetheart wife Carly, baby girl Kinsley, watching the Cubs, Blackhawks and squeezing in a round of golf or even volleyball at North Avenue Beach.",
         movie: "",
         vacation: "",
         why: '',
@@ -96,25 +96,25 @@ export const People = {
     AimeeE: {
         name: "Aimee Ericson",
         title: "Sales Manager",
-        bio: "",
-        movie: "",
-        vacation: "",
-        why: "",
+        bio: "When Aimee first came out of college she started at a large promotional products company where she started in inside sales. She trained with some of the most seasoned salespeople (one being our very own, Joe Hazan). At that time she learned the foundation of sales: service, service, service. In her spare time, she loves to run, a new hobby she recently took up and spending time her husband, Dave, her daughter, Kaci, and her son, Brady.",
+        movie: "It changes all this time....this week it is 'Just Friends'.",
+        vacation: "Grand Wailea in Maui, Hawaii.",
+        why: "I have been with Overture since the beginning of its existence. Watching our company blossom into what it is today has been an incredible journey. No challenge is too hard to conquer and each one has made this company stronger. I am proud to say that I am part Overture and I can't wait to see what we do next!",
         image: Aimee
     },
     BenB: {
         name: "Ben Barrows",
         title: "Sales Manager",
-        bio: "",
-        movie: "",
-        vacation: "",
-        why: "",
+        bio: "Joining the promotional marketing industry in 2005, Ben Barrows has quickly developed a vast product knowledge that his rapidly growing client base definitely seems to appreciate. His favorite part of the job? Ben loves the creative aspect. 'Coming up with completely unique products that nobody has ever seen before and also products that resonate with my clients brand name and voice is the biggest challenge of my job, but that's what I love.' Ben has three children and enjoys playing basketball or watching sports.",
+        movie: "Kung Fu Panda (I have 3 young children...)",
+        vacation: "Santa Barbara, CA. Get to see family and the beautiful California coast all at the same time!",
+        why: "I chose Overture because customer service is their number one priority. The team atmosphere created as well as going above and beyond for our clients is what I feel separates us from our competition",
         image: Ben
     },
     BobbyH: {
         name: "Bobby Hazan",
         title: "Sales Manager",
-        bio: "",
+        bio: "Bobby came to Overture in 2014 after a 10 year career as a Crude Oil Options Trader.  In a short time, his amazing 6-person team now services Market-Leaders in Fashion, Academics, Aviation, and High Finance.  His team won the 2017 Overture Growth Award. Bobby loves to spend time outside of work with his beautiful wife and 3 amazing children.  He is a competitive Amateur Golfer and practices yoga regularly.  Bobby has an MBA and Accounting degree from Indiana University.",
         movie: "",
         vacation: "",
         why: "",
@@ -123,10 +123,10 @@ export const People = {
     CodyS: {
         name: "Cody Sanderson",
         title: "Sales Manager",
-        bio: "",
-        movie: "",
-        vacation: "",
-        why: "",
+        bio: "Cody's vision is to change the image of the Ad Specialty industry from companies that sell tsotchke items to companies that provide strategic marketing ideas and strategies. Cody shows no apprehension when it comes to approaching clients with new, creative, and groundbreaking ideas that blow away our competition. According to Cody, 'With all the advancements in technology, it's obvious that consumers now have the option to ignore radio, and television ads. Introducing creative and unique promotional items create unparalleled brand awareness and result in ROI much higher than traditional advertising mediums.' In his free time Cody enjoys cooking, live music, and going on adventures with his 7-year old son who he gathers all of his inspiration and drive from.",
+        movie: "Star Wars Episode VI: Return of the Jedi.",
+        vacation: "Northwestern Montana.",
+        why: "Because of Overture's fun, forward-thinking and creative environment.",
         image: Cody
     },
     CynthiaL: {
@@ -150,10 +150,10 @@ export const People = {
     FrankM: {
         name: "Frank Mixter",
         title: "Sales Manager",
-        bio: "",
-        movie: "",
-        vacation: "",
-        why: "",
+        bio: "Having over 25 years of experience in the advertising industry, Frank Mixter brings a wealth of knowledge along with a great sense of humor. Frank also played professional golf in the PGA for 17 years. Besides golf, Frank truly enjoys working closely with clients to help them with any of their marketing endeavors. Whether you have a question about which product to use for an upcoming event or how to fix your golf swing, Frank's the man to talk to.",
+        movie: "Caddy Shack.",
+        vacation: "Bora Bora, Tahiti.",
+        why: "Great people, great service and fantastic organization.",
         image: Frank
     },
     JeremyM: {
@@ -177,16 +177,16 @@ export const People = {
     LauraI: {
         name: "Laura Isaacs",
         title: "Sales Manager",
-        bio: "",
-        movie: "",
-        vacation: "",
-        why: "",
+        bio: "Laura has spent her entire professional career in the promotional products and brand marketing industry. A self-starter who worked through graduate school in the accounting department of a small marketing organization, her passion for finding the right product for the right customer and her natural marketing insight, found her quickly advancing to vice president of operations. Laura joined Overture in 2003 as vice president of sales, with her MSW from Northwestern University and twenty years of management and healthcare marketing experience. She brings a hands on approach to account management, creative product development and compliance education. Laura enjoys travelling with friends, yoga, wine and time with family and her dog Arwen.",
+        movie: "Braveheart - It's all about the scenery with a little historical heritage for me.",
+        vacation: "Scotland to visit family, the Highlands, the kilts, the pipes.",
+        why: "Overture is where I can be completely independent, with a whole team of creative people backing me up. All with a 'consider it done' philosophy, which is just the kind of support we need to succeed.",
         image: Laura
     },
     AmyW: {
         name: "Amy Waldorf",
         title: "Sales Manager",
-        bio: "",
+        bio: "Amy’s a California girl at heart, with a degree from Cal Poly, San Luis Obispo in Business Administration/Marketing. With over 20 years of sales and marketing experience in the US and Europe, Amy’s a master multi-tasker who brings a “can-do” attitude and appreciation for the value of building strong client relationships. When she’s not at work, she’s either outside, or on a plane ready to explore!",
         movie: "",
         vacation: "",
         why: "",
@@ -195,19 +195,19 @@ export const People = {
     BlakeW: {
         name: "Blake Wasson",
         title: "Sales Manager",
-        bio: "",
-        movie: "",
-        vacation: "",
-        why: "",
+        bio: "By focusing on developing strong, collaborative relationships that build brands and drive sales, Blake has developed fully integrated marketing plans for clients and their various AORs for brands including Gatorade, Pepsi, State Farm, Crown Imports, Rock & Roll Hall of Fame, Jim Beam, NFL, Prudential and more. Through those experiences, Blake has learned that the key to success is to ask the right questions to broaden our customer’s vision of what’s “out there” in the promotional space. Blake lives in La Grange with his wife, Erin, and their two children, Jack and Olivia. When not busy coaching various kids’ sports, Blake enjoys golf and traveling to any place close to a body of water.",
+        movie: "Permission for a 3-way tie…? Lone Survivor, Sound City, Braveheart",
+        vacation: "Off peak season in Cabo San Lucas",
+        why: "Overture’s leadership and positioning strategy paired with our amazing culture and first class creative. We are in an extremely competitive business and Overture has several key factors in place to create a unique space within our industry.",
         // image: Blake
     },
     BruceR: {
         name: "Bruce Robbin",
         title: "Sales Manager",
-        bio: "",
-        movie: "",
-        vacation: "",
-        why: "",
+        bio: "Bruce Robbin brings over twenty years of promotional product experience to Overture with a background in manufacturing and small business ownership. According to Bruce, 'Overture is the right place to be to utilize my expertise in the wellness industry. I like to be creative with products, development and design; I enjoy seeing projects completed from start to finish. My sales and service style has always been hands-on.'",
+        movie: "The Bourne trilogy, keeps me interested with the adventure and action. Just like my average work day.",
+        vacation: "Florida to see my granddaughter.",
+        why: "I can accomplish anything for my clients, thanks to our services and staff.",
         image: Bruce
     },
 }
