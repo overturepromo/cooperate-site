@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Hero from './Hero'
+import HeroTwo from './hero_v2'
 import SubFooter from '../SubFooter';
 import Work from './Work'
 import BigImages from './BigImages2';
@@ -11,7 +12,7 @@ const index = () => {
     topFunction();
     return (
         <div> 
-            <Hero />
+            <HeroTwo />
             <Work />
             <BigImages />
             <Clients />

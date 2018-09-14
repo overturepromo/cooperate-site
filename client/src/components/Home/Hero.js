@@ -10,23 +10,23 @@ import {Link as LinkScroll} from "react-scroll";
 const Hero = () => {
     return (
         <div>
-        <div  className="hero">
-            <div className="cta-home container">
-                <p className="home-cta-top">We're An Award Winning Promotional Product Agency That</p>
-                <p className="home-cta-middle">CREATES AWESOMENESS</p>
-                <Link to="/contact">
-                    <p className="home-cta-bottom">Ask us how 
-                        <span><img src={ArrowRight} style={{marginLeft: '10px'}} alt="arrow" /></span>
-                    </p>
-                </Link>
-                <div className='scroll-down'>
-                    <LinkScroll to="wordsOverlay" smooth={true} duration={500} >
-                        <img src={ScrollDown} alt="scroll-down" />
-                    </LinkScroll>
-                </div>   
+            <div className="hero">
+                <div className="cta-home container">
+                    <p className="home-cta-top">We're An Award Winning Promotional Product Agency That</p>
+                    <p className="home-cta-middle">CREATES AWESOMENESS</p>
+                    <Link to="/contact">
+                        <p className="home-cta-bottom">Ask us how 
+                            <span><img src={ArrowRight} style={{marginLeft: '10px'}} alt="arrow" /></span>
+                        </p>
+                    </Link>
+                    <div className='scroll-down'>
+                        <LinkScroll to="wordsOverlay" smooth={true} duration={500} >
+                            <img src={ScrollDown} alt="scroll-down" />
+                        </LinkScroll>
+                    </div>   
+                </div>
             </div>
-        </div>
-        <MobileCta />
+            <MobileCta />
         </div>
     )
 }
