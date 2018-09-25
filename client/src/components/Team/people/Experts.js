@@ -87,10 +87,10 @@ export const People = {
     SueN: {
         name: "Sue Nagelberg",
         title: "Office Manager",
-        bio: "",
-        movie: "",
-        vacation: "",
-        why: '',
+        bio: "I am currently the Office Manager at Overture which allows me to do a great variety of things which I really like. When not at work I like to spend my time with family and friends, I also enjoy sewing and doing craft projects.",
+        movie: "One of my favorite movies is Forrest Gump. This movie is a wonderful example of how we should all live . . . . . . enjoy life for what it is, don’t dwell on what you don’t have in life – enjoy what you have.",
+        vacation: "My favorite place to go is Lake Ann, Michigan. Lake Ann is the most relaxing spot that I’ve ever been to.  You are right on the lake, homes are spread out and it’s so very peaceful.  If you’ve never been there and you’re looking for a quiet and relaxing spot then Lake Ann, MI is where you need to go.",
+        why: 'Overture Promotions was a customer of mine while I worked for my previous employer. Everyone that I came in contact with at Overture was very nice and seemed to be happy with their job, so when it came time for me to look for a job I decided that I would check with Overture to see if there was an opportunity here for me…..the rest is history.',
         image: Sue,
     },
     AimeeE: {

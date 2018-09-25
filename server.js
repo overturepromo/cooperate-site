@@ -46,7 +46,10 @@ const client = knox.createClient({
 //api calls
 app.post('/contact', (req, res) => {
   res.send();
-  fn.contactEmail(req.body.name, req.body.company, req.body.email, req.body.phone, req.body.message)
+  fn.contactEmail(req.body.name, req.body.company, req.body.email, req.body.phone, req.body.message).catch((err) => {
+    console.log(err);
+    //Right here we will want to be able to send an email to me of what the actual error was via nodmailer
+  }); 
 })
 
 app.post('/apply', upload.single('selectedFile'), (req, res) => {
