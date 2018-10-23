@@ -201,6 +201,28 @@
     transform: translateX(-23%);;
 }
 
+.home-companies{
+    width: 25%;
+}
+
+.icon-description{
+    color: #919191;
+    margin-top: 20px;
+}
+
+.col-md-2.col-sm-3.col-xs-6{
+    text-align: center;
+    height: 200px;
+}
+
+.home-icon{
+    width: 80%;
+}
+
+.icon-div{
+    margin-top: 50px;
+}
+
 /* Mobile Stuff */
 
 .cta-mobile {
@@ -264,6 +286,9 @@
     }
     .video-container{
         margin-top: 0px;
+    }
+    .home-companies{
+        width: 50%;
     }
 }
 

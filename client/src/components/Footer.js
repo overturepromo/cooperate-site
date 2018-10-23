@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Map from '../images/home/map.svg';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import Dallas from '../images/home/love-dallas.svg';
+import Women from '../images/home/women-owned.svg';
 
 import '../styles/Footer.css'
 
@@ -20,9 +22,10 @@ class Footer extends Component {
                             <h5 className="info">F. 847.680.0114</h5>
                         </div>
                     </div>
-                    <div className="col-md-3">
-                        <img src={Map} alt="map" />
-                        <p className="map-paragraph">Headquarted in Chicago with over 200 warehouses nationwide</p>
+                    <div className="col-md-3 map-divy">
+                        <img src={Map} alt="map" /><br />
+                        <img src={Dallas} alt="Love-dallas" style={{margin: '30px 0 15px 0'}} />
+                        <p className="map-paragraph">Nationwide network of 200 warehouses + Canadian partner</p>
                     </div>
                     <div className="col-md-5 footer-right-nav">
                         <div className="footer-nav-links" style={{display: 'flex', justifyContent: "flex-end"}}>
@@ -36,13 +39,13 @@ class Footer extends Component {
                                 <h5 className="footer-link">Careers</h5>
                             </Link>
                         </div>
+                        <div>
+                            <img src={Women} alt="women-owned" style={{marginTop: '25px'}} />
+                        </div>
                         <div className="socials" style={{padding: '40px 0'}}>
                             <a href="https://www.facebook.com/OverturePromotions/" target="blank"><i className="fa fa-facebook" style={footerIcons}></i></a>
-                            <a href="https://www.instagram.com/overturepromotions/" target="blank"><i className="fa fa-instagram" style={footerIcons}></i></a>
                             <a href="https://twitter.com/overturepromo?lang=en" target="blank"><i className="fa fa-twitter" style={footerIcons}></i></a>
-                            <a href="https://www.youtube.com/channel/UC2UrwEV2nWeT1r0buLXRfXw" target="blank"><i className="fa fa-youtube" style={footerIcons}></i></a>
                         </div>
-                        <h5>&copy; 2018 Overture, LLC</h5>
                     </div>
                 </div>
             </div>
@@ -55,7 +58,7 @@ class Footer extends Component {
 const footerIcons = {
     color: "#ef7521",
     fontSize: "2.2em",
-    marginLeft: "35px"
+    marginLeft: "10px"
 }
 
 export default Footer;

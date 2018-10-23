@@ -14,7 +14,7 @@ class Hero extends Component {
     }
     render(){    
         return (
-            <div style={{width: '100vw', height: '90vh', overflowX: 'hidden'}}>
+            <div style={{width: '100%', height: '90vh', overflowX: 'hidden', overflowY: 'hidden'}}>
                 <video style={{width: '100%', height: '100%', objectFit: 'cover'}} autoPlay muted loop id="myVideo">
                     <source src={MyVideo} type="video/mp4" />
                 </video>

@@ -1,11 +1,9 @@
 import React from 'react';
-
-import Hero from './Hero'
+import Images from './Images'
+import Icons from './Icons';
 import HeroTwo from './hero_v2'
 import SubFooter from '../SubFooter';
 import Work from './Work'
-import BigImages from './BigImages2';
-import Clients from './Clients'
 import Video from './Video'
 
 const index = () => {
@@ -14,8 +12,8 @@ const index = () => {
         <div> 
             <HeroTwo />
             <Work />
-            <BigImages />
-            <Clients />
+            <Images />
+            <Icons />
             <Video />
             <SubFooter />
         </div>
