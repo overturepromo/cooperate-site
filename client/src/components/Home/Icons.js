@@ -22,7 +22,7 @@ const Icons = () => {
             <div className="words-overlay">
                 <Element className='big-words' name="wordsOverlay">control freaks.</Element>
                 <div className="container green-words-box">
-                    <span className="small-green-words">End-to-End in-house services.</span>
+                    <span className="small-orange-words">End-to-End in-house services.</span>
                     <p className="home-descriptions">Which gives us greater supply chain control, lower costs and faster turnaround.</p>
                 </div>
             </div>

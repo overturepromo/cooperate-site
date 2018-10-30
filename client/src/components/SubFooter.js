@@ -8,8 +8,8 @@ const SubFooter = () => {
             <div className="some-fun">
                 <div className="contact-box">
                     <div className="contact-small">
-                        <h2 className="contact-fun">Let's have some fun.</h2>
-                        <p className="contact-p">Get in touch and we'll contact you to discuss how we can help boost your brand. We'll knock your socks off, guaranteed.</p>
+                        <h2 className="contact-fun">We'll knock your socks off, guaranteed.</h2>
+                        <p className="contact-p">Let's discuss how we can help boost your brand.</p>
                         <Link className="contact-button-footer" to="/contact">CONTACT US</Link>
                     </div>
                 </div>

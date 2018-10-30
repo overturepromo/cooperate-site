@@ -46,27 +46,52 @@
     text-align: center;
 }
 
+.core-row{
+    background-color: #eeeeee;
+    padding: 50px 0;
+}
+
+.footer-copy{
+    background-color: #dbdbdb;
+    text-align: center;
+    padding: 10px;
+}
+
+.core-text{
+    color: #636363;
+}
+
+.core-image{
+    width: 80%;
+    margin-top: 15px;
+}
+
+.copy-text{
+    color: #636363;
+    margin: 0;
+}
+
 
 @media(max-width:991px){
     .footer-nav-links{
         display: none !important;
     }
     .footer-right-nav{
-        text-align: left;
+        text-align: center;
     }
     .social{
         margin-left: 0px;
         margin-right: 35px;
     }
-    .map-paragraph{
-        text-align: left !important;
+    .contact-col{
+        text-align: center;
     }
-    .footer-container{
-        margin-left: 5%;
-        margin-right: 5%;
+    .core-image{
+        margin-bottom: 25px;
+        width: 50%;
     }
-    .map-divy{
-        text-align: left;
+    .core-center{
+        text-align: center;
     }
 }
 

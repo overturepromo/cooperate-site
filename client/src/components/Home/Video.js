@@ -32,7 +32,7 @@ class Video extends Component {
             <div className="container video-container">
                     <div className="row">
                         <div className="col-md-8">
-                            <span className="small-words-video">Who we are</span>
+                            <span className="small-blue-words">Who we are</span>
                             <p className="home-descriptions">
                                 We believe in providing high quality and creative promotional products. We believe in efficent and cost-effective programs. We believe in stellar customer service and having fun. That's Overture.
                             </p>

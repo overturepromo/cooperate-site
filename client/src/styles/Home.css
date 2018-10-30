@@ -54,6 +54,12 @@
     font-family: Proxima-bold
 }
 
+.small-orange-words{
+    font-size: 60px;
+    color: #ef7521;
+    font-family: Proxima-bold
+}
+
 .home-descriptions{
     color: #919191;
     font-size: 24px
@@ -99,7 +105,7 @@
     margin-top: -120px;
 }
 
-.small-clients{
+.small-blue-words{
     font-size: 60px;
     color: #3babc5;
     font-family: Proxima-bold
@@ -264,20 +270,6 @@
     .words-overlay{
         margin-top: 140px;
     }
-    .nbc-box{
-        width: 100%;
-        margin-left: 0;
-        margin-bottom: 15px;
-    }
-    .speaker{
-        height: auto
-    }
-    .cubs-box{
-        width: 100%
-    }
-    .big-clients{
-        display: none;
-    }
     .words-overlay-two{
         margin-top: 145px;
     }
@@ -289,6 +281,7 @@
     }
     .home-companies{
         width: 50%;
+        padding: 10px;
     }
 }
 
@@ -324,5 +317,8 @@
     }
     .home-modals{
         top: 5%;
+    }
+    .home-companies{
+        width: 100%
     }
 }

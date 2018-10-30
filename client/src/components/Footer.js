@@ -11,7 +11,7 @@ class Footer extends Component {
         return (
             <div className="container footer-container">
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-4 contact-col">
                         <div className="address">
                             <h4 className="overture" >Overture, LLC</h4>
                             <h5 className="info">595 Lakeview Parkway</h5>

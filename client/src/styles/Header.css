@@ -2,7 +2,10 @@
     position: absolute;
     z-index: 5;
     top: 5%;
-    left: 10%;
+}
+
+.header-desktop{
+    padding-left: 10%
 }
 
 nav {
