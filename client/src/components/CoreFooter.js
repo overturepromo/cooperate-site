@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Core from '../images/home/logo_core.svg';
 
 import "../styles/Footer.css";
@@ -10,7 +11,9 @@ const CoreFooter = () => {
                 <div className="container">
                     <div className="row core-center">
                         <div className="col-md-3 core-col">
-                            <img className="core-image" src={Core} />
+                            <Link to="/corevalues">
+                                <img className="core-image" src={Core} />
+                            </Link>
                         </div>
                         <div className="col-md-3">
                             <p className="core-text">Live With Integrity and Respect</p>

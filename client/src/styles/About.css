@@ -6,6 +6,11 @@
     background-size: cover;
 }
 
+.basic{
+    color: #696969;
+    font-size: 18px;
+}
+
 .about-cta-top{
     font-size: 70px;
     color: white;
@@ -67,41 +72,54 @@
     font-size: 20px;
 }
 
-.programs-orange{
-    font-size: 60px;
-    color: #ef7521;
-    font-family: Proxima-bold
+.what-we-do{
+    display: flex;
 }
 
-.programs-paragraph{
-    color: #919191;
-    font-size: 20px;
-    width: 90%;
+.we-do-right{
+    margin-left: 30%;
 }
 
-.about-corona{
-    margin-top: 60px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+ul{
+    list-style-type: none;
+    padding: 0;
 }
 
-.about-music{
-    margin-left: 25%
+.we-do-green{
+    color: #b4cb22;
+    font-size: 18px;
+    line-height: 2;
 }
 
-.customized-programs{
+.about-video{
     margin-top: 100px;
+    text-align: center;
 }
 
-.about-program-links{
+.how-we-work{
+    background-image: url('../images/about/howwework.jpg');
+    background-size: cover;
+    height: 408px;
+    position: relative;
+}
+
+.how-box{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7)
+}
+
+.about-orange-words{
     color: #ef7521;
-    font-size: 24px;
-    margin: 5px 0;
+    font-size: 60px;
+    font-family: Proxima-bold;
 }
 
-.about-program-links:hover{
-    cursor: pointer;
-    color: #ce5400;
+.company-stores{
+    margin-top: 150px;
 }
 
 .awards-div{
@@ -167,6 +185,15 @@
     .strange-images{
         text-align: center;
     }
+    .how-box{
+        right: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 78%;
+    }
+    .company-stores {
+        margin-top: 25px;
+    }
 }
 
 @media(max-width:767px){
@@ -212,17 +239,26 @@
     .history-box{
         margin-top: 40px
     }
+    .how-we-work{
+        height: 555px;
+    }
+    .about-orange-words{
+        font-size: 32px;
+    }
     .mobile-abstract{
         display: block;
     }
     .desktop-abstract{
         display: none !important;
     }
-    .history-paragraph{
-        margin-bottom: -60px;
+    .what-we-do{
+        display: block
     }
-    .programs-orange{
-        font-size: 45px;
+    .we-do-right{
+        margin-left: 0;
+    }
+    .about-video{
+        margin-top: 35px;
     }
     .awards-div{
         margin-top: 50px !important;
@@ -235,34 +271,5 @@
     }
     .awards-bottom-title {
         font-size: 20px;
-    }
-    .network-globe{
-        display: none;
-    }
-    .mobile-globe{
-        display: block;
-    }
-    .mobile-globe-image{
-        width: 90%;
-    }
-    .about-corona{
-        height: 110px;
-        margin-left: 15px
-    }
-    .about-hats{
-        height: 110px
-    }
-    .about-music{
-        margin-left: 5%;
-        margin: 0
-    }
-    .customized-programs{
-        margin-top: 30px;
-    }
-    #program-globe{
-        margin-top: 35px;
-    }
-    #data-title{
-        margin-top: -25px;
     }
 }

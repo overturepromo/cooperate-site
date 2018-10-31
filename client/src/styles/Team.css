@@ -33,6 +33,7 @@
     margin: 50px 0;
 }
 
+
 .employee-card:hover{
     cursor: pointer;
 }
@@ -119,6 +120,9 @@
     }
     .jump-link{
         margin: 5px 0;
+    }
+    .employee-card{
+        padding-left: 8%;
     }
 }
 

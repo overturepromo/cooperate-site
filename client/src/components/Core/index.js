@@ -1,10 +1,7 @@
 import React from 'react';
-
 import Hero from './Hero';
-import AbstractImages from './AbstractImages';
-import History from './History';
-import Work from './Work';
-import Awards from './Awards';
+import Values from './Values';
+import Stuff from './Stuff';
 import SubFooter from '../SubFooter';
 
 
@@ -13,18 +10,16 @@ const index = () => {
     return (
         <div>
             <Hero />
-            <AbstractImages />
-            <History />
-            <Work />
-            <Awards />
+            <Values />
+            <Stuff />
             <SubFooter />
         </div>
     )
 }
 
+export default index;
+
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-
-export default index;

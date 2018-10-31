@@ -7,7 +7,7 @@ class Hamburger extends Component {
         return (
             <div className='whole-burger'>
             <div className="hamburger-div">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col-xs-2">
                             <i className="fa fa-times" onClick={() => this.props.noCheese(false)}></i>

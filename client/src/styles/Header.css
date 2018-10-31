@@ -2,10 +2,7 @@
     position: absolute;
     z-index: 5;
     top: 5%;
-}
-
-.header-desktop{
-    padding-left: 10%
+    width: 100%;
 }
 
 nav {

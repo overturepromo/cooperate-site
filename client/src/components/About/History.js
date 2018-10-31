@@ -25,11 +25,34 @@ class History extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col-md-8 history-box">
-                        <span className="green-history">Our history</span>
-                        <p className="history-paragraph">Established in 2001, Overture has grown from a small two person boutique agency to over 125 employees today and one of the largest promotional product agencies. Overture has experienced tremendous growth and is ranked as one of the Top 30 Distributors by Promotional Marketing as well as one of the Best Places to Work by Counselor Magazine. Overture is a privately-held, certified women-owned business (WBE) that offers thousands of advertising specialties and promotional items from both domestic and internatioal markets. Our management team consists of individuals who have more than 30 years of experience in the promotional products industry.</p>
+                    <div className="col-md-7 history-box">
+                        <span className="green-history">What we do.</span>
+                        <p className="history-paragraph">Creating effective promotional programs covers a lot of ground. Here are some of the services we offer:</p>
+                        <div className="what-we-do">
+                            <div className="we-do-left">
+                                <ul>
+                                    <li className="we-do-green">International sourcing</li>
+                                    <li className="we-do-green">Brand activation</li>
+                                    <li className="we-do-green">Licensed merchandise</li>
+                                    <li className="we-do-green">Dealer networks</li>
+                                    <li className="we-do-green">Webstores/ecommerce</li>
+                                    <li className="we-do-green">Print collateral</li>
+                                    <li className="we-do-green">Employee recognition</li>
+                                </ul>
+                            </div>
+                            <div className="we-do-right">
+                                <ul>
+                                    <li className="we-do-green">Kit assembly</li>
+                                    <li className="we-do-green">Tradeshow giveaways</li>
+                                    <li className="we-do-green">Incentives</li>
+                                    <li className="we-do-green">Retail programs</li>
+                                    <li className="we-do-green">Graphic design</li>
+                                    <li className="we-do-green">International shipping, logistics</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div className="col-md-4 office-video-box" style={{textAlign: 'center', marginTop: '100px'}} onClick={this.openModal} >
+                    <div className="col-md-5 about-video" onClick={this.openModal} >
                         <img src={VideoButton} alt="play-button" />
                         <p className="cta-video-text">CHECK OUT OUR OFFICE</p>
                     </div>
