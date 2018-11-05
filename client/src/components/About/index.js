@@ -5,6 +5,8 @@ import AbstractImages from './AbstractImages';
 import History from './History';
 import Work from './Work';
 import Awards from './Awards';
+import Data from './Data';
+import Rockstars from './Rockstars';
 import SubFooter from '../SubFooter';
 
 
@@ -16,7 +18,9 @@ const index = () => {
             <AbstractImages />
             <History />
             <Work />
+            <Data />
             <Awards />
+            <Rockstars />
             <SubFooter />
         </div>
     )

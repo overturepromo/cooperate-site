@@ -1,5 +1,4 @@
 import React from 'react';
-import {Element} from "react-scroll";
 
 import Ecommerce from '../../images/home/icons/ecommerce.svg';
 import Screen from '../../images/home/icons/screenprinting.svg';

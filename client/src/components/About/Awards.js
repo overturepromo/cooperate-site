@@ -5,7 +5,7 @@ const Awards = () => {
     return (
         <div className="awards-div">
             <div className="awards-title">
-                <h2 className="awards-top-title">Awards & accolades</h2>
+                <h2 className="awards-top-title">We win awards. Regularly.</h2>
                 <h6 className="awards-bottom-title">We're good at what we do. But don't take our word for it, see what others have to say about us.</h6>
             </div>
             <div className="container">
