@@ -16,7 +16,7 @@ const Work = () => {
             <div className='container'>
                 <div className="row">
                     <div className="col-md-9">
-                        <p className="home-descriptions">Overture is an award-winning agency that develops effective promotional marketing programs for businesses of all sizes, including many of the world's largest brands. Our unconventional approach and full suite of in-house services allow us to give you a personalized promotional marketing program that is effortless, efficent and coast-effective.</p>
+                        <p className="home-descriptions">Whatever you call it – swag, branded merchandise or promo. We’re your award-winning, proactive partner in creating brand-building promotions, from giveaways to webstores to national or global programs.</p>
                     </div>
                 </div>
                 <div className="row">

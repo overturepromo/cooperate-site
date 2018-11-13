@@ -71,9 +71,7 @@ class ContactForm extends Component {
                         </div>
                         <div className="socials-contact">
                             <a href="https://www.facebook.com/OverturePromotions/" target="blank"><i className="fa fa-facebook" style={icons}></i></a>
-                            <a href="https://www.instagram.com/overturepromotions/" target="blank"><i className="fa fa-instagram" style={icons}></i></a>
                             <a href="https://twitter.com/overturepromo?lang=en" target="blank"><i className="fa fa-twitter" style={icons}></i></a>
-                            <a href="https://www.youtube.com/channel/UC2UrwEV2nWeT1r0buLXRfXw" target="blank"><i className="fa fa-youtube" style={icons}></i></a>
                         </div>
                     </div>
                     {this.state.form === false

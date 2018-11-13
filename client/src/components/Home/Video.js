@@ -4,6 +4,7 @@ import Modal from 'react-modal';
 import '../../styles/Home.css'
 import ArrowRight from '../../images/home/up_arrow.svg'
 import VideoButton from '../../images/home/play_icon.png'
+import PlayButton from '../../images/home/play.svg';
 import ImageGrid from '../../images/home/Imagegrid.jpg'
 
 
@@ -34,7 +35,7 @@ class Video extends Component {
                         <div className="col-md-8">
                             <span className="small-blue-words">Who we are</span>
                             <p className="home-descriptions">
-                                We believe in providing high quality and creative promotional products. We believe in efficent and cost-effective programs. We believe in stellar customer service and having fun. That's Overture.
+                            Overture in 140 characters: We’re certified women-owned. We’re creative. We’re control freaks (in a good, process-y way). We’re brand warriors. We obsess about customer service. And we’re family. 
                             </p>
                             <Link to="/about">
                                 <p className="arrow">About Us 
@@ -45,7 +46,7 @@ class Video extends Component {
                             </Link>
                         </div>
                         <div className="col-md-4 office-video-box" style={{textAlign: 'center', marginTop: '20px'}} onClick={this.openModal} >
-                            <img src={VideoButton} alt="play-button" />
+                            <img src={PlayButton} alt="play-button" />
                             <p className="cta-video-text">CHECK OUT OUR OFFICE</p>
                         </div>
                     </div>

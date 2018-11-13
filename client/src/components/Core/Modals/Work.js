@@ -14,9 +14,8 @@ const Work = (props) => {
             </div>
             <p className="values-quote">"I work hard, and I tend to play hard. I very seldom rest hard." - Jacqueline Bisset</p>
            <div style={styles.orange}></div>
-           <p className="values-paragraph">Maybe there's a happy little Evergreen that lives here. If you didn't have baby clouds, you wouldn't have big clouds. Exercising the imagination, experimenting with talents, being creative; these things, to me, are truly the windows to your soul. There's not a thing in the world wrong with washing your brush. Nothing's gonna make your husband or wife madder than coming home and having a snow-covered dinner. You have to make those little noises or it won't work.</p>
-           <p className="values-paragraph">A thin paint will stick to a thick paint. You don't want to kill all your dark areas they are very important. There are no mistakes. You can fix anything that happens.</p>
-           <p className="values-paragraph">We'll put some happy little leaves here and there. Maybe there's a happy little bush that lives right there. Let's make some happy little clouds in our world. Give him a friend, we forget the trees get lonely too.</p>
+           <p className="values-paragraph">We set aggressive (but realistic) goals, then work hard to meet and even exceed those goals. The key is to make sure that you don’t get so consumed in your work that you forget what is truly important: enjoying life, having fun and loving whatever it is that you do.</p>
+           <p className="values-paragraph">Some may suggest we’ve perfected the art of celebration, we think we understand that proper work-life balance is the key to evolving and not burning out. Life is not all about work and every conversation doesn’t need to be about business. Having this balance is what deepens our relationships and guides us in our pursuit of happiness.</p>
         </div>
     )
 }

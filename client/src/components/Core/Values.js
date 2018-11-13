@@ -59,15 +59,15 @@ class Values extends Component {
                         <img src={Nine} alt="one" className="values-img" onClick={() => this.openModal(8)} />
                     </div>
                 </div>
-                <Modal isOpen={this.state.showModal[0]}onRequestClose={this.closeModal} className="employee-modal"><Work close={() => this.closeModal()} /></Modal>
-                <Modal isOpen={this.state.showModal[1]}onRequestClose={this.closeModal} className="employee-modal"><Live close={() => this.closeModal()} /></Modal>
-                <Modal isOpen={this.state.showModal[2]}onRequestClose={this.closeModal} className="employee-modal"><Weird close={() => this.closeModal()} /></Modal>
-                <Modal isOpen={this.state.showModal[3]}onRequestClose={this.closeModal} className="employee-modal"><Be close={() => this.closeModal()} /></Modal>
-                <Modal isOpen={this.state.showModal[4]}onRequestClose={this.closeModal} className="employee-modal"><Take close={() => this.closeModal()} /></Modal>
-                <Modal isOpen={this.state.showModal[5]}onRequestClose={this.closeModal} className="employee-modal"><Communicate close={() => this.closeModal()} /></Modal>
-                <Modal isOpen={this.state.showModal[6]}onRequestClose={this.closeModal} className="employee-modal"><Do close={() => this.closeModal()} /></Modal>
-                <Modal isOpen={this.state.showModal[7]}onRequestClose={this.closeModal} className="employee-modal"><Integrity close={() => this.closeModal()} /></Modal>
-                <Modal isOpen={this.state.showModal[8]}onRequestClose={this.closeModal} className="employee-modal"><Solve close={() => this.closeModal()} /></Modal>
+                <Modal isOpen={this.state.showModal[0]}onRequestClose={this.closeModal} className="core-modal"><Work close={() => this.closeModal()} /></Modal>
+                <Modal isOpen={this.state.showModal[1]}onRequestClose={this.closeModal} className="core-modal"><Live close={() => this.closeModal()} /></Modal>
+                <Modal isOpen={this.state.showModal[2]}onRequestClose={this.closeModal} className="core-modal"><Weird close={() => this.closeModal()} /></Modal>
+                <Modal isOpen={this.state.showModal[3]}onRequestClose={this.closeModal} className="core-modal"><Be close={() => this.closeModal()} /></Modal>
+                <Modal isOpen={this.state.showModal[4]}onRequestClose={this.closeModal} className="core-modal"><Take close={() => this.closeModal()} /></Modal>
+                <Modal isOpen={this.state.showModal[5]}onRequestClose={this.closeModal} className="core-modal"><Communicate close={() => this.closeModal()} /></Modal>
+                <Modal isOpen={this.state.showModal[6]}onRequestClose={this.closeModal} className="core-modal"><Do close={() => this.closeModal()} /></Modal>
+                <Modal isOpen={this.state.showModal[7]}onRequestClose={this.closeModal} className="core-modal"><Integrity close={() => this.closeModal()} /></Modal>
+                <Modal isOpen={this.state.showModal[8]}onRequestClose={this.closeModal} className="core-modal"><Solve close={() => this.closeModal()} /></Modal>
             </div>
         )
     }

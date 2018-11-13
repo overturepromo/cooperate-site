@@ -181,6 +181,10 @@ img.active-users {
     width: 85%;
 }
 
+.decision-div{
+    margin-top: 50px;
+}
+
 .awards-div{
     background-image: url('../images/about/awards_bg.png');
     margin-top: 100px;
@@ -232,6 +236,10 @@ img.active-users {
 .about-images-two {
     display: flex;
     align-items: flex-start;
+}
+
+.rockstars{
+    margin-bottom: 50px;
 }
 
 .rock-one, .rock-two{
@@ -305,6 +313,12 @@ img.active-users {
     .col-md-6.data-graphic {
         margin-top: 40px;
     }
+    .decision-div{
+        margin-top: 10px;
+    }
+    .service-div{
+        margin-top: 0;
+    }
 }
 
 @media(max-width:767px){
@@ -345,7 +359,7 @@ img.active-users {
         margin-bottom: 24%
     }
     .green-history, .green-network{
-        font-size: 45px;
+        font-size: 32px;
     }
     .history-box{
         margin-top: 40px
@@ -385,5 +399,8 @@ img.active-users {
     }
     .awards-bottom-title {
         font-size: 20px;
+    }
+    .rockstars{
+        margin-bottom: 25px;
     }
 }

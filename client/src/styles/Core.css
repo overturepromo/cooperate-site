@@ -1,3 +1,15 @@
+.core-modal{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    outline: 0;
+    transform: translateX(-50%);
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    overflow-y: auto
+}
+
 .values-img-div{
     text-align: center;
 }
@@ -60,6 +72,9 @@ p.values-paragraph {
     }
     .values-img{
         width: 24%;
+    }
+    .core-modal{
+        bottom: 10%;
     }
 }
 

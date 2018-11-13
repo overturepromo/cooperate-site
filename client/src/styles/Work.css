@@ -34,6 +34,18 @@
     font-size: 20px;
 }
 
+.programs-orange{
+    font-size: 60px;
+    color: #ef7521;
+    font-family: Proxima-bold
+}
+
+.programs-paragraph{
+    color: #919191;
+    font-size: 20px;
+    width: 90%;
+}
+
 .rows {
     display: flex;
     flex-wrap: wrap;
@@ -75,6 +87,28 @@
     margin: 5px 0;
 }
 
+.house-one, .house-two{
+    width: 45%
+}
+
+.house-one{
+    margin: 20px 20px 20px 0;
+}
+
+.house-two{
+    margin: 40px 0 20px 0;
+    padding-top: 40px;
+}
+
+.house-three{
+    width: 75%;
+    margin-right: 70px;
+}
+
+.work-bottomer{
+    text-align: right;
+}
+
 @media(max-width:991px){
     .hero-work{
         margin-top: 0;
@@ -94,6 +128,10 @@
 } */
 
 @media (max-width: 767px){
+
+    .programs-orange{
+        font-size: 45px;
+    }
     .work-music {
         margin-left: 0;
         height: 275px;
@@ -128,6 +166,15 @@
     }
     .how-we-warehouse{
         margin: 10px 0
+    }
+    .work-images-odd{
+        padding: 0;
+    }
+    .house-two{
+        margin: 40px 0 10px 0;
+    }
+    .house-one{
+        margin: 20px 10px 20px 0;
     }
 }
 

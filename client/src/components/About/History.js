@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
 
-import VideoButton from '../../images/home/play_icon.png'
+import VideoButton from '../../images/home/play_icon.png';
+import PlayButton from '../../images/home/play.svg';
 
 class History extends Component {
 
@@ -53,7 +54,7 @@ class History extends Component {
                         </div>
                     </div>
                     <div className="col-md-5 about-video" onClick={this.openModal} >
-                        <img src={VideoButton} alt="play-button" />
+                        <img src={PlayButton} alt="play-button" />
                         <p className="cta-video-text">CHECK OUT OUR OFFICE</p>
                     </div>
                 </div>

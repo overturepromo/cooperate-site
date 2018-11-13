@@ -21,7 +21,7 @@ class Data extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="container">
+                <div className="container decision-div">
                     <div className="row">
                         <h4 className="about-orange-words">How we help you make decisions.</h4>
                         <p className="basic">We're always looking at comprehensive data across all programs, conducting meta-analysis to ensure that your promotional programs incorporate best practices for effectiveness and efficiency. Once your promotional program is up and running, we use cutting-edge data analytics to inform ongoing adjustments and planning, and we give you access to extensive, customizable reporting for your own reporting and planning requirements.</p>

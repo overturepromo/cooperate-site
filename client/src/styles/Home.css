@@ -181,7 +181,6 @@
 
 .image-grid {
     width: 100%;
-    margin: 40px 0
 }
 
 .uber,
@@ -337,6 +336,9 @@
     .small-green-words {
         font-size: 32px;
         color: #ef7521;
+    }
+    .small-orange-words, .small-blue-words {
+        font-size: 32px;
     }
     .small-clients {
         font-size: 32px

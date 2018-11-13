@@ -7,13 +7,12 @@ import "../styles/Footer.css";
 const CoreFooter = () => {
     return (
         <div className="core-footer">
+        <Link to="/corevalues">
             <div className="container-fluid core-row">
                 <div className="container">
                     <div className="row core-center">
                         <div className="col-md-3 core-col">
-                            <Link to="/corevalues">
                                 <img className="core-image" src={Core} />
-                            </Link>
                         </div>
                         <div className="col-md-3">
                             <p className="core-text">Live With Integrity and Respect</p>
@@ -36,6 +35,7 @@ const CoreFooter = () => {
             <div className="footer-copy">
                 <p className="copy-text">&copy; 2018 Overture, LLC</p>
             </div>
+            </Link>
         </div>
     )
 }

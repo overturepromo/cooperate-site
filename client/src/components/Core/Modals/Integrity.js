@@ -6,17 +6,16 @@ const Integrity = (props) => {
         <div className="live-modal">
             <div className="row">
                 <div className='col-xs-6'>
-                    <h4 className="values-title">Live Proud, Maintain Humility</h4>
+                    <h4 className="values-title">Live with Integrity & Respect</h4>
                 </div>
                 <div className='col-xs-6' style={{textAlign: 'right'}}>
                 <img src={Close} alt="" className="close-img-team" onClick={props.close} /><br />
                 </div>
             </div>
-            <p className="values-quote">"I work hard, and I tend to play hard. I very seldom rest hard." - Jacqueline Bisset</p>
+            <p className="values-quote">“Live in such a way that you would not be ashamed to sell your parrot to the town gossip.” – Will Rogers</p>
            <div style={styles.orange}></div>
-           <p className="values-paragraph">Maybe there's a happy little Evergreen that lives here. If you didn't have baby clouds, you wouldn't have big clouds. Exercising the imagination, experimenting with talents, being creative; these things, to me, are truly the windows to your soul. There's not a thing in the world wrong with washing your brush. Nothing's gonna make your husband or wife madder than coming home and having a snow-covered dinner. You have to make those little noises or it won't work.</p>
-           <p className="values-paragraph">A thin paint will stick to a thick paint. You don't want to kill all your dark areas they are very important. There are no mistakes. You can fix anything that happens.</p>
-           <p className="values-paragraph">We'll put some happy little leaves here and there. Maybe there's a happy little bush that lives right there. Let's make some happy little clouds in our world. Give him a friend, we forget the trees get lonely too.</p>
+           <p className="values-paragraph">Responsibilities Remember to always live by the “Golden Rule” – treat others the way you would want them to treat you. We hold the door open for others, we say “please” and “thank you”, we don’t engage in office gossip or say hurtful things to others. We treat each other as family. At Overture, we genuinely believe it is important to adhere to the highest moral and ethical standards.</p>
+           <p className="values-paragraph">This commitment to truth and mutual respect is displayed throughout all levels of the company, as well as across our supplier and client partners. The Overture culture is not only about how we behave towards each other within our walls, but also how we represent ourselves in the general community every day.</p>
         </div>
     )
 }
