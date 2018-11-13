@@ -7,24 +7,36 @@
     background-size: cover;
 }
 
-#bg-video-style{
+#video-box {
+    height: 90vh;
     width: 100%;
-    height: 100%; 
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#bg-video-style {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
+.hero-text {
+    height: 160px;
+}
+
 .cta-home {
-   position: absolute;
-   top: 40%;
-   left: 10%;
-   z-index: 999;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    z-index: 999;
 }
 
 .home-cta-top,
 .home-cta-bottom {
     color: white;
     font-size: 24px;
-    line-height: 0
+    line-height: 1;
+    margin-top: 25px;
 }
 
 .home-cta-middle {
@@ -35,32 +47,39 @@
 
 .scroll-down {
     text-align: right;
-    margin-top: 0%;
+    margin-top: -12%;
     cursor: pointer;
 }
 
-.big-words{
+#myVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.big-words {
     font-size: 160px;
     font-family: Proxima-bold;
     color: #eeeeee
 }
-.green-words-box{
+
+.green-words-box {
     margin-top: -109px
 }
 
-.small-green-words{
+.small-green-words {
     font-size: 60px;
     color: #b4cb22;
     font-family: Proxima-bold
 }
 
-.small-orange-words{
+.small-orange-words {
     font-size: 60px;
     color: #ef7521;
     font-family: Proxima-bold
 }
 
-.home-descriptions{
+.home-descriptions {
     color: #919191;
     font-size: 24px
 }
@@ -71,11 +90,12 @@
     width: 100%;
 }
 
-.nbc, .cubs {
+.nbc,
+.cubs {
     width: 100%;
 }
 
-.nbc-box{
+.nbc-box {
     width: 80%;
     margin-left: 20%
 }
@@ -86,54 +106,54 @@
     width: 100%;
 }
 
-.cubs-box{
+.cubs-box {
     width: 80%;
 }
 
-.words-overlay-two{
+.words-overlay-two {
     text-align: right;
 }
 
-.big-clients{
+.big-clients {
     font-size: 160px;
     font-family: Proxima-bold;
     color: #eeeeee;
     text-align: right;
 }
 
-.small-blue-words{
+.small-blue-words {
     margin-top: -120px;
 }
 
-.small-blue-words{
+.small-blue-words {
     font-size: 60px;
     color: #3babc5;
     font-family: Proxima-bold
 }
 
-.logos-top{
+.logos-top {
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
-.logos-bottom{
+.logos-bottom {
     margin-bottom: 50px
 }
 
-.clients-logos{
+.clients-logos {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 125px;
 }
 
-.arrow{
+.arrow {
     font-size: 16px;
     margin-top: 40px;
     color: #383939;
 }
 
-.big-words-video{
+.big-words-video {
     font-size: 140px;
     font-family: Proxima-bold;
     color: #eeeeee;
@@ -142,46 +162,51 @@
     overflow-x: hidden;
 }
 
-.small-words-video{
+.small-words-video {
     font-size: 60px;
     color: #b4cb22;
     font-family: Proxima-bold
 }
 
-.video-container{
+.video-container {
     margin-top: -109px
 }
 
-.cta-video-text{
+.cta-video-text {
     color: #b4cb22;
     font-family: Proxima-bold;
     font-size: 18px;
     margin-top: 10px
 }
 
-.image-grid{
+.image-grid {
     width: 100%;
     margin: 40px 0
 }
 
-.uber, .nbc, .speaker, .cubs{
+.uber,
+.nbc,
+.speaker,
+.cubs {
     cursor: pointer;
 }
 
-.uber-open, .nbc-open, .speaker-open, .cubs-open{
+.uber-open,
+.nbc-open,
+.speaker-open,
+.cubs-open {
     width: 100%;
     height: 100%
 }
 
-
-.close-img{
+.close-img {
     position: absolute;
     left: 100%;
     margin-top: 20px;
     cursor: pointer;
 }
 
-.video-modal{
+.video-modal {
     outline: none;
     left: 50%;
     position: absolute;
@@ -189,43 +214,43 @@
     top: 25%;
 }
 
-.iframe-video{
-    width: 500; 
+.iframe-video {
+    width: 500;
     height: 281
 }
 
-
-.office-video-box:hover{
+.office-video-box:hover {
     cursor: pointer;
 }
 
-.home-modals{
+.home-modals {
     position: absolute;
     top: 0%;
     left: 32%;
     outline: 0;
-    transform: translateX(-23%);;
+    transform: translateX(-23%);
+    ;
 }
 
-.home-companies{
+.home-companies {
     width: 25%;
 }
 
-.icon-description{
+.icon-description {
     color: #919191;
     margin-top: 20px;
 }
 
-.col-md-2.col-sm-3.col-xs-6{
+.col-md-2.col-sm-3.col-xs-6 {
     text-align: center;
     height: 200px;
 }
 
-.home-icon{
+.home-icon {
     width: 80%;
 }
 
-.icon-div{
+.icon-div {
     margin-top: 50px;
 }
 
@@ -236,8 +261,8 @@
     background-image: url('../images/home/blue_bg.png')
 }
 
-@media(max-width: 1110px){
-    .big-words{
+@media(max-width: 1110px) {
+    .big-words {
         font-size: 125px;
     }
 }
@@ -246,6 +271,12 @@
     .hero {
         margin-top: 0px;
         height: 415px
+    }
+    #video-box {
+        height: 50vh;
+    }
+    .hero-text {
+        margin-top: 20px;
     }
     .cta-mobile {
         display: block;
@@ -267,19 +298,19 @@
     .big-words {
         display: none;
     }
-    .words-overlay{
+    .words-overlay {
         margin-top: 140px;
     }
-    .words-overlay-two{
+    .words-overlay-two {
         margin-top: 145px;
     }
-    .big-words-video{
+    .big-words-video {
         display: none;
     }
-    .video-container{
+    .video-container {
         margin-top: 0px;
     }
-    .home-companies{
+    .home-companies {
         width: 50%;
         padding: 10px;
     }
@@ -290,35 +321,42 @@
         height: 250px;
         margin-top: 44px;
     }
-    #bg-video-style{
+    #bg-video-style {
         height: 40%;
     }
-    .home-descriptions{
+    .cta-mobile {
+        clip-path: polygon(0 0, 100% 8%, 100% 100%, 0% 100%);
+        margin-top: -50px;
+    }
+    .hero-text {
+        margin-top: 50px;
+    }
+    .home-descriptions {
         font-size: 20px
     }
-    .small-green-words{
+    .small-green-words {
         font-size: 32px;
         color: #ef7521;
     }
-    .small-clients{
-        font-size: 32px 
+    .small-clients {
+        font-size: 32px
     }
-    .words-overlay-two{
+    .words-overlay-two {
         text-align: left;
     }
-    .logos-top{
+    .logos-top {
         margin-top: 0
     }
-    .small-words-video{
+    .small-words-video {
         font-size: 32px;
     }
-    .image-grid{
+    .image-grid {
         width: 160%;
     }
-    .home-modals{
+    .home-modals {
         top: 5%;
     }
-    .home-companies{
+    .home-companies {
         width: 100%
     }
 }

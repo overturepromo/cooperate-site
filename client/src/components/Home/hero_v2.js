@@ -5,6 +5,7 @@ import ScrollDown from '../../images/home/scrollDown.png'
 import '../../styles/Home.css'
 import MobileCta from './MobileCta';
 import MyVideo from '../../images/Video.mp4';
+import HeroText from '../../images/home/herotext.svg';
 
 import {Link as LinkScroll} from "react-scroll";
 
@@ -14,26 +15,29 @@ class Hero extends Component {
     }
     render(){    
         return (
-            <div style={{width: '100%', height: '90vh', overflowX: 'hidden', overflowY: 'hidden'}}>
-                <video style={{width: '100%', height: '100%', objectFit: 'cover'}} autoPlay muted loop id="myVideo">
-                    <source src={MyVideo} type="video/mp4" />
-                </video>
-                <div className="cta-home container">
-                    <p className="home-cta-top">We're An Award Winning Promotional Product Agency That</p>
-                    <p className="home-cta-middle">CREATES AWESOMENESS</p>
-                    <Link to="/contact">
-                        <p className="home-cta-bottom">Ask us how 
-                            <span><img src={ArrowRight} style={{marginLeft: '10px'}} alt="arrow" /></span>
-                        </p>
-                    </Link>
-                    <div className='scroll-down'>
-                        <LinkScroll to="wordsOverlay" smooth={true} duration={500} >
-                            <img src={ScrollDown} alt="scroll-down" />
-                        </LinkScroll>
-                    </div>  
+            <div>
+                <div id="video-box">
+                    <video autoPlay muted loop id="myVideo">
+                        <source src={MyVideo} type="video/mp4" />
+                    </video>
+                    <div className="cta-home container">
+                        <img src={HeroText} className="hero-text" />
+                        <p className="home-cta-top">Widley creative Promotional marketing programs +<br /> exacting supply chain control.</p>    
+                        <Link to="/contact">
+                            <p className="home-cta-bottom">Ask us how 
+                                <span><img src={ArrowRight} style={{marginLeft: '10px'}} alt="arrow" /></span>
+                            </p>
+                        </Link>
+                        <div className='scroll-down'>
+                            <LinkScroll to="wordsOverlay" smooth={true} duration={500} >
+                                <img src={ScrollDown} alt="scroll-down" />
+                            </LinkScroll>
+                        </div>  
+                    </div>                    
                 </div>
                 <MobileCta />
             </div>
+
         )
     }
 }
