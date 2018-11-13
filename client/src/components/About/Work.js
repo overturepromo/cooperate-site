@@ -14,7 +14,7 @@ const Work = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-7 company-stores">
-                        <h4 className="green-history">Company Stores</h4>
+                        <h4 className="about-blue-words">Company Stores</h4>
                         <p className="basic">We create elegant, easy to use, leading edge webstores which give our customers and easy-to-use platform for ordering branded merchandise, with marketing support and detailed reporting.</p>
                     </div>
                     <div className="col-md-5">

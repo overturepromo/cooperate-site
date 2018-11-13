@@ -15,6 +15,12 @@ class Header extends Component{
         this.setState({hamburger: boolean})
     }
 
+    colorChange = (links) => {
+        var link = document.getElementById(links);
+        console.log(link)
+        link.style.color = 'orange'
+    }
+
     render(){
         
         if(this.state.hamburger) return <Hamburger noCheese={this.handleClick} />
@@ -28,7 +34,7 @@ class Header extends Component{
                         </div>
                         <div className="col-md-7">
                             <nav>
-                                <Link className="nav-links" to="/">HOME</Link>
+                                <Link id="home-link" className="nav-links" to="/" onClick={() => this.colorChange('home-link')}>HOME</Link>
                                 <Link className="nav-links" to="/about">ABOUT</Link>
                                 <Link className="nav-links" to="/team">TEAM</Link>
                                 <Link className="nav-links" to="/work">WORK</Link>

@@ -15,7 +15,7 @@ const Rockstars = () => {
                         <img src={Service} className="service-image" />
                     </div>
                     <div className="col-md-8 service-div">
-                        <h4 className="about-orange-words">We obsess about customer service.</h4>
+                        <h4 className="green-history">We obsess about customer service.</h4>
                         <p className="basic">We invest in technology to improve our responsiveness. We respond quickly. We work proactively to send you new product ideas. We learn your business and are fierce protectors of your brand. We're resourceful problem-solvers and honest about things we can't do.</p>
                     </div>
                 </div>

@@ -148,8 +148,13 @@
     .hero-team{
         height: 400px;
     }
+    .employee-title{
+        margin: 5px 0 30px 0;
+    }
+
     /* This is the issue with the last name wrapping... */
     .employee-name{
-        font-size: 14px
+        font-size: 14px;
+        margin-bottom: -5px;
     }
 }

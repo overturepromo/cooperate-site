@@ -12,9 +12,10 @@ const Communicate = (props) => {
                 <img src={Close} alt="" className="close-img-team" onClick={props.close} /><br />
                 </div>
             </div>
-            <p className="values-quote"></p>
+            <p className="values-quote">“Great things in business are never done by one person; they’re done by a team of people.” – Steve Jobs</p>
            <div style={styles.orange}></div>
-           <p className="values-paragraph"></p>
+           <p className="values-paragraph">It’s much harder to accomplish tasks alone than it is with a team. Here at Overture, we rely on our teammates for assistance, guidance and ideas in order to accomplish our goals to our highest potential.</p>
+           <p className="values-paragraph">We value differences in opinion and encourage discussion amongst and across teams to guarantee the work we do is nothing less than excellent. When we communicate effectively and collaborate daily, we ensure we are always putting our best foot forward as a company.</p>
         </div>
     )
 }

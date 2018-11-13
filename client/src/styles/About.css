@@ -267,6 +267,12 @@ img.active-users {
     font-size: 20px;
 }
 
+.about-blue-words{
+    font-size: 60px;
+    color: #3babc5;
+    font-family: Proxima-bold
+}
+
 .mobile-abstract, .mobile-globe{
     display: none;
 }
@@ -315,6 +321,7 @@ img.active-users {
     }
     .decision-div{
         margin-top: 10px;
+        padding: 0 15px;
     }
     .service-div{
         margin-top: 0;
@@ -358,7 +365,7 @@ img.active-users {
         margin-left: 4%;
         margin-bottom: 24%
     }
-    .green-history, .green-network{
+    .green-history, .green-network, .about-blue-words{
         font-size: 32px;
     }
     .history-box{
@@ -403,4 +410,5 @@ img.active-users {
     .rockstars{
         margin-bottom: 25px;
     }
+    
 }

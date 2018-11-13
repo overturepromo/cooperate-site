@@ -20,19 +20,21 @@ class Hero extends Component {
                     <video autoPlay muted loop id="myVideo">
                         <source src={MyVideo} type="video/mp4" />
                     </video>
-                    <div className="cta-home container">
-                        <img src={HeroText} className="hero-text" />
-                        <p className="home-cta-top">Widley creative Promotional marketing programs +<br /> exacting supply chain control.</p>    
-                        <Link to="/contact">
-                            <p className="home-cta-bottom">Ask us how 
-                                <span><img src={ArrowRight} style={{marginLeft: '10px'}} alt="arrow" /></span>
-                            </p>
-                        </Link>
-                        <div className='scroll-down'>
-                            <LinkScroll to="wordsOverlay" smooth={true} duration={500} >
-                                <img src={ScrollDown} alt="scroll-down" />
-                            </LinkScroll>
-                        </div>  
+                    <div className="cta-home">
+                        <div className="container">
+                            <img src={HeroText} className="hero-text" />
+                            <p className="home-cta-top">Widley creative Promotional marketing programs +<br /> exacting supply chain control.</p>    
+                            <Link to="/contact">
+                                <p className="home-cta-bottom">Ask us how 
+                                    <span><img src={ArrowRight} style={{marginLeft: '10px'}} alt="arrow" /></span>
+                                </p>
+                            </Link>
+                            <div className='scroll-down'>
+                                <LinkScroll to="wordsOverlay" smooth={true} duration={500} >
+                                    <img src={ScrollDown} alt="scroll-down" />
+                                </LinkScroll>
+                            </div> 
+                        </div>   
                     </div>                    
                 </div>
                 <MobileCta />
