@@ -11,14 +11,22 @@ class Header extends Component{
     }
 
     handleClick = (boolean) => {
-        console.log(boolean)
         this.setState({hamburger: boolean})
     }
 
     colorChange = (links) => {
-        var link = document.getElementById(links);
-        console.log(link)
-        link.style.color = 'orange'
+
+        for(var i = 0; i < 5; i++){
+            document.querySelectorAll(".nav-links")[i].style.color = 'white'
+        }
+        var changeLink = document.getElementById(links);
+        changeLink.style.color = '#ef7521'
+    }
+
+    clearAll = () => {
+        for(var i = 0; i < 5; i++){
+            document.querySelectorAll(".nav-links")[i].style.color = 'white'
+        }
     }
 
     render(){
@@ -30,16 +38,16 @@ class Header extends Component{
                 <div className="container header-desktop">
                     <div className="row">
                         <div className="col-md-5">
-                            <Link to="/"><img src={Logo} style={{width: '234px', marginTop: '5px'}} alt="main-logo" /></Link>
+                            <Link to="/" onClick={() => this.colorChange('home-link')}><img src={Logo} style={{width: '234px', marginTop: '5px'}} alt="main-logo" /></Link>
                         </div>
                         <div className="col-md-7">
                             <nav>
                                 <Link id="home-link" className="nav-links" to="/" onClick={() => this.colorChange('home-link')}>HOME</Link>
-                                <Link className="nav-links" to="/about">ABOUT</Link>
-                                <Link className="nav-links" to="/team">TEAM</Link>
-                                <Link className="nav-links" to="/work">WORK</Link>
+                                <Link id="about-link" className="nav-links" to="/about" onClick={() => this.colorChange('about-link')}>ABOUT</Link>
+                                <Link id="team-link" className="nav-links" to="/team" onClick={() => this.colorChange('team-link')}>TEAM</Link>
+                                <Link id="work-link" className="nav-links" to="/work" onClick={() => this.colorChange('work-link')}>WORK</Link>
                                 <a href="http://catalog.overturepromo.com/" target="blank" className="nav-links">CATALOG</a>
-                                <Link className="contact-button" to="/contact">CONTACT US</Link>
+                                <Link className="contact-button" to="/contact" onClick={() => this.clearAll()}>CONTACT US</Link>
                             </nav>
                         </div>
                     </div>

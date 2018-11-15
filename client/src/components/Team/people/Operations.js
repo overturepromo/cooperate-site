@@ -18,6 +18,8 @@ import Shawn from '../../../images/team/Operations/Shawn.jpg'
 import Chintan from '../../../images/team/Operations/Chintan.jpg'
 import Kevin from '../../../images/team/Operations/Kevin.jpg'
 import Jacob from '../../../images/team/Operations/Jacob.jpg'
+import Tiffany from '../../../images/team/Operations/Tiffany.jpg';
+import Carolyn from '../../../images/team/Warehouse/Carolyn.jpg';
 
 export const People = {
     Don: {
@@ -67,7 +69,7 @@ export const People = {
     },
     Lisa: {
         name: 'Lisa Brandwein',
-        title: 'Accounts Receivable',
+        title: 'Accounts Receivable Clerk',
         bio: 'Lisa came to the Overture Family in 2014 to join our Accounting Department. With her vast background in billing, customer service and account management, working within Accounts Receivable is a perfect fit for Lisa. Lisa prides herself on being detail oriented, proactive and communicative in all aspects of her job. Connecting with our customers and going the extra step is really what is most rewarding about working at Overture. Outside of the office, Lisa spends most of her time with her husband and three children. She also enjoys working out, reading, and loves a night out with friends! ',
         movie: 'I can’t pick just one…..but I love a comedy',
         vacation: 'Anywhere tropical with a lounge chair',
@@ -76,7 +78,7 @@ export const People = {
     },
     Jen: {
         name: 'Jen Powles',
-        title: 'Accounts Receivable',
+        title: 'Sr. Accounts Receivable Clerk',
         bio: '',
         movie: '',
         vacation: '',
@@ -209,4 +211,31 @@ export const People = {
         why: '',
         image: Jacob
     },
+    Tiffany: {
+        name: 'Tiffany Cobwell',
+        title: 'Fulfillment Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Tiffany
+    },
+    Jeremy: {
+        name: 'Jeremy Schulz',
+        title: 'Inventory Control Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: ''
+        // image: 
+    },
+    Carolyn: {
+        name: 'Carolyn Maksudian',
+        title: 'Operations Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Carolyn
+    }
 }

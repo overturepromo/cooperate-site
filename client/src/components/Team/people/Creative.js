@@ -1,7 +1,7 @@
-import Christine from '../../../images/team/Creative/Christine.png';
+import Christine from '../../../images/team/Creative/Christine.jpg';
 import Laura from '../../../images/team/Creative/Laura.png';
 import Erin from '../../../images/team/Creative/Erin.png';
-import Brandon from '../../../images/team/Creative/Brandon.png';
+import Brandon from '../../../images/team/Creative/Brandon.jpg';
 import Emily from '../../../images/team/Creative/Emily.png';
 import Briana from '../../../images/team/Creative/Briana.jpg';
 

@@ -260,6 +260,7 @@
     background-image: url('../images/home/blue_bg.png')
 }
 
+
 @media(max-width: 1110px) {
     .big-words {
         font-size: 125px;

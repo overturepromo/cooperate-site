@@ -3,6 +3,7 @@ import Modal from 'react-modal';
 import {Element} from "react-scroll";
 import Employee from './Employee';
 import { People } from './people/Operations';
+import PlaceHolder from '../../images/team/ExpertsPhotos/PortraitPlaceholder.png'
 
 import '../../styles/Team.css'
 
@@ -31,6 +32,7 @@ class Operations extends Component {
             <div className="container">
                 <Element id="operations-orange">Operations & Logistics</Element>
                 <div className="row">
+                    <Employee image={People.Carolyn.image} name={People.Carolyn.name} title={People.Carolyn.title} />
                     <Employee image={People.Don.image} name={People.Don.name} title={People.Don.title} />
                     <Employee image={People.Roger.image} name={People.Roger.name} title={People.Roger.title} />
                     <Employee image={People.Kristin.image} name={People.Kristin.name} title={People.Kristin.title} />
@@ -46,6 +48,8 @@ class Operations extends Component {
                     <Employee image={People.Trina.image} name={People.Trina.name} title={People.Trina.title} />
                     <Employee image={People.Julie.image} name={People.Julie.name} title={People.Julie.title} />
                     <Employee image={People.Ashley.image} name={People.Ashley.name} title={People.Ashley.title} />
+                    <Employee image={People.Tiffany.image} name={People.Tiffany.name} title={People.Tiffany.title} />
+                    <Employee image={PlaceHolder} name={People.Jeremy.name} title={People.Jeremy.title} />
                     <Employee image={People.Melissa.image} name={People.Melissa.name} title={People.Melissa.title} />
                     <Employee image={People.Shawn.image} name={People.Shawn.name} title={People.Shawn.title} />
                     <Employee image={People.Chintan.image} name={People.Chintan.name} title={People.Chintan.title} />

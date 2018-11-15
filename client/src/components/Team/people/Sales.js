@@ -1,5 +1,5 @@
 // import Amy from '../../../images/team/Sales/Amy.jpg'
-// import Angela from '../../../images/team/Sales/Angela.jpg'
+import Angela from '../../../images/team/Sales/Angela.jpg'
 import Beth from '../../../images/team/Sales/Beth.jpg'
 import Danny from '../../../images/team/Sales/Danny.jpg'
 import Jenna from '../../../images/team/Sales/Jenna.jpg'
@@ -22,6 +22,7 @@ import Cindy from '../../../images/team/Sales/Cindy.jpg'
 import Oksana from '../../../images/team/Sales/Oksana.jpg'
 import Brittany from '../../../images/team/Sales/Brittany.jpg'
 import Anna from '../../../images/team/Sales/Anna.jpg'
+import Josella from '../../../images/team/Sales/Josella.jpg';
 
 export const People = {
     Amy: {
@@ -34,13 +35,13 @@ export const People = {
         // image: Amy
     },
     Angela: {
-        name: 'Angela Schmenitto',
+        name: 'Angela Shimenetto',
         title: 'Account Coordinator',
         bio: '',
         movie: '',
         vacation: '',
         why: '',
-        // image: Angela
+        image: Angela
     },
     Beth: {
         name: 'Beth Becker',
@@ -239,5 +240,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Anna
+    },
+    Josella: {
+        name: 'Josella Boudreau',
+        title: 'Account Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Josella
     },
 }

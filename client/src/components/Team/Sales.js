@@ -34,7 +34,7 @@ class Sales extends Component {
                 <Element id="sales-orange" name="experts">Sales Staff</Element>
                 <div className="row">
                     <Employee image={PlaceHolder} name={People.Amy.name} title={People.Amy.title} />
-                    <Employee image={PlaceHolder} name={People.Angela.name} title={People.Angela.title} />
+                    <Employee image={People.Angela.image} name={People.Angela.name} title={People.Angela.title} />
                     <Employee image={People.Beth.image} name={People.Beth.name} title={People.Beth.title} />
                     <Employee image={People.Danny.image} name={People.Danny.name} title={People.Danny.title} />
                     <Employee image={People.Jenna.image} name={People.Jenna.name} title={People.Jenna.title} />
@@ -55,8 +55,8 @@ class Sales extends Component {
                     <Employee image={People.Stefanie.image} name={People.Stefanie.name} title={People.Stefanie.title} />
                     <Employee image={People.Cindy.image} name={People.Cindy.name} title={People.Cindy.title} />
                     <Employee image={People.Oksana.image} name={People.Oksana.name} title={People.Oksana.title} clicked={() => this.openModal(0)} />
-                    <Employee image={People.Brittany.image} name={People.Brittany.name} title={People.Brittany.title} />
                     <Employee image={People.Anna.image} name={People.Anna.name} title={People.Anna.title} />
+                    <Employee image={People.Josella.image} name={People.Josella.name} title={People.Josella.title} />
                 </div>
                 {/* All The modals */}
                 <Modal isOpen={this.state.showModal[0]} onRequestClose={this.closeModal} className="employee-two-modal">

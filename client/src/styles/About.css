@@ -171,6 +171,7 @@ h4.data-titles {
 
 .col-md-6.data-graphic {
     text-align: center;
+    margin-top: 50px;
 }
 
 img.orders-by-state {
@@ -187,7 +188,7 @@ img.active-users {
 
 .awards-div{
     background-image: url('../images/about/awards_bg.png');
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .awards-title{
@@ -322,6 +323,7 @@ img.active-users {
     .decision-div{
         margin-top: 10px;
         padding: 0 15px;
+        margin: 0 15px;
     }
     .service-div{
         margin-top: 0;
@@ -410,5 +412,7 @@ img.active-users {
     .rockstars{
         margin-bottom: 25px;
     }
-    
+    .decision-div{
+        padding: 
+    }
 }

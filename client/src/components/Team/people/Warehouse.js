@@ -1,4 +1,3 @@
-import Carolyn from '../../../images/team/Warehouse/Carolyn.jpg';
 import Mario from '../../../images/team/Warehouse/Mario.jpg';
 import Michelle from '../../../images/team/Warehouse/Michelle.jpg';
 import Mayla from '../../../images/team/Warehouse/Mayla.jpg';
@@ -16,17 +15,10 @@ import Jose from '../../../images/team/Warehouse/Jose.jpg';
 import Ryan from '../../../images/team/Warehouse/Ryan.jpg';
 import Juan from '../../../images/team/Warehouse/Juan.jpg';
 import Salvador from '../../../images/team/Warehouse/Salvador.jpg';
+import Amberlie from '../../../images/team/Warehouse/Amberlie.jpg';
+import Ismeal from '../../../images/team/Warehouse/Ismeal.jpg';
 
 export const People = {
-    Carolyn: {
-        name: 'Carolyn Maksudian',
-        title: 'Warehouse Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Carolyn
-    },
     Mario: {
         name: 'Mario Maldonado',
         title: 'Warehouse Supervisor',
@@ -47,7 +39,7 @@ export const People = {
     },
     Mayla: {
         name: 'Mayla Fernandez',
-        title: 'Special Projects Lead',
+        title: 'Special Projects',
         bio: '',
         movie: '',
         vacation: '',
@@ -105,8 +97,8 @@ export const People = {
         bio: '',
         movie: '',
         vacation: '',
-        why: '',
-        image: Yeni
+        why: ''
+        // image: Yeni
     },
     Juvenita: {
         name: 'Juvenita Ocampo',
@@ -179,5 +171,23 @@ export const People = {
         vacation: '',
         why: '',
         image: Salvador
+    },
+    Amberlie: {
+        name: 'Amberlie Hamm',
+        title: 'Warehouse Support Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Amberlie
+    },
+    Ismeal: {
+        name: 'Ismeal Barrera',
+        title: 'Receiving Clerk',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Ismeal
     },
 }

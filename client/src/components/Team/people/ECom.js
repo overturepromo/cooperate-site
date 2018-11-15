@@ -11,6 +11,10 @@ import Nicole from '../../../images/team/ECom/Nicole.jpg';
 import Victoria from '../../../images/team/ECom/Victoria.jpg';
 import Gabrielle from '../../../images/team/ECom/Gabrielle.jpg';
 import Sarah from '../../../images/team/ECom/Sarah.jpg';
+import Steven from '../../../images/team/ECom/Steven.jpg';
+import Will from '../../../images/team/ECom/Will.jpg';
+import Ricky from '../../../images/team/ECom/Ricky.jpg';
+import Jessica from '../../../images/team/ECom/Jessica.jpg';
 
 
 export const People = {
@@ -115,7 +119,7 @@ export const People = {
     },
     Gabrielle: {
         name: 'Gabrielle Whitmer',
-        title: 'Sales Associate',
+        title: 'Account Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -131,4 +135,40 @@ export const People = {
         why: '',
         image: Sarah
     },
+    Steven: {
+        name: 'Steven Missak',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Steven
+    },
+    Will: {
+        name: 'Will Petlak',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Will
+    },
+    Ricky: {
+        name: 'Ricky Bryant',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Ricky
+    },
+    Jessica: {
+        name: 'Jessica Volstad',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Jessica
+    }, 
 }

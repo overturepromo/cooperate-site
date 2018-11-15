@@ -54,6 +54,7 @@ class Experts extends Component {
                     <Employee image={People.AmyW.image} name={People.AmyW.name} title={People.AmyW.title} clicked={() => this.openModal(18)} />
                     <Employee image={PlaceHolder} name={People.BlakeW.name} title={People.BlakeW.title} clicked={() => this.openModal(19)} />
                     <Employee image={People.BruceR.image} name={People.BruceR.name} title={People.BruceR.title} clicked={() => this.openModal(20)} />
+                    <Employee image={People.David.image} name={People.David.name} title={People.David.title} clicked={() => this.openModal(21)} />
                 </div>
 
 
@@ -224,6 +225,14 @@ class Experts extends Component {
                         name={People.BruceR.name} 
                         title={People.BruceR.title} 
                         bio={People.BruceR.bio} movie={People.BruceR.movie} vacation={People.BruceR.vacation} why={People.BruceR.why}
+                    close={() => this.closeModal()} />
+                </Modal>
+                <Modal isOpen={this.state.showModal[21]} onRequestClose={this.closeModal} className="employee-modal">
+                    <WorkCard 
+                        image={People.David.image} 
+                        name={People.David.name} 
+                        title={People.David.title} 
+                        bio={People.David.bio} movie={People.David.movie} vacation={People.David.vacation} why={People.David.why}
                     close={() => this.closeModal()} />
                 </Modal>
             </div>

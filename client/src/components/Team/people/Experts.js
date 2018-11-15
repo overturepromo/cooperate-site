@@ -19,6 +19,7 @@ import Laura from '../../../images/team/ExpertsPhotos/Laura.jpg';
 import Amy from '../../../images/team/ExpertsPhotos/Amy.jpg';
 // import Blake from '../../../images/team/ExpertsPhotos/Blake.jpg';
 import Bruce from '../../../images/team/ExpertsPhotos/Bruce.jpg';
+import David from '../../../images/team/ExpertsPhotos/David.jpg';
 
 export const People = {
     JoG: {
@@ -209,5 +210,14 @@ export const People = {
         vacation: "Florida to see my granddaughter.",
         why: "I can accomplish anything for my clients, thanks to our services and staff.",
         image: Bruce
+    },
+    David: {
+        name: "David Croft",
+        title: "Warehouse Manager",
+        bio: "",
+        movie: "",
+        vacation: "",
+        why: "",
+        image: David
     },
 }
