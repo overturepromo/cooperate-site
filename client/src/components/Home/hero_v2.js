@@ -23,7 +23,7 @@ class Hero extends Component {
                     <div className="cta-home">
                         <div className="container">
                             <img src={HeroText} className="hero-text" />
-                            <p className="home-cta-top">Widley creative Promotional marketing programs +<br /> exacting supply chain control.</p>    
+                            <p className="home-cta-top">Wildly creative promotional marketing programs +<br /> exacting supply chain control.</p>    
                             <Link to="/contact">
                                 <p className="home-cta-bottom">Ask us how 
                                     <span><img src={ArrowRight} style={{marginLeft: '10px'}} alt="arrow" /></span>
