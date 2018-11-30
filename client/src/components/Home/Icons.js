@@ -40,7 +40,7 @@ class Icons extends Component {
                     </div>
                 </div>
                 <Waypoint onEnter={this.handleEnter} onLeave={this.handleLeave}>
-                <div className={this.state.hover ? "container icon-div animated fadeIn slower" : "container icon-div"}>
+                <div className={this.state.hover ? "container icon-div animated fadeIn slow" : "container icon-div"}>
                     <div className="row">
                         <div className="col-md-2 col-sm-3 col-xs-6">
                             <img src={Ecommerce} alt="ecommerce" className="home-icon" />
