@@ -41,6 +41,11 @@
 .employee-headshot{
     width: 225px;
     height: 225px;
+    transition: 500ms;
+}
+
+.employee-headshot:hover{
+    transform: scale(1.1);
 }
 
 .employee-name{
@@ -110,6 +115,7 @@
     color: #5d5d5d;
     font-family: Proxima-bold;
 }
+
 
 @media(max-width:991px){
     .hero-team{

@@ -5,11 +5,15 @@ import Waypoint from 'react-waypoint';
 class Awards extends Component {
 
     state = {
-        entered: false
+        hover: false
     }
 
     handleEnter = () => {
-       this.setState({ entered: true })
+       this.setState({ hover: true })
+    }
+
+    handleLeave = () => {
+        this.setState({ hover: false })
     }
 
     render(){
@@ -20,8 +24,8 @@ class Awards extends Component {
                     <h6 className="awards-bottom-title">We're good at what we do. But don't take our word for it, see what others have to say about us.</h6>
                 </div>
                 <div className="container">
-                    <Waypoint onEnter={this.handleEnter}>
-                    <div className={ this.state.entered ? "row animated slideInUp" : "row"}>
+                    <Waypoint onEnter={this.handleEnter} onLeave={this.handleLeave}>
+                    <div className={ this.state.hover ? "row animated fadeIn slower" : "row"}>
                         <AwardCard title="INC. 5000 FASTEST GROWING COMPANIES IN AMERICA" />
                         <AwardCard title="ERNST AND YOUNG ENTREPRENUER OF THE YEAR FINALIST" />
                         <AwardCard title="QUALITY CERTIFICATION COUNCIL (QCA) DAC MEMBER" />

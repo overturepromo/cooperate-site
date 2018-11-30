@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-
-import Source1 from '../../images/about/sourcing1.jpg';
-import Source2 from '../../images/about/sourcing2.jpg';
+import { Parallax, Background } from 'react-parallax';
+import Source1 from '../../images/about/test_p.png';
+import Source2 from '../../images/about/test_p2.png';
 import State from '../../images/about/ordersbystate.svg';
 import Active from '../../images/about/activeusers.svg';
 
@@ -12,8 +12,16 @@ class Data extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-4">
-                            <img src={Source1} alt="source" className="source-one" />
-                            <img src={Source2} alt="source" className="source-two" />
+                            {/* <img src={Source1} alt="source" className="source-one" /> */}
+                            <Parallax className="source-one" bgImage={Source1} strength={400}>
+                                <div style={{ height: 300 }}>
+                                </div>
+                            </Parallax>
+                            {/* <img src={Source2} alt="source" className="source-two" /> */}
+                            <Parallax className="source-two" bgImage={Source2} strength={400}>
+                                <div style={{ height: 250 }}>
+                                </div>
+                            </Parallax>
                         </div>
                         <div className="col-md-7 responsible">
                             <h4 className="green-history">Responsible sourcing to protect your brand.</h4>

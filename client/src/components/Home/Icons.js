@@ -22,9 +22,12 @@ class Icons extends Component {
     }
 
     handleEnter = () => {
-        console.log('icons entered')
         this.setState({ hover: true })
-     }
+    }
+
+    handleLeave = () => {
+        this.setState({ hover: false })
+    }
 
     render(){
         return (
@@ -36,8 +39,8 @@ class Icons extends Component {
                         <p className="home-descriptions">Which gives us greater supply chain control, lower costs and faster turnaround.</p>
                     </div>
                 </div>
-                <Waypoint onEnter={this.handleEnter}>
-                <div className={this.state.hover ? "container icon-div animated slideInUp" : "container icon-div"}>
+                <Waypoint onEnter={this.handleEnter} onLeave={this.handleLeave}>
+                <div className={this.state.hover ? "container icon-div animated fadeIn slower" : "container icon-div"}>
                     <div className="row">
                         <div className="col-md-2 col-sm-3 col-xs-6">
                             <img src={Ecommerce} alt="ecommerce" className="home-icon" />
