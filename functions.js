@@ -2,10 +2,10 @@ var nodemailer = require('nodemailer');
 
 exports.contactEmail = (name, company, email, phone, message) => {
     var transporter = nodemailer.createTransport({
-      service: 'gmail',
+      service: 'yahoo',
       auth: {
-        user: process.env.MAIL_USER,
-        pass: process.env.MAIL_PASS
+        user: process.env.MAIL_USER || 'jakesclients@yahoo.com',
+        pass: process.env.MAIL_PASS || 'X13Bilxzs'
       }
     });
     var mailOptions = {
