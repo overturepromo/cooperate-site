@@ -97,8 +97,8 @@ export const People = {
         bio: '',
         movie: '',
         vacation: '',
-        why: ''
-        // image: Yeni
+        why: '',
+        image: Yeni
     },
     Juvenita: {
         name: 'Juvenita Ocampo',

@@ -20,6 +20,7 @@ import Kevin from '../../../images/team/Operations/Kevin.jpg'
 import Jacob from '../../../images/team/Operations/Jacob.jpg'
 import Tiffany from '../../../images/team/Operations/Tiffany.jpg';
 import Carolyn from '../../../images/team/Warehouse/Carolyn.jpg';
+import Jeremy from '../../../images/team/Operations/Jeremy.jpg';
 
 export const People = {
     Don: {
@@ -226,8 +227,8 @@ export const People = {
         bio: '',
         movie: '',
         vacation: '',
-        why: ''
-        // image: 
+        why: '',
+        image: Jeremy
     },
     Carolyn: {
         name: 'Carolyn Maksudian',

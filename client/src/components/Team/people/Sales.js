@@ -1,4 +1,4 @@
-// import Amy from '../../../images/team/Sales/Amy.jpg'
+import Amy from '../../../images/team/Sales/Amy.jpg'
 import Angela from '../../../images/team/Sales/Angela.jpg'
 import Beth from '../../../images/team/Sales/Beth.jpg'
 import Danny from '../../../images/team/Sales/Danny.jpg'
@@ -32,7 +32,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        // image: Amy
+        image: Amy
     },
     Angela: {
         name: 'Angela Shimenetto',

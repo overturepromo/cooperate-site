@@ -17,7 +17,7 @@ import Jeremy from '../../../images/team/ExpertsPhotos/Jeremy.jpg'
 import Larry from '../../../images/team/ExpertsPhotos/Larry.jpg';
 import Laura from '../../../images/team/ExpertsPhotos/Laura.jpg';
 import Amy from '../../../images/team/ExpertsPhotos/Amy.jpg';
-// import Blake from '../../../images/team/ExpertsPhotos/Blake.jpg';
+import Blake from '../../../images/team/ExpertsPhotos/Blake.jpg';
 import Bruce from '../../../images/team/ExpertsPhotos/Bruce.jpg';
 import David from '../../../images/team/ExpertsPhotos/David.jpg';
 
@@ -200,7 +200,7 @@ export const People = {
         movie: "Permission for a 3-way tie…? Lone Survivor, Sound City, Braveheart",
         vacation: "Off peak season in Cabo San Lucas",
         why: "Overture’s leadership and positioning strategy paired with our amazing culture and first class creative. We are in an extremely competitive business and Overture has several key factors in place to create a unique space within our industry.",
-        // image: Blake
+        image: Blake
     },
     BruceR: {
         name: "Bruce Robbin",

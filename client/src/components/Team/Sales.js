@@ -33,7 +33,7 @@ class Sales extends Component {
             <div className="container">
                 <Element id="sales-orange" name="experts">Sales Staff</Element>
                 <div className="row">
-                    <Employee image={PlaceHolder} name={People.Amy.name} title={People.Amy.title} />
+                    <Employee image={People.Amy.image} name={People.Amy.name} title={People.Amy.title} />
                     <Employee image={People.Angela.image} name={People.Angela.name} title={People.Angela.title} />
                     <Employee image={People.Beth.image} name={People.Beth.name} title={People.Beth.title} />
                     <Employee image={People.Danny.image} name={People.Danny.name} title={People.Danny.title} />
