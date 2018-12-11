@@ -2,11 +2,14 @@ var nodemailer = require('nodemailer');
 
 exports.contactEmail = (name, company, email, phone, message) => {
     var transporter = nodemailer.createTransport({
-      service: 'yahoo',
+      service: 'gmail',
+      secure: false,
       auth: {
-        user: process.env.MAIL_USER || 'jakesclients@yahoo.com',
-        pass: process.env.MAIL_PASS || 'X13Bilxzs'
-      }
+        user: process.env.MAIL_USER,
+        pass: process.env.MAIL_PASS
+      },
+      debug: false,
+      logger: true
     });
     var mailOptions = {
       from: email,
@@ -26,14 +29,17 @@ exports.contactEmail = (name, company, email, phone, message) => {
   exports.applyEmail = (position, first, last, email, phone, movies, coverLetter, resume) => {
     var transporter = nodemailer.createTransport({
       service: 'gmail',
+      secure: false,
       auth: {
         user: process.env.MAIL_USER,
-        pass: process.env.MAIL_PASS
-      }
+        pass: process.env.MAIL_PASS,
+      },
+      debug: false,
+      logger: true
     });
     var mailOptions = {
       from: email,
-      to: 'jacobg@overturepromo.com',
+      to: 'jacobg@overturepromo.com', //hr@overturepromo.com
       subject: `You have a new application for ${position}`,
       html: `<h4>First:</h4> ${first} 
              <h4>Last:</h4> ${last}
