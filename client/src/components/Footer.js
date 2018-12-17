@@ -25,7 +25,7 @@ class Footer extends Component {
                     <div className="col-md-3 map-divy">
                         <img src={Map} alt="map" /><br />
                         <img src={Dallas} alt="Love-dallas" style={{margin: '30px 0 15px 0'}} />
-                        <p className="map-paragraph">Nationwide network of 200 warehouses + Canadian partner</p>
+                        <p className="map-paragraph">Nationwide network of 200 warehouses<br />Canadian partner</p>
                     </div>
                     <div className="col-md-5 footer-right-nav">
                         <div className="footer-nav-links" style={{display: 'flex', justifyContent: "flex-end"}}>
@@ -40,7 +40,7 @@ class Footer extends Component {
                             </Link>
                         </div>
                         <div>
-                            <img src={Women} alt="women-owned" style={{marginTop: '25px'}} />
+                            <img src={Women} alt="women-owned" style={{marginTop: '25px', height: '60px'}} />
                         </div>
                         <div className="socials" style={{padding: '40px 0'}}>
                             <a href="https://www.facebook.com/OverturePromotions/" target="blank"><i className="fa fa-facebook" style={footerIcons}></i></a>

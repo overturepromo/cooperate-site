@@ -35,7 +35,7 @@ class Icons extends Component {
                 <div className="words-overlay">
                     <span className='big-words' name="wordsOverlay">control freaks.</span>
                     <div className="container green-words-box">
-                        <span className="small-orange-words">End-to-End in-house services.</span>
+                        <span className="small-orange-words">End-to-end in-house services.</span>
                         <p className="home-descriptions">Which gives us greater supply chain control, lower costs and faster turnaround.</p>
                     </div>
                 </div>

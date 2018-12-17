@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="hero-work">
             <div className="work-hero-box container">
                 <p className="work-cta-top animated fadeInDown">OUR WORK</p>
-                <p className="work-cta-bottom animated fadeInDown">Our unconventional approach and full suite of in-house services allow us to give you a personalized promotional marketing program that is effortless, efficient and cost-effective. It's all brought to you with stellar customer service from people who love what they do.</p>
+                <p className="work-cta-bottom animated fadeInDown">We work hard to deliver wildly creative and effective promotional products and programs. To be a proactive and responsive partner. To keep customers so happy that they keep us. We love what we do, and its show! (dynamic arrow down to product shots)</p>
             </div>
         </div>
     )

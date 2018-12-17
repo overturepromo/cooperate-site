@@ -31,7 +31,7 @@ const Work = () => {
                 <div className="where-box">
                     <h4 className="about-orange-words">Where we work.</h4>
                     <h4 className="thin-orange-words">(Hint: Everywhere.)</h4>
-                    <p className="basic">The magic starts in our offices in Chicago, Dallas and Montreal, then spreads to all the places around the world that you need to reach. To help reduce your costs, we create import sourcing programs for large quantity and custom orders, and we regularly import from our accredited factories overseas. International shipments leave our warehouse daily.</p>
+                    <p className="basic">The magic starts in our offices in Chicago and Dallas, and our partner’s office in Montreal, then spreads to all the places around the world that you need to reach. To help reduce your costs, we create import sourcing programs for large quantity and custom orders, and we regularly import from our accredited factories overseas. International shipments leave our warehouse daily.</p>
                 </div>
             </div>
             </Parallax>

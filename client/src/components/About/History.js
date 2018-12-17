@@ -28,7 +28,7 @@ class History extends Component {
                 <div className="row">
                     <div className="col-md-7 history-box">
                         <span className="green-history">What we do.</span>
-                        <p className="history-paragraph">Creating effective promotional programs covers a lot of ground. Here are some of the services we offer:</p>
+                        <p className="history-paragraph">Creating effective promotional programs covers a lot of ground. It starts with your dedicated account management team. Here’s what you can ask them to do for you:</p>
                         <div className="what-we-do">
                             <div className="we-do-left">
                                 <ul>

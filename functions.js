@@ -3,13 +3,11 @@ var nodemailer = require('nodemailer');
 exports.contactEmail = (name, company, email, phone, message) => {
     var transporter = nodemailer.createTransport({
       service: 'gmail',
-      secure: false,
+      secure: true,
       auth: {
         user: process.env.MAIL_USER,
         pass: process.env.MAIL_PASS
       },
-      debug: false,
-      logger: true
     });
     var mailOptions = {
       from: email,
@@ -29,13 +27,11 @@ exports.contactEmail = (name, company, email, phone, message) => {
   exports.applyEmail = (position, first, last, email, phone, movies, coverLetter, resume) => {
     var transporter = nodemailer.createTransport({
       service: 'gmail',
-      secure: false,
+      secure: true,
       auth: {
         user: process.env.MAIL_USER,
         pass: process.env.MAIL_PASS,
       },
-      debug: false,
-      logger: true
     });
     var mailOptions = {
       from: email,

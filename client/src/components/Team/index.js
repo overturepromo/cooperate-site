@@ -10,6 +10,7 @@ import Operations from './Operations';
 import Embrodiery from './Embrodiery';
 import Warehouse from './Warehouse';
 import SubFooter from '../SubFooter';
+import Mantra from '../Contact/Mantra'
 
 
 const index = () => {
@@ -27,7 +28,7 @@ const index = () => {
                 <Route path='/team/experts' component={Experts} />
                 <Route path='/team' component={Experts} />                
             </Switch>
-            <SubFooter />
+            <Mantra />
         </div>
     )
 }
