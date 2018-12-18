@@ -10,7 +10,7 @@ const Work = () => {
             <div className="words-overlay">
                 <Element className='big-words' name="wordsOverlay">promo experts.</Element>
                 <div className="container green-words-box">
-                    <span className="small-green-words">What we do</span>
+                    <span className="small-green-words">What we do.</span>
                 </div>
             </div>
             <div className='container'>

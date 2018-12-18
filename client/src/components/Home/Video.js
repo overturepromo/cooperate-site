@@ -6,6 +6,7 @@ import ArrowRight from '../../images/home/up_arrow.svg'
 import VideoButton from '../../images/home/play_icon.png'
 import PlayButton from '../../images/home/play.svg';
 import ImageGrid from '../../images/home/Imagegrid.jpg'
+import Tweet from '../../images/home/twitter.png';
 
 
 class Video extends Component {
@@ -33,19 +34,10 @@ class Video extends Component {
             <div className="container video-container">
                     <div className="row">
                         <div className="col-md-8">
-                            <span className="small-blue-words">Who we are</span>
-                            <p className="home-descriptions">
-                            Overture in 140 characters: We’re certified women-owned. We’re creative. We’re control freaks (in a good, process-y way). We’re brand warriors. We obsess about customer service. And we’re family. 
-                            </p>
-                            <Link to="/about">
-                                <p className="arrow">About Us 
-                                    <span>
-                                        <img src={ArrowRight} style={{marginLeft: '5px', marginBottom: '2px'}} alt="arrow" />
-                                    </span>
-                                </p>
-                            </Link>
+                            <span className="small-blue-words">Who we are.</span>
+                            <img src={Tweet} className="tweet" alt="tweet" />
                         </div>
-                        <div className="col-md-4 office-video-box" style={{textAlign: 'center', marginTop: '20px'}} onClick={this.openModal} >
+                        <div className="col-md-4 office-video-box" onClick={this.openModal} >
                             <img src={PlayButton} alt="play-button" />
                             <p className="cta-video-text">CHECK OUT OUR OFFICE</p>
                         </div>

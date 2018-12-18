@@ -181,6 +181,7 @@
 
 .image-grid {
     width: 100%;
+    margin-top: 50px;
 }
 
 .uber,
@@ -218,8 +219,20 @@
     height: 281
 }
 
+.tweet{
+    width: 90%;
+}
+
+.office-video-box {
+    cursor: pointer;
+    text-align: center;
+    margin-top: 100px;
+    transition: 500ms;
+}
+
 .office-video-box:hover {
     cursor: pointer;
+    transform: scale(1.2)
 }
 
 .home-modals {
@@ -313,6 +326,12 @@
     .home-companies {
         width: 50%;
         padding: 10px;
+    }
+    .office-video-box{
+        margin-top: 50px;
+    }
+    .tweet {
+        width: 100%;
     }
 }
 

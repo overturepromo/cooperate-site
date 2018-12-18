@@ -9,10 +9,26 @@ import '../../styles/Home.css';
 const Images = () => {
     return (
         <div style={{margin: '20px 0'}}>
-            <img className="home-companies" src={Facebook} alt="facebook" />
-            <img className="home-companies" src={Google} alt="google" />
-            <img className="home-companies" src={Jimmy} alt="jimmy" />
-            <img className="home-companies" src={Fiji} alt="fiji" />
+            <div style={{display: 'flex'}} className="desktop-abstract">
+                <div style={{width: '23%', paddingRight: '20px'}}>
+                <img src={Fiji} className="about-bike" alt="" />
+                </div>
+                <div style={{width: '24%', paddingRight: '20px'}}> 
+                <img src={Google} className="about-warehouse" alt="" />
+                </div>
+                <div style={{width: '34%', paddingRight: '20px'}}>
+                <img src={Jimmy} className="about-core-values" alt="" />
+                </div>
+                <div style={{width: '19%'}}>
+                <img src={Facebook} className="about-ladies" alt="" />
+                </div>
+            </div>
+            <div className="mobile-abstract">
+                <img src={Fiji} className="about-bike" alt="" />
+                <img src={Google} className="about-warehouse" alt="" />
+                <img src={Jimmy} className="about-core-values" alt="" />
+                <img src={Facebook} className="about-ladies" alt="" />
+            </div>
         </div>
     )
 }

@@ -21,6 +21,13 @@ class Footer extends Component {
                             <h5 className="info">P. 888.756.9564</h5>
                             <h5 className="info">F. 847.680.0114</h5>
                         </div>
+                        <div className="socials" style={{paddingTop: '17px'}}>
+                            <a href="https://www.facebook.com/OverturePromotions/" target="blank"><i className="fa fa-facebook" style={footerIcons}></i></a>
+                            <a href="https://twitter.com/overturepromo?lang=en" target="blank"><i className="fa fa-twitter" style={footerIcons}></i></a>
+                        </div>
+                        <div>
+                            <img src={Women} alt="women-owned" style={{marginTop: '25px', height: '60px'}} />
+                        </div>
                     </div>
                     <div className="col-md-3 map-divy">
                         <img src={Map} alt="map" /><br />
@@ -28,23 +35,18 @@ class Footer extends Component {
                         <p className="map-paragraph">Nationwide network of 200 warehouses<br />Canadian partner</p>
                     </div>
                     <div className="col-md-5 footer-right-nav">
-                        <div className="footer-nav-links" style={{display: 'flex', justifyContent: "flex-end"}}>
+                    <h4 className="overture" >Opportunity is knocking</h4>
+                    <p>Blah</p>
+                    <Link to="/careers" className="footer-link">
+                        <h5 className="footer-link">Careers</h5>
+                    </Link>
+                        <div className="footer-nav-links">
                             <Link to="/contact" className="footer-link">
                                 <h5 className="footer-link">Contact Us</h5>
                             </Link>
                             <Link to="/privacy" className="footer-link">
                                 <h5 className="footer-link">Privacy Policy</h5>
                             </Link>
-                            <Link to="/careers" className="footer-link">
-                                <h5 className="footer-link">Careers</h5>
-                            </Link>
-                        </div>
-                        <div>
-                            <img src={Women} alt="women-owned" style={{marginTop: '25px', height: '60px'}} />
-                        </div>
-                        <div className="socials" style={{padding: '40px 0'}}>
-                            <a href="https://www.facebook.com/OverturePromotions/" target="blank"><i className="fa fa-facebook" style={footerIcons}></i></a>
-                            <a href="https://twitter.com/overturepromo?lang=en" target="blank"><i className="fa fa-twitter" style={footerIcons}></i></a>
                         </div>
                     </div>
                 </div>

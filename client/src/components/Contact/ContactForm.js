@@ -100,7 +100,7 @@ class ContactForm extends Component {
                                 <textarea className="contact-inputs text-area-contact" type='text' name="message" required placeholder="Message*" value={this.state.message} onChange={this.handleChange} />
                             </div>
                             <div className="col-xs-12" style={{textAlign: 'right'}}>
-                                <button className="contact-button-send">Send</button>
+                                <button className="contact-button-send">SEND</button>
                             </div>
                         </form>
                     </div>
