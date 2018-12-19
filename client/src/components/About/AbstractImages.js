@@ -10,9 +10,6 @@ import '../../styles/About.css'
 const AbstractImages = () => {
     return (
         <div>
-            <div className="abstract-div">
-                <span className="big-words-about">we're unconventional.</span>
-            </div>
             <div style={{display: 'flex'}} className="desktop-abstract">
                 <div style={{width: '23%', paddingRight: '20px'}}>
                 <img src={Bike} className="about-bike" alt="" />

@@ -15,9 +15,6 @@ const index = () => {
         <div>
             <Hero />
             <ImageGrid />
-            <How />
-            <Services />
-            <Warehouse />
             <SubFooter />
         </div>
     )

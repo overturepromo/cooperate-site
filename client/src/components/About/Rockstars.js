@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Service from '../../images/about/customerservice_grahic.svg';
 import Rock1 from '../../images/about/img1.jpg';
 import Rock2 from '../../images/about/img2.jpg';
 import Rock3 from '../../images/about/img3.jpg';
@@ -9,17 +8,6 @@ import Rock4 from '../../images/about/img4.jpg';
 const Rockstars = () => {
     return (
         <div className="rockstars">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-4">
-                        <img src={Service} className="service-image" />
-                    </div>
-                    <div className="col-md-8 service-div">
-                        <h4 className="green-history">We obsess about customer service.</h4>
-                        <p className="basic">We invest in technology to improve our responsiveness. We respond quickly. We work proactively to send you new product ideas. We learn your business and are fierce protectors of your brand. We're resourceful problem-solvers and honest about things we can't do.</p>
-                    </div>
-                </div>
-            </div>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-5">

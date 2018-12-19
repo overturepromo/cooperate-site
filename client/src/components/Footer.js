@@ -34,12 +34,10 @@ class Footer extends Component {
                         <img src={Dallas} alt="Love-dallas" style={{margin: '30px 0 15px 0'}} />
                         <p className="map-paragraph">Nationwide network of 200 warehouses<br />Canadian partner</p>
                     </div>
-                    <div className="col-md-5 footer-right-nav">
+                    <div className="col-md-4 col-md-offset-1 footer-right-nav">
                     <h4 className="overture" >Opportunity is knocking</h4>
-                    <p>Blah</p>
-                    <Link to="/careers" className="footer-link">
-                        <h5 className="footer-link">Careers</h5>
-                    </Link>
+                    <p style={{fontSize: '16px', marginBottom: '50px'}}>It's simnple: we hire people with creativity, passion and the drive to be the best. Phaselius consequat at mauris nec blandit. Nunc eget purus scelerisque justo.</p>
+                    <Link to="/careers" className="career-button">JOIN OUR TEAM</Link>
                         <div className="footer-nav-links">
                             <Link to="/contact" className="footer-link">
                                 <h5 className="footer-link">Contact Us</h5>

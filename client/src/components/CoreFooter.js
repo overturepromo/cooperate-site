@@ -32,9 +32,6 @@ const CoreFooter = () => {
                     </div>
                 </div>
             </div>
-            <div className="footer-copy">
-                <p className="copy-text">&copy; 2018 Overture, LLC</p>
-            </div>
             </Link>
         </div>
     )

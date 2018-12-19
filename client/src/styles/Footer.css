@@ -21,10 +21,15 @@
     padding-bottom: 20px
 }
 
+.footer-nav-links {
+    display: flex;
+    margin-top: 50px;
+}
+
 .footer-link {
     color: #7a7a7a;
     font-size: 20px;
-    padding-left: 25px;
+    padding-right: 25px;
     text-decoration: none;
 }
 
@@ -53,6 +58,21 @@
     padding: 10px;
 }
 
+.career-button {
+    color: white;
+    font-size: 18px;
+    padding: 15px 25px;
+    background-color: #ef7521;
+    border-radius: 7px;
+    font-family: 'Proxima-bold';
+}
+
+.career-button:hover{
+    background-color: #Ce5400;
+    color: white;
+    text-decoration: none;
+}
+
 .core-text{
     color: #636363;
 }
@@ -65,6 +85,18 @@
 .copy-text{
     color: #636363;
     margin: 0;
+}
+
+.core-footer {
+    margin-top: 25px;
+}
+
+.image-scale{
+    transition: 500ms
+}
+
+.image-scale:hover{
+    transform: scale(1.2);
 }
 
 

@@ -11,6 +11,10 @@
     font-size: 18px;
 }
 
+.history-box{
+    margin-top: -109px;
+}
+
 .about-cta-top{
     font-size: 70px;
     color: white;
@@ -35,7 +39,6 @@
     font-size: 140px;
     font-family: Proxima-bold;
     color: #eeeeee;
-    margin-left: 40px;
     white-space: nowrap;
     overflow-x: hidden;
 }
@@ -94,6 +97,10 @@ ul{
 .about-video{
     margin-top: 100px;
     text-align: center;
+}
+
+.about-video:hover{
+    cursor: pointer;
 }
 
 .how-we-work{
@@ -278,56 +285,6 @@ img.active-users {
     display: none;
 }
 
-.floating{
-    float: left;
-    -webkit-animation-name: Floatingx;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-    -moz-animation-name: Floating;
-    -moz-animation-duration: 3s;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 5px;
-
-}
-
-@-webkit-keyframes Floatingx{
-    from {-webkit-transform:translate(0, 0px);}
-    65% {-webkit-transform:translate(0, 15px);}
-    to {-webkit-transform: translate(0, -0px);    }    
-}
-    
-@-moz-keyframes Floating{
-    from {-moz-transform:translate(0, 0px);}
-    65% {-moz-transform:translate(0, 15px);}
-    to {-moz-transform: translate(0, -0px);}    
-}
-
-.scaling{
-    float: left;
-    -webkit-animation-name: scalex;
-    -webkit-animation-duration:3s;
-    -webkit-animation-iteration-count:infinite;
-    -webkit-animation-timing-function:ease-in-out;
-    -moz-animation-name: scale;
-    -moz-animation-duration:3s;
-    -moz-animation-iteration-count:infinite;
-    -moz-animation-timing-function:ease-in-out;
-}
-
-@-webkit-keyframes scalex{
-    from {-webkit-transform: scale(0.9);}
-    65% {-webkit-transform: scale(1.0);}
-    to {-webkit-transform: scale(0.9);}    
-}
-    
-@-moz-keyframes scale{
-    from {-moz-transform: scale(0.9);}
-    65% {-moz-transform: scale(1.0);}
-    to {-moz-transform: scale(0.9);}    
-}
 
 @media(min-width: 1250px){
     .col-md-5.strange-images{
@@ -340,7 +297,7 @@ img.active-users {
         margin-top: 0;
     }
     .big-words-about{
-        font-size: 69px;
+        display: none;
     }
     .strange-images{
         text-align: center;
@@ -378,6 +335,9 @@ img.active-users {
     }
     .service-div{
         margin-top: 0;
+    }
+    .history-box{
+        margin-top: 20px;
     }
 }
 
@@ -420,9 +380,6 @@ img.active-users {
     }
     .green-history, .green-network, .about-blue-words{
         font-size: 32px;
-    }
-    .history-box{
-        margin-top: 40px
     }
     .how-we-work{
         height: 555px;

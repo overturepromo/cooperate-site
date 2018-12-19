@@ -2,11 +2,23 @@ import React from 'react';
 import { Parallax, Background } from 'react-parallax';
 import HowImage from '../../images/about/howwework.jpg';
 import WhereImage from '../../images/about/wherewework.jpg';
-import Computer from '../../images/about/computer_screen.png'
+import Computer from '../../images/about/computer_screen.png';
+import Service from '../../images/about/customerservice_grahic.svg';
 
 const Work = () => {
     return (
         <div>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-4">
+                        <img src={Service} className="service-image" />
+                    </div>
+                    <div className="col-md-8 service-div">
+                        <h4 className="green-history">We obsess about customer service.</h4>
+                        <p className="basic">We invest in technology to improve our responsiveness. We respond quickly. We work proactively to send you new product ideas. We learn your business and are fierce protectors of your brand. We're resourceful problem-solvers and honest about things we can't do.</p>
+                    </div>
+                </div>
+            </div>
             <Parallax bgImage={HowImage} strength={700}>
             <div style={{ height: 500 }}>
                 <div className="how-box">
@@ -22,7 +34,7 @@ const Work = () => {
                         <p className="basic">We create elegant, easy to use, leading edge webstores which give our customers and easy-to-use platform for ordering branded merchandise, with marketing support and detailed reporting.</p>
                     </div>
                     <div className="col-md-5">
-                        <img src={Computer} style={{width: '100%'}} />
+                        <img src={Computer} style={{width: '100%', padding: '20px'}} />
                     </div>
                 </div>
             </div>
