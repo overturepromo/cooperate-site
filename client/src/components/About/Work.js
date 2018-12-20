@@ -4,6 +4,7 @@ import HowImage from '../../images/about/howwework.jpg';
 import WhereImage from '../../images/about/wherewework.jpg';
 import Computer from '../../images/about/computer_screen.png';
 import Service from '../../images/about/customerservice_grahic.svg';
+import Mapy from '../../images/about/map.gif';
 
 const Work = () => {
     return (
@@ -38,7 +39,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <Parallax bgImage={WhereImage} strength={500}>
+            <Parallax bgImage={Mapy} strength={500}>
             <div style={{ height: 500 }}>
                 <div className="where-box">
                     <h4 className="about-orange-words">Where we work.</h4>
