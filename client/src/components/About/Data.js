@@ -4,6 +4,7 @@ import Source1 from '../../images/about/test_p.png';
 import Source2 from '../../images/about/test_p2.png';
 import State from '../../images/about/ordersbystate.svg';
 import Active from '../../images/about/activeusers.svg';
+import ActiveTwo from '../../images/about/activeusers.png';
 
 class Data extends Component {
     render(){
@@ -41,7 +42,7 @@ class Data extends Component {
                         </div>
                         <div className="col-md-6 data-graphic">
                             <h4 className="data-titles">Active Users</h4>
-                            <img src={Active} alt="active" className="active-users" />
+                            <img src={ActiveTwo} alt="active" className="active-users" />
                         </div>
                     </div>
                 </div>

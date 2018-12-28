@@ -109,12 +109,22 @@
     text-align: right;
 }
 
+.scroll-down-work {
+    text-align: right;
+    margin-top: -10%;
+    margin-right: 11%;
+    cursor: pointer;
+}
+
 @media(max-width:991px){
     .hero-work{
         margin-top: 0;
     }
     .work-images-odd{
         text-align: center;
+    }
+    .scroll-down-work{
+        display: none;
     }
 }
 

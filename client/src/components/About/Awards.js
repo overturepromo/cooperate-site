@@ -25,7 +25,7 @@ class Awards extends Component {
                 </div>
                 <div className="container">
                     <Waypoint onEnter={this.handleEnter} onLeave={this.handleLeave}>
-                    <div className={ this.state.hover ? "row animated fadeIn slow" : "row"}>
+                    <div className={ this.state.hover ? "row animated fadeIn slower" : "row"}>
                         <AwardCard title="INC. 5000 FASTEST GROWING COMPANIES IN AMERICA" />
                         <AwardCard title="ERNST AND YOUNG ENTREPRENUER OF THE YEAR FINALIST" />
                         <AwardCard title="QUALITY CERTIFICATION COUNCIL (QCA) DAC MEMBER" />

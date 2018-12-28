@@ -10,7 +10,7 @@ import '../../styles/About.css'
 const AbstractImages = () => {
     return (
         <div>
-            <div style={{display: 'flex'}} className="desktop-abstract">
+            <div style={{display: 'flex', marginTop: '50px'}} className="desktop-abstract">
                 <div style={{width: '23%', paddingRight: '20px'}}>
                 <img src={Bike} className="about-bike" alt="" />
                 </div>

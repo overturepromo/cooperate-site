@@ -19,11 +19,13 @@ import Rock from '../../images/work/rocknroll.jpg';
 import BCBS from '../../images/work/bcbs.jpg';
 import Beach from '../../images/work/beachbabe.jpg';
 import Univision from '../../images/work/univision.jpg';
+import {Element} from "react-scroll";
 
 const ImageGrid = () => {
     return (
-        <div className="container" style={{marginTop: '30px'}}>
+        <div className="container" style={{marginTop: '30px', marginBottom: '50px'}}>
            <div className="rows">
+           <Element className='' name="imageGrid"></Element>
                 <div className="columns">
                     <img src={NBC} alt={'NBC'} style={{width: '100%'}} />
                     <img src={Honey} alt={'Honey'} style={{width: '100%'}} />
