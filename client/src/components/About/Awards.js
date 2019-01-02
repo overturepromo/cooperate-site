@@ -28,7 +28,7 @@ class Awards extends Component {
                     <div className={ this.state.hover ? "row animated fadeIn slower" : "row"}>
                         <AwardCard title="INC. 5000 FASTEST GROWING COMPANIES IN AMERICA" />
                         <AwardCard title="ERNST AND YOUNG ENTREPRENUER OF THE YEAR FINALIST" />
-                        <AwardCard title="QUALITY CERTIFICATION COUNCIL (QCA) DAC MEMBER" />
+                        <AwardCard title="TEJ STAMP OF APPROVAL" />
                         <AwardCard title="FEMALE ENTREPRENUER OF THE YEAR, WBENC" />
                         <AwardCard title="BEST PLACES TO WORK, COUNSLEOR MAGAZINE" />
                         <AwardCard title="TOP 50 DISTRIBUTORS, PROMO MARKETING MAGAZINE" />

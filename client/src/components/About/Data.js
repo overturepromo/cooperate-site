@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Parallax, Background } from 'react-parallax';
+import CountUp, { startAnimation } from 'react-countup';
+import Waypoint from 'react-waypoint';
 import Source1 from '../../images/about/test_p.png';
 import Source2 from '../../images/about/test_p2.png';
 import State from '../../images/about/ordersbystate.svg';
@@ -7,6 +9,21 @@ import Active from '../../images/about/activeusers.svg';
 import ActiveTwo from '../../images/about/activeusers.png';
 
 class Data extends Component {
+
+    state={
+        hover: false
+    }
+
+    handleEnter = () => {
+        console.log('entered')
+        this.setState({ hover: true })
+     }
+ 
+     handleLeave = () => {
+         console.log('bye')
+         this.setState({ hover: false })
+     }
+
     render(){
         return (
             <div className="data-div">
@@ -35,16 +52,27 @@ class Data extends Component {
                         <h4 className="about-blue-words">How we help you make decisions.</h4>
                         <p className="basic">We're always looking at comprehensive data across all programs, conducting meta-analysis to ensure that your promotional programs incorporate best practices for effectiveness and efficiency. Once your promotional program is up and running, we use cutting-edge data analytics to inform ongoing adjustments and planning, and we give you access to extensive, customizable reporting for your own reporting and planning requirements.</p>
                     </div>
-                    <div className="row">
-                        <div className="col-md-6 data-graphic">
-                            <h4 className="data-titles">Orders by State</h4>
-                            <img src={State} alt="state" className="orders-by-state" />
+                    <Waypoint onEnter={this.handleEnter} onLeave={this.handleLeave}>
+                        <div className="row">
+                            <div className="col-md-6 data-graphic">
+                                <h4 className="data-titles">Orders by State</h4>
+                                <img src={State} alt="state" className="orders-by-state" />
+                            </div>
+                            <div className="col-md-6 data-graphic">
+                                <h4 className="data-titles">Active Users</h4>
+                                <img src={ActiveTwo} alt="active" className="active-users" />
+                                <div className="count1">
+                                    {this.state.hover === true ? <CountUp end={10000} duration={4} start={-875.039} /> : <CountUp end={10000} duration={4} />}
+                                </div>
+                                <div className="count2">
+                                    {this.state.hover === true ? <CountUp end={4800} duration={3} start={-875.039} /> : <CountUp end={4800} duration={3} />}
+                                </div>
+                                <div className="count3">
+                                    {this.state.hover === true ? <CountUp end={398} duration={2} start={-875.039} /> : <CountUp end={398} duration={2} />}
+                                </div>
+                            </div>
                         </div>
-                        <div className="col-md-6 data-graphic">
-                            <h4 className="data-titles">Active Users</h4>
-                            <img src={ActiveTwo} alt="active" className="active-users" />
-                        </div>
-                    </div>
+                    </Waypoint>
                 </div>
             </div>
         )
