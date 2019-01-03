@@ -44,23 +44,19 @@
 }
 
 .about-bike{
-    height: 66%;
     width: 100%
 }
 
 .about-warehouse{
-    height: 66%;
     width: 100%;
     margin-top: 50px;
 }
 
 .about-core-values{
-    height: 100%;
     width: 100%
 }
 
 .about-ladies{
-    height: 62%;
     width: 100%
 }
 
@@ -95,7 +91,7 @@ ul{
 }
 
 .about-video{
-    margin-top: 100px;
+    margin-top: 65px;
     text-align: center;
 }
 

@@ -266,6 +266,21 @@
     margin-top: 50px;
 }
 
+/* .tester {
+    position: absolute;
+    top: 0;
+    background: blue;
+    width: 94%;
+    height: 67%;
+    opacity: .3;
+    display: none
+}
+
+.about-bike:hover .tester{
+    display: block;
+} */
+
+
 /* Mobile Stuff */
 
 .cta-mobile {
