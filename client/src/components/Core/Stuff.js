@@ -17,10 +17,10 @@ const Stuff = () => {
                 </div>
                 <div className="col-md-4">
                     <div className="larry-div">
-                        <img src={Larry} className="larry-img" />
+                        <img src={Larry} className="larry-img" alt="larry" />
                     </div>
                     <div className="rainbow-div">
-                        <img src={Rainbow} className="rainbow-img" />
+                        <img src={Rainbow} className="rainbow-img" alt="braclets" />
                     </div>
                 </div>
             </div>

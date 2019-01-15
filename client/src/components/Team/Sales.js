@@ -4,7 +4,6 @@ import {Element} from "react-scroll";
 import Employee from './Employee';
 import { People } from './people/Sales';
 import WorkCardTwo from './WorkCardTwo';
-import PlaceHolder from '../../images/team/ExpertsPhotos/PortraitPlaceholder.png'
 
 import '../../styles/Team.css'
 

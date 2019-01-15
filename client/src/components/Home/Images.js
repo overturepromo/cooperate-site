@@ -12,7 +12,6 @@ const Images = () => {
             <div style={{display: 'flex'}} className="desktop-abstract">
                 <div style={{width: '23%', paddingRight: '20px', position: 'relative'}}>
                     <img src={Fiji} className="about-bike" alt="" />
-                <div className="tester">I'm a div</div>
                 </div>
                 <div style={{width: '24%', paddingRight: '20px'}}> 
                     <img src={Google} className="about-warehouse" alt="" />

@@ -34,23 +34,23 @@ class History extends Component {
                             <div className="what-we-do">
                                 <div className="we-do-left">
                                     <ul>
-                                        <li className="we-do-green"><img src={Check} className="checkmark" style={{height: '15px'}} /> International sourcing</li>
-                                        <li className="we-do-green"><img src={Check} className="checkmark" style={{height: '15px'}} /> Brand activation</li>
-                                        <li className="we-do-green"><img src={Check} className="checkmark" style={{height: '15px'}} /> Licensed merchandise</li>
-                                        <li className="we-do-green"><img src={Check} className="checkmark" style={{height: '15px'}} /> Dealer networks</li>
-                                        <li className="we-do-green"><img src={Check} className="checkmark" style={{height: '15px'}} /> Webstores/ecommerce</li>
-                                        <li className="we-do-green"><img src={Check} className="checkmark" style={{height: '15px'}} /> Print collateral</li>
-                                        <li className="we-do-green"><img src={Check} className="checkmark" style={{height: '15px'}} /> Employee recognition</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> International sourcing</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Brand activation</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Licensed merchandise</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Dealer networks</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Webstores/ecommerce</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Print collateral</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Employee recognition</li>
                                     </ul>
                                 </div>
                                 <div className="we-do-right">
                                     <ul>
-                                        <li className="we-do-green"><img src={Check} className="checkmark" style={{height: '15px'}} /> Kit assembly</li>
-                                        <li className="we-do-green"><img src={Check} className="checkmark" style={{height: '15px'}} /> Tradeshow giveaways</li>
-                                        <li className="we-do-green"><img src={Check} className="checkmark" style={{height: '15px'}} /> Incentives</li>
-                                        <li className="we-do-green"><img src={Check} className="checkmark" style={{height: '15px'}} /> Retail programs</li>
-                                        <li className="we-do-green"><img src={Check} className="checkmark" style={{height: '15px'}} /> Graphic design</li>
-                                        <li className="we-do-green"><img src={Check} className="checkmark" style={{height: '15px'}} /> International shipping, logistics</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Kit assembly</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Tradeshow giveaways</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Incentives</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Retail programs</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Graphic design</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> International shipping, logistics</li>
                                     </ul>
                                 </div>
                             </div>

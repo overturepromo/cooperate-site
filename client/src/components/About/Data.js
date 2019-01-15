@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import { Parallax, Background } from 'react-parallax';
-import CountUp, { startAnimation } from 'react-countup';
+import { Parallax } from 'react-parallax';
+import CountUp from 'react-countup';
 import Waypoint from 'react-waypoint';
 import Source1 from '../../images/about/test_p.png';
 import Source2 from '../../images/about/test_p2.png';
 import State from '../../images/about/ordersbystate.svg';
-import Active from '../../images/about/activeusers.svg';
 import ActiveTwo from '../../images/about/activeusers.png';
 
 class Data extends Component {

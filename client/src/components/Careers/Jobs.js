@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import National from './Positions/National'
 import AccountCoordinator from './Positions/AccountCoordinator'
 import SalesAssistant from './Positions/SalesAssistant'
 import SalesAdmin from './Positions/SalesAdmin'

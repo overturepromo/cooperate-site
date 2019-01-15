@@ -1,7 +1,6 @@
 import React from 'react';
-import { Parallax, Background } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 import HowImage from '../../images/about/howwework.jpg';
-import WhereImage from '../../images/about/wherewework.jpg';
 import Computer from '../../images/about/computer_screen.png';
 import Service from '../../images/about/customerservice_grahic.svg';
 import Mapy from '../../images/about/map.gif';
@@ -12,7 +11,7 @@ const Work = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <img src={Service} className="service-image" />
+                        <img src={Service} className="service-image" alt="service" />
                     </div>
                     <div className="col-md-8 service-div">
                         <h4 className="green-history">We obsess about customer service.</h4>
@@ -35,7 +34,7 @@ const Work = () => {
                         <p className="basic">When it comes to e-commerce, templates don’t work. We build tailored, elegant and easy-to-use company stores that are regularly refreshed with new and unique products. Our in-house team of six full-time web developers design, develop and manage over 100 different company stores that are completely customized to each client’s specific requirements.</p>
                     </div>
                     <div className="col-md-5">
-                        <img src={Computer} style={{width: '100%', padding: '20px'}} />
+                        <img src={Computer} alt="computer" style={{width: '100%', padding: '20px'}} />
                     </div>
                 </div>
             </div>
@@ -51,14 +50,5 @@ const Work = () => {
         </div>
     )
 }
-
-const insideStyles = {
-    background: "white",
-    padding: 20,
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%,-50%)"
-  };
 
 export default Work

@@ -22,7 +22,7 @@ class Hero extends Component {
                     </video>
                     <div className="cta-home">
                         <div className="container">
-                            <img src={HeroText} className="hero-text" />
+                            <img src={HeroText} className="hero-text" alt="overture-hero" />
                             <p className="home-cta-top">Wildly creative promotional marketing programs +<br /> exacting supply chain control.</p>    
                             <Link to="/contact">
                                 <p className="home-cta-bottom">Ask us how 

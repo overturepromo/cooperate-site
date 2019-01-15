@@ -9,7 +9,6 @@ import Creative from './Creative';
 import Operations from './Operations';
 import Embrodiery from './Embrodiery';
 import Warehouse from './Warehouse';
-import SubFooter from '../SubFooter';
 import Mantra from '../Contact/Mantra'
 
 

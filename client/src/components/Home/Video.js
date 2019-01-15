@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
 import Modal from 'react-modal';
 import '../../styles/Home.css'
-import ArrowRight from '../../images/home/up_arrow.svg'
-import VideoButton from '../../images/home/play_icon.png'
 import PlayButton from '../../images/home/play.svg';
 import ImageGrid from '../../images/home/Imagegrid.jpg'
 import Tweet from '../../images/home/twitter.png';

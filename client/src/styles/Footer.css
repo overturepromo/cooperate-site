@@ -50,7 +50,7 @@
 
 .core-row{
     background-color: #eeeeee;
-    padding: 50px 0;
+    padding: 150px 0 100px 0;
 }
 
 .footer-copy{
@@ -74,8 +74,14 @@
     text-decoration: none;
 }
 
+.career-button:focus{
+    color: white;
+    text-decoration: none;
+}
+
 .core-text{
     color: #636363;
+    margin: -25px 0 63px 0;
 }
 
 .core-image{
@@ -121,6 +127,9 @@
     }
     .core-center{
         text-align: center;
+    }
+    .core-text{
+        margin: 10px;
     }
 }
 

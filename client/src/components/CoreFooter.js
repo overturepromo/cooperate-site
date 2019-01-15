@@ -12,7 +12,7 @@ const CoreFooter = () => {
                 <div className="container">
                     <div className="row core-center">
                         <div className="col-md-3 core-col">
-                                <img className="core-image" src={Core} />
+                                <img className="core-image" src={Core} alt="overture-values" />
                         </div>
                         <div className="col-md-3">
                             <p className="core-text">Live With Integrity and Respect</p>
