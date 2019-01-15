@@ -11,14 +11,14 @@ class Footer extends Component {
         return (
             <div className="container footer-container">
                 <div className="row">
-                    <div className="col-md-4 contact-col">
+                    <div className="col-md-3 contact-col">
                         <div className="address">
                             <h4 className="overture" >Overture, LLC</h4>
                             <h5 className="info">595 Lakeview Parkway</h5>
                             <h5 className="infoBreak">Vernon Hills, IL 60061</h5>
                         </div>
                         <div className="phone">
-                            <h5 className="info">P. 888.756.9564</h5>
+                            <h5 className="info">P. 888.456.9564</h5>
                             <h5 className="info">F. 847.680.0114</h5>
                         </div>
                         <div className="socials" style={{paddingTop: '17px'}}>
@@ -29,14 +29,14 @@ class Footer extends Component {
                             <img src={Women} alt="women-owned" style={{marginTop: '25px', height: '60px'}} />
                         </div>
                     </div>
-                    <div className="col-md-3 map-divy">
+                    <div className="col-md-4 map-divy">
                         <img src={Map} alt="map" /><br />
                         <img src={Dallas} alt="Love-dallas" style={{margin: '30px 0 15px 0'}} />
                         <p className="map-paragraph">Nationwide network of 200 warehouses<br />Canadian partner</p>
                     </div>
                     <div className="col-md-4 col-md-offset-1 footer-right-nav">
                     <h4 className="overture" >Opportunity is knocking</h4>
-                    <p style={{fontSize: '16px', marginBottom: '50px'}}>It's simnple: we hire people with creativity, passion and the drive to be the best. Phaselius consequat at mauris nec blandit. Nunc eget purus scelerisque justo.</p>
+                    <p style={{fontSize: '16px', marginBottom: '50px'}}>It's simple: we hire people with creativity, passion and the drive to be the best.</p>
                     <Link to="/careers" className="career-button">JOIN OUR TEAM</Link>
                         <div className="footer-nav-links">
                             <Link to="/contact" className="footer-link">

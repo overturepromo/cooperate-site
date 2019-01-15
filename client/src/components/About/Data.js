@@ -62,10 +62,10 @@ class Data extends Component {
                                 <h4 className="data-titles">Active Users</h4>
                                 <img src={ActiveTwo} alt="active" className="active-users" />
                                 <div className="count1">
-                                    {this.state.hover === true ? <CountUp end={10000} duration={4} start={-875.039} /> : <CountUp end={10000} duration={4} />}
+                                    {this.state.hover === true ? <CountUp end={10137} duration={4} start={-875.039} /> : <CountUp end={10000} duration={4} />}
                                 </div>
                                 <div className="count2">
-                                    {this.state.hover === true ? <CountUp end={4800} duration={3} start={-875.039} /> : <CountUp end={4800} duration={3} />}
+                                    {this.state.hover === true ? <CountUp end={4952} duration={3} start={-875.039} /> : <CountUp end={4800} duration={3} />}
                                 </div>
                                 <div className="count3">
                                     {this.state.hover === true ? <CountUp end={398} duration={2} start={-875.039} /> : <CountUp end={398} duration={2} />}
