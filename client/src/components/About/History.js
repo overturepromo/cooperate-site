@@ -55,7 +55,7 @@ class History extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-5 about-video image-scale" onClick={this.openModal} >
+                        <div className="col-md-5 about-video" onClick={this.openModal} >
                             <img src={Thumbnail} style={{width: '100%'}} alt="play-button" />
                         </div>
                     </div>
