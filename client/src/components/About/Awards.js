@@ -28,11 +28,11 @@ class Awards extends Component {
                     <div className={ this.state.hover ? "row animated fadeIn slower" : "row"}>
                         <AwardCard title="INC. 5000 FASTEST GROWING COMPANIES IN AMERICA" />
                         <AwardCard title="ERNST AND YOUNG ENTREPRENUER OF THE YEAR FINALIST" />
-                        <AwardCard title="TEJ STAMP OF APPROVAL" />
+                        <AwardCard title="50 FASTEST GROWING WOMEN OWNED COMPANIES, WPO" />
                         <AwardCard title="FEMALE ENTREPRENUER OF THE YEAR, WBENC" />
                         <AwardCard title="BEST PLACES TO WORK, COUNSLEOR MAGAZINE" />
                         <AwardCard title="TOP 50 DISTRIBUTORS, PROMO MARKETING MAGAZINE" />
-                        <AwardCard title="ADVERTISING SPECIALTIES" />
+                        <AwardCard title="ADVERTISING SPECIALTIES INSTITUTE HOT LIST" />
                         <AwardCard title="CHICAGO TRIBUNE'S BEST PLACES TO WORK" />
                         <AwardCard title="DISTRIBUTOR OF DISTINCTION AWARD" />                      
                     </div>
