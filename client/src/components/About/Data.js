@@ -4,6 +4,7 @@ import CountUp from 'react-countup';
 import Waypoint from 'react-waypoint';
 import Source1 from '../../images/about/test_p.png';
 import Source2 from '../../images/about/test_p2.png';
+import Sourcing from '../../images/about/sourcing.jpg';
 import State from '../../images/about/ordersbystate.svg';
 import ActiveTwo from '../../images/about/activeusers.png';
 
@@ -29,16 +30,21 @@ class Data extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-4">
+                        <Parallax className='sourcing' bgImage={Sourcing} strength={300}>
+                            <div style={{height: 430}}>
+
+                            </div>
+                        </Parallax>
                             {/* <img src={Source1} alt="source" className="source-one" /> */}
-                            <Parallax className="source-one" bgImage={Source1} strength={400}>
+                            {/* <Parallax className="source-one" bgImage={Source1} strength={400}>
                                 <div style={{ height: 300 }}>
                                 </div>
-                            </Parallax>
+                            </Parallax> */}
                             {/* <img src={Source2} alt="source" className="source-two" /> */}
-                            <Parallax className="source-two" bgImage={Source2} strength={400}>
+                            {/* <Parallax className="source-two" bgImage={Source2} strength={400}>
                                 <div style={{ height: 250 }}>
                                 </div>
-                            </Parallax>
+                            </Parallax> */}
                         </div>
                         <div className="col-md-7 responsible">
                             <h4 className="green-history">How carefully we work.</h4>

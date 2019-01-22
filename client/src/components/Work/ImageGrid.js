@@ -29,6 +29,14 @@ import Corona from '../../images/work/corona.jpg';
 import Shoes from '../../images/work/shoes.jpg';
 import Nrg from '../../images/work/nrg.jpg';
 import Rumchata from '../../images/work/rumchata.jpg';
+import CubsBeanie from '../../images/work/cubsbeanie.jpg';
+import Beacon from '../../images/work/beacon.jpg';
+import Blake from '../../images/work/blake.jpg';
+import Corona2 from '../../images/work/corona2.jpg';
+import Lee from '../../images/work/lee.jpg';
+import Uber from '../../images/work/uber.jpg';
+import Instacart from '../../images/work/instacart.jpg';
+import Slurpee2 from '../../images/work/slurpee2.jpg';
 import {Element} from "react-scroll";
 
 const ImageGrid = () => {
@@ -46,6 +54,9 @@ const ImageGrid = () => {
                     <img src={Aw} alt="aw" style={{width: '100%'}} />
                     <img src={Mia} alt={'mia'} style={{width: '100%'}} />
                     <img src={Corona} alt={'corona'} style={{width: '100%'}} />
+                    <img src={CubsBeanie} alt={'cubsbeanie'} style={{width: '100%'}} />
+                    <img src={Corona2} alt="corona2" style={{width: '100%'}} />
+                    <img src={Instacart} alt={'instacart'} style={{width: '100%'}} />
                 </div>
                 <div className="columns">
                     <img src={Jimmy} alt={'Jimmy'} style={{width: '100%'}} />
@@ -58,6 +69,8 @@ const ImageGrid = () => {
                     <img src={Bcbs2} alt={'bcbs2'} style={{width: '100%'}} />
                     <img src={Shoes} alt={'shoes'} style={{width: '100%'}} />
                     <img src={Rumchata} alt={'rumchata'} style={{width: '100%'}} />
+                    <img src={Beacon} alt={'beacon'} style={{width: '100%'}} />
+                    <img src={Lee} alt={'lee'} style={{width: '100%'}} />
                 </div> 
                 <div className="columns">
                     <img src={Lexus} alt={'Lexus'} style={{width: '100%'}} />
@@ -69,6 +82,9 @@ const ImageGrid = () => {
                     <img src={Ballfest} alt="Ballfest" style={{width: '100%'}} />
                     <img src={Pacifico} alt={'Pacifico'} style={{width: '100%'}} />
                     <img src={Nrg} alt={'nrg'} style={{width: '100%'}} />
+                    <img src={Blake} alt={'blake'} style={{width: '100%'}} />
+                    <img src={Uber} alt={'uber'} style={{width: '100%'}} />
+                    <img src={Slurpee2} alt={'slurpee2'} style={{width: '100%'}} />
                 </div> 
            </div>
         </div>
