@@ -55,12 +55,19 @@ class History extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-5 about-video" onClick={this.openModal} >
-                            <img src={Thumbnail} style={{width: '100%'}} alt="play-button" />
+                        <div className="col-md-5 about-video" >
+                            <iframe 
+                                title="office" 
+                                width="500" 
+                                height="281" 
+                                src="https://player.vimeo.com/video/142292190?autoplay=1&loop=1&autopause=0" 
+                                frameBorder="0" 
+                                allowFullScreen>
+                            </iframe>
                         </div>
                     </div>
                 </div>
-                <Modal
+                {/* <Modal
                 isOpen={this.state.showModal}
                 onRequestClose={this.closeModal}
                 className="video-modal"
@@ -73,7 +80,7 @@ class History extends Component {
                     frameBorder="0" 
                     allowFullScreen>
                 </iframe>
-            </Modal>
+            </Modal> */}
             </div>
         )
     }
