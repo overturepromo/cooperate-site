@@ -37,6 +37,24 @@ import Lee from '../../images/work/lee.jpg';
 import Uber from '../../images/work/uber.jpg';
 import Instacart from '../../images/work/instacart.jpg';
 import Slurpee2 from '../../images/work/slurpee2.jpg';
+import Chrysler from '../../images/work/chrysler.jpg';
+import Abbvie from '../../images/work/abbvie.jpg';
+import Fannie from '../../images/work/fanniemae.jpg';
+import CarGo from '../../images/work/car2go.jpg';
+import Sa from '../../images/work/sa.jpg';
+import CBRE from '../../images/work/cbre.jpg';
+import Skittles from '../../images/work/skittles.jpg';
+import MLS from '../../images/work/mls.jpg';
+import Today from '../../images/work/today.jpg';
+import SNL from '../../images/work/snl.jpg';
+import WholeFoods from '../../images/work/wholefoods.jpg';
+import Santander from '../../images/work/santander.jpg';
+import Walsh from '../../images/work/walsh.jpg';
+import NorthWest from '../../images/work/northwestern.jpg';
+import UPS from '../../images/work/ups.jpg';
+import Tony from '../../images/work/tony.jpg';
+import Money from '../../images/work/moneygram.jpg';
+import Verizon from '../../images/work/verizon.jpg';
 import {Element} from "react-scroll";
 
 const ImageGrid = () => {
@@ -57,6 +75,12 @@ const ImageGrid = () => {
                     <img src={CubsBeanie} alt={'cubsbeanie'} style={{width: '100%'}} />
                     <img src={Corona2} alt="corona2" style={{width: '100%'}} />
                     <img src={Instacart} alt={'instacart'} style={{width: '100%'}} />
+                    <img src={Chrysler} alt={'chrysler'} style={{width: '100%'}} />
+                    <img src={CarGo} alt={'car2go'} style={{width: '100%'}} />
+                    <img src={Skittles} alt={'skittles'} style={{width: '100%'}} />
+                    <img src={SNL} alt={'snl'} style={{width: '100%'}} />
+                    <img src={Walsh} alt={'walsh'} style={{width: '100%'}} />
+                    <img src={Tony} alt={'tony'} style={{width: '100%'}} />
                 </div>
                 <div className="columns">
                     <img src={Jimmy} alt={'Jimmy'} style={{width: '100%'}} />
@@ -71,6 +95,12 @@ const ImageGrid = () => {
                     <img src={Rumchata} alt={'rumchata'} style={{width: '100%'}} />
                     <img src={Beacon} alt={'beacon'} style={{width: '100%'}} />
                     <img src={Lee} alt={'lee'} style={{width: '100%'}} />
+                    <img src={Abbvie} alt={'abbvie'} style={{width: '100%'}} />
+                    <img src={Sa} alt={'sa'} style={{width: '100%'}} />
+                    <img src={MLS} alt={'mls'} style={{width: '100%'}} />
+                    <img src={WholeFoods} alt={'wholefoods'} style={{width: '100%'}} />
+                    <img src={NorthWest} alt={'northwest'} style={{width: '100%'}} />
+                    <img src={Money} alt={'money'} style={{width: '100%'}} />
                 </div> 
                 <div className="columns">
                     <img src={Lexus} alt={'Lexus'} style={{width: '100%'}} />
@@ -85,6 +115,12 @@ const ImageGrid = () => {
                     <img src={Blake} alt={'blake'} style={{width: '100%'}} />
                     <img src={Uber} alt={'uber'} style={{width: '100%'}} />
                     <img src={Slurpee2} alt={'slurpee2'} style={{width: '100%'}} />
+                    <img src={Fannie} alt={'fannie'} style={{width: '100%'}} />
+                    <img src={CBRE} alt={'cbre'} style={{width: '100%'}} />
+                    <img src={Today} alt={'today'} style={{width: '100%'}} />
+                    <img src={Santander} alt={'santander'} style={{width: '100%'}} />
+                    <img src={UPS} alt={'ups'} style={{width: '100%'}} />
+                    <img src={Verizon} alt={'verizon'} style={{width: '100%'}} />
                 </div> 
            </div>
         </div>
