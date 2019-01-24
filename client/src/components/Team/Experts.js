@@ -33,16 +33,19 @@ class Experts extends Component {
                 <Element id="experts-orange" name="experts">The Experts</Element>
                 <div className="row">
                     <Employee image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} clicked={() => this.openModal(0)} />
-                    <Employee image={People.RonG.image} name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />
                     <Employee image={People.JoeH.image} name={People.JoeH.name} title={People.JoeH.title} clicked={() => this.openModal(2)} />
+                    <Employee image={People.RonG.image} name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />
+                    <Employee image={People.BrianL.image} name={People.BrianL.name} title={People.BrianL.title} clicked={() => this.openModal(5)} />
                     <Employee image={People.TejS.image} name={People.TejS.name} title={People.TejS.title} clicked={() => this.openModal(3)} />
                     <Employee image={People.MikeW.image} name={People.MikeW.name} title={People.MikeW.title} clicked={() => this.openModal(4)} />
-                    <Employee image={People.BrianL.image} name={People.BrianL.name} title={People.BrianL.title} clicked={() => this.openModal(5)} />
                     <Employee image={People.ChristinaN.image} name={People.ChristinaN.name} title={People.ChristinaN.title} clicked={() => this.openModal(6)} />
-                    <Employee image={People.SueN.image} name={People.SueN.name} title={People.SueN.title} clicked={() => this.openModal(7)} />
+                    <Employee image={People.David.image} name={People.David.name} title={People.David.title} clicked={() => this.openModal(21)} />
                     <Employee image={People.AimeeE.image} name={People.AimeeE.name} title={People.AimeeE.title} clicked={() => this.openModal(8)} />
+                    <Employee image={People.AmyW.image} name={People.AmyW.name} title={People.AmyW.title} clicked={() => this.openModal(18)} />
                     <Employee image={People.BenB.image} name={People.BenB.name} title={People.BenB.title} clicked={() => this.openModal(9)} />
+                    <Employee image={People.BlakeW.image} name={People.BlakeW.name} title={People.BlakeW.title} clicked={() => this.openModal(19)} />
                     <Employee image={People.BobbyH.image} name={People.BobbyH.name} title={People.BobbyH.title} clicked={() => this.openModal(10)} />
+                    <Employee image={People.BruceR.image} name={People.BruceR.name} title={People.BruceR.title} clicked={() => this.openModal(20)} />
                     <Employee image={People.CodyS.image} name={People.CodyS.name} title={People.CodyS.title} clicked={() => this.openModal(11)} />
                     <Employee image={People.CynthiaL.image} name={People.CynthiaL.name} title={People.CynthiaL.title} clicked={() => this.openModal(12)} />
                     <Employee image={People.DaveR.image} name={People.DaveR.name} title={People.DaveR.title} clicked={() => this.openModal(13)} />
@@ -50,10 +53,6 @@ class Experts extends Component {
                     <Employee image={People.JeremyM.image} name={People.JeremyM.name} title={People.JeremyM.title} clicked={() => this.openModal(15)} />
                     <Employee image={People.LarryB.image} name={People.LarryB.name} title={People.LarryB.title} clicked={() => this.openModal(16)} />
                     <Employee image={People.LauraI.image} name={People.LauraI.name} title={People.LauraI.title} clicked={() => this.openModal(17)} />
-                    <Employee image={People.AmyW.image} name={People.AmyW.name} title={People.AmyW.title} clicked={() => this.openModal(18)} />
-                    <Employee image={People.BlakeW.image} name={People.BlakeW.name} title={People.BlakeW.title} clicked={() => this.openModal(19)} />
-                    <Employee image={People.BruceR.image} name={People.BruceR.name} title={People.BruceR.title} clicked={() => this.openModal(20)} />
-                    <Employee image={People.David.image} name={People.David.name} title={People.David.title} clicked={() => this.openModal(21)} />
                 </div>
 
 
@@ -112,14 +111,6 @@ class Experts extends Component {
                         name={People.ChristinaN.name} 
                         title={People.ChristinaN.title} 
                         bio={People.ChristinaN.bio} movie={People.ChristinaN.movie} vacation={People.ChristinaN.vacation} why={People.ChristinaN.why}
-                    close={() => this.closeModal()} />
-                </Modal>
-                <Modal isOpen={this.state.showModal[7]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.SueN.image} 
-                        name={People.SueN.name} 
-                        title={People.SueN.title} 
-                        bio={People.SueN.bio} movie={People.SueN.movie} vacation={People.SueN.vacation} why={People.SueN.why}
                     close={() => this.closeModal()} />
                 </Modal>
                 <Modal isOpen={this.state.showModal[8]} onRequestClose={this.closeModal} className="employee-modal">

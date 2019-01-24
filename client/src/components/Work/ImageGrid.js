@@ -65,7 +65,7 @@ import Trans from '../../images/work/transunion.jpg';
 import AA from '../../images/work/aa.jpg';
 import Bon from '../../images/work/bonappetit.jpg';
 import Crocs from '../../images/work/crocs.jpg';
-
+import Jimmy2 from '../../images/work/jimmyfallon.jpg';
 import BarilloBike from '../../images/work/barillobike.jpg';
 import {Element} from "react-scroll";
 
@@ -143,7 +143,7 @@ const ImageGrid = () => {
                     <img src={Verizon} alt={'verizon'} style={{width: '100%'}} />
                     <img src={Bon} alt={'bon'} style={{width: '100%'}} />
                     <img src={Crocs} alt={'crocs'} style={{width: '100%'}} />
-                    {/* <img src={} alt={''} style={{width: '100%'}} /> */}
+                    <img src={Jimmy2} alt={'jimmy'} style={{width: '100%'}} />
                     <img src={BarilloBike} alt={'barillobike'} style={{width: '100%'}} />
                 </div> 
            </div>
