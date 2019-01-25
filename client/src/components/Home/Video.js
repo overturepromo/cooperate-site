@@ -32,6 +32,7 @@ class Video extends Component {
                     <div className="row">
                         <div className="col-md-8">
                             <span className="small-blue-words">Who we are.</span>
+                            <p style={{color: '#919191', fontSize: '24px', marginLeft: '10px'}}>Overture in 140 characters:</p>
                             <img src={Tweet} className="tweet" alt="tweet" />
                         </div>
                         <div className="col-md-4 office-video-box" onClick={this.openModal} >
