@@ -23,7 +23,7 @@ class SalesAdmin extends Component {
     render(){
         return (
             <div>
-                <p style={{color: 'gray'}}>We have two high-performing sales team looking for an organized and efficient administrative whiz. You will serve as a point of contact for customers with queries about products, orders, and deliveries. You will work with a wide variety of clients and be part of an energetic and enthusiastic sales team.</p>
+                <p style={{color: 'gray'}}>We have two, high-performing sales teams looking for an organized and efficient administrative whiz. You will serve as a point of contact for customers with queries about products, orders and deliveries. You will work with a wide variety of clients and be part of an energetic and enthusiastic sales team.</p>
                 <h4>YOUR RESPONSIBILITIES</h4>
                 <ul style={{color: "gray"}}>
                     <li>Processing orders</li>

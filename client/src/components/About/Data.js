@@ -48,14 +48,14 @@ class Data extends Component {
                         </div>
                         <div className="col-md-7 responsible">
                             <h4 className="green-history">How carefully we work.</h4>
-                            <p className="basic">We’re serious about investing in technology to streamline processes and improve quality and inventory control. We are assiduous in our security precautions, to protect our customers’ data.  We work with the Quality Certification Alliance, the promotional product industry’s only independent, non-profit organization dedicated to certifying manufacturers’ processes for product quality and safety, supply chain security, ethical manufacturing compliance, and environmental stewardship. We believe so strongly in the importance of their work that we serve on QCA’s Distributor Advocacy Council.</p>
+                            <p className="basic">We’re serious about investing in technology to streamline processes and improve quality and inventory control. We are assiduous in our security precautions to protect our customers’ data. We work with the Quality Certification Alliance, the promotional product industry’s only independent, non-profit organization dedicated to certifying manufacturers’ processes for product quality and safety, supply chain security, ethical manufacturing compliance, and environmental stewardship. We believe so strongly in the importance of their work that we serve on QCA’s Distributor Advocacy Council.</p>
                         </div>
                     </div>
                 </div>
                 <div className="container decision-div">
                     <div className="row">
                         <h4 className="about-blue-words">How we help you make decisions.</h4>
-                        <p className="basic">We're always looking at comprehensive data across all programs, conducting meta-analysis to ensure that your promotional programs incorporate best practices for effectiveness and efficiency. Once your promotional program is up and running, we use cutting-edge data analytics to inform ongoing adjustments and planning, and we give you access to extensive, customizable reporting for your own reporting and planning requirements.</p>
+                        <p className="basic">We’re always looking at comprehensive data across all programs, conducting meta-analyses to ensure that your promotional programs incorporate best practices for effectiveness and efficiency. Once your promotional program is up and running, we use cutting-edge data analytics to inform ongoing adjustments and planning, and we give you access to extensive, customizable reporting for your own reporting and planning requirements.</p>
                     </div>
                     <Waypoint onEnter={this.handleEnter} onLeave={this.handleLeave}>
                         <div className="row">

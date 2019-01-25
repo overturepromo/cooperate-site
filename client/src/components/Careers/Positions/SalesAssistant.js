@@ -32,7 +32,7 @@ class SalesAssistant extends Component {
                     <li>Coordinate shipping logistics</li>
                     <li>Provide vendor follow up, including order and tracking information</li>
                     <li>Process web orders</li>
-                    <li>Respond to ad hoc requests by sales team memberss</li>
+                    <li>Respond to ad hoc requests by sales team members</li>
                 </ul>
                 <h4>SKILLS/EXPERIENCE REQUIRED</h4>
                 <ul style={{color: "gray"}}>

@@ -109,7 +109,7 @@ export const People = {
         image: Nicole
     },
     Victoria: {
-        name: 'Victoria Robinson',
+        name: 'Victoria Robertson',
         title: 'Marketing Coordinator',
         bio: '',
         movie: 'Some Like it Hot',

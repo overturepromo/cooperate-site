@@ -289,6 +289,15 @@
 }
 
 
+@media(max-width: 1405px){
+    .video-container {
+        margin-top: -80px;
+    }
+    .big-words-video{
+        font-size: 98px;
+    }
+}
+
 @media(max-width: 1110px) {
     .big-words {
         font-size: 125px;

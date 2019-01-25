@@ -36,7 +36,7 @@ class Icons extends Component {
                     <span className='big-words' name="wordsOverlay">control freaks.</span>
                     <div className="container green-words-box">
                         <span className="small-orange-words">End-to-end in-house services.</span>
-                        <p className="home-descriptions">Which gives us greater supply chain control, lower costs and faster turnaround.</p>
+                        <p className="home-descriptions">Give us greater supply chain control, lower costs and faster turnaround.</p>
                     </div>
                 </div>
                 <Waypoint onEnter={this.handleEnter} onLeave={this.handleLeave}>

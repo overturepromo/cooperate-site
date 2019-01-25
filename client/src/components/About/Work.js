@@ -23,7 +23,7 @@ const Work = () => {
             <div style={{ height: 500 }}>
                 <div className="how-box">
                     <h4 className="about-orange-words">How we work.</h4>
-                    <p className="basic">We're always streamlining processes and improving quality by leveraging out full suite of in-house services, including domestic and international sourcing of promotional products, graphic design, web devlopment, on-site screen printing and embroidery, 100,000 square feet of warehouse space, kit assembly, packing, and domestic and international shipping.</p>
+                    <p className="basic">We’re always streamlining processes and improving quality by leveraging our full suite of in-house services, including domestic and international sourcing of promotional products, graphic design, web development, on-site screen printing and embroidery, 100,000 square feet of warehouse space, kit assembly, packing, and domestic and international shipping.</p>
                 </div>
             </div>
             </Parallax>

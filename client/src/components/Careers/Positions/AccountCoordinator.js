@@ -23,12 +23,12 @@ class AccountCoordinator extends Component {
     render(){
         return (
             <div>
-                <p style={{color: 'gray'}}>Do you have experience with, or want to move into inside sales and account management? Start a career with a growing promotional marketing agency that has been ranked as one of the Best Places to Work by Counselor Magazine, and as a Chicago’s Best Workplace by the Chicago Tribune. Our ideal candidate will have experience in customer service or inside sales.</p>
+                <p style={{color: 'gray'}}>Do you have experience with, or want to move into, inside sales and account management? Start a career with a growing promotional marketing agency that has been ranked as one of the Best Places to Work by Counselor Magazine, and as a Chicago’s Best Workplace by the Chicago Tribune. Our ideal candidate will have experience in customer service or inside sales.</p>
                 <h4>YOUR RESPONSIBILITIES</h4>
                 <ul style={{color: "gray"}}>
                     <li>Handle all aspects of customer account orders, including order processing, product quotes and coordinating product sample requests</li>
                     <li>Assist new and existing customers with inquires while providing consultative support and recommendations</li>
-                    <li>Proactively calling existing customers to build and maintain the customer relationship</li>
+                    <li>Proactively call existing customers with inquiries while providing consultative support and recommendations</li>
                     <li>By becoming familiar with our offered products and their associated suppliers, you will educate customers on those products and help them make promotional marketing decisions</li>
                     <li>Identify and evaluate opportunities to increase customer retention and satisfaction by developing a positive rapport and relationship with customers</li>
                     <li>Act as an overall coordinator and partner with other departments including warehouse, fulfillment, production and accounting</li>
@@ -43,7 +43,7 @@ class AccountCoordinator extends Component {
                     <li>Have a positive, upbeat and team player attitude</li>
                     <li>Must have the ability to work both as part of a team and independently</li>
                     <li>Must have strong attention to detail</li>
-                    <li>High School Diploma or Equivalent.</li>
+                    <li>High School Diploma or Equivalent</li>
                 </ul>
                 <button className="apply-button" onClick={this.openModal}>Apply For Position</button>
                 <h5 onClick={() => this.props.bye('accountCoordinator')} className="view-button">Hide Details</h5>
