@@ -33,10 +33,10 @@ export const People = {
     RonG: {
         name: 'Ron Gilley',
         title: 'COO',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        bio: 'Ron has over 30 years of experience in manufacturing, importing, operations and distribution as well as being a key member of several successful startups.',
+        movie: 'That’s a toss up.  As an avid sports fan and a crazy baseball nut, it’s either “The Sandlot” or  “ Field of Dreams”.',
+        vacation: 'Anyplace I can fish!',
+        why: ' The vision and commitment to excellence that the leadership team continues to cast is contagious.   What an incredible experience to work with the Overture team members!',
         image: Ron
     },
     JoeH: {
