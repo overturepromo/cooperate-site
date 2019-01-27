@@ -487,4 +487,7 @@ img.active-users {
         right: 13.5% !important;
         font-size: 12px;
     }
+    iframe {
+        width: 100%;
+    }
 }

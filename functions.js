@@ -36,7 +36,7 @@ exports.contactEmail = (name, company, email, phone, message) => {
     });
     var mailOptions = {
       from: email,
-      to: 'jacobg@overturepromo.com', //hr@overturepromo.com
+      to: 'hr@overturepromo.com, jacobg@overturepromo.com',
       subject: `You have a new application for ${position}`,
       html: `<h4>First:</h4> ${first} 
              <h4>Last:</h4> ${last}
