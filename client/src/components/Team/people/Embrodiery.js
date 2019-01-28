@@ -101,7 +101,7 @@ export const People = {
     },
     Adriana: {
         name: 'Adriana Gonzalez',
-        title: 'Senoir Embroidery Operator',
+        title: 'Senior Embroidery Operator',
         bio: '',
         movie: '',
         vacation: '',
@@ -110,7 +110,7 @@ export const People = {
     },
     Carolina: {
         name: 'Carolina Flores',
-        title: 'Senoir Embroidery Operator',
+        title: 'Senior Embroidery Operator',
         bio: '',
         movie: '',
         vacation: '',
@@ -119,7 +119,7 @@ export const People = {
     },
     Dorotea: {
         name: 'Dorotea Juarez',
-        title: 'Senoir Embroidery Operator',
+        title: 'Senior Embroidery Operator',
         bio: '',
         movie: '',
         vacation: '',
@@ -128,7 +128,7 @@ export const People = {
     },
     Laura: {
         name: 'Laura Cordova',
-        title: 'Senoir Embroidery Operator',
+        title: 'Senior Embroidery Operator',
         bio: '',
         movie: '',
         vacation: '',
