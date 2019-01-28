@@ -79,7 +79,9 @@
     margin-left: 25%;
 }
 
-ul{
+
+
+ul.we-do-ul {
     list-style-type: none;
     padding: 0;
 }

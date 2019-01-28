@@ -33,7 +33,7 @@ class History extends Component {
                             <p className="history-paragraph">Creating effective promotional programs covers a lot of ground. It starts with your dedicated account management team. Here’s what you can ask them to do for you:</p>
                             <div className="what-we-do">
                                 <div className="we-do-left">
-                                    <ul>
+                                    <ul className="we-do-ul">
                                         <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> International sourcing</li>
                                         <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Brand activation</li>
                                         <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Licensed merchandise</li>
@@ -44,7 +44,7 @@ class History extends Component {
                                     </ul>
                                 </div>
                                 <div className="we-do-right">
-                                    <ul>
+                                    <ul className="we-do-ul">
                                         <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Kit assembly</li>
                                         <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Tradeshow giveaways</li>
                                         <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Incentives</li>

@@ -46,7 +46,7 @@ class SalesAssistant extends Component {
                     <li>Must be a person with high integrity</li>
                     <li>College degree preferred, but not required</li>
                 </ul>
-                <button className="apply-button" onClick={this.openModal}>Apply For Position</button>
+                <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('salesAssistant')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
                     <ApplyBox title="Sales Assistant" close={this.closeModal} />

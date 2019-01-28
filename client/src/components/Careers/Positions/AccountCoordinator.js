@@ -45,7 +45,7 @@ class AccountCoordinator extends Component {
                     <li>Must have strong attention to detail</li>
                     <li>High School Diploma or Equivalent</li>
                 </ul>
-                <button className="apply-button" onClick={this.openModal}>Apply For Position</button>
+                <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('accountCoordinator')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
                     <ApplyBox title="Account Coordinator" close={this.closeModal} />
