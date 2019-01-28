@@ -234,7 +234,7 @@ export const People = {
     },
     Anna: {
         name: 'Anna Ayala',
-        title: 'Account Coordinator',
+        title: 'Sales Admin',
         bio: '',
         movie: '',
         vacation: '',
