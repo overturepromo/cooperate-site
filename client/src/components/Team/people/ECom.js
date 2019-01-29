@@ -16,7 +16,6 @@ import Will from '../../../images/team/ECom/Will.jpg';
 import Ricky from '../../../images/team/ECom/Ricky.jpg';
 import Jessica from '../../../images/team/ECom/Jessica.jpg';
 
-
 export const People = {
     Ethan: {
         name: 'Ethan Collins',

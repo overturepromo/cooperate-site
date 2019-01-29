@@ -17,6 +17,8 @@ import Juan from '../../../images/team/Warehouse/Juan.jpg';
 import Salvador from '../../../images/team/Warehouse/Salvador.jpg';
 import Amberlie from '../../../images/team/Warehouse/Amberlie.jpg';
 import Ismeal from '../../../images/team/Warehouse/Ismeal.jpg';
+import Grace from '../../../images/team/Warehouse/Grace.jpg';
+import Ruth from '../../../images/team/Warehouse/Ruth.jpg';
 
 export const People = {
     Mario: {
@@ -189,5 +191,23 @@ export const People = {
         vacation: '',
         why: '',
         image: Ismeal
+    },
+    Grace: {
+        name: 'Grace Salinas',
+        title: 'Special Projects',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Grace
+    },
+    Ruth: {
+        name: 'Ruth Chavez',
+        title: 'Special Projects',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Ruth
     },
 }

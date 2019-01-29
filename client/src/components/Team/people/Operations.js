@@ -21,7 +21,11 @@ import Jacob from '../../../images/team/Operations/Jacob.jpg'
 import Tiffany from '../../../images/team/Operations/Tiffany.jpg';
 import Carolyn from '../../../images/team/Warehouse/Carolyn.jpg';
 import Jeremy from '../../../images/team/Operations/Jeremy.jpg';
-import Sue from '../../../images/team/Operations/Sue.jpg'
+import Sue from '../../../images/team/Operations/Sue.jpg';
+import Chris from '../../../images/team/Operations/Chris.jpg';
+import Sheehy from '../../../images/team/Operations/Sheehy.jpg';
+import Dave from '../../../images/team/Operations/Dave.jpg';
+import Charles from '../../../images/team/Operations/Charles.jpg';
 
 export const People = {
     Don: {
@@ -256,7 +260,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: ''
+        image: Chris
     },
     ChrisS: {
         name: 'Chris Sheehy',
@@ -265,7 +269,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: ''
+        image: Sheehy
     },
     Dave: {
         name: 'Dave Walton',
@@ -274,7 +278,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: ''
+        image: Dave
     },
     Charles: {
         name: 'Charles Koers',
@@ -283,6 +287,6 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: ''
+        image: Charles
     }
 }

@@ -1,15 +1,15 @@
 var nodemailer = require('nodemailer');
 var mail = require('nodemailer').mail;
 
-exports.contactEmail = (name, company, email, phone, message) => {
-  var transporter = nodemailer.createTransport({
-        service: 'gmail',
-        secure: true,
-        auth: {
-          user: process.env.MAIL_USER,
-          pass: process.env.MAIL_PASS
-        },
-    });
+  exports.contactEmail = (name, company, email, phone, message) => {
+   var transporter = nodemailer.createTransport({
+          service: 'gmail',
+          secure: true,
+          auth: {
+            user: process.env.MAIL_USER,
+            pass: process.env.MAIL_PASS
+          },
+      });
     var mailOptions = {
       from: email,
       to: 'media@overturepromo.com, jacobg@overturepromo.com', //hr@overturepromo.com 
@@ -62,27 +62,27 @@ exports.contactEmail = (name, company, email, phone, message) => {
 
   // exports.contactEmail = (name, company, email, phone, message) => {
   //   var transporter = nodemailer.createTransport({
-  //     service: 'gmail',
-  //     secure: true,
-  //     auth: {
-  //       user: process.env.MAIL_USER,
-  //       pass: process.env.MAIL_PASS
-  //     },
-  //   });
-  //   var mailOptions = {
-  //     from: email,
-  //     to: 'jacobg@overturepromo.com', //hr@overturepromo.com 
-  //     subject: 'You have a new contact request',
-  //     html: `<h4>name:</h4> ${name} <h4>company:</h4> ${company} <h4>email:</h4> ${email} <h4>phone:</h4> ${phone} <h4>message:</h4> ${message}`,
+  //         service: 'gmail',
+  //         secure: true,
+  //         auth: {
+  //           user: process.env.MAIL_USER,
+  //           pass: process.env.MAIL_PASS
+  //         },
+  //     });
+  //     var mailOptions = {
+  //       from: email,
+  //       to: 'media@overturepromo.com, jacobg@overturepromo.com', //hr@overturepromo.com 
+  //       subject: 'You have a new contact request',
+  //       html: `<h4>name:</h4> ${name} <h4>company:</h4> ${company} <h4>email:</h4> ${email} <h4>phone:</h4> ${phone} <h4>message:</h4> ${message}`,
+  //     };
+  //     transporter.sendMail(mailOptions, function (error, info) {
+  //       if (error) {
+  //         console.log('error is ' + error);
+  //       } else {
+  //         console.log('Email sent: ' + info.response);
+  //       }
+  //     });
   //   };
-  //   transporter.sendMail(mailOptions, function (error, info) {
-  //     if (error) {
-  //       console.log('error is ' + error);
-  //     } else {
-  //       console.log('Email sent: ' + info.response);
-  //     }
-  //   });
-  // };
 
   // exports.applyEmail = (position, first, last, email, phone, movies, coverLetter, resume) => {
   //   var transporter = nodemailer.createTransport({
