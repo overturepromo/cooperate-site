@@ -66,7 +66,7 @@ class ContactForm extends Component {
                         </div>
                         <div className="phone">
                             <h4 className="overture-contact-address" >Phone</h4>
-                            <h5 className="info-contact">P. 888.756.9564</h5>
+                            <h5 className="info-contact">P. 888.456.9564</h5>
                             <h5 className="info-contact">F. 847.680.0114</h5>
                         </div>
                         <div className="socials-contact">
