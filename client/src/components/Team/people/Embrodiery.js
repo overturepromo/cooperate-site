@@ -173,7 +173,7 @@ export const People = {
     },
     Inocente: {
         name: 'Inocente Aguirre',
-        title: 'Production Receiving',
+        title: 'Production Receiving Clerk',
         bio: '',
         movie: '',
         vacation: '',

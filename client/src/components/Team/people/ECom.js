@@ -29,7 +29,7 @@ export const People = {
     },
     Anne: {
         name: 'Anne Gross',
-        title: 'Account Manager',
+        title: 'Sr. Account Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -65,7 +65,7 @@ export const People = {
     },
     Jeff: {
         name: 'Jeff Lamarche',
-        title: 'Account Manager',
+        title: 'Sr. Account Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -74,7 +74,7 @@ export const People = {
     },
     John: {
         name: 'John Seeder',
-        title: 'Account Manager',
+        title: 'Sr. Account Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -110,7 +110,7 @@ export const People = {
     },
     Victoria: {
         name: 'Victoria Robertson',
-        title: 'Marketing Coordinator',
+        title: 'Marketing Specialist',
         bio: '',
         movie: 'Some Like it Hot',
         vacation: 'Fiji',

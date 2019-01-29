@@ -203,7 +203,7 @@ export const People = {
     },
     David: {
         name: "David Croft",
-        title: "Warehouse ",
+        title: "Distribution Center Manager",
         bio: "David has spent the past 25 years working for fun companies that were experiencing high growth and was looking for ways to increase their productivity and show process improvements in Distribution. He has worked for Art.com, Buycostumes.com, Celebratexpress.com and a few more",
         movie: "Kelly’s Hero’s staring Clint Eastwood and Donald Sutherland and many other great actors.",
         vacation: "Almost any island in the Caribbean. Somewhere warm and Sandy.",

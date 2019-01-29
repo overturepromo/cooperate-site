@@ -248,5 +248,41 @@ export const People = {
         vacation: "My favorite place to go is Lake Ann, Michigan. Lake Ann is the most relaxing spot that I’ve ever been to.  You are right on the lake, homes are spread out and it’s so very peaceful.  If you’ve never been there and you’re looking for a quiet and relaxing spot then Lake Ann, MI is where you need to go.",
         why: 'Overture Promotions was a customer of mine while I worked for my previous employer. Everyone that I came in contact with at Overture was very nice and seemed to be happy with their job, so when it came time for me to look for a job I decided that I would check with Overture to see if there was an opportunity here for me…..the rest is history.',
         image: Sue,
+    },
+    ChrisM: {
+        name: 'Chris Mendoza',
+        title: 'Fulfillment Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: ''
+    },
+    ChrisS: {
+        name: 'Chris Sheehy',
+        title: 'Web Developer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: ''
+    },
+    Dave: {
+        name: 'Dave Walton',
+        title: 'Web Developer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: ''
+    },
+    Charles: {
+        name: 'Charles Koers',
+        title: 'Web Developer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: ''
     }
 }
