@@ -6,6 +6,7 @@ import Source1 from '../../images/about/test_p.png';
 import Source2 from '../../images/about/test_p2.png';
 import Sourcing from '../../images/about/sourcing.jpg';
 import State from '../../images/about/ordersbystate.svg';
+import State3 from '../../images/about/ordersbystate3.svg'
 import ActiveTwo from '../../images/about/activeusers.png';
 
 class Data extends Component {
@@ -61,7 +62,7 @@ class Data extends Component {
                         <div className="row">
                             <div className="col-md-6 data-graphic">
                                 <h4 className="data-titles">Orders by State</h4>
-                                <img src={State} alt="state" className="orders-by-state" />
+                                <img src={State3} alt="state" className="orders-by-state" />
                             </div>
                             <div className="col-md-6 data-graphic">
                                 <h4 className="data-titles">Active Users</h4>
