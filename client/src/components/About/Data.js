@@ -5,6 +5,7 @@ import Waypoint from 'react-waypoint';
 import Source1 from '../../images/about/test_p.png';
 import Source2 from '../../images/about/test_p2.png';
 import Sourcing from '../../images/about/sourcing.jpg';
+import NewSourcing from '../../images/about/newsourcing.jpg';
 import State from '../../images/about/ordersbystate.svg';
 import State3 from '../../images/about/ordersbystate3.svg'
 import ActiveTwo from '../../images/about/activeusers.png';
@@ -31,7 +32,7 @@ class Data extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-4">
-                        <Parallax className='sourcing' bgImage={Sourcing} strength={300}>
+                        <Parallax className='sourcing' bgImage={NewSourcing} strength={300}>
                             <div style={{height: 430}}>
 
                             </div>
