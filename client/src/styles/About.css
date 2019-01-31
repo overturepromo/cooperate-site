@@ -337,6 +337,7 @@ img.active-users {
 @media(max-width:991px){
     .hero-about{
         margin-top: 0;
+        background-image: url('../images/about/aboutus_heroimg_mobile.jpg');
     }
     .big-words-about{
         display: none;
@@ -407,7 +408,7 @@ img.active-users {
         font-size: 20px
     }
     .hero-about{
-        height: 375px
+        height: 375px;
     }
     .abstract-div{
         text-align: center;
@@ -492,4 +493,5 @@ img.active-users {
     iframe {
         width: 100%;
     }
+
 }
