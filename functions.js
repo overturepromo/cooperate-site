@@ -121,7 +121,7 @@ var mail = require('nodemailer').mail;
   // exports.contactEmail = (name, company, email, phone, message) => {
   // var transporter = nodemailer.createTransport({
   //     host: 'mail.overturepromo.com',
-  //     port: 25,
+  //     port: 587,
   //     secure:false,
   //     ignoreTLS:true
   //   });
