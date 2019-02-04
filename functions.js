@@ -5,8 +5,8 @@ var mail = require('nodemailer').mail;
     var transporter = nodemailer.createTransport({
         host: 'mail.overturepromo.com',
         port: 587,
-        secure: true,
-        ignoreTLS: false
+        secure: false,
+        ignoreTLS: true
       });
     var mailOptions = {
       from: email,
