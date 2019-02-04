@@ -2,12 +2,14 @@ var nodemailer = require('nodemailer');
 var mail = require('nodemailer').mail;
 
   exports.contactEmail = (name, company, email, phone, message) => {
-  var transporter = nodemailer.createTransport({
-      host: 'mail.overturepromo.com',
-      port: 587,
-      secure: true,
-      ignoreTLS: false
-    });
+    var transporter = nodemailer.createTransport({
+          service: 'gmail',
+          secure: true,
+          auth: {
+            user: process.env.MAIL_USER,
+            pass: process.env.MAIL_PASS
+          },
+      });
     var mailOptions = {
       from: email,
       to: 'media@overturepromo.com, jacobg@overturepromo.com', //hr@overturepromo.com 
@@ -120,8 +122,8 @@ var mail = require('nodemailer').mail;
   // var transporter = nodemailer.createTransport({
   //     host: 'mail.overturepromo.com',
   //     port: 587,
-  //     secure:false,
-  //     ignoreTLS:true
+  //     secure: true,
+  //     ignoreTLS: false
   //   });
   //   var mailOptions = {
   //     from: email,
