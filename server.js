@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 const port = process.env.PORT || 5000;
 
-// app.use(enforce.HTTPS());
+app.use(enforce.HTTPS({ trustXForwardedHostHeader: true }));
 
 //Upload Storage function
 let newFilename = ''
