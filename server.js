@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 const port = process.env.PORT || 5000;
 
-app.use(enforce.HTTPS());
+// app.use(enforce.HTTPS());
 
 //Upload Storage function
 let newFilename = ''
@@ -36,8 +36,8 @@ const upload = multer({
 
 //amazon s3 bucket storage
 const client = knox.createClient({
-  key: process.env.AWS_KEY || 'AKIAJLU5A7KXGEGYUO6A',
-  secret: process.env.AWS_SECRET || '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',
+  key: process.env.AWS_KEY,
+  secret: process.env.AWS_SECRET,
   bucket: 'overture-corporate-site-resumes'
 });
 
