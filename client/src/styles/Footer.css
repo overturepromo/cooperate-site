@@ -12,7 +12,9 @@
 
 .info {
     font-size: 16px;
-    line-height: .8;
+    margin: 0;
+    line-height: 1.2;
+    color: #7a7a7a;
 }
 
 .infoBreak {

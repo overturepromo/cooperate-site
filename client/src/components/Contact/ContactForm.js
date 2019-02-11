@@ -65,9 +65,10 @@ class ContactForm extends Component {
                             <h5 className="infoBreak-contact">Vernon Hills, IL 60061</h5>
                         </div>
                         <div className="phone">
-                            <h4 className="overture-contact-address" >Phone</h4>
+                            <h4 className="overture-contact-address" >Contact</h4>
                             <h5 className="info-contact">P. 888.456.9564</h5>
                             <h5 className="info-contact">F. 847.680.0114</h5>
+                            {/* <a href="mailto: info@overturepromo.com" className="info-contact">info@overturepromo.com</a> */}
                         </div>
                         <div className="socials-contact">
                             <a href="https://www.facebook.com/OverturePromotions/" target="blank"><i className="fa fa-facebook" style={icons}></i></a>

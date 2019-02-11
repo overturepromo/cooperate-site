@@ -20,6 +20,7 @@ class Footer extends Component {
                         <div className="phone">
                             <h5 className="info">P. 888.456.9564</h5>
                             <h5 className="info">F. 847.680.0114</h5>
+                            {/* <a href="mailto: info@overturepromo.com" className="info info-tag">info@overturepromo.com</a> */}
                         </div>
                         <div className="socials" style={{paddingTop: '17px'}}>
                             <a href="https://www.facebook.com/OverturePromotions/" target="blank"><i className="fa fa-facebook" style={footerIcons}></i></a>
