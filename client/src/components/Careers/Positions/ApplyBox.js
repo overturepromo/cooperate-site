@@ -93,8 +93,8 @@ class ApplyBox extends Component {
                     <input className="apply-inputs" type='text' name="movies" placeholder="What are your 3 favorite movies?" required value={this.state.movies} onChange={this.handleChange} />
                     <textarea className="apply-inputs text-area-contact" type='text' name="coverLetter" placeholder="Paste your cover letter" value={this.state.coverLetter} onChange={this.handleChange} />
                     <div style={{display: 'flex'}}>
-                        <lable>Attach your resume </lable>
-                        <input className="apply-file" type='file' name='resume' value={this.state.resume} onChange={this.handleChange} />
+                        <lable>Attach your resume<br /> (PDF or Word attachment)</lable>
+                        <input className="apply-file" type='file' accept=".doc, .docx, .pdf" name='resume' value={this.state.resume} onChange={this.handleChange} />
                     </div>
                     <button className="apply-button-send">Send</button>
                 </form>
