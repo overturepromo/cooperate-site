@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Modal from 'react-modal';
 import ApplyBox from './ApplyBox'
 
-class AccountCoordinator extends Component {
+class ACRiverNorth extends Component {
 
     state = {
         showModal: false
@@ -45,9 +45,9 @@ class AccountCoordinator extends Component {
                     <li>Must have strong attention to detail</li>
                     <li>High School Diploma or Equivalent</li>
                 </ul>
-                <p>*Please note that this role is not a remote position, and the expectation is to be on site daily. Relocation is not provided.*</p>
+                <p>*Please note that this role is not a remote position, and the expectation is to be on site daily.  Relocation is not provided. Also, the candidates for this role should be prepared to work their first 2 weeks at the Corporate Headquarters in Vernon Hills, IL for their initial onboarding and training.*</p>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
-                <h5 onClick={() => this.props.bye('accountCoordinator')} className="view-button">Hide Details</h5>
+                <h5 onClick={() => this.props.bye('acRiverNorth')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
                     <ApplyBox title="Account Coordinator River North" close={this.closeModal} />
                 </Modal>
@@ -56,4 +56,4 @@ class AccountCoordinator extends Component {
     }
 }
 
-export default AccountCoordinator;
+export default ACRiverNorth;

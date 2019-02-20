@@ -44,6 +44,7 @@ class National extends Component {
                     <li>Excellent verbal and written communications skills</li>
                     <li>BA/BS degree or equivalent</li>
                 </ul>
+                <p>*Please note that this role is not a remote position, and the expectation is to be on site daily.  Relocation is not provided.*</p>
                 <button className="apply-button" onClick={this.openModal}>Apply For Position</button>
                 <h5 onClick={() => this.props.bye('national')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">

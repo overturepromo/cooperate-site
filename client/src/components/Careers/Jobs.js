@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AccountCoordinator from './Positions/AccountCoordinator'
+import ACRiverNorth from './Positions/ACRiverNorth'
 import SalesAssistant from './Positions/SalesAssistant'
 import SalesAdmin from './Positions/SalesAdmin'
 
@@ -10,6 +11,7 @@ class Jobs extends Component {
     state = {
         national: false,
         accountCoordinator: false,
+        acRiverNorth: false,
         salesAssistant: false,
         salesAdmin: false
     }
@@ -19,6 +21,8 @@ class Jobs extends Component {
             this.setState({national: true})
         } else if(position === 'accountCoordinator'){
             this.setState({accountCoordinator: true})
+        }else if(position === 'acRiverNorth'){
+            this.setState({acRiverNorth: true})
         } else if(position === 'salesAssistant'){
             this.setState({salesAssistant: true})
         } else if(position === 'salesAdmin'){
@@ -32,6 +36,9 @@ class Jobs extends Component {
             document.documentElement.scrollTop = 500;
         } else if(position === 'accountCoordinator'){
             this.setState({accountCoordinator: false})
+            document.documentElement.scrollTop = 500;
+        } else if(position === 'acRiverNorth'){
+            this.setState({acRiverNorth: false})
             document.documentElement.scrollTop = 500;
         } else if(position === 'salesAssistant'){
             this.setState({salesAssistant: false})
@@ -55,6 +62,11 @@ class Jobs extends Component {
                         <h3>Account Coordinator</h3>
                         <h5 onClick={() => this.handleOn('accountCoordinator')} className="view-button">View Details</h5>
                         {this.state.accountCoordinator ? <AccountCoordinator bye={this.handleOff} /> : null}
+                    </div>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3>Account Coordinator River North</h3>
+                        <h5 onClick={() => this.handleOn('acRiverNorth')} className="view-button">View Details</h5>
+                        {this.state.acRiverNorth ? <ACRiverNorth bye={this.handleOff} /> : null}
                     </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Sales Assistant</h3>
