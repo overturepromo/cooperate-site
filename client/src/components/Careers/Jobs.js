@@ -59,7 +59,7 @@ class Jobs extends Component {
                         {this.state.national ? <National bye={this.handleOff} /> : null}
                     </div> */}
                     <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3>Account Coordinator</h3>
+                        <h3>Account Coordinator Vernon Hills</h3>
                         <h5 onClick={() => this.handleOn('accountCoordinator')} className="view-button">View Details</h5>
                         {this.state.accountCoordinator ? <AccountCoordinator bye={this.handleOff} /> : null}
                     </div>

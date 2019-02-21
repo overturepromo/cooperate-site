@@ -49,7 +49,7 @@ class AccountCoordinator extends Component {
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('accountCoordinator')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Account Coordinator River North" close={this.closeModal} />
+                    <ApplyBox title="Account Coordinator Vernon Hills" close={this.closeModal} />
                 </Modal>
             </div>
         )
