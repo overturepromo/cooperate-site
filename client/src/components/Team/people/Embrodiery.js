@@ -183,7 +183,7 @@ export const People = {
     },
     Amberlie: {
         name: 'Amberlie Hamm',
-        title: 'Warehouse Support Associate',
+        title: 'Production Admin',
         bio: '',
         movie: '',
         vacation: '',
