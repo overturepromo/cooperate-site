@@ -16,6 +16,7 @@ import Zenaida from '../../../images/team/Embrodiery/Zenaida.jpg'
 import Victor from '../../../images/team/Embrodiery/Victor.jpg'
 import Tina from '../../../images/team/Embrodiery/Tina.jpg'
 import Inocente from '../../../images/team/Embrodiery/Inocente.jpg'
+import Amberlie from '../../../images/team/Warehouse/Amberlie.jpg';
 
 export const People = {
     Wendy: {
@@ -179,5 +180,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Inocente
+    },
+    Amberlie: {
+        name: 'Amberlie Hamm',
+        title: 'Warehouse Support Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Amberlie
     },
 }

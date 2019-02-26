@@ -15,7 +15,6 @@ import Jose from '../../../images/team/Warehouse/Jose.jpg';
 import Ryan from '../../../images/team/Warehouse/Ryan.jpg';
 import Juan from '../../../images/team/Warehouse/Juan.jpg';
 import Salvador from '../../../images/team/Warehouse/Salvador.jpg';
-import Amberlie from '../../../images/team/Warehouse/Amberlie.jpg';
 import Ismeal from '../../../images/team/Warehouse/Ismeal.jpg';
 import Grace from '../../../images/team/Warehouse/Grace.jpg';
 import Ruth from '../../../images/team/Warehouse/Ruth.jpg';
@@ -174,15 +173,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Salvador
-    },
-    Amberlie: {
-        name: 'Amberlie Hamm',
-        title: 'Warehouse Support Associate',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Amberlie
     },
     Ismeal: {
         name: 'Ismeal Barrera',
