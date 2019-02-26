@@ -53,6 +53,15 @@ const Privacy = () => {
                 <h3 style={headlines}>DISCLAIMER</h3>
                 <p>THIS SITE IS PROVIDED BY OVERTUREPROMOTIONS.COM ON AN &#8220;AS IS&#8221; BASIS. OVERTUREPROMOTIONS.COM MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE OPERATION OF THE SITE, THE INFORMATION, CONTENT, MATERIALS, OR PRODUCTS INCLUDED ON THIS SITE. TO THE FULL EXTENT PERMISSIBLE BY APPLICABLE LAW, OVERTUREPROMOTIONS.COM DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. OVERTUREPROMOTIONS.COM WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND ARISING FROM THE USE OF THIS SITE, INCLUDING BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL PUNITIVE, AND COSEQUENTIAL DAMAGES. APPLICABLE LAW</p>
                 <p>This site is created and controlled by overturepromotions.com in the State of Illinois, USA. As such, the laws of the State of Illinois will govern these disclaimers, terms, and conditions, without giving effect to any principles of conflicts of laws. We reserve the right to make changes to our site and these disclaimers, terms, and conditions at any time.</p>
+                <h3 style={headlines}>Your Access to and Control over Information</h3>
+                <p>You may opt out of any future contacts from us at any time.  You can do the following at any time by contacting us via the email address or phone number given on our website:</p>
+                <ul>
+                    <li>See what data we have about you, if any </li>
+                    <li>Change/correct any data we have about you</li>
+                    <li>Have us delete any data we have about you </li>
+                    <li>Express any concern you have about our use of your data </li>
+                </ul>
+                <p>If you feel that we are not abiding by this Privacy Policy, you should contact us immediately via telephone at (847-573-6080) or via email at <a href="mailto:info@overturepromo.com" style={{color: 'white'}}>(info@overturepromo.com).</a></p>
             </div>
         </div>
     )
