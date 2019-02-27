@@ -46,7 +46,7 @@ class Header extends Component{
                                 <Link id="about-link" className="nav-links" to="/about" onClick={() => this.colorChange('about-link')}>ABOUT</Link>
                                 <Link id="team-link" className="nav-links" to="/team" onClick={() => this.colorChange('team-link')}>TEAM</Link>
                                 <Link id="work-link" className="nav-links" to="/work" onClick={() => this.colorChange('work-link')}>WORK</Link>
-                                <a href="http://catalog.overturepromo.com/" target="blank" className="nav-links">CATALOG</a>
+                                <a href="https://www.overturemarket.com/" target="blank" className="nav-links">CATALOG</a>
                                 <Link className="contact-button" to="/contact" onClick={() => this.clearAll()}>CONTACT US</Link>
                             </nav>
                         </div>
