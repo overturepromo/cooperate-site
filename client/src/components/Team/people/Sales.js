@@ -216,7 +216,7 @@ export const People = {
     },
     Oksana: {
         name: 'Oksana Tupikov',
-        title: 'Account Coordinator',
+        title: 'Sales Admin',
         bio: '',
         movie: 'If Oksana was stranded on a deserted island, the three items she would take with her are a metal firestarter, a book about plants, and a German Shepard.',
         vacation: 'If she could be any animal in the world, she would be a falcon.',
