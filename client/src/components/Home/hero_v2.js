@@ -6,7 +6,7 @@ import '../../styles/Home.css'
 import MobileCta from './MobileCta';
 import MyVideo from '../../images/Video.mp4';
 import HeroText from '../../images/home/herotext.svg';
-import BackupImage from '../../images/home/home_heroimg.jpg'
+import BackupImage from '../../images/work/work_heroimg.jpg'
 
 import {Link as LinkScroll} from "react-scroll";
 
@@ -33,7 +33,7 @@ class Hero extends Component {
         return (
             <div>
                 <div id="video-box">
-                {this.state.ios ? <img src={BackupImage} alt="video-failed" /> :  
+                {this.state.ios ? <img src={BackupImage} alt="video-failed" style={{width: '250%'}} /> :  
                     <video autoPlay muted loop playsInline id="myVideo">
                         <source src={MyVideo} type="video/mp4" />
                     </video>
