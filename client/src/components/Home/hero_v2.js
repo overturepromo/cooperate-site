@@ -6,7 +6,7 @@ import '../../styles/Home.css'
 import MobileCta from './MobileCta';
 import MyVideo from '../../images/Video.mp4';
 import HeroText from '../../images/home/herotext.svg';
-import BackupImage from '../../images/home/aboutus_heroimg.jpg';
+import BackupImage from '../../images/home/home_heroimg.jpg'
 
 import {Link as LinkScroll} from "react-scroll";
 
