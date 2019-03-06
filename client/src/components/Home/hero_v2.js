@@ -18,7 +18,7 @@ class Hero extends Component {
         return (
             <div>
                 <div id="video-box">
-                    <video autoPlay muted loop playsInline id="myVideo">
+                    <video autoPlay muted loop playsinline id="myVideo">
                         <source src={MyVideo} type="video/mp4" />
                         <img src={BackupImage} alt="video-failed" />
                     </video>
