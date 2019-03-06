@@ -11,6 +11,19 @@ import BackupImage from '../../images/home/aboutus_heroimg.jpg';
 import {Link as LinkScroll} from "react-scroll";
 
 class Hero extends Component {
+
+    state={
+        ios: false
+    }
+
+    componentWillMount(){
+        var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        if(iOS){
+            this.setState({
+                ios: true
+            })
+        }
+    }
     componentDidMount(){
         document.getElementById('myVideo').play();
     }
@@ -18,10 +31,11 @@ class Hero extends Component {
         return (
             <div>
                 <div id="video-box">
-                    <video autoPlay muted loop playsinline id="myVideo">
+                {this.state.ios ? <img src={BackupImage} alt="video-failed" /> :  
+                    <video autoPlay muted loop playsInline id="myVideo">
                         <source src={MyVideo} type="video/mp4" />
-                        <img src={BackupImage} alt="video-failed" />
                     </video>
+                }
                     <div className="cta-home">
                         <div className="container">
                             <img src={HeroText} className="hero-text" alt="overture-hero" />

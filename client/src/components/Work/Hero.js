@@ -1,6 +1,4 @@
 import React from 'react';
-import {Link as LinkScroll} from "react-scroll";
-import ScrollDown from '../../images/home/scrollDown.png'
 import '../../styles/Work.css'
 
 const Hero = () => {

@@ -2,11 +2,7 @@ import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
 import CountUp from 'react-countup';
 import Waypoint from 'react-waypoint';
-import Source1 from '../../images/about/test_p.png';
-import Source2 from '../../images/about/test_p2.png';
-import Sourcing from '../../images/about/sourcing.jpg';
 import NewSourcing from '../../images/about/newsourcing.jpg';
-import State from '../../images/about/ordersbystate.svg';
 import State3 from '../../images/about/ordersbystate3.svg'
 import ActiveTwo from '../../images/about/activeusers.png';
 

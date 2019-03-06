@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
-
-import Thumbnail from '../../images/about/thumbnail.png';
 import Check from '../../images/about/checkmark.svg';
 
 class History extends Component {

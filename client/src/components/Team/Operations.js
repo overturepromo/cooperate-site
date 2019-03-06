@@ -3,7 +3,6 @@ import Modal from 'react-modal';
 import {Element} from "react-scroll";
 import Employee from './Employee';
 import { People } from './people/Operations';
-import PlaceHolder from '../../images/team/ExpertsPhotos/PortraitPlaceholder.png';
 
 import '../../styles/Team.css'
 
