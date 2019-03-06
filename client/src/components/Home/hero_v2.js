@@ -18,7 +18,7 @@ class Hero extends Component {
             <div>
                 <div id="video-box">
                     <video autoPlay muted loop id="myVideo">
-                        <source src={MyVideo} type="video/mp4" />
+                        <source src={MyVideo + '#t=99'} type="video/mp4" />
                     </video>
                     <div className="cta-home">
                         <div className="container">
