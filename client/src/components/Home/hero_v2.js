@@ -25,7 +25,9 @@ class Hero extends Component {
         }
     }
     componentDidMount(){
-        document.getElementById('myVideo').play();
+        if(!this.state.ios){
+            document.getElementById('myVideo').play();
+        }
     }
     render(){    
         return (
