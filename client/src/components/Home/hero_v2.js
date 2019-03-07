@@ -29,6 +29,7 @@ class Hero extends Component {
             document.getElementById('myVideo').play();
         }
     }
+    
     render(){    
         return (
             <div>
