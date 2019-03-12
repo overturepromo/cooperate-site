@@ -84,7 +84,7 @@ export const People = {
     },
     Katelynn: {
         name: 'Katelynn Fioretto',
-        title: 'Account Manager',
+        title: 'Sr. Account Manager',
         bio: '',
         movie: '',
         vacation: '',
