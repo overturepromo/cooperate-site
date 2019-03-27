@@ -1,5 +1,4 @@
 import Don from '../../../images/team/Operations/Don.jpg'
-import Roger from '../../../images/team/Operations/Roger.jpg'
 import Kristin from '../../../images/team/Operations/Kristin.jpg'
 import Corinne from '../../../images/team/Operations/Corinne.jpg'
 import Nancy from '../../../images/team/Operations/Nancy.jpg'
@@ -36,15 +35,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Don
-    },
-    Roger: {
-        name: 'Roger Brual',
-        title: 'Logistics & Inventory Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Roger
     },
     Kristin: {
         name: 'Kristin Becker',

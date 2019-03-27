@@ -55,6 +55,7 @@ class Sales extends Component {
                     <Employee image={People.Sara.image} name={People.Sara.name} title={People.Sara.title} />
                     <Employee image={People.Shannon.image} name={People.Shannon.name} title={People.Shannon.title} />
                     <Employee image={People.Stefanie.image} name={People.Stefanie.name} title={People.Stefanie.title} />
+                    <Employee image={People.Roger.image} name={People.Roger.name} title={People.Roger.title} />
                     {/* <Employee image={People.Oksana.image} name={People.Oksana.name} title={People.Oksana.title} clicked={() => this.openModal(0)} /> */}
                 </div>
                 {/* All The modals */}

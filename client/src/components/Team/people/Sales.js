@@ -23,6 +23,7 @@ import Oksana from '../../../images/team/Sales/Oksana.jpg'
 import Brittany from '../../../images/team/Sales/Brittany.jpg'
 import Anna from '../../../images/team/Sales/Anna.jpg'
 import Josella from '../../../images/team/Sales/Josella.jpg';
+import Roger from '../../../images/team/Operations/Roger.jpg'
 
 export const People = {
     Amy: {
@@ -249,5 +250,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Josella
+    },
+    Roger: {
+        name: 'Roger Brual',
+        title: 'Operations Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Roger
     },
 }
