@@ -5,6 +5,7 @@ import Waypoint from 'react-waypoint';
 import NewSourcing from '../../images/about/newsourcing.jpg';
 import State3 from '../../images/about/ordersbystate3.svg'
 import ActiveTwo from '../../images/about/activeusers.png';
+import QCA from '../../images/about/QCA_Badge.jpg';
 
 class Data extends Component {
 
@@ -47,6 +48,7 @@ class Data extends Component {
                         <div className="col-md-7 responsible">
                             <h4 className="green-history">How carefully we work.</h4>
                             <p className="basic">We’re serious about investing in technology to streamline processes and improve quality and inventory control. We are assiduous in our security precautions to protect our customers’ data. We work with the Quality Certification Alliance, the promotional product industry’s only independent, non-profit organization dedicated to certifying manufacturers’ processes for product quality and safety, supply chain security, ethical manufacturing compliance, and environmental stewardship. We believe so strongly in the importance of their work that we serve on QCA’s Distributor Advocacy Council.</p>
+                            <img src={QCA} style={{height: '140px'}} alt="badge" />
                         </div>
                     </div>
                 </div>
