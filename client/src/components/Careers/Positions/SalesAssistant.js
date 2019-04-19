@@ -47,6 +47,7 @@ class SalesAssistant extends Component {
                     <li>College degree preferred, but not required</li>
                 </ul>
                 <p>*Please note that this role is not a remote position, and the expectation is to be on site daily.  Relocation is not provided.*</p>
+                <p>*We also have a location in Waukegan, so the ideal candidate would have the flexibility to work at both locations.*</p>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('salesAssistant')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
