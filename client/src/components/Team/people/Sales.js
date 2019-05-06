@@ -37,7 +37,7 @@ export const People = {
     },
     Angela: {
         name: 'Angela Shimenetto',
-        title: 'Account Coordinator',
+        title: 'Account Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -127,7 +127,7 @@ export const People = {
     },
     Lisa: {
         name: 'Lisa Sparreo',
-        title: 'Account Coordinator',
+        title: 'Account Manager',
         bio: '',
         movie: '',
         vacation: '',
