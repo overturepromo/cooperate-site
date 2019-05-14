@@ -191,7 +191,7 @@ export const People = {
     },
     Kevin: {
         name: 'Kevin Doss',
-        title: 'IT Specialist & Web Dev',
+        title: 'Sr. Web Developer',
         bio: '',
         movie: '',
         vacation: '',
@@ -218,7 +218,7 @@ export const People = {
     },
     Jeremy: {
         name: 'Jeremy Schulz',
-        title: 'Inventory Control Coordinator',
+        title: 'Asst Distribution Center Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -254,7 +254,7 @@ export const People = {
     },
     ChrisS: {
         name: 'Chris Sheehy',
-        title: 'Web Developer',
+        title: 'Sr. Web Developer',
         bio: '',
         movie: '',
         vacation: '',

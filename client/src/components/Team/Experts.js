@@ -45,7 +45,6 @@ class Experts extends Component {
                     <Employee image={People.BenB.image} name={People.BenB.name} title={People.BenB.title} clicked={() => this.openModal(9)} />
                     <Employee image={People.BlakeW.image} name={People.BlakeW.name} title={People.BlakeW.title} clicked={() => this.openModal(19)} />
                     <Employee image={People.BobbyH.image} name={People.BobbyH.name} title={People.BobbyH.title} clicked={() => this.openModal(10)} />
-                    <Employee image={People.BruceR.image} name={People.BruceR.name} title={People.BruceR.title} clicked={() => this.openModal(20)} />
                     <Employee image={People.CodyS.image} name={People.CodyS.name} title={People.CodyS.title} clicked={() => this.openModal(11)} />
                     <Employee image={People.CynthiaL.image} name={People.CynthiaL.name} title={People.CynthiaL.title} clicked={() => this.openModal(12)} />
                     <Employee image={People.DaveR.image} name={People.DaveR.name} title={People.DaveR.title} clicked={() => this.openModal(13)} />
@@ -207,14 +206,6 @@ class Experts extends Component {
                         name={People.BlakeW.name} 
                         title={People.BlakeW.title} 
                         bio={People.BlakeW.bio} movie={People.BlakeW.movie} vacation={People.BlakeW.vacation} why={People.BlakeW.why}
-                    close={() => this.closeModal()} />
-                </Modal>
-                <Modal isOpen={this.state.showModal[20]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.BruceR.image} 
-                        name={People.BruceR.name} 
-                        title={People.BruceR.title} 
-                        bio={People.BruceR.bio} movie={People.BruceR.movie} vacation={People.BruceR.vacation} why={People.BruceR.why}
                     close={() => this.closeModal()} />
                 </Modal>
                 <Modal isOpen={this.state.showModal[21]} onRequestClose={this.closeModal} className="employee-modal">

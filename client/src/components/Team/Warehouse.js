@@ -38,7 +38,6 @@ class Warehouse extends Component {
                     <Employee image={People.MattN.image} name={People.MattN.name} title={People.MattN.title} />
                     <Employee image={People.Elijah.image} name={People.Elijah.name} title={People.Elijah.title} />
                     <Employee image={People.Lupe.image} name={People.Lupe.name} title={People.Lupe.title} />
-                    <Employee image={People.Will.image} name={People.Will.name} title={People.Will.title} />
                     <Employee image={People.Yeni.image} name={People.Yeni.name} title={People.Yeni.title} />
                     <Employee image={People.Grace.image} name={People.Grace.name} title={People.Grace.title} />
                     <Employee image={People.Juvenita.image} name={People.Juvenita.name} title={People.Juvenita.title} />
@@ -48,7 +47,6 @@ class Warehouse extends Component {
                     <Employee image={People.Juan.image} name={People.Juan.name} title={People.Juan.title} />
                     <Employee image={People.Salvador.image} name={People.Salvador.name} title={People.Salvador.title} />
                     <Employee image={People.Ismeal.image} name={People.Ismeal.name} title={People.Ismeal.title} />
-                    <Employee image={People.Rafael.image} name={People.Rafael.name} title={People.Rafael.title} />
                 </div>
             </div>
         )
