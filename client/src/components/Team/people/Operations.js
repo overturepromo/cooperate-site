@@ -25,6 +25,7 @@ import Chris from '../../../images/team/Operations/Chris.jpg';
 import Sheehy from '../../../images/team/Operations/Sheehy.jpg';
 import Dave from '../../../images/team/Operations/Dave.jpg';
 import Charles from '../../../images/team/Operations/Charles.jpg';
+import Keyla from '../../../images/team/Operations/Keyla.jpg';
 
 export const People = {
     Don: {
@@ -278,5 +279,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Charles
-    }
+    },
+    Keyla: {
+        name: 'Keyla Patricio',
+        title: 'Fulfillment Shipping Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Keyla
+    },
 }

@@ -17,6 +17,7 @@ import Ricky from '../../../images/team/ECom/Ricky.jpg';
 import Jessica from '../../../images/team/ECom/Jessica.jpg';
 import Sean from '../../../images/team/ECom/Sean.jpg';
 import Kaley from '../../../images/team/ECom/Kaley.jpg';
+import Kristina from '../../../images/team/ECom/Kristina.jpg';
 
 export const People = {
     Ethan: {
@@ -128,8 +129,8 @@ export const People = {
         image: Gabrielle
     },
     Sarah: {
-        name: 'Sarah Padjen',
-        title: 'Sales Associate',
+        name: 'Sarah Hoffmann',
+        title: 'Account Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -189,5 +190,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Kaley
+    },  
+    Kristina: {
+        name: 'Kristina Keller',
+        title: 'Sales Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Kristina
     },  
 }

@@ -25,6 +25,7 @@ import Anna from '../../../images/team/Sales/Anna.jpg'
 import Josella from '../../../images/team/Sales/Josella.jpg';
 import Roger from '../../../images/team/Operations/Roger.jpg';
 import Bruce from '../../../images/team/Sales/Bruce.jpg';
+import Kailee from '../../../images/team/Sales/Kailee.jpg';
 
 export const People = {
     Amy: {
@@ -269,5 +270,14 @@ export const People = {
         vacation: "Florida to see my granddaughter.",
         why: "I can accomplish anything for my clients, thanks to our services and staff.",
         image: Bruce
+    },
+    Kailee: {
+        name: 'Kailee Murphy',
+        title: 'Sales Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Kailee
     },
 }

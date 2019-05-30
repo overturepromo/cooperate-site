@@ -45,16 +45,17 @@ class Sales extends Component {
                     <Employee image={People.Karyn.image} name={People.Karyn.name} title={People.Karyn.title} />
                     <Employee image={People.Katie.image} name={People.Katie.name} title={People.Katie.title} />
                     <Employee image={People.Kat.image} name={People.Kat.name} title={People.Kat.title} />
+                    <Employee image={People.Kailee.image} name={People.Kailee.name} title={People.Kailee.title} />
                     <Employee image={People.Lauren.image} name={People.Lauren.name} title={People.Lauren.title} />
                     <Employee image={People.Lindsay.image} name={People.Lindsay.name} title={People.Lindsay.title} />
                     <Employee image={People.Lisa.image} name={People.Lisa.name} title={People.Lisa.title} />
                     <Employee image={People.Megan.image} name={People.Megan.name} title={People.Megan.title} />
                     <Employee image={People.Lupe.image} name={People.Lupe.name} title={People.Lupe.title} />
                     <Employee image={People.Renee.image} name={People.Renee.name} title={People.Renee.title} />
+                    <Employee image={People.Roger.image} name={People.Roger.name} title={People.Roger.title} />
                     <Employee image={People.Sara.image} name={People.Sara.name} title={People.Sara.title} />
                     <Employee image={People.Shannon.image} name={People.Shannon.name} title={People.Shannon.title} />
                     <Employee image={People.Stefanie.image} name={People.Stefanie.name} title={People.Stefanie.title} />
-                    <Employee image={People.Roger.image} name={People.Roger.name} title={People.Roger.title} />
                     {/* <Employee image={People.Oksana.image} name={People.Oksana.name} title={People.Oksana.title} clicked={() => this.openModal(0)} /> */}
                 </div>
                 {/* All The modals */}

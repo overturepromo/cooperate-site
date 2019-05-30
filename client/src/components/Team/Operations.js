@@ -41,14 +41,14 @@ class Operations extends Component {
                     <Employee image={People.Lisa.image} name={People.Lisa.name} title={People.Lisa.title} />
                     <Employee image={People.Eileen.image} name={People.Eileen.name} title={People.Eileen.title} />
                     <Employee image={People.Liz.image} name={People.Liz.name} title={People.Liz.title} />
-                    <Employee image={People.Morgan.image} name={People.Morgan.name} title={People.Morgan.title} />
-                    <Employee image={People.Anthony.image} name={People.Anthony.name} title={People.Anthony.title} />
+                    <Employee image={People.Morgan.image} name={People.Morgan.name} title={People.Morgan.title} />                    
                     <Employee image={People.Robyn.image} name={People.Robyn.name} title={People.Robyn.title} />
                     <Employee image={People.Trina.image} name={People.Trina.name} title={People.Trina.title} />
                     <Employee image={People.Julie.image} name={People.Julie.name} title={People.Julie.title} />
                     <Employee image={People.Ashley.image} name={People.Ashley.name} title={People.Ashley.title} />
                     <Employee image={People.ChrisM.image} name={People.ChrisM.name} title={People.ChrisM.title} />
                     <Employee image={People.Tiffany.image} name={People.Tiffany.name} title={People.Tiffany.title} />
+                    <Employee image={People.Keyla.image} name={People.Keyla.name} title={People.Keyla.title} />
                     <Employee image={People.Jeremy.image} name={People.Jeremy.name} title={People.Jeremy.title} />
                     <Employee image={People.Melissa.image} name={People.Melissa.name} title={People.Melissa.title} />
                     <Employee image={People.Shawn.image} name={People.Shawn.name} title={People.Shawn.title} />

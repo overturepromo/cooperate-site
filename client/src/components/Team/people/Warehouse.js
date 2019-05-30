@@ -19,6 +19,7 @@ import Ismeal from '../../../images/team/Warehouse/Ismeal.jpg';
 import Grace from '../../../images/team/Warehouse/Grace.jpg';
 import Ruth from '../../../images/team/Warehouse/Ruth.jpg';
 import Rafael from '../../../images/team/Warehouse/Rafael.jpg';
+import Nancy from '../../../images/team/Warehouse/Nancy.jpg';
 
 export const People = {
     Mario: {
@@ -209,5 +210,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Rafael
+    },
+    Nancy: {
+        name: 'Nancy Aguilar',
+        title: 'Packer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Nancy
     },
 }
