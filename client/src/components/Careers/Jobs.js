@@ -4,6 +4,7 @@ import ACRiverNorth from './Positions/ACRiverNorth'
 import SalesAssistant from './Positions/SalesAssistant'
 import SalesAdmin from './Positions/SalesAdmin'
 import WarehouseAssociate from './Positions/WarehouseAssociate'
+import BillingCoordinator from './Positions/BillingCoordinator'
 
 import '../../styles/Careers.css'
 
@@ -15,7 +16,8 @@ class Jobs extends Component {
         acRiverNorth: false,
         salesAssistant: false,
         salesAdmin: false,
-        warehouseAssociate: false
+        warehouseAssociate: false,
+        billingCoordinator: false
     }
 
     handleOn = (position) => {
@@ -31,6 +33,8 @@ class Jobs extends Component {
             this.setState({salesAdmin: true})
         } else if(position === 'warehouseAssociate'){
             this.setState({warehouseAssociate: true})
+        } else if(position === 'billingCoordinator'){
+            this.setState({billingCoordinator: true})
         }
     }
 
@@ -52,6 +56,9 @@ class Jobs extends Component {
             document.documentElement.scrollTop = 500;
         } else if(position === 'warehouseAssociate'){
             this.setState({warehouseAssociate: false})
+            document.documentElement.scrollTop = 500;
+        } else if(position === 'billingCoordinator'){
+            this.setState({billingCoordinator: false})
             document.documentElement.scrollTop = 500;
         }
     }
@@ -89,6 +96,11 @@ class Jobs extends Component {
                         <h3>Warehouse Associate</h3>
                         <h5 onClick={() => this.handleOn('warehouseAssociate')} className="view-button">View Details</h5>
                         {this.state.warehouseAssociate ? <WarehouseAssociate bye={this.handleOff} /> : null}
+                    </div>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3>Billing Coordinator</h3>
+                        <h5 onClick={() => this.handleOn('billingCoordinator')} className="view-button">View Details</h5>
+                        {this.state.billingCoordinator ? <BillingCoordinator bye={this.handleOff} /> : null}
                     </div>
                 </div>
             </div>
