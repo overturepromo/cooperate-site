@@ -4,14 +4,15 @@ import ACRiverNorth from './Positions/ACRiverNorth'
 import SalesAssistant from './Positions/SalesAssistant'
 import SalesAdmin from './Positions/SalesAdmin'
 import WarehouseAssociate from './Positions/WarehouseAssociate'
-import GraphicDesigner from './Positions/GraphicDesginer'
+import GraphicDesigner from './Positions/GraphicDesginer';
+import WebDeveloper from './Positions/WebDeveloper';
 
 import '../../styles/Careers.css'
 
 class Jobs extends Component {
 
     state = {
-        national: false,
+        webDeveloper: false,
         accountCoordinator: false,
         acRiverNorth: false,
         salesAssistant: false,
@@ -21,8 +22,8 @@ class Jobs extends Component {
     }
 
     handleOn = (position) => {
-        if(position === 'national'){
-            this.setState({national: true})
+        if(position === 'webDeveloper'){
+            this.setState({webDeveloper: true})
         } else if(position === 'accountCoordinator'){
             this.setState({accountCoordinator: true})
         }else if(position === 'acRiverNorth'){
@@ -39,8 +40,8 @@ class Jobs extends Component {
     }
 
     handleOff = (position) => {
-        if(position === 'national'){
-            this.setState({national: false})
+        if(position === 'webDeveloper'){
+            this.setState({webDeveloper: false})
             document.documentElement.scrollTop = 500;
         } else if(position === 'accountCoordinator'){
             this.setState({accountCoordinator: false})
@@ -67,11 +68,6 @@ class Jobs extends Component {
         return (
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
-                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3>Director, National Accounts</h3>
-                        <h5 onClick={() => this.handleOn('national')} className="view-button">View Details</h5>
-                        {this.state.national ? <National bye={this.handleOff} /> : null}
-                    </div> */}
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Account Coordinator Vernon Hills</h3>
                         <h5 onClick={() => this.handleOn('accountCoordinator')} className="view-button">View Details</h5>
@@ -101,6 +97,11 @@ class Jobs extends Component {
                         <h3>Graphic Designer</h3>
                         <h5 onClick={() => this.handleOn('graphicDesigner')} className="view-button">View Details</h5>
                         {this.state.graphicDesigner ? <GraphicDesigner bye={this.handleOff} /> : null}
+                    </div>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3>Jr. Front End Developer</h3>
+                        <h5 onClick={() => this.handleOn('webDeveloper')} className="view-button">View Details</h5>
+                        {this.state.webDeveloper ? <WebDeveloper bye={this.handleOff} /> : null}
                     </div>
                 </div>
             </div>
