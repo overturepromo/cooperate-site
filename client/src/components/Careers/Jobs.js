@@ -97,11 +97,11 @@ class Jobs extends Component {
                         <h5 onClick={() => this.handleOn('warehouseAssociate')} className="view-button">View Details</h5>
                         {this.state.warehouseAssociate ? <WarehouseAssociate bye={this.handleOff} /> : null}
                     </div>
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Billing Coordinator</h3>
                         <h5 onClick={() => this.handleOn('billingCoordinator')} className="view-button">View Details</h5>
                         {this.state.billingCoordinator ? <BillingCoordinator bye={this.handleOff} /> : null}
-                    </div>
+                    </div> */}
                 </div>
             </div>
         )
