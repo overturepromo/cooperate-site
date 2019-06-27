@@ -40,6 +40,7 @@ class Sales extends Component {
                     <Employee image={People.Cindy.image} name={People.Cindy.name} title={People.Cindy.title} />
                     <Employee image={People.Danny.image} name={People.Danny.name} title={People.Danny.title} />
                     <Employee image={People.Jenna.image} name={People.Jenna.name} title={People.Jenna.title} />
+                    <Employee image={People.Samantha.image} name={People.Samantha.name} title={People.Samantha.title} />
                     <Employee image={People.Jennifer.image} name={People.Jennifer.name} title={People.Jennifer.title} />
                     <Employee image={People.Josella.image} name={People.Josella.name} title={People.Josella.title} />
                     <Employee image={People.Karyn.image} name={People.Karyn.name} title={People.Karyn.title} />
@@ -48,7 +49,9 @@ class Sales extends Component {
                     <Employee image={People.Kailee.image} name={People.Kailee.name} title={People.Kailee.title} />
                     <Employee image={People.Lauren.image} name={People.Lauren.name} title={People.Lauren.title} />
                     <Employee image={People.Lindsay.image} name={People.Lindsay.name} title={People.Lindsay.title} />
+                    <Employee image={People.Michelle.image} name={People.Michelle.name} title={People.Michelle.title} />
                     <Employee image={People.Lisa.image} name={People.Lisa.name} title={People.Lisa.title} />
+                    <Employee image={People.Alexandra.image} name={People.Alexandra.name} title={People.Alexandra.title} />
                     <Employee image={People.Megan.image} name={People.Megan.name} title={People.Megan.title} />
                     <Employee image={People.Lupe.image} name={People.Lupe.name} title={People.Lupe.title} />
                     <Employee image={People.Renee.image} name={People.Renee.name} title={People.Renee.title} />
@@ -56,6 +59,7 @@ class Sales extends Component {
                     <Employee image={People.Sara.image} name={People.Sara.name} title={People.Sara.title} />
                     <Employee image={People.Shannon.image} name={People.Shannon.name} title={People.Shannon.title} />
                     <Employee image={People.Stefanie.image} name={People.Stefanie.name} title={People.Stefanie.title} />
+                    <Employee image={People.JenniferG.image} name={People.JenniferG.name} title={People.JenniferG.title} />
                     {/* <Employee image={People.Oksana.image} name={People.Oksana.name} title={People.Oksana.title} clicked={() => this.openModal(0)} /> */}
                 </div>
                 {/* All The modals */}

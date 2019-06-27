@@ -21,6 +21,13 @@ import Ruth from '../../../images/team/Warehouse/Ruth.jpg';
 import Rafael from '../../../images/team/Warehouse/Rafael.jpg';
 import Nancy from '../../../images/team/Warehouse/Nancy.jpg';
 
+//These are the default photos to be used when photo no avail.
+import Male1 from '../../../images/team/Male1.jpg';
+import Male2 from '../../../images/team/Male2.jpg';
+import Female1 from '../../../images/team/Female1.jpg';
+import Female2 from '../../../images/team/Female2.jpg';
+
+
 export const People = {
     Mario: {
         name: 'Mario Maldonado',
@@ -176,7 +183,7 @@ export const People = {
         image: Salvador
     },
     Ismeal: {
-        name: 'Ismeal Barrera',
+        name: 'Ismael Barrera',
         title: 'Receiving Clerk',
         bio: '',
         movie: '',
@@ -219,5 +226,50 @@ export const People = {
         vacation: '',
         why: '',
         image: Nancy
+    },
+    Gloria: {
+        name: 'Gloria Ramierz',
+        title: 'Picker',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    Bryan: {
+        name: 'Bryan Vasquez',
+        title: 'Inventory Control Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Natalie: {
+        name: 'Natalie Flanagan',
+        title: 'Special Projects',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
+    Emrys: {
+        name: 'Emrys Hernandez',
+        title: 'Special Projects',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
+    },
+    Ellover: {
+        name: 'Ellover Reyes',
+        title: 'Picker',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
     },
 }

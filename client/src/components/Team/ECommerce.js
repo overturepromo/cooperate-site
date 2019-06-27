@@ -48,6 +48,10 @@ class ECommerce extends Component {
                     <Employee image={People.Kaley.image} name={People.Kaley.name} title={People.Kaley.title} />
                     <Employee image={People.Sarah.image} name={People.Sarah.name} title={People.Sarah.title} />
                     <Employee image={People.Kristina.image} name={People.Kristina.name} title={People.Kristina.title} />
+                    <Employee image={People.Kimberline.image} name={People.Kimberline.name} title={People.Kimberline.title} />
+                    <Employee image={People.SarahC.image} name={People.SarahC.name} title={People.SarahC.title} />
+                    <Employee image={People.Melissa.image} name={People.Melissa.name} title={People.Melissa.title} />
+                    <Employee image={People.Mallory.image} name={People.Mallory.name} title={People.Mallory.title} />
                 </div>
             </div>
         )

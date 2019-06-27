@@ -27,6 +27,12 @@ import Roger from '../../../images/team/Operations/Roger.jpg';
 import Bruce from '../../../images/team/Sales/Bruce.jpg';
 import Kailee from '../../../images/team/Sales/Kailee.jpg';
 
+//These are the default photos to be used when photo no avail.
+import Male1 from '../../../images/team/Male1.jpg';
+import Male2 from '../../../images/team/Male2.jpg';
+import Female1 from '../../../images/team/Female1.jpg';
+import Female2 from '../../../images/team/Female2.jpg';
+
 export const People = {
     Amy: {
         name: 'Amy Wagner',
@@ -279,5 +285,41 @@ export const People = {
         vacation: '',
         why: '',
         image: Kailee
+    },
+    Michelle: {
+        name: 'Michelle Inman',
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    Samantha: {
+        name: 'Samantha Uhl',
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
+    JenniferG: {
+        name: 'Jennifer Gragg',
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    Alexandra: {
+        name: 'Alexandra Ladd',
+        title: 'Account Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
     },
 }

@@ -19,6 +19,12 @@ import Sean from '../../../images/team/ECom/Sean.jpg';
 import Kaley from '../../../images/team/ECom/Kaley.jpg';
 import Kristina from '../../../images/team/ECom/Kristina.jpg';
 
+//These are the default photos to be used when photo no avail.
+import Male1 from '../../../images/team/Male1.jpg';
+import Male2 from '../../../images/team/Male2.jpg';
+import Female1 from '../../../images/team/Female1.jpg';
+import Female2 from '../../../images/team/Female2.jpg';
+
 export const People = {
     Ethan: {
         name: 'Ethan Collins',
@@ -199,5 +205,41 @@ export const People = {
         vacation: '',
         why: '',
         image: Kristina
+    },
+    Kimberline: {
+        name: 'Kimberline Sawyer',
+        title: 'Sr. Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    SarahC: {
+        name: 'Sarah Crowl',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
     },  
+    Melissa: {
+        name: 'Melissa Dysinger',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },  
+    Mallory: {
+        name: 'Mallory Geniesse',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },     
 }
