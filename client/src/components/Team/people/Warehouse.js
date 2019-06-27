@@ -261,7 +261,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: Female1
     },
     Ellover: {
         name: 'Ellover Reyes',
