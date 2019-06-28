@@ -305,7 +305,7 @@ export const People = {
         image: Female2
     },
     JenniferG: {
-        name: 'Jennifer Gragg',
+        name: 'Jen Gragg',
         title: 'Sales Account Admin',
         bio: '',
         movie: '',
