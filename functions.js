@@ -58,6 +58,19 @@ var mail = require('nodemailer').mail;
   };
 
 
+  // THIS IS THE OAUTH INFO
+
+  // auth: {
+  //   type: 'OAuth2',
+  //   user: process.env.OAUTH_USER,
+  //   clientId: process.env.OAUTH_CLIENTID,
+  //   clientSecret: process.env.OAUTH_CLIENTSECRET,
+  //   refreshToken: process.env.OAUTH_REFRESHTOKEN,
+  //   accessToken: process.env.OAUTH_ACCESSTOKEN,
+  // },
+
+
+
   // ORIGINALS!!
 
   // exports.contactEmail = (name, company, email, phone, message) => {

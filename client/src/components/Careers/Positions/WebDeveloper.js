@@ -61,6 +61,9 @@ class WebDeveloper extends Component {
                     <li>BS/BA degree or equivalent combination of education and experience required.</li>
                 </ul>
                 <p>*NOTE: Experience is always nice, but it’s the drive to understand the fundamental technologies underneath the frameworks, platforms, and libraries which make a serviceable developer an excellent developer. We put a premium on clean, maintainable code. We’re looking for someone who isn’t satisfied patching together solutions from stack overflow, but rather strives to understand those solutions so they might create their own.</p>
+                <p>*Please note that this role is not a remote position, and the expectation is to be on site daily. Relocation is not provided.*</p>
+                <p>*We also have a location in Waukegan, so the ideal candidate would have the flexibility to work at both locations.*</p>
+                <p><strong>*There is no sponsorship for this role*</strong></p>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('webDeveloper')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
