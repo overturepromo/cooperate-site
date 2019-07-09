@@ -296,7 +296,7 @@ export const People = {
         image: Keyla
     },
     Barb: {
-        name: 'Barb Zurkowski',
+        name: 'Barb Zukowski',
         title: 'Billing Coordinator',
         bio: '',
         movie: '',
