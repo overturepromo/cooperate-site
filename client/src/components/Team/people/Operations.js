@@ -27,6 +27,12 @@ import Dave from '../../../images/team/Operations/Dave.jpg';
 import Charles from '../../../images/team/Operations/Charles.jpg';
 import Keyla from '../../../images/team/Operations/Keyla.jpg';
 
+//These are the default photos to be used when photo no avail.
+import Male1 from '../../../images/team/Male1.jpg';
+import Male2 from '../../../images/team/Male2.jpg';
+import Female1 from '../../../images/team/Female1.jpg';
+import Female2 from '../../../images/team/Female2.jpg';
+
 export const People = {
     Don: {
         name: 'Don Boyk',
@@ -288,5 +294,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Keyla
+    },
+    Barb: {
+        name: 'Barb Zurkowski',
+        title: 'Billing Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
     },
 }

@@ -241,5 +241,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Female2
-    },     
+    },
+    Yasmin: {
+        name: 'Yasmin Marrero',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },      
 }
