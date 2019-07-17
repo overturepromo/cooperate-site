@@ -9,7 +9,7 @@ import Briana from '../../../images/team/Creative/Briana.jpg';
 export const People = {
     Christine: {
         name: 'Christine Sheldon',
-        title: 'Senior Designer',
+        title: 'Graphic Design Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -18,7 +18,7 @@ export const People = {
     },
     Laura: {
         name: 'Laura Hudec',
-        title: 'Senior Designer',
+        title: 'Graphic Design Manager',
         bio: '',
         movie: '',
         vacation: '',

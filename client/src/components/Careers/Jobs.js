@@ -6,6 +6,7 @@ import SalesAdmin from './Positions/SalesAdmin'
 import WarehouseAssociate from './Positions/WarehouseAssociate'
 import GraphicDesigner from './Positions/GraphicDesginer';
 import WebDeveloper from './Positions/WebDeveloper';
+import DirectorAccount from './Positions/DirectorAccount';
 
 import '../../styles/Careers.css'
 
@@ -18,7 +19,8 @@ class Jobs extends Component {
         salesAssistant: false,
         salesAdmin: false,
         warehouseAssociate: false,
-        graphicDesigner: false
+        graphicDesigner: false,
+        directorAccount: false
     }
 
     handleOn = (position) => {
@@ -36,6 +38,8 @@ class Jobs extends Component {
             this.setState({warehouseAssociate: true})
         } else if(position === 'graphicDesigner'){
             this.setState({graphicDesigner: true})
+        } else if(position === 'directorAccount'){
+            this.setState({directorAccount: true})
         }
     }
 
@@ -60,6 +64,9 @@ class Jobs extends Component {
             document.documentElement.scrollTop = 500;
         } else if(position === 'graphicDesigner'){
             this.setState({graphicDesigner: false})
+            document.documentElement.scrollTop = 500;
+        } else if(position === 'directorAccount'){
+            this.setState({directorAccount: false})
             document.documentElement.scrollTop = 500;
         }
     }
@@ -102,6 +109,11 @@ class Jobs extends Component {
                         <h3>Jr. Front End Developer</h3>
                         <h5 onClick={() => this.handleOn('webDeveloper')} className="view-button">View Details</h5>
                         {this.state.webDeveloper ? <WebDeveloper bye={this.handleOff} /> : null}
+                    </div>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3>Director of Account Development (Vernon Hills, move to Waukegan in the fall)</h3>
+                        <h5 onClick={() => this.handleOn('directorAccount')} className="view-button">View Details</h5>
+                        {this.state.directorAccount ? <DirectorAccount bye={this.handleOff} /> : null}
                     </div>
                 </div>
             </div>
