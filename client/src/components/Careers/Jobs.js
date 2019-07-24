@@ -75,7 +75,7 @@ class Jobs extends Component {
         return (
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Account Coordinator Vernon Hills</h3>
                         <h5 onClick={() => this.handleOn('accountCoordinator')} className="view-button">View Details</h5>
                         {this.state.accountCoordinator ? <AccountCoordinator bye={this.handleOff} /> : null}
@@ -89,7 +89,7 @@ class Jobs extends Component {
                         <h3>Sales Assistant</h3>
                         <h5 onClick={() => this.handleOn('salesAssistant')} className="view-button">View Details</h5>
                         {this.state.salesAssistant ? <SalesAssistant bye={this.handleOff} /> : null}
-                    </div>
+                    </div> */}
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Sales Admin</h3>
                         <h5 onClick={() => this.handleOn('salesAdmin')} className="view-button">View Details</h5>
