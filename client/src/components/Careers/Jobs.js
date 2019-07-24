@@ -106,7 +106,7 @@ class Jobs extends Component {
                         {this.state.graphicDesigner ? <GraphicDesigner bye={this.handleOff} /> : null}
                     </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3>Director of Account Development (Vernon Hills, move to Waukegan in the fall)</h3>
+                        <h3>Account Development Manager (Vernon Hills, move to Waukegan in the fall)</h3>
                         <h5 onClick={() => this.handleOn('directorAccount')} className="view-button">View Details</h5>
                         {this.state.directorAccount ? <DirectorAccount bye={this.handleOff} /> : null}
                     </div>
