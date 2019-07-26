@@ -58,7 +58,7 @@ class DirectorAccount extends Component {
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('directorAccount')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Director of Account Development" close={this.closeModal} />
+                    <ApplyBox title="Account Development Manager" close={this.closeModal} />
                 </Modal>
             </div>
         )
