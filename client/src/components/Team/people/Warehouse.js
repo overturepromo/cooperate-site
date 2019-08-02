@@ -20,6 +20,7 @@ import Grace from '../../../images/team/Warehouse/Grace.jpg';
 import Ruth from '../../../images/team/Warehouse/Ruth.jpg';
 import Rafael from '../../../images/team/Warehouse/Rafael.jpg';
 import Nancy from '../../../images/team/Warehouse/Nancy.jpg';
+import Bryan from '../../../images/team/Warehouse/Bryan.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -243,7 +244,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Bryan
     },
     Natalie: {
         name: 'Natalie Flanagan',

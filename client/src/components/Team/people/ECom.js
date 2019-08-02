@@ -18,6 +18,10 @@ import Jessica from '../../../images/team/ECom/Jessica.jpg';
 import Sean from '../../../images/team/ECom/Sean.jpg';
 import Kaley from '../../../images/team/ECom/Kaley.jpg';
 import Kristina from '../../../images/team/ECom/Kristina.jpg';
+import SarahC from '../../../images/team/ECom/SarahC.jpg';
+import Melissa from '../../../images/team/ECom/Melissa.jpg';
+import Mallory from '../../../images/team/ECom/Mallory.jpg';
+import Yas from '../../../images/team/ECom/Yas.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -222,7 +226,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: SarahC
     },  
     Melissa: {
         name: 'Melissa Dysinger',
@@ -231,7 +235,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Melissa
     },  
     Mallory: {
         name: 'Mallory Geniesse',
@@ -240,7 +244,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Mallory
     },
     Yasmin: {
         name: 'Yasmin Marrero',
@@ -249,6 +253,6 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Yas
     },      
 }

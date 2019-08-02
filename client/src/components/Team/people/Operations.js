@@ -26,6 +26,7 @@ import Sheehy from '../../../images/team/Operations/Sheehy.jpg';
 import Dave from '../../../images/team/Operations/Dave.jpg';
 import Charles from '../../../images/team/Operations/Charles.jpg';
 import Keyla from '../../../images/team/Operations/Keyla.jpg';
+import Barb from '../../../images/team/Operations/Barbara.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -302,6 +303,6 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Barb
     },
 }

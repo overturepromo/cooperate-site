@@ -26,6 +26,9 @@ import Josella from '../../../images/team/Sales/Josella.jpg';
 import Roger from '../../../images/team/Operations/Roger.jpg';
 import Bruce from '../../../images/team/Sales/Bruce.jpg';
 import Kailee from '../../../images/team/Sales/Kailee.jpg';
+import Samantha from '../../../images/team/Sales/Samantha.jpg';
+import Michelle from '../../../images/team/Sales/Michelle.jpg';
+import Alexandra from '../../../images/team/Sales/Alexandra.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -293,7 +296,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Michelle
     },
     Samantha: {
         name: 'Samantha Uhl',
@@ -302,7 +305,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Samantha
     },
     JenniferG: {
         name: 'Jen Gragg',
@@ -320,6 +323,6 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Alexandra
     },
 }
