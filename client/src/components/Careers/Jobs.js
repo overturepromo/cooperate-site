@@ -7,6 +7,7 @@ import WarehouseAssociate from './Positions/WarehouseAssociate'
 import GraphicDesigner from './Positions/GraphicDesginer';
 import WebDeveloper from './Positions/WebDeveloper';
 import DirectorAccount from './Positions/DirectorAccount';
+import ProductionSupervisor from './Positions/ProductionSupervisor';
 
 import '../../styles/Careers.css'
 
@@ -20,7 +21,8 @@ class Jobs extends Component {
         salesAdmin: false,
         warehouseAssociate: false,
         graphicDesigner: false,
-        directorAccount: false
+        directorAccount: false,
+        productionSupervisor: false
     }
 
     handleOn = (position) => {
@@ -40,6 +42,8 @@ class Jobs extends Component {
             this.setState({graphicDesigner: true})
         } else if(position === 'directorAccount'){
             this.setState({directorAccount: true})
+        }  else if(position === 'productionSupervisor'){
+            this.setState({productionSupervisor: true})
         }
     }
 
@@ -67,6 +71,9 @@ class Jobs extends Component {
             document.documentElement.scrollTop = 500;
         } else if(position === 'directorAccount'){
             this.setState({directorAccount: false})
+            document.documentElement.scrollTop = 500;
+        } else if(position === 'productionSupervisor'){
+            this.setState({productionSupervisor: false})
             document.documentElement.scrollTop = 500;
         }
     }
@@ -109,6 +116,11 @@ class Jobs extends Component {
                         <h3>Account Development Manager (Vernon Hills, move to Waukegan in the fall)</h3>
                         <h5 onClick={() => this.handleOn('directorAccount')} className="view-button">View Details</h5>
                         {this.state.directorAccount ? <DirectorAccount bye={this.handleOff} /> : null}
+                    </div>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3>Production Supervisor</h3>
+                        <h5 onClick={() => this.handleOn('productionSupervisor')} className="view-button">View Details</h5>
+                        {this.state.productionSupervisor ? <ProductionSupervisor bye={this.handleOff} /> : null}
                     </div>
                 </div>
             </div>
