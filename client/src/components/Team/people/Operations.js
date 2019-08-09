@@ -305,4 +305,13 @@ export const People = {
         why: '',
         image: Barb
     },
+    Sam: {
+        name: 'Sam Mintz',
+        title: 'Junior Web Developer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
