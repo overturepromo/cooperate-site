@@ -23,34 +23,46 @@ class AccountCoordinator extends Component {
     render(){
         return (
             <div>
-                <p style={{color: 'gray'}}>Do you have experience with, or want to move into, inside sales and account management? Start a career with a growing promotional marketing agency that has been ranked as one of the Best Places to Work by Counselor Magazine, and as a Chicago’s Best Workplace by the Chicago Tribune. Our ideal candidate will have experience in customer service or inside sales.</p>
+                <p style={{color: 'gray'}}>We have two, high-performing sales teams looking for an organized and efficient administrative whiz. You will serve as a point of contact for customers with queries about products, orders and deliveries. You will work with a wide variety of clients and be part of an energetic and enthusiastic sales team.</p>
                 <h4>YOUR RESPONSIBILITIES</h4>
                 <ul style={{color: "gray"}}>
-                    <li>Handle all aspects of customer account orders, including order processing, product quotes and coordinating product sample requests</li>
-                    <li>Assist new and existing customers with inquires while providing consultative support and recommendations</li>
-                    <li>Proactively call existing customers with inquiries while providing consultative support and recommendations</li>
-                    <li>By becoming familiar with our offered products and their associated suppliers, you will educate customers on those products and help them make promotional marketing decisions</li>
-                    <li>Identify and evaluate opportunities to increase customer retention and satisfaction by developing a positive rapport and relationship with customers</li>
-                    <li>Act as an overall coordinator and partner with other departments including warehouse, fulfillment, production and accounting</li>
+                    <li>Professionally interact with customers over the phone and email</li>
+                    <li>Maintain electronic databases for the sales team</li>
+                    <li>Coordinate shipping logistics</li>
+                    <li>Provide vendor follow up, including order and tracking information</li>
+                    <li>Process web orders</li>
+                    <li>Respond to ad hoc requests by sales team members</li>
                 </ul>
                 <h4>SKILLS/EXPERIENCE REQUIRED</h4>
                 <ul style={{color: "gray"}}>
-                    <li>Above average communication skills</li>
-                    <li>Previous customer service or sales experience</li>
-                    <li>MS Office proficiency in Word, Excel, PowerPoint and Outlook</li>
-                    <li>Must be able to prioritize and handle multiple tasks in a changing work environment</li>
-                    <li>Must be motivated, driven and have the ambition to succeed</li>
-                    <li>Have a positive, upbeat and team player attitude</li>
-                    <li>Must have the ability to work both as part of a team and independently</li>
-                    <li>Must have strong attention to detail</li>
-                    <li>High School Diploma or Equivalent</li>
+                    <li>Previous customer service or sales experience preferred</li>
+                    <li>Computer proficiency, keyboard and web navigation skills </li>
+                    <li>Strong attention to detail </li>
+                    <li>Ability to prioritize and handle multiple tasks in a fast-moving work environment</li>
+                    <li>Excellent written and verbal communication skills </li>
+                    <li>Ability to work independently and on a team</li>
+                    <li>Strong work ethic and ambition to succeed</li>
+                    <li>Must be a person with high integrity</li>
+                </ul>
+                <h4>BENEFITS</h4>
+                <ul style={{color: "gray"}}>
+                    <li>Complete insurance coverage – Medical, dental, vision, life insurance and disability plans with Company contributions</li>
+                    <li>Pet insurance</li>
+                    <li>Corporate partnerships with Life Time Fitness and Bears Fit locations</li>
+                    <li>Generous paid time off</li>
+                    <li>401(k) eligible after first year of employment, with Company match</li>
+                    <li>Relaxed dress co</li>
+                </ul>
+                <h4>EDUCATION/EXPERIENCE</h4>
+                <ul style={{color: "gray"}}>
+                    <li>BS/BA degree or equivalent combination of education and experience required.</li>
                 </ul>
                 <p>*Please note that this role is not a remote position, and the expectation is to be on site daily. Relocation is not provided.*</p>
                 <p>*We also have a location in Waukegan, so the ideal candidate would have the flexibility to work at both locations.*</p>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('accountCoordinator')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Account Coordinator Vernon Hills" close={this.closeModal} />
+                    <ApplyBox title="Account Coordinator" close={this.closeModal} />
                 </Modal>
             </div>
         )
