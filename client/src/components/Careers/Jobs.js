@@ -83,7 +83,7 @@ class Jobs extends Component {
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
                      <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3>Account Coordinator</h3>
+                        <h3>Sales Account Coordinator</h3>
                         <h5 onClick={() => this.handleOn('accountCoordinator')} className="view-button">View Details</h5>
                         {this.state.accountCoordinator ? <AccountCoordinator bye={this.handleOff} /> : null}
                     </div>
