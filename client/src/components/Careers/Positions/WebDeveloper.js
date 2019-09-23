@@ -24,16 +24,16 @@ class WebDeveloper extends Component {
         return (
             <div>
                 <h4>SUMMARY</h4>
-                <p style={{color: 'gray'}}>We are looking for a driven and analytical front-end web developer to join our fast-growing team. Your primary focus will be working closely with the design team to build out front-end code based on UX Pin and other mock-ups. You will also work closely with our development team to integrate that code into our back-end framework.</p>
+                <p style={{color: 'gray'}}>We are looking for a driven and analytical front-end web developer to join our fast-growing team. Your primary focus will be performing maintenance and QA on existing websites. As your experience grows and skills improve, your responsibilities will expand to include new websites and projects</p>
                 <h4>Duties and Responsibilities </h4>
                 <ul style={{color: "gray"}}>
-                    <li>Build out front-end code based on mock-ups from design team</li>
-                    <li>Integrate code into our in-house e-commerce platform</li>
+                    <li>Hunt and squash bugs in front and limited back-end code</li>
+                    <li>Quality Assurance (QA) test new sites in the final stages of pre-launch</li>
                     <li>Performs other duties as assigned</li>
                 </ul>
                 <h4>Skills and Competencies</h4>
                 <ul style={{color: "gray"}}>
-                    <li>2-3 years of experience working with HTML/CSS/Javascript -- on-the-job, college, or equivalent</li>
+                    <li>1-2 years of experience working with HTML/CSS/Javascript -- on-the-job, college, or equivalent</li>
                     <li>Bootstrap or similar grid framework</li>
                     <li>Grunt or Gulp task runners/workflow optimizers</li>
                     <li>Basic Photoshop for asset export/optimization</li>
@@ -67,7 +67,7 @@ class WebDeveloper extends Component {
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('webDeveloper')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Jr. Front End Developer" close={this.closeModal} />
+                    <ApplyBox title="Jr. Web Developer" close={this.closeModal} />
                 </Modal>
             </div>
         )
