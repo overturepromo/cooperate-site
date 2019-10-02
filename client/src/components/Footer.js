@@ -18,13 +18,15 @@ class Footer extends Component {
                             <h5 className="infoBreak">Vernon Hills, IL 60061</h5>
                         </div>
                         <div className="phone">
-                            <h5 className="info">P. 888.456.9564</h5>
-                            <h5 className="info">F. 847.680.0114</h5>
+                            <h5 className="info"><i className="fa fa-phone" style={{color: "#ef7521" }}></i> 888.456.9564</h5>
+                            <h5 className="info"><i className="fa fa-fax" style={{color: "#ef7521" }}></i> 847.680.0114</h5>
                             {/* <a href="mailto: info@overturepromo.com" className="info info-tag">info@overturepromo.com</a> */}
                         </div>
                         <div className="socials" style={{paddingTop: '17px'}}>
                             <a href="https://www.facebook.com/OverturePromotions/" target="blank"><i className="fa fa-facebook" style={footerIcons}></i></a>
                             <a href="https://twitter.com/overturepromo?lang=en" target="blank"><i className="fa fa-twitter" style={footerIcons}></i></a>
+                            <a href="https://www.instagram.com/overturepromotions/" target="blank"><i className="fa fa-instagram" style={footerIcons}></i></a>
+                            <a href="https://www.linkedin.com/company/overture-promotions2018/" target="blank"><i className="fa fa-linkedin" style={footerIcons}></i></a>
                         </div>
                         <div>
                             <img src={Women} alt="women-owned" style={{marginTop: '25px', height: '60px'}} />

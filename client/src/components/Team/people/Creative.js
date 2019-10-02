@@ -5,6 +5,8 @@ import Brandon from '../../../images/team/Creative/Brandon.jpg';
 import Emily from '../../../images/team/Creative/Emily.png';
 import Briana from '../../../images/team/Creative/Briana.jpg';
 
+import Female1 from '../../../images/team/Female1.jpg';
+
 
 export const People = {
     Christine: {
@@ -60,5 +62,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Briana
+    },
+    Bridget: {
+        name: 'Bridget Miller',
+        title: 'Graphic Designer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
     },
 }

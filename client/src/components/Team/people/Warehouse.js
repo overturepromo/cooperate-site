@@ -273,4 +273,40 @@ export const People = {
         why: '',
         image: Male1
     },
+    Brisa: {
+        name: 'Brisa Hernandez',
+        title: 'Special Projects',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
+    Hugo: {
+        name: 'Huge Saenz Ocampo',
+        title: 'Picker',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
+    },
+    Mayolo: {
+        name: 'Mayolo Hernandez',
+        title: 'Special Projects',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Justin: {
+        name: 'Justin Koehler',
+        title: 'Picker',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
+    }
 }

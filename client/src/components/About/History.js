@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
 import Check from '../../images/about/checkmark.svg';
+import Computer from '../../images/about/computer_screen.png';
+
 
 class History extends Component {
 
@@ -79,6 +81,7 @@ class History extends Component {
                     allowFullScreen>
                 </iframe>
             </Modal> */}
+
             </div>
         )
     }

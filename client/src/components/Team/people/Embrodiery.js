@@ -18,6 +18,10 @@ import Tina from '../../../images/team/Embrodiery/Tina.jpg'
 import Inocente from '../../../images/team/Embrodiery/Inocente.jpg'
 import Amberlie from '../../../images/team/Warehouse/Amberlie.jpg';
 
+
+import Male1 from '../../../images/team/Male1.jpg';
+
+
 export const People = {
     Wendy: {
         name: 'Wendy Parsons',
@@ -189,5 +193,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Amberlie
+    },
+    Rolando: {
+        name: 'Rolando Puck',
+        title: 'Production Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
     },
 }

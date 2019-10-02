@@ -325,4 +325,31 @@ export const People = {
         why: '',
         image: Alexandra
     },
+    Miguel: {
+        name: 'Miguel Suarez-Garcia',
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    ShannonL: {
+        name: 'Shannon Lassiter',
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
+    Janice: {
+        name: 'Janice Maher',
+        title: 'Account Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }
