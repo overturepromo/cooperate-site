@@ -58,7 +58,6 @@ class Sales extends Component {
                     <Employee image={People.Sara.image} name={People.Sara.name} title={People.Sara.title} />
                     <Employee image={People.Shannon.image} name={People.Shannon.name} title={People.Shannon.title} />
                     <Employee image={People.Stefanie.image} name={People.Stefanie.name} title={People.Stefanie.title} />
-                    <Employee image={People.Miguel.image} name={People.Miguel.name} title={People.Miguel.title} />
                     <Employee image={People.ShannonL.image} name={People.ShannonL.name} title={People.ShannonL.title} />
                     <Employee image={People.Janice.image} name={People.Janice.name} title={People.Janice.title} />
                     {/* <Employee image={People.Oksana.image} name={People.Oksana.name} title={People.Oksana.title} clicked={() => this.openModal(0)} /> */}
