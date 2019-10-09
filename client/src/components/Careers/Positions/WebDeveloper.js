@@ -47,7 +47,7 @@ class WebDeveloper extends Component {
                     <li>Experience with Amazon Web Services (AWS) for hosting/data storage</li>
                     <li>Any NetSuite experience, and experience with SuiteScript 2.0</li>
                 </ul>
-                <h4>Benifits</h4>
+                <h4>Benefits</h4>
                 <ul style={{color: "gray"}}>
                     <li>Complete insurance coverage – Medical, dental, vision, life insurance and disability plans with Company contributions</li>
                     <li>Pet insurance</li>
