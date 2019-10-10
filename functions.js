@@ -30,8 +30,12 @@ var mail = require('nodemailer').mail;
         service: 'gmail',
         secure: true,
         auth: {
-          user: process.env.MAIL_USER,
-          pass: process.env.MAIL_PASS
+          type: 'OAuth2',
+          user: process.env.OAUTH_USER,
+          clientId: process.env.OAUTH_CLIENTID,
+          clientSecret: process.env.OAUTH_CLIENTSECRET,
+          refreshToken: process.env.OAUTH_REFRESHTOKEN,
+          accessToken: process.env.OAUTH_ACCESSTOKEN,
         },
     });
     var mailOptions = {
