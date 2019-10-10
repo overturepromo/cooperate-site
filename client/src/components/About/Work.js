@@ -7,15 +7,15 @@ import Mapy from '../../images/about/map.gif';
 
 const Work = () => {
     return (
-        <div>
+        <div style={{marginTop: '50px'}}>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-5">
-                        <img src={Computer} alt="computer" style={{width: '100%', padding: '20px'}} />
-                    </div>
                     <div className="col-md-7 company-stores">
                         <h4 className="about-blue-words">Company stores.</h4>
                         <p className="basic">When it comes to e-commerce, templates don’t work. We build tailored, elegant and easy-to-use company stores that are regularly refreshed with new and unique products. Our in-house team of six full-time web developers design, develop and manage over 100 different company stores that are completely customized to each client’s specific requirements.</p>
+                    </div>
+                    <div className="col-md-5">
+                        <img src={Computer} alt="computer" style={{width: '100%', padding: '20px'}} />
                     </div>
                 </div>
             </div>

@@ -25,11 +25,11 @@ class History extends Component {
     render(){
         return (
             <div className="container-fluid">
-                <span className="big-words-about">we're unconventional.</span>
+                <span className="big-words-about">what we do.</span>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-7 history-box">
-                            <span className="green-history">What we do.</span>
+                            <span className="green-history">We're unconventional.</span>
                             <p className="history-paragraph">Creating effective promotional programs covers a lot of ground. It starts with your dedicated account management team. Here’s what you can ask them to do for you:</p>
                             <div className="what-we-do">
                                 <div className="we-do-left">
