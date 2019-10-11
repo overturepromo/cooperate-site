@@ -42,7 +42,6 @@ class Embrodiery extends Component {
                     <Employee image={People.Adriana.image} name={People.Adriana.name} title={People.Adriana.title} />
                     <Employee image={People.Carolina.image} name={People.Carolina.name} title={People.Carolina.title} />
                     <Employee image={People.Dorotea.image} name={People.Dorotea.name} title={People.Dorotea.title} />
-                    <Employee image={People.Laura.image} name={People.Laura.name} title={People.Laura.title} />
                     <Employee image={People.Daniela.image} name={People.Daniela.name} title={People.Daniela.title} />
                     <Employee image={People.Zenaida.image} name={People.Zenaida.name} title={People.Zenaida.title} />
                     <Employee image={People.Victor.image} name={People.Victor.name} title={People.Victor.title} />

@@ -29,6 +29,8 @@ import Kailee from '../../../images/team/Sales/Kailee.jpg';
 import Samantha from '../../../images/team/Sales/Samantha.jpg';
 import Michelle from '../../../images/team/Sales/Michelle.jpg';
 import Alexandra from '../../../images/team/Sales/Alexandra.jpg';
+import Julie from '../../../images/team/Operations/Julie.jpg'
+
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -351,5 +353,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Female1
+    },
+    Julie: {
+        name: 'Julie Maldonado',
+        title: 'Account Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Julie
     },
 }

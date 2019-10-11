@@ -10,7 +10,6 @@ import Morgan from '../../../images/team/Operations/Morgan.jpg'
 import Anthony from '../../../images/team/Operations/Anthony.jpg'
 import Robyn from '../../../images/team/Operations/Robyn.jpg'
 import Trina from '../../../images/team/Operations/Trina.jpg'
-import Julie from '../../../images/team/Operations/Julie.jpg'
 import Ashley from '../../../images/team/Operations/Ashley.jpg'
 import Melissa from '../../../images/team/Operations/Melissa.jpg'
 import Shawn from '../../../images/team/Operations/Shawn.jpg'
@@ -142,15 +141,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Trina
-    },
-    Julie: {
-        name: 'Julie Maldonado',
-        title: 'Fulfillment Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Julie
     },
     Ashley: {
         name: 'Ashley Reece',
