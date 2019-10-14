@@ -211,7 +211,7 @@ export const People = {
         image: Kristina
     },
     Kimberline: {
-        name: 'Kimberline Sawyer',
+        name: 'Kimberlin Sawyer',
         title: 'Sr. Account Manager',
         bio: '',
         movie: '',
