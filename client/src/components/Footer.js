@@ -14,8 +14,8 @@ class Footer extends Component {
                     <div className="col-md-3 contact-col">
                         <div className="address">
                             <h4 className="overture" >Overture, LLC</h4>
-                            <h5 className="info">595 Lakeview Parkway</h5>
-                            <h5 className="infoBreak">Vernon Hills, IL 60061</h5>
+                            <h5 className="info">800 S. Northpoint Blvd.</h5>
+                            <h5 className="infoBreak">Waukegan, IL 60085</h5>
                         </div>
                         <div className="phone">
                             <h5 className="info"><i className="fa fa-phone" style={{color: "#ef7521" }}></i> 888.456.9564</h5>
