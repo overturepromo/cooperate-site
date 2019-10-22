@@ -61,8 +61,8 @@ class ContactForm extends Component {
                     <div className="col-md-4">
                     <div className="address">
                             <h4 className="overture-contact-address">Address</h4>
-                            <h5 className="info-contact">595 Lakeview Parkway</h5>
-                            <h5 className="infoBreak-contact">Vernon Hills, IL 60061</h5>
+                            <h5 className="info-contact">800 S. Northpoint Blvd.</h5>
+                            <h5 className="infoBreak-contact">Waukegan, IL 60085</h5>
                         </div>
                         <div className="phone">
                             <h4 className="overture-contact-address" >Contact</h4>
