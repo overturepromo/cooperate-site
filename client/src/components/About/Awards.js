@@ -27,9 +27,9 @@ class Awards extends Component {
                     <Waypoint onEnter={this.handleEnter} onLeave={this.handleLeave}>
                     <div className={ this.state.hover ? "row animated fadeIn slower" : "row"}>
                         <AwardCard title="INC. 5000 FASTEST GROWING COMPANIES IN AMERICA" />
-                        <AwardCard title="ERNST AND YOUNG ENTREPRENUER OF THE YEAR FINALIST" />
+                        <AwardCard title="ERNST AND YOUNG ENTREPRENEUR OF THE YEAR FINALIST" />
                         <AwardCard title="50 FASTEST GROWING WOMEN OWNED COMPANIES, WPO" />
-                        <AwardCard title="FEMALE ENTREPRENUER OF THE YEAR, WBENC" />
+                        <AwardCard title="FEMALE ENTREPRENEUR OF THE YEAR, WBENC" />
                         <AwardCard title="BEST PLACES TO WORK, COUNSLEOR MAGAZINE" />
                         <AwardCard title="TOP 50 DISTRIBUTORS, PROMO MARKETING MAGAZINE" />
                         <AwardCard title="ADVERTISING SPECIALTIES INSTITUTE HOT LIST" />
