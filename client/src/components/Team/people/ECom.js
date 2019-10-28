@@ -59,7 +59,7 @@ export const People = {
     },
     Brittany: {
         name: 'Brittany Foley',
-        title: 'Account Manager',
+        title: 'Sr. Account Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -112,7 +112,7 @@ export const People = {
         image: Michael
     },
     Nicole: {
-        name: 'Nicole Vechiola',
+        name: 'Sr. Nicole Vechiola',
         title: 'Account Manager',
         bio: '',
         movie: '',
