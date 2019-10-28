@@ -112,8 +112,8 @@ export const People = {
         image: Michael
     },
     Nicole: {
-        name: 'Sr. Nicole Vechiola',
-        title: 'Account Manager',
+        name: 'Nicole Vechiola',
+        title: 'Sr. Account Manager',
         bio: '',
         movie: '',
         vacation: '',
