@@ -3,7 +3,6 @@ import Laura from '../../../images/team/Creative/Laura.png';
 import Erin from '../../../images/team/Creative/Erin.png';
 import Brandon from '../../../images/team/Creative/Brandon.jpg';
 import Emily from '../../../images/team/Creative/Emily.png';
-import Briana from '../../../images/team/Creative/Briana.jpg';
 
 import Female1 from '../../../images/team/Female1.jpg';
 import Male1 from '../../../images/team/Male1.jpg';
@@ -55,15 +54,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Emily
-    },
-    Briana: {
-        name: 'Briana Goodall',
-        title: 'Graphic Designer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Briana
     },
     Bridget: {
         name: 'Bridget Miller',

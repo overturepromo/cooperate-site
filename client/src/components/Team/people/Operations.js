@@ -26,6 +26,8 @@ import Dave from '../../../images/team/Operations/Dave.jpg';
 import Charles from '../../../images/team/Operations/Charles.jpg';
 import Keyla from '../../../images/team/Operations/Keyla.jpg';
 import Barb from '../../../images/team/Operations/Barbara.jpg';
+import Briana from '../../../images/team/Creative/Briana.jpg';
+
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -312,5 +314,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Female1
+    },
+    Briana: {
+        name: 'Briana Goodall',
+        title: 'Junior Web Developer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Briana
     },
 }
