@@ -6,6 +6,8 @@ import Emily from '../../../images/team/Creative/Emily.png';
 import Briana from '../../../images/team/Creative/Briana.jpg';
 
 import Female1 from '../../../images/team/Female1.jpg';
+import Male1 from '../../../images/team/Male1.jpg';
+import Male2 from '../../../images/team/Male2.jpg';
 
 
 export const People = {
@@ -65,6 +67,42 @@ export const People = {
     },
     Bridget: {
         name: 'Bridget Miller',
+        title: 'Graphic Designer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    Duane: {
+        name: 'Duane Zoldak',
+        title: 'Graphic Designer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Brent: {
+        name: 'Brent Saemann',
+        title: 'Graphic Designer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
+    },
+    Enzo: {
+        name: 'Enzo Daniel',
+        title: 'Graphic Designer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Jeri: {
+        name: 'Jeri Yingling',
         title: 'Graphic Designer',
         bio: '',
         movie: '',
