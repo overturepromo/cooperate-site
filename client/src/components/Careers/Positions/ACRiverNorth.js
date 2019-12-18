@@ -24,7 +24,7 @@ class ACRiverNorth extends Component {
         return (
             <div>
                 <p style={{color: 'gray'}}>Do you have experience with, or want to move into, inside sales and account management? Start a career with a growing promotional marketing agency that has been ranked as one of the Best Places to Work by Counselor Magazine, and as a Chicago’s Best Workplace by the Chicago Tribune. Our ideal candidate will have experience in customer service or inside sales.</p>
-                <h4>YOUR RESPONSIBILITIES</h4>
+                <h4>PRIMARY DUTIES AND RESPONSIBILITIES</h4>
                 <ul style={{color: "gray"}}>
                     <li>Handle all aspects of customer account orders, including order processing, product quotes and coordinating product sample requests</li>
                     <li>Assist new and existing customers with inquires while providing consultative support and recommendations</li>
@@ -33,7 +33,7 @@ class ACRiverNorth extends Component {
                     <li>Identify and evaluate opportunities to increase customer retention and satisfaction by developing a positive rapport and relationship with customers</li>
                     <li>Act as an overall coordinator and partner with other departments including warehouse, fulfillment, production and accounting</li>
                 </ul>
-                <h4>SKILLS/EXPERIENCE REQUIRED</h4>
+                <h4>YOU ARE THE PERFECT PERSON IF YOU HAVE</h4>
                 <ul style={{color: "gray"}}>
                     <li>Above average communication skills</li>
                     <li>Previous customer service or sales experience</li>
@@ -43,13 +43,16 @@ class ACRiverNorth extends Component {
                     <li>Have a positive, upbeat and team player attitude</li>
                     <li>Must have the ability to work both as part of a team and independently</li>
                     <li>Must have strong attention to detail</li>
-                    <li>High School Diploma or Equivalent</li>
                 </ul>
-                <p>*Please note that this role is not a remote position, and the expectation is to be on site daily.  Relocation is not provided. Also, the candidates for this role should be prepared to work their first 2 weeks at the Corporate Headquarters in Vernon Hills, IL for their initial onboarding and training.*</p>
+                <h4>EDUCATION/EXPERIENCE</h4>
+                <ul style={{color: "gray"}}>
+                    <li>High School Diploma or Equivalent</li>
+                    <li>Computer and basic Excel experience required.</li>
+                </ul>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('acRiverNorth')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Account Coordinator River North" close={this.closeModal} />
+                    <ApplyBox title="Account Coordinator" close={this.closeModal} />
                 </Modal>
             </div>
         )
