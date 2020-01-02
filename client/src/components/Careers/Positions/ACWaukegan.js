@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Modal from 'react-modal';
 import ApplyBox from './ApplyBox'
 
-class ACRiverNorth extends Component {
+class ACWaukegan extends Component {
 
     state = {
         showModal: false
@@ -50,13 +50,13 @@ class ACRiverNorth extends Component {
                     <li>Computer and basic Excel experience required.</li>
                 </ul>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
-                <h5 onClick={() => this.props.bye('acRiverNorth')} className="view-button">Hide Details</h5>
+                <h5 onClick={() => this.props.bye('acWaukegan')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Account Coordinator - River North" close={this.closeModal} />
+                    <ApplyBox title="Account Coordinator - Waukegan" close={this.closeModal} />
                 </Modal>
             </div>
         )
     }
 }
 
-export default ACRiverNorth;
+export default ACWaukegan;
