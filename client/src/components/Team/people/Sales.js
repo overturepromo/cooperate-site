@@ -376,7 +376,7 @@ export const People = {
     },
     Ricky: {
         name: 'Ricky Bryant',
-        title: 'Account Manager',
+        title: 'Project Manager',
         bio: '',
         movie: '',
         vacation: '',

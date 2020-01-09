@@ -21,6 +21,7 @@ import Ruth from '../../../images/team/Warehouse/Ruth.jpg';
 import Rafael from '../../../images/team/Warehouse/Rafael.jpg';
 import Nancy from '../../../images/team/Warehouse/Nancy.jpg';
 import Bryan from '../../../images/team/Warehouse/Bryan.jpg';
+import Jeremy from '../../../images/team/Operations/Jeremy.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -122,7 +123,7 @@ export const People = {
     },
     Jeff: {
         name: 'Jeff Norlin',
-        title: 'Receiving Coordinator',
+        title: 'Pick/Pack Lead',
         bio: '',
         movie: '',
         vacation: '',
@@ -140,7 +141,7 @@ export const People = {
     },
     Abi: {
         name: 'Abi Ocampo',
-        title: 'Picker/Go',
+        title: 'Receiving Lead',
         bio: '',
         movie: '',
         vacation: '',
@@ -239,7 +240,7 @@ export const People = {
     },
     Bryan: {
         name: 'Bryan Vasquez',
-        title: 'Inventory Control Coordinator',
+        title: 'Inventory Lead',
         bio: '',
         movie: '',
         vacation: '',
@@ -308,5 +309,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Male2
+    },
+    Jeremy: {
+        name: 'Jeremy Schulz',
+        title: 'Asst Distribution Center Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Jeremy
     }
 }

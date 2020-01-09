@@ -40,7 +40,7 @@ export const People = {
     },
     Anne: {
         name: 'Anne Gross',
-        title: 'Sr. Account Manager',
+        title: 'New Business Director',
         bio: '',
         movie: '',
         vacation: '',
@@ -244,5 +244,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Yas
-    },      
+    },
+    Vivien: {
+        name: 'Vivien Marafko',
+        title: 'Marketing Assistant',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    }      
 }

@@ -18,7 +18,6 @@ import Kevin from '../../../images/team/Operations/Kevin.jpg'
 import Jacob from '../../../images/team/Operations/Jacob.jpg'
 import Tiffany from '../../../images/team/Operations/Tiffany.jpg';
 import Carolyn from '../../../images/team/Warehouse/Carolyn.jpg';
-import Jeremy from '../../../images/team/Operations/Jeremy.jpg';
 import Sue from '../../../images/team/Operations/Sue.jpg';
 import Chris from '../../../images/team/Operations/Chris.jpg';
 import Sheehy from '../../../images/team/Operations/Sheehy.jpg';
@@ -216,15 +215,6 @@ export const People = {
         why: '',
         image: Tiffany
     },
-    Jeremy: {
-        name: 'Jeremy Schulz',
-        title: 'Asst Distribution Center Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Jeremy
-    },
     Carolyn: {
         name: 'Carolyn Maksudian',
         title: 'Operations Manager',
@@ -323,5 +313,23 @@ export const People = {
         vacation: '',
         why: '',
         image: Briana
+    },
+    Grace: {
+        name: 'Grace Nelson',
+        title: 'AP Clerk',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    Bethani: {
+        name: 'Bethani Wright',
+        title: 'AP Clerk',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
     },
 }
