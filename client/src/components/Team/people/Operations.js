@@ -26,7 +26,10 @@ import Charles from '../../../images/team/Operations/Charles.jpg';
 import Keyla from '../../../images/team/Operations/Keyla.jpg';
 import Barb from '../../../images/team/Operations/Barbara.jpg';
 import Briana from '../../../images/team/Creative/Briana.jpg';
-
+import Grace from '../../../images/team/Operations/Grace.jpg';
+import Bethani from '../../../images/team/Operations/Bethani.jpg';
+import Holly from '../../../images/team/Operations/Holly.jpg';
+import Sam from '../../../images/team/Operations/Sam.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -294,7 +297,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Sam
     },
     Holly: {
         name: 'Holly Duron',
@@ -303,7 +306,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Holly
     },
     Briana: {
         name: 'Briana Goodall',
@@ -321,7 +324,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Grace
     },
     Bethani: {
         name: 'Bethani Wright',
@@ -330,6 +333,6 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Bethani
     },
 }

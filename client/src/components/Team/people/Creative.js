@@ -3,6 +3,10 @@ import Laura from '../../../images/team/Creative/Laura.png';
 import Erin from '../../../images/team/Creative/Erin.png';
 import Brandon from '../../../images/team/Creative/Brandon.jpg';
 import Emily from '../../../images/team/Creative/Emily.png';
+import Duane from '../../../images/team/Creative/Duane.jpg';
+import Brent from '../../../images/team/Creative/Brent.jpg';
+import Enzo from '../../../images/team/Creative/Enzo.jpg';
+import Jeri from '../../../images/team/Creative/Jeri.jpg';
 
 import Female1 from '../../../images/team/Female1.jpg';
 import Male1 from '../../../images/team/Male1.jpg';
@@ -71,7 +75,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Duane
     },
     Brent: {
         name: 'Brent Saemann',
@@ -80,7 +84,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: Brent
     },
     Enzo: {
         name: 'Enzo Daniel',
@@ -89,7 +93,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Enzo
     },
     Jeri: {
         name: 'Jeri Yingling',
@@ -98,6 +102,6 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Jeri
     },
 }

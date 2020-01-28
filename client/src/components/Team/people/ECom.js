@@ -21,6 +21,7 @@ import SarahC from '../../../images/team/ECom/SarahC.jpg';
 import Melissa from '../../../images/team/ECom/Melissa.jpg';
 import Mallory from '../../../images/team/ECom/Mallory.jpg';
 import Yas from '../../../images/team/ECom/Yas.jpg';
+import Vivien from '../../../images/team/ECom/Vivien.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -252,6 +253,6 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Vivien
     }      
 }

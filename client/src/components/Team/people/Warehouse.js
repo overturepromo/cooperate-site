@@ -22,12 +22,19 @@ import Rafael from '../../../images/team/Warehouse/Rafael.jpg';
 import Nancy from '../../../images/team/Warehouse/Nancy.jpg';
 import Bryan from '../../../images/team/Warehouse/Bryan.jpg';
 import Jeremy from '../../../images/team/Operations/Jeremy.jpg';
+import Gloria from '../../../images/team/Warehouse/Gloria.jpg';
+import Emrys from '../../../images/team/Warehouse/Emrys.jpg';
+import Ellover from '../../../images/team/Warehouse/Ellover.jpg';
+import Hugo from '../../../images/team/Warehouse/Hugo.jpg';
+import Mayolo from '../../../images/team/Warehouse/Mayolo.jpg';
+import Justin from '../../../images/team/Warehouse/Justin.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
 import Male2 from '../../../images/team/Male2.jpg';
 import Female1 from '../../../images/team/Female1.jpg';
 import Female2 from '../../../images/team/Female2.jpg';
+import { DH_UNABLE_TO_CHECK_GENERATOR } from 'constants';
 
 
 export const People = {
@@ -236,7 +243,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Gloria
     },
     Bryan: {
         name: 'Bryan Vasquez',
@@ -263,7 +270,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Emrys
     },
     Ellover: {
         name: 'Ellover Reyes',
@@ -272,7 +279,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Ellover
     },
     Brisa: {
         name: 'Brisa Hernandez',
@@ -284,13 +291,13 @@ export const People = {
         image: Female2
     },
     Hugo: {
-        name: 'Huge Saenz Ocampo',
+        name: 'Hugo Saenz Ocampo',
         title: 'Picker',
         bio: '',
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: Hugo
     },
     Mayolo: {
         name: 'Mayolo Hernandez',
@@ -299,7 +306,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Mayolo
     },
     Justin: {
         name: 'Justin Koehler',
@@ -308,7 +315,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: Justin
     },
     Jeremy: {
         name: 'Jeremy Schulz',

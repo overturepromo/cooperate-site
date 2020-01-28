@@ -31,7 +31,8 @@ import Michelle from '../../../images/team/Sales/Michelle.jpg';
 import Alexandra from '../../../images/team/Sales/Alexandra.jpg';
 import Julie from '../../../images/team/Operations/Julie.jpg';
 import Ricky from '../../../images/team/ECom/Ricky.jpg';
-
+import ShannonL from '../../../images/team/Sales/ShannonL.jpg';
+import Jasmyn from '../../../images/team/Sales/Jasmyn.jpg';
 
 
 //These are the default photos to be used when photo no avail.
@@ -345,7 +346,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: ShannonL
     },
     Janice: {
         name: 'Janice Maher',
@@ -372,7 +373,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Jasmyn
     },
     Ricky: {
         name: 'Ricky Bryant',
