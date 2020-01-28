@@ -28,6 +28,9 @@ import Ellover from '../../../images/team/Warehouse/Ellover.jpg';
 import Hugo from '../../../images/team/Warehouse/Hugo.jpg';
 import Mayolo from '../../../images/team/Warehouse/Mayolo.jpg';
 import Justin from '../../../images/team/Warehouse/Justin.jpg';
+import Estella from '../../../images/team/Warehouse/Estella.jpg';
+import Jacob from '../../../images/team/Warehouse/Jacob.jpg';
+import Jesus from '../../../images/team/Warehouse/Jesus.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -325,5 +328,32 @@ export const People = {
         vacation: '',
         why: '',
         image: Jeremy
+    },
+    Estella: {
+        name: 'Estella Diaz',
+        title: 'Picker',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Estella
+    },
+    Jacob: {
+        name: 'Jacob Butler',
+        title: 'Receiving',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Jacob
+    },
+    Jesus: {
+        name: 'Jesus Figueroa',
+        title: 'Picker',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Jesus
     }
 }
