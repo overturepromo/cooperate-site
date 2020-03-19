@@ -96,21 +96,21 @@ class Jobs extends Component {
         return (
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
-                     <div style={{borderTop: '1px solid #d8dadc'}}>
+                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Sales Account Coordinator</h3>
                         <h5 onClick={() => this.handleOn('accountCoordinator')} className="view-button">View Details</h5>
                         {this.state.accountCoordinator ? <AccountCoordinator bye={this.handleOff} /> : null}
-                    </div>
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                    </div> */}
+                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Account Coordinator - River North</h3>
                         <h5 onClick={() => this.handleOn('acRiverNorth')} className="view-button">View Details</h5>
                         {this.state.acRiverNorth ? <ACRiverNorth bye={this.handleOff} /> : null}
-                    </div>
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                    </div> */}
+                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Account Coordinator - Waukegan</h3>
                         <h5 onClick={() => this.handleOn('acWaukegan')} className="view-button">View Details</h5>
                         {this.state.acWaukegan ? <ACWaukegan bye={this.handleOff} /> : null}
-                    </div>
+                    </div> */}
                     {/*<div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Sales Assistant</h3>
                         <h5 onClick={() => this.handleOn('salesAssistant')} className="view-button">View Details</h5>
