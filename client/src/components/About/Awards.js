@@ -30,7 +30,7 @@ class Awards extends Component {
                         <AwardCard title="ERNST AND YOUNG ENTREPRENEUR OF THE YEAR FINALIST" />
                         <AwardCard title="50 FASTEST GROWING WOMEN OWNED COMPANIES, WPO" />
                         <AwardCard title="FEMALE ENTREPRENEUR OF THE YEAR, WBENC" />
-                        <AwardCard title="BEST PLACES TO WORK, COUNSLEOR MAGAZINE" />
+                        <AwardCard title="BEST PLACES TO WORK, COUNSELOR MAGAZINE" />
                         <AwardCard title="TOP 50 DISTRIBUTORS, PROMO MARKETING MAGAZINE" />
                         <AwardCard title="ADVERTISING SPECIALTIES INSTITUTE HOT LIST" />
                         <AwardCard title="CHICAGO TRIBUNE'S BEST PLACES TO WORK" />
