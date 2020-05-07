@@ -65,6 +65,34 @@ var mail = require('nodemailer').mail;
     });
   };
 
+  exports.quoteEmail = (sku, first, last, email, phone, date ) => {
+    var transporter = nodemailer.createTransport({
+          service: 'gmail',
+          secure: true,
+          auth: {
+            type: 'OAuth2',
+            user: process.env.OAUTH_USER,
+            clientId: process.env.OAUTH_CLIENTID,
+            clientSecret: process.env.OAUTH_CLIENTSECRET,
+            refreshToken: process.env.OAUTH_REFRESHTOKEN,
+            accessToken: process.env.OAUTH_ACCESSTOKEN,
+          },
+      });
+    var mailOptions = {
+      from: email,
+      to: 'jacobg@overturepromo.com', //media@overturepromo.com 
+      subject: `You have a new quote request for ${sku}`,
+      html: `<h4>Sku</h4> ${sku} <h4>first:</h4> ${first} <h4>last:</h4> ${last} <h4>email:</h4> ${email} <h4>phone:</h4> ${phone} <h4>need by date:</h4> ${date}`,
+    };
+    transporter.sendMail(mailOptions, function (error, info) {
+      if (error) {
+        console.log('error is ' + error);
+      } else {
+        console.log('Email sent: ' + info.response);
+      }
+    });
+  };
+
 
   // THIS IS THE OAUTH INFO
 

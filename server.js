@@ -64,6 +64,11 @@ app.post('/apply', upload.single('selectedFile'), (req, res) => {
   fn.applyEmail(req.body.position, req.body.first, req.body.last, req.body.email, req.body.phone, req.body.movies, req.body.coverLetter, amazonFile)
 })
 
+app.post('/quote', (req, res) => {
+  res.send();
+  fn.quoteEmail(req.body.sku, req.body.first, req.body.last, req.body.email, req.body.phone, req.body.date)
+    //Right here we will want to be able to send an email to me of what the actual error was via nodmailer with my email
+})
 
 
 
