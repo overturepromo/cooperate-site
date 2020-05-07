@@ -16,7 +16,7 @@ var mail = require('nodemailer').mail;
       });
     var mailOptions = {
       from: email,
-      to: 'media@overturepromo.com, jacobg@overturepromo.com', //hr@overturepromo.com 
+      to: 'media@overturepromo.com', //hr@overturepromo.com 
       subject: 'You have a new contact request',
       html: `<h4>name:</h4> ${name} <h4>company:</h4> ${company} <h4>email:</h4> ${email} <h4>phone:</h4> ${phone} <h4>message:</h4> ${message}`,
     };

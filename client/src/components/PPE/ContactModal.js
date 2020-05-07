@@ -39,27 +39,24 @@ class ContactModal extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
         const { first, last, email, phone, date } = this.state;
-
-        let formData = new FormData();
-        formData.append('sku', this.props.title)
-        formData.append('first', first );
-        formData.append('last', last);
-        formData.append('email', email);
-        formData.append('phone', phone);
-        formData.append('date', date);
-
-        axios.post('/quote', formData)
+        axios.post('/contact', {
+            sku: this.props.title,
+            first: this.state.first,
+            last: this.state.last,
+            email: this.state.email,
+            phone: this.state.phone,
+            date: this.state.date
+        })
         .then(function (response) {
             console.log(response);
           })
           .catch(function (error) {
             console.log(error);
-          });
+          })
         this.setState({first: '', last: '', email: '', phone: '', date: '', applied: true})
     }
 
     render(){
-        console.log(this.state.resume)
         return (
             <div>
                 <div className='row'>
