@@ -39,7 +39,7 @@ class ContactModal extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
         const { first, last, email, phone, date } = this.state;
-        axios.post('/contact', {
+        axios.post('/quote', {
             sku: this.props.title,
             first: this.state.first,
             last: this.state.last,
