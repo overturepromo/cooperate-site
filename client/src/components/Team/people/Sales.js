@@ -10,7 +10,6 @@ import Kat from '../../../images/team/Sales/Kat.jpg'
 import Lauren from '../../../images/team/Sales/Lauren.jpg'
 import Lindsay from '../../../images/team/Sales/Lindsay.jpg'
 import Lisa from '../../../images/team/Sales/Lisa.jpg'
-import Megan from '../../../images/team/Sales/Megan.jpg'
 import Lupe from '../../../images/team/Sales/Lupe.jpg'
 import Brittani from '../../../images/team/Sales/Brittani.jpg'
 import Nicole from '../../../images/team/Sales/Nicole.jpg'
@@ -149,15 +148,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Lisa
-    },
-    Megan: {
-        name: 'Megan Murphy',
-        title: 'Account Coordinator',
-        bio: '',
-        movie: 'Homeward Bound (if you don’t love this movie you have no soul)',
-        vacation: 'MEXICO!! ',
-        why: 'Loved the idea of working for a woman owned company. Working for women, with women, as a woman, was right up my alley!',
-        image: Megan
     },
     Lupe: {
         name: 'Lupe Carpio',

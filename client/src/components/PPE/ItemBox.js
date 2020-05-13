@@ -21,10 +21,14 @@ class ItemBox extends Component {
     }
     render(){
         return (
-            <div className="col-md-3 col-xs-6 item-card">
+            <div className="col-md-3 col-sm-4 col-xs-12 item-card">
                 <img src={this.props.image} alt="itemimage" className="item-image" />
                 <h3 className="item-name">{this.props.name}</h3>
-                <p className="item-description">{this.props.description}</p>
+                <p className="item-description">{this.props.lineOne}</p>
+                <p className="item-description">{this.props.lineTwo}</p>
+                <p className="item-description">{this.props.lineThree}</p>
+                <p className="item-description">{this.props.lineFour}</p>
+                <p className="item-description">{this.props.lineFive}</p>
                 <button onClick={this.openModal} className="item-btn">Request Quote</button>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
                     <ContactModal title={this.props.name} close={this.closeModal} />

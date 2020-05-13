@@ -28,8 +28,13 @@
     padding-right: 25%;
 }
 
+.ppe-all-items.container {
+    margin-top: 50px;
+}
+
 .item-card{
     text-align: center;
+    height: 500px;
 }
 
 .item-image{
@@ -45,6 +50,7 @@
 .item-description{
     color: #919191;
     font-size: 16px;
+    margin-bottom: 0;
 }
 
 .item-btn{
@@ -55,8 +61,21 @@
     border-radius: 7px;
     font-family: Proxima-bold;
     border: none;
+    margin-top: 15px;
 }
 
 .item-btn:hover{
     background-color: #ce5400;
+}
+
+@media(max-width:767px){
+    .item-card{
+        height: auto;
+    }
+    .ppe-cta-top{
+        font-size: 40px;
+    }
+    .ppe-hero-box{
+        margin-top: 13%;
+    }
 }

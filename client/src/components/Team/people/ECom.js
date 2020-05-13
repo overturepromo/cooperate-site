@@ -22,6 +22,8 @@ import Melissa from '../../../images/team/ECom/Melissa.jpg';
 import Mallory from '../../../images/team/ECom/Mallory.jpg';
 import Yas from '../../../images/team/ECom/Yas.jpg';
 import Vivien from '../../../images/team/ECom/Vivien.jpg';
+import NicoleS from '../../../images/team/Sales/Nicole.jpg';
+import Megan from '../../../images/team/Sales/Megan.jpg'
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -131,7 +133,7 @@ export const People = {
     },
     Gabrielle: {
         name: 'Gabrielle Whitmer',
-        title: 'Account Manager',
+        title: 'Sr. Account Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -140,7 +142,7 @@ export const People = {
     },
     Sarah: {
         name: 'Sarah Hoffmann',
-        title: 'Account Manager',
+        title: 'Sr. Account Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -149,7 +151,7 @@ export const People = {
     },
     Steven: {
         name: 'Steven Missak',
-        title: 'Account Manager',
+        title: 'Sr. Account Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -263,5 +265,23 @@ export const People = {
         vacation: '',
         why: '',
         image: Female2
-    }          
+    },
+    NicoleS: {
+        name: 'Nicole Sommerville',
+        title: 'Sr. Account Executive',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: NicoleS
+    },
+    Megan: {
+        name: 'Megan Murphy',
+        title: 'Account Manager',
+        bio: '',
+        movie: 'Homeward Bound (if you don’t love this movie you have no soul)',
+        vacation: 'MEXICO!! ',
+        why: 'Loved the idea of working for a woman owned company. Working for women, with women, as a woman, was right up my alley!',
+        image: Megan
+    }         
 }

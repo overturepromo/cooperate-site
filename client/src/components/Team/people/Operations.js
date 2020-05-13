@@ -58,7 +58,7 @@ export const People = {
     },
     Corinne: {
         name: 'Corinne Sorrentino',
-        title: 'Accounts Payable Manager',
+        title: 'Accounting Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -346,7 +346,7 @@ export const People = {
     },
     EmilyJ: {
         name: 'Emily Jones',
-        title: 'Webstore Billing',
+        title: 'Billing Coordinator',
         bio: '',
         movie: '',
         vacation: '',
