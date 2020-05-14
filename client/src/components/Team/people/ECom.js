@@ -23,7 +23,8 @@ import Mallory from '../../../images/team/ECom/Mallory.jpg';
 import Yas from '../../../images/team/ECom/Yas.jpg';
 import Vivien from '../../../images/team/ECom/Vivien.jpg';
 import NicoleS from '../../../images/team/Sales/Nicole.jpg';
-import Megan from '../../../images/team/Sales/Megan.jpg'
+import Megan from '../../../images/team/Sales/Megan.jpg';
+import Rory from '../../../images/team/ECom/RoryTucker.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -264,7 +265,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Rory
     },
     NicoleS: {
         name: 'Nicole Sommerville',

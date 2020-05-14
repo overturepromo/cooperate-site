@@ -30,6 +30,7 @@ import Grace from '../../../images/team/Operations/Grace.jpg';
 import Bethani from '../../../images/team/Operations/Bethani.jpg';
 import Holly from '../../../images/team/Operations/Holly.jpg';
 import Sam from '../../../images/team/Operations/Sam.jpg';
+import Glenda from '../../../images/team/Operations/Glenda.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -342,7 +343,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Glenda
     },
     EmilyJ: {
         name: 'Emily Jones',

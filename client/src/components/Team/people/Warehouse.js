@@ -21,7 +21,7 @@ import Ruth from '../../../images/team/Warehouse/Ruth.jpg';
 import Rafael from '../../../images/team/Warehouse/Rafael.jpg';
 import Nancy from '../../../images/team/Warehouse/Nancy.jpg';
 import Bryan from '../../../images/team/Warehouse/Bryan.jpg';
-import Jeremy from '../../../images/team/Operations/Jeremy.jpg';
+import Jeremy from '../../../images/team/Warehouse/Jeremy.jpg';
 import Gloria from '../../../images/team/Warehouse/Gloria.jpg';
 import Emrys from '../../../images/team/Warehouse/Emrys.jpg';
 import Ellover from '../../../images/team/Warehouse/Ellover.jpg';

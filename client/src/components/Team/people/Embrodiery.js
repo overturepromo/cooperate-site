@@ -17,7 +17,7 @@ import Victor from '../../../images/team/Embrodiery/Victor.jpg'
 import Tina from '../../../images/team/Embrodiery/Tina.jpg'
 import Inocente from '../../../images/team/Embrodiery/Inocente.jpg'
 import Amberlie from '../../../images/team/Warehouse/Amberlie.jpg';
-
+import Rolando from '../../../images/team/Embrodiery/RolandoPuck.jpg';
 
 import Male1 from '../../../images/team/Male1.jpg';
 
@@ -201,6 +201,6 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Rolando
     },
 }
