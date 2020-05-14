@@ -32,6 +32,7 @@ import Julie from '../../../images/team/Operations/Julie.jpg';
 import Ricky from '../../../images/team/ECom/Ricky.jpg';
 import ShannonL from '../../../images/team/Sales/ShannonL.jpg';
 import Jasmyn from '../../../images/team/Sales/Jasmyn.jpg';
+import MeganK from '../../../images/team/Sales/MeganKragenbrink.jpg';
 
 
 //These are the default photos to be used when photo no avail.
@@ -373,5 +374,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Ricky
+    },
+    MeganK: {
+        name: 'Megan Kragenbrink',
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: MeganK
     },
 }
