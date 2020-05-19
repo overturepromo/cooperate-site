@@ -1,7 +1,8 @@
 .headers-div{
     position: absolute;
     z-index: 5;
-    top: 5%;
+    /* top: 5%; */
+    top: 13%;
     width: 100%;
 }
 
