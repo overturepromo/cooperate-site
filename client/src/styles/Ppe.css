@@ -15,6 +15,14 @@
     z-index: 9999999;
 }
 
+.hellobar-div-mobile{
+    background-color: #ef7521;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+
 .hellobar-p{
     font-size: 20px;
     color: #fff;
@@ -116,6 +124,9 @@
     }
     .hellobar-p{
         display: block;
+    }
+    .hellobar-cta{
+        padding: 6px 20px;
     }
 }
 
