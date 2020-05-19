@@ -111,6 +111,9 @@
 }
 
 @media(max-width: 991px){
+    .hellobar-div{
+        display: none;
+    }
     .hellobar-p{
         display: block;
     }
