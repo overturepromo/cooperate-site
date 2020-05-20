@@ -52,7 +52,7 @@ class Header extends Component{
                         </div>
                     </div>
                 </div>
-                <div className="header-mobile">
+                {/* <div className="header-mobile">
                     <div className="hellobar-div-mobile">
                         <a href="/ppe" className="hellobar-cta">BROWSE PPE</a>
                     </div>
@@ -64,8 +64,8 @@ class Header extends Component{
                             <Link to="/"><h4 className="mobile-logo">OVERTURE</h4></Link>
                         </div>
                     </div>
-                </div>
-                {/*
+                </div> */}
+                
                 <div className="container header-mobile">
                     <div className="row">
                         <div className="col-xs-2">
@@ -75,7 +75,7 @@ class Header extends Component{
                             <Link to="/"><h4 className="mobile-logo">OVERTURE</h4></Link>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
         )
     }

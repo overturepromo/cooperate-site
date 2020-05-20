@@ -1,8 +1,8 @@
 .headers-div{
     position: absolute;
     z-index: 5;
-    /* top: 5%; */
-    top: 13%;
+    top: 5%;
+    /* top: 13%; */
     width: 100%;
 }
 
@@ -75,7 +75,7 @@ nav {
     }
     .header-mobile {
         display: block;
-        /* padding-top: 10px; */
+        padding-top: 10px;
         position: fixed;
         width: 100%;
         background-color: white;
