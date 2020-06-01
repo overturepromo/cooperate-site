@@ -6,8 +6,8 @@ const Hero = () => {
     return (
         <div className="hero-ppe">
             <div className="ppe-hero-box container">
-                <p className="ppe-cta-top animated fadeInDown">YOUR SAFETY IS OUR BUSINESS</p>
-                <p className="ppe-cta-bottom animated fadeInDown">In uncertain times, there’s one thing you can be certain of: Overture Promotions is here to help. We offer a wide range of Personal Protective Equipment to ensure you, your customers and your employees are safe and germ-free. Let us know how we can be of assistance!</p>
+                <p className="ppe-cta-top animated fadeInDown">HELP SLOW THE SPREAD</p>
+                <p className="ppe-cta-bottom animated fadeInDown">With work-from-home kits to Personal Protective Equipment, we have a wide range of options available. Our merchandise is produced in compliant manufacturing facilities, with several options from domestic and overseas factories. We also have many items that can ship within 24 hours!</p>
             </div>
         </div>
     )
