@@ -23,7 +23,7 @@ const Main = () => (
       <Route path='/careers' component={Careers} />
       <Route path='/privacy' component={Privacy} />
       <Route path='/corevalues' component={CoreValues} />
-      <Route path='/devserver5001' component={PPE} />
+      <Route path='/ppe' component={PPE} />
       <Route component={Error} />
     </Switch>
   </main>
