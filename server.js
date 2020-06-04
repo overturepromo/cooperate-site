@@ -66,7 +66,7 @@ app.post('/apply', upload.single('selectedFile'), (req, res) => {
 
 app.post('/quote', (req, res) => {
   res.send();
-  fn.quoteEmail(req.body.sku, req.body.first, req.body.last, req.body.email, req.body.phone, req.body.date)
+  fn.quoteEmail(req.body.sku, req.body.first, req.body.last, req.body.email, req.body.phone, req.body.date, req.body.quantity)
 })
 
 

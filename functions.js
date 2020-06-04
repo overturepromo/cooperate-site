@@ -65,7 +65,7 @@ var mail = require('nodemailer').mail;
     });
   };
 
-  exports.quoteEmail = (sku, first, last, email, phone, date ) => {
+  exports.quoteEmail = (sku, first, last, email, phone, date, quantity ) => {
     var transporter = nodemailer.createTransport({
           service: 'gmail',
           secure: true,
@@ -82,7 +82,7 @@ var mail = require('nodemailer').mail;
       from: email,
       to: 'jacobg@overturepromo.com, media@overturepromo.com',
       subject: `You have a new quote request for ${sku}`,
-      html: `<h4>Sku</h4> ${sku} <h4>first:</h4> ${first} <h4>last:</h4> ${last} <h4>email:</h4> ${email} <h4>phone:</h4> ${phone} <h4>need by date:</h4> ${date}`,
+      html: `<h4>Sku</h4> ${sku} <h4>first:</h4> ${first} <h4>last:</h4> ${last} <h4>email:</h4> ${email} <h4>phone:</h4> ${phone} <h4>need by date:</h4> ${date} <h4>quantity needed: ${quantity}</h4>`,
     };
     transporter.sendMail(mailOptions, function (error, info) {
       if (error) {

@@ -10,6 +10,7 @@ class ContactModal extends Component {
         email: '',
         phone: '',
         date: '',
+        quantity: '',
         applied: false
     }
 
@@ -30,6 +31,9 @@ class ContactModal extends Component {
             case 'date':
                 this.setState({date: e.target.value})
                 break;
+            case 'quantity':
+                this.setState({quantity: e.target.value})
+                break;
             default:
                 break;
        }
@@ -38,14 +42,15 @@ class ContactModal extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
-        const { first, last, email, phone, date } = this.state;
+        const { first, last, email, phone, date, quantity } = this.state;
         axios.post('/quote', {
             sku: this.props.title,
             first: this.state.first,
             last: this.state.last,
             email: this.state.email,
             phone: this.state.phone,
-            date: this.state.date
+            date: this.state.date,
+            quantity: this.state.quantity
         })
         .then(function (response) {
             console.log(response);
@@ -53,7 +58,7 @@ class ContactModal extends Component {
           .catch(function (error) {
             console.log(error);
           })
-        this.setState({first: '', last: '', email: '', phone: '', date: '', applied: true})
+        this.setState({first: '', last: '', email: '', phone: '', date: '', quantity: '', applied: true})
     }
 
     render(){
@@ -78,6 +83,7 @@ class ContactModal extends Component {
                     <input className="apply-inputs" type='text' name="email" placeholder="Email" required value={this.state.email} onChange={this.handleChange} />
                     <input className="apply-inputs" type='text' name="phone" placeholder="Phone" required value={this.state.phone} onChange={this.handleChange} />
                     <input className="apply-inputs" type='text' name="date" placeholder="Need By Date" required value={this.state.date} onChange={this.handleChange} />
+                    <input className="apply-inputs" type='text' name="quantity" placeholder="Quantity Needed" required value={this.state.quantity} onChange={this.handleChange} />
                     <button className="apply-button-send">Send</button>
                 </form>
                 }
