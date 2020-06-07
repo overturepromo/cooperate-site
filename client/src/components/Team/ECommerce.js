@@ -36,7 +36,6 @@ class ECommerce extends Component {
                     <Employee image={People.NicoleS.image} name={People.NicoleS.name} title={People.NicoleS.title} />
                     <Employee image={People.Brittany.image} name={People.Brittany.name} title={People.Brittany.title} />
                     <Employee image={People.Dean.image} name={People.Dean.name} title={People.Dean.title} />
-                    <Employee image={People.John.image} name={People.John.name} title={People.John.title} />
                     <Employee image={People.Katelynn.image} name={People.Katelynn.name} title={People.Katelynn.title} />
                     <Employee image={People.Nicole.image} name={People.Nicole.name} title={People.Nicole.title} />
                     <Employee image={People.Victoria.image} name={People.Victoria.name} title={People.Victoria.title} />
@@ -49,12 +48,12 @@ class ECommerce extends Component {
                     <Employee image={People.Kaley.image} name={People.Kaley.name} title={People.Kaley.title} />
                     <Employee image={People.Sarah.image} name={People.Sarah.name} title={People.Sarah.title} />
                     <Employee image={People.Kristina.image} name={People.Kristina.name} title={People.Kristina.title} />
-                    <Employee image={People.Kimberline.image} name={People.Kimberline.name} title={People.Kimberline.title} />
                     <Employee image={People.SarahC.image} name={People.SarahC.name} title={People.SarahC.title} />
                     <Employee image={People.Melissa.image} name={People.Melissa.name} title={People.Melissa.title} />
                     <Employee image={People.Mallory.image} name={People.Mallory.name} title={People.Mallory.title} />
                     <Employee image={People.Yasmin.image} name={People.Yasmin.name} title={People.Yasmin.title} />
                     <Employee image={People.Rory.image} name={People.Rory.name} title={People.Rory.title} />
+                    <Employee image={People.Kimberline.image} name={People.Kimberline.name} title={People.Kimberline.title} />
                 </div>
             </div>
         )

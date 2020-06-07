@@ -1,8 +1,12 @@
 
-/* Can remove this when hellobar goes away */
+/* Can remove next 2 rule this when hellobar goes away */
 
 .ReactModal__Overlay.ReactModal__Overlay--after-open {
     z-index: 99999999;
+}
+
+#root{
+    padding-top: 50px;
 }
 
 
@@ -11,6 +15,7 @@
     text-align: center;
     padding: 16px 0;
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 9999999;
 }
@@ -129,6 +134,9 @@
     }
     .hellobar-cta{
         padding: 6px 20px;
+    }
+    #root{
+        padding-top: 0;
     }
 }
 

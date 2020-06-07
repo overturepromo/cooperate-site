@@ -125,7 +125,7 @@ export const People = {
     },
     Victoria: {
         name: 'Victoria Robertson',
-        title: 'Marketing Specialist',
+        title: 'Marketing Manager',
         bio: '',
         movie: 'Some Like it Hot',
         vacation: 'Fiji',
@@ -251,7 +251,7 @@ export const People = {
     },
     Vivien: {
         name: 'Vivien Marafko',
-        title: 'Marketing Assistant',
+        title: 'Marketing',
         bio: '',
         movie: '',
         vacation: '',
