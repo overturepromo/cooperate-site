@@ -55,7 +55,7 @@ class Video extends Component {
                 title="office" 
                 width="500" 
                 height="281" 
-                src="https://player.vimeo.com/video/142292190?autoplay=1&loop=1&autopause=0" 
+                src="https://player.vimeo.com/video/426286674?autoplay=1&loop=1&autopause=0" 
                 frameBorder="0" 
                 allowFullScreen>
             </iframe>
