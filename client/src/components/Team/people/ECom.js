@@ -284,5 +284,14 @@ export const People = {
         vacation: 'MEXICO!! ',
         why: 'Loved the idea of working for a woman owned company. Working for women, with women, as a woman, was right up my alley!',
         image: Megan
-    }         
+    },
+    Eric: {
+        name: 'Eric Yaggi',
+        title: 'Sr. Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },             
 }
