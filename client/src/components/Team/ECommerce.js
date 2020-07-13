@@ -32,7 +32,6 @@ class ECommerce extends Component {
                 <Element id="e-commerce-orange">E-Commerce</Element>
                 <div className="row">
                     <Employee image={People.Ethan.image} name={People.Ethan.name} title={People.Ethan.title} />
-                    <Employee image={People.Anne.image} name={People.Anne.name} title={People.Anne.title} />
                     <Employee image={People.NicoleS.image} name={People.NicoleS.name} title={People.NicoleS.title} />
                     <Employee image={People.Brittany.image} name={People.Brittany.name} title={People.Brittany.title} />
                     <Employee image={People.Dean.image} name={People.Dean.name} title={People.Dean.title} />
