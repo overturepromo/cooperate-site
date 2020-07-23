@@ -355,5 +355,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Jesus
+    },
+    Annabelle: {
+        name: 'Annabelle Cocom',
+        title: 'Special Projects',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
     }
 }

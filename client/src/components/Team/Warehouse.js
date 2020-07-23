@@ -53,6 +53,7 @@ class Warehouse extends Component {
                     <Employee image={People.Justin.image} name={People.Justin.name} title={People.Justin.title} />
                     <Employee image={People.Estella.image} name={People.Estella.name} title={People.Estella.title} />
                     <Employee image={People.Jacob.image} name={People.Jacob.name} title={People.Jacob.title} />
+                    <Employee image={People.Annabelle.image} name={People.Annabelle.name} title={People.Annabelle.title} />
                 </div>
             </div>
         )
