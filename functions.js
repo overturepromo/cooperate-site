@@ -5,6 +5,9 @@ var mail = require('nodemailer').mail;
     var transporter = nodemailer.createTransport({
           service: 'gmail',
           secure: true,
+          tls: {
+            rejectUnauthorized: false
+          },
           auth: {
             type: 'OAuth2',
             user: process.env.OAUTH_USER,
@@ -33,6 +36,9 @@ var mail = require('nodemailer').mail;
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         secure: true,
+        tls: {
+          rejectUnauthorized: false
+        },
         auth: {
           type: 'OAuth2',
           user: process.env.OAUTH_USER,
@@ -69,6 +75,9 @@ var mail = require('nodemailer').mail;
     var transporter = nodemailer.createTransport({
           service: 'gmail',
           secure: true,
+          tls: {
+            rejectUnauthorized: false
+          },
           auth: {
             type: 'OAuth2',
             user: process.env.OAUTH_USER,
