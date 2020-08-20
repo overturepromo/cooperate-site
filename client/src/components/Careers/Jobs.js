@@ -96,11 +96,11 @@ class Jobs extends Component {
         return (
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
-                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3>Sales Account Coordinator</h3>
-                        <h5 onClick={() => this.handleOn('accountCoordinator')} className="view-button">View Details</h5>
-                        {this.state.accountCoordinator ? <AccountCoordinator bye={this.handleOff} /> : null}
-                    </div> */}
+                     <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3>Full-Stack .NET Web Developer</h3>
+                        <h5 onClick={() => this.handleOn('webDeveloper')} className="view-button">View Details</h5>
+                        {this.state.webDeveloper ? <WebDeveloper bye={this.handleOff} /> : null}
+                    </div>
                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Account Coordinator - River North</h3>
                         <h5 onClick={() => this.handleOn('acRiverNorth')} className="view-button">View Details</h5>
