@@ -72,7 +72,7 @@ class WebDeveloper extends Component {
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('webDeveloper')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Full-Stack .NET Web Developer" close={this.closeModal} />
+                    <ApplyBox title="Web Developer" close={this.closeModal} />
                 </Modal>
             </div>
         )
