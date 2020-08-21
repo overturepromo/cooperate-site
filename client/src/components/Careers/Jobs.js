@@ -95,7 +95,7 @@ class Jobs extends Component {
     render(){
         return (
             <div className='container' style={{marginTop: '20px'}}>
-                <div style={{display: "none"}} className="jobs-box">
+                <div className="jobs-box">
                      <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Web Developer</h3>
                         <h5 onClick={() => this.handleOn('webDeveloper')} className="view-button">View Details</h5>
