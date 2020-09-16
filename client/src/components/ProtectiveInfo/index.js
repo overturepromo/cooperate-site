@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Hero from './Hero'
-import AllItems from './AllItems'
-import PPESubfooter from './PPESubfooter';
+import Hero from './Hero';
+import ProtectiveBody from './ProtectiveBody';
+import ProtectiveSubfooter from './ProtectiveSubFooter';
 
 
 const index = () => {
@@ -10,8 +10,8 @@ const index = () => {
     return (
         <div>
             <Hero />
-            <AllItems />
-            <PPESubfooter />
+            <ProtectiveBody />
+            <ProtectiveSubfooter />
         </div>
     )
 }

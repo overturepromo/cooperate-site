@@ -10,6 +10,7 @@ import Privacy from './Privacy'
 import Error from './Error'
 import CoreValues from './Core'
 import PPE from './PPE'
+import ProtectiveInfo from './ProtectiveInfo';
 
 
 const Main = () => (
@@ -24,6 +25,7 @@ const Main = () => (
       <Route path='/privacy' component={Privacy} />
       <Route path='/corevalues' component={CoreValues} />
       <Route path='/ppe' component={PPE} />
+      <Route path='/protectiveinfo' component={ProtectiveInfo} />
       <Route component={Error} />
     </Switch>
   </main>
