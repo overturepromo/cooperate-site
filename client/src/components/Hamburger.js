@@ -44,8 +44,8 @@ class Hamburger extends Component {
             <div className='container burger-contact'>
                 <div className="row">
                     <div className="col-xs-12 burger-address">
-                        <p style={{fontSize: '17px'}}>595 Lakeview Parkway</p>
-                        <p style={{fontSize: '17px'}}>Vernon Hills, IL 60061</p>
+                        <p style={{fontSize: '17px'}}>800 S. Northpoint Blvd.</p>
+                        <p style={{fontSize: '17px'}}>Waukegan, IL 60085</p>
                     </div>
                     <div className="col-xs-12 burger-phone">
                         <p style={{fontSize: '17px'}}>P. 888.456.9564</p>
