@@ -24,7 +24,7 @@ class WarehouseAssociate extends Component {
         return (
             <div>
                 <h4>SUMMARY</h4>
-                <p style={{color: 'gray'}}>This position is primarily responsible for one or more areas of support in the Warehouse.  Those areas can include: shipping and receiving, picking and packing orders and inventory control and restocking.  On occasion, you may be asked to drive to or work at our secondary warehouse location in Lake Forest (GO).  Position reports directly to Warehouse Manager. Ideal candidates will have prior experience in a warehouse environment, but not required.  We also have a location in Waukegan, so the ideal candidate would have the flexibility to work in either of our locations.</p>
+                <p style={{color: 'gray'}}>This position is primarily responsible for one or more areas of support in the Warehouse.  Those areas can include: shipping and receiving, picking and packing orders and inventory control and restocking.  Position reports directly to Warehouse Manager. Ideal candidates will have prior experience in a warehouse environment, but not required.  </p>
                 <h4>YOUR RESPONSIBILITIES</h4>
                 <ul style={{color: "gray"}}>
                     <li>Receives material coming into the building by vendors, customer or other warehouses accurately and promptly.</li>
@@ -44,19 +44,17 @@ class WarehouseAssociate extends Component {
                 </ul>
                 <h4>SKILLS AND COMPETENCIES</h4>
                 <ul style={{color: "gray"}}>
+                    <li>Forklift experience required, forklift certification a plus</li>
                     <li>Must be able to lift up to 50lbs</li>
                     <li>Able to stand, walk, pull and bend 100% of the day</li>
                     <li>Ability to determine priorities and accomplish multiple tasks with minimal supervision.</li>
                     <li>Ability to work in a fast-paced production manner</li>
-                    <li>Forklift certification a plus</li>
                     <li>Must have reliable and dependable transportation</li>
                 </ul>
                 <h4>BENEFITS</h4>
                 <ul style={{color: "gray"}}>
                     <li>Complete insurance coverage for Full time roles – Medical, dental, vision and life insurance</li>
                     <li>Pet Insurance</li>
-                    <li>Corporate Partnerships with Life Time Fitness and Bears Fit</li>
-                    <li>Generous paid time off</li>
                     <li>401(k) eligible after first year of employment</li>
                 </ul>
                 <h4>EDUCATION/EXPERIENCE</h4>
