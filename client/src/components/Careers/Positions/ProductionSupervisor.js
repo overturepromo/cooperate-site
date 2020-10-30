@@ -24,46 +24,54 @@ class ProductionSupervisor extends Component {
         return (
             <div>
                 <h4>SUMMARY</h4>
-                <p style={{color: 'gray'}}>The Production Supervisor is responsible for supervising the production of the screen printing and embroidery departments. This role will be accountable for meeting customer quality, service and deadline expectations, as well as maintaining a safe work environment. This is a fast-paced working environment and the ideal candidate will be one that has excellent decision-making skills, troubleshoot production and quality issues, and maintain high levels of communication within the department as well as with other departments throughout the building. This person will ideally become an expert in the overall production process and be able to train and develop new employees as well as existing employees. This position will report directly to the Production Manager.</p>
-                <h4>Essential Duties and Responsibilities </h4>
+                <p style={{color: 'gray'}}>This is a lead position and is responsible for a wide variety of tasks to ensure timely production and assembly activities in regards to special projects kitting. The main responsibility for this role is to prepare client specific kits for shipment and ensuring all kit timelines and deliverables are accurate and met while leading a team of 10-20 employees and temporary labor. This role will coordinate kitting operations with the objective of maximizing the productivity of all team members while ensuring that all processes are being followed in the daily completion of work tasks. Ideal candidates will have prior experience in a light assembly type of role.</p>
+                <h4>Duties and Responsibilities </h4>
                 <ul style={{color: "gray"}}>
-                    <li>Reviews staff positions and attendance to adjust staff daily assignments as needed</li>
-                    <li>Approving and tracking absences and time off requests for the department (employees and temps), and reviewing payroll on a bi-weekly basis to ensure team is paid correctly</li>
-                    <li>Responsible for supervising, training, and motivating production teams across production lines</li>
-                    <li>Schedule production jobs to meet or exceed customer deadlines and expectations</li>
-                    <li>Working knowledge of thread materials, backing, hooping and running an embroidery machine</li>
-                    <li>Working knowledge of ink formulation, screen burning and reclaiming, automatic screen-printing machines, and fabric specific drying requirements</li>
-                    <li>Responsible for screen printing proofing, order processing, art separation and film production. This would also include getting proof/swatch approval for both embroidery and screen print areas</li>
-                    <li>Capable of operating the department’s production equipment</li>
-                    <li>Guides and assists production staff to meet required output levels</li>
-                    <li>Reports safety issues and policy violations to management</li>
-                    <li>Assists the Production Manager with training and staff adjustments</li>
-                    <li>Performs other duties as assigned by management</li>
-                    <li>Verify product quality meets high quality standards</li>
+                    <li>Skilled in reading specification and identifying the correct items for projects in order to fulfill customer orders by locating, coordinating and expediting the flow of kitting materials – both in process materials and materials within the department</li>
+                    <li>Knowledge of packing procedures, techniques, equipment and basic warehouse procedures</li>
+                    <li>Knowledge of shipping documents and ability to identify shipping requirements and procedures for items</li>
+                    <li>Constantly perform quality control checks on every project daily</li>
+                    <li>Able to communicate with multiple departments within the organization, including members of upper management, in regards to order status and shipping updates</li>
+                    <li>Responsible for data entry, reporting, checking on and verifying information, generating reports and responding to data requests</li>
+                    <li>Ability to build strong relationships, provide excellent customer service and problem solve</li>
+                    <li>May be required to stack pallets and repeatedly lift up to 50 pounds</li>
+                    <li>Ability to work as a team player, but also independently</li>
+                    <li>Reports damages and vendor compliance issues</li>
+                    <li>Maintains an acceptable level of attendance based on Company attendance policy</li>
+                    <li>Ensures safety techniques are used in all aspects of daily work responsibilities</li>
+                    <li>Maintain warehouse clean and free of debris at all times</li>
+                    <li>Ability to withstand unavoidable exposure to unfavorable atmospheric conditions or extreme temperatures inside and outside the facility, including noise, dust and non-toxic screen-printing fumes</li>
+                    <li>Other duties as assigned</li>
                 </ul>
-                <h4>Qualifications</h4>
+                <h4>Required Experience</h4>
                 <ul style={{color: "gray"}}>
-                    <li>Bilingual in English and Spanish is required (both reading and speaking)</li>
-                    <li>Strong written, verbal, and interpersonal skills are required</li>
-                    <li>Willingness to research and implement new processes and new ways to use existing resources</li>
-                    <li>Computer literate with familiarity with Microsoft Office products</li>
+                    <li>Minimum 2 years’ experience in a supervisory or lead capacity directing the work of others</li>
+                    <li>Computer experience required</li>
+                    <li>Must be able to read, write and communicate in English, bilingual in Spanish a plus</li>
+                    <li>Forklift experience required, forklift certification a plus</li>
+                    <li>Able to stand, walk, pull and bend 100% of the day</li>
+                    <li>Ability to determine priorities and accomplish multiple tasks with minimal supervision</li>
+                    <li>Ability to work in a fast-paced production manner</li>
+                    <li>Outstanding communication and organizational skills</li>
                 </ul>
-                <h4>Qualifications</h4>
+                <h4>Benefits</h4>
                 <ul style={{color: "gray"}}>
-                    <li>3 years of embroidery and screen print experience, 2 years of production management experience</li>
-                    <li>Working knowledge of OSHA safety and reporting requirements, 10-Hour Course certification a plus</li>
+                    <li>Complete insurance coverage – Medical, dental, vision, life insurance and disability plans with Company contributions</li>
+                    <li>Pet insurance</li>
+                    <li>Corporate partnerships with Life Time Fitness and Bears Fit locations</li>
+                    <li>Generous paid time off</li>
+                    <li>401(k) eligible upon hire with Company match after the 1st year of employment</li>
+                    <li>Relaxed dress code</li>
                 </ul>
                 <h4>EDUCATION/EXPERIENCE</h4>
                 <ul style={{color: "gray"}}>
-                    <li>HS Diploma or equivalent experience</li>
-                    <li>Minimum 2 years' experience leading a team</li>
+                    <li>High School Diploma or equivalent working experience</li>
+                    <li>At least 18 years of age</li>
                 </ul>
-                <p>SHIFTS & SCHEDULE: Often varying shifts and schedules are required to meet our customer’s needs. This may require shift changes, weekends and overtime.</p>
-                <p>PHYSICAL REQUIREMENTS: It is common to walk and stand for the duration of the entire shift while bending, kneeling, reaching or crouching to commonly lift 5-15 pounds with the occasional requirement to lift or move up to 40 pounds.</p>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('productionSupervisor')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Production Supervisor" close={this.closeModal} />
+                    <ApplyBox title="Special Projects Lead" close={this.closeModal} />
                 </Modal>
             </div>
         )
