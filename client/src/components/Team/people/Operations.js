@@ -3,7 +3,6 @@ import Kristin from '../../../images/team/Operations/Kristin.jpg'
 import Corinne from '../../../images/team/Operations/Corinne.jpg'
 import Nancy from '../../../images/team/Operations/Nancy.jpg'
 import Lisa from '../../../images/team/Operations/Lisa.jpg'
-import Jen from '../../../images/team/Operations/Jen.jpg'
 import Eileen from '../../../images/team/Operations/Eileen.jpg'
 import Liz from '../../../images/team/Operations/Liz.jpg'
 import Morgan from '../../../images/team/Operations/Morgan.jpg'
@@ -84,15 +83,7 @@ export const People = {
         why: 'The moment I walked in, I was sold on the quality of people!',
         image: Lisa
     },
-    Jen: {
-        name: 'Jen Powles',
-        title: 'Sr. Accounts Receivable Clerk',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Jen
-    },
+
     Eileen: {
         name: 'Eileen Wilson',
         title: 'Senior Billing Coordinator',
@@ -284,7 +275,7 @@ export const People = {
     },
     Barb: {
         name: 'Barb Zukowski',
-        title: 'Billing Coordinator',
+        title: 'Accounts Receivable',
         bio: '',
         movie: '',
         vacation: '',

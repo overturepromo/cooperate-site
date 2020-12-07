@@ -15,7 +15,6 @@ import Daniela from '../../../images/team/Embrodiery/Daniela.jpg'
 import Zenaida from '../../../images/team/Embrodiery/Zenaida.jpg'
 import Victor from '../../../images/team/Embrodiery/Victor.jpg'
 import Tina from '../../../images/team/Embrodiery/Tina.jpg'
-import Inocente from '../../../images/team/Embrodiery/Inocente.jpg'
 import Amberlie from '../../../images/team/Warehouse/Amberlie.jpg';
 import Rolando from '../../../images/team/Embrodiery/RolandoPuck.jpg';
 
@@ -175,15 +174,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Tina
-    },
-    Inocente: {
-        name: 'Inocente Aguirre',
-        title: 'Production Receiving Clerk',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Inocente
     },
     Amberlie: {
         name: 'Amberlie Hamm',

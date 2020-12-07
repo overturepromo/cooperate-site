@@ -15,7 +15,6 @@ import Steven from '../../../images/team/ECom/Steven.jpg';
 import Will from '../../../images/team/ECom/Will.jpg';
 import Jessica from '../../../images/team/ECom/Jessica.jpg';
 import Sean from '../../../images/team/ECom/Sean.jpg';
-import Kaley from '../../../images/team/ECom/Kaley.jpg';
 import Kristina from '../../../images/team/ECom/Kristina.jpg';
 import SarahC from '../../../images/team/ECom/SarahC.jpg';
 import Melissa from '../../../images/team/ECom/Melissa.jpg';
@@ -186,15 +185,6 @@ export const People = {
         why: '',
         image: Sean
     }, 
-    Kaley: {
-        name: 'Kaley Sullivan',
-        title: 'Account Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Kaley
-    },  
     Kristina: {
         name: 'Kristina Keller',
         title: 'Sales Admin',
@@ -206,7 +196,7 @@ export const People = {
     },
     Kimberline: {
         name: 'Kimberlin Sawyer',
-        title: 'Sr. Account Manager',
+        title: 'Account Director',
         bio: '',
         movie: '',
         vacation: '',
@@ -224,7 +214,7 @@ export const People = {
     },  
     Melissa: {
         name: 'Melissa Dysinger',
-        title: 'Account Manager',
+        title: 'Account Development Specialist',
         bio: '',
         movie: '',
         vacation: '',

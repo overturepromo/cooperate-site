@@ -31,6 +31,8 @@ import Justin from '../../../images/team/Warehouse/Justin.jpg';
 import Estella from '../../../images/team/Warehouse/Estella.jpg';
 import Jacob from '../../../images/team/Warehouse/Jacob.jpg';
 import Jesus from '../../../images/team/Warehouse/Jesus.jpg';
+import Inocente from '../../../images/team/Embrodiery/Inocente.jpg'
+
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -142,7 +144,7 @@ export const People = {
     },
     Karla: {
         name: 'Karla Lainez',
-        title: 'Shipping Coordinator',
+        title: 'Shipping Lead ',
         bio: '',
         movie: '',
         vacation: '',
@@ -151,7 +153,7 @@ export const People = {
     },
     Abi: {
         name: 'Abi Ocampo',
-        title: 'Receiving Lead',
+        title: 'Pick/Pack Lead ',
         bio: '',
         movie: '',
         vacation: '',
@@ -196,7 +198,7 @@ export const People = {
     },
     Ismeal: {
         name: 'Ismael Barrera',
-        title: 'Receiving Clerk',
+        title: 'Receiving Lead',
         bio: '',
         movie: '',
         vacation: '',
@@ -364,5 +366,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Female2
-    }
+    },
+    Inocente: {
+        name: 'Inocente Aguirre',
+        title: 'National Programs Assoc.',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Inocente
+    },
 }
