@@ -104,4 +104,13 @@ export const People = {
         why: '',
         image: Jeri
     },
+    Aaron: {
+        name: 'Aaron Bauer',
+        title: 'Graphic Designer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
