@@ -28,9 +28,6 @@ class Footer extends Component {
                             <a href="https://www.instagram.com/overturepromotions/" target="blank"><i className="fa fa-instagram" style={footerIcons}></i></a>
                             <a href="https://www.linkedin.com/company/overture-promotions2018/" target="blank"><i className="fa fa-linkedin" style={footerIcons}></i></a>
                         </div>
-                        <div>
-                            <img src={Women} alt="women-owned" style={{marginTop: '25px', height: '60px'}} />
-                        </div>
                     </div>
                     <div className="col-md-4 map-divy">
                         <img src={Map} alt="map" /><br />
