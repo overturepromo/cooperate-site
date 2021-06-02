@@ -61,7 +61,7 @@ class APClerk extends Component {
                 </ul>
                 <h4>Education/Experience</h4>
                 <ul style={{color: "gray"}}>
-                    <li>BS/BA degree or equivalent combination of education and experience required.</li>
+                    <li>High school diploma or equivalent experience required, Associates degree preferred.</li>
                 </ul>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('apClerk')} className="view-button">Hide Details</h5>

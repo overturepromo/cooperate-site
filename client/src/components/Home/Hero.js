@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="hero">
                 <div className="cta-home container">
                     <p className="home-cta-top">We're An Award Winning Promotional Product Agency That</p>
-                    <p className="home-cta-middle">CREATES AWESOMENESS</p>
+                    <p className="home-cta-middle">That likes to FUCK!</p>
                     <Link to="/contact">
                         <p className="home-cta-bottom">Ask us how 
                             <span><img src={ArrowRight} style={{marginLeft: '10px'}} alt="arrow" /></span>
