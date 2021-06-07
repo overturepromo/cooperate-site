@@ -38,7 +38,6 @@ class ECommerce extends Component {
                     <Employee image={People.Katelynn.image} name={People.Katelynn.name} title={People.Katelynn.title} />
                     <Employee image={People.Nicole.image} name={People.Nicole.name} title={People.Nicole.title} />
                     <Employee image={People.Victoria.image} name={People.Victoria.name} title={People.Victoria.title} />
-                    <Employee image={People.Vivien.image} name={People.Vivien.name} title={People.Vivien.title} />
                     <Employee image={People.Gabrielle.image} name={People.Gabrielle.name} title={People.Gabrielle.title} />
                     <Employee image={People.Steven.image} name={People.Steven.name} title={People.Steven.title} />
                     <Employee image={People.Megan.image} name={People.Megan.name} title={People.Megan.title} />
@@ -51,6 +50,8 @@ class ECommerce extends Component {
                     <Employee image={People.Rory.image} name={People.Rory.name} title={People.Rory.title} />
                     <Employee image={People.Kimberline.image} name={People.Kimberline.name} title={People.Kimberline.title} />
                     <Employee image={People.Eric.image} name={People.Eric.name} title={People.Eric.title} />
+                    <Employee image={People.MeganK.image} name={People.MeganK.name} title={People.MeganK.title} />
+                    <Employee image={People.ShannonL.image} name={People.ShannonL.name} title={People.ShannonL.title} />
                 </div>
             </div>
         )

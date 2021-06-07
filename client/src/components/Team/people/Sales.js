@@ -30,9 +30,7 @@ import Michelle from '../../../images/team/Sales/Michelle.jpg';
 import Alexandra from '../../../images/team/Sales/Alexandra.jpg';
 import Julie from '../../../images/team/Operations/Julie.jpg';
 import Ricky from '../../../images/team/ECom/Ricky.jpg';
-import ShannonL from '../../../images/team/Sales/ShannonL.jpg';
 import Jasmyn from '../../../images/team/Sales/Jasmyn.jpg';
-import MeganK from '../../../images/team/Sales/MeganKragenbrink.jpg';
 import Kaley from '../../../images/team/ECom/Kaley.jpg';
 import Jen from '../../../images/team/Operations/Jen.jpg'
 
@@ -263,7 +261,7 @@ export const People = {
     },
     Roger: {
         name: 'Roger Brual',
-        title: 'Operations Coordinator',
+        title: 'Account Coordinator',
         bio: '',
         movie: '',
         vacation: '',
@@ -333,15 +331,6 @@ export const People = {
         why: '',
         image: Male1
     },
-    ShannonL: {
-        name: 'Shannon Lassiter',
-        title: 'Sales Account Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: ShannonL
-    },
     Janice: {
         name: 'Janice Maher',
         title: 'Account Coordinator',
@@ -377,15 +366,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Ricky
-    },
-    MeganK: {
-        name: 'Megan Kragenbrink',
-        title: 'Sales Account Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: MeganK
     },
     Kaley: {
         name: 'Kaley Sullivan',

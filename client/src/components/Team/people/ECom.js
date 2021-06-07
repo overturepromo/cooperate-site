@@ -24,6 +24,8 @@ import Vivien from '../../../images/team/ECom/Vivien.jpg';
 import NicoleS from '../../../images/team/Sales/Nicole.jpg';
 import Megan from '../../../images/team/Sales/Megan.jpg';
 import Rory from '../../../images/team/ECom/RoryTucker.jpg';
+import MeganK from '../../../images/team/Sales/MeganKragenbrink.jpg';
+import ShannonL from '../../../images/team/Sales/ShannonL.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -283,5 +285,23 @@ export const People = {
         vacation: '',
         why: '',
         image: Male1
+    },
+    MeganK: {
+        name: 'Megan Kragenbrink',
+        title: 'Marketing Assistant',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: MeganK
+    },
+    ShannonL: {
+        name: 'Shannon Lassiter',
+        title: 'Account Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: ShannonL
     },             
 }
