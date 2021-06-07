@@ -103,7 +103,7 @@ export const People = {
         image: Liz
     },
     Morgan: {
-        name: 'Morgan Skofstad',
+        name: 'Morgan Bixler',
         title: 'Billing Coordinator',
         bio: 'Morgan joined the Overture team at the very beginning of 2017 knowing that Overture Promotions was a fun place to work and she would gain valuable experiences. She came from a wide background in auditing, data entry, and retail management and is pursuing a degree in Business and Accounting. She enjoys learning about all aspects of a business through school and applying it first-hand at Overture. Outside of the office and school, she spends her time riding her horses and being at the local dragway where she is a crew chief for a motorcycle racing enterprise. She also loves to travel. ',
         movie: 'Top Gun and The Notebook',
@@ -122,7 +122,7 @@ export const People = {
     },
     Robyn: {
         name: 'Robyn Yoder',
-        title: 'Billing Coordinator',
+        title: 'Purchasing Coordinator',
         bio: '',
         movie: '',
         vacation: '',
@@ -320,7 +320,7 @@ export const People = {
     },
     Bethani: {
         name: 'Bethani Wright',
-        title: 'AP Clerk',
+        title: 'Fulfillment Coordinator',
         bio: '',
         movie: '',
         vacation: '',
@@ -329,7 +329,7 @@ export const People = {
     },
     Glenda: {
         name: 'Glenda Duncan',
-        title: 'Office Manager',
+        title: 'Office Manager/HR Assistant',
         bio: '',
         movie: '',
         vacation: '',
@@ -353,5 +353,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Male1
-    }
+    },
+    Troy: {
+        name: 'Troy Nichols',
+        title: 'Accounting Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
+    },
 }
