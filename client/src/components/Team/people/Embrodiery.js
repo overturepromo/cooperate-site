@@ -17,6 +17,7 @@ import Victor from '../../../images/team/Embrodiery/Victor.jpg'
 import Tina from '../../../images/team/Embrodiery/Tina.jpg'
 import Amberlie from '../../../images/team/Warehouse/Amberlie.jpg';
 import Rolando from '../../../images/team/Embrodiery/RolandoPuck.jpg';
+import Inocente from '../../../images/team/Embrodiery/Inocente.jpg'
 
 import Male1 from '../../../images/team/Male1.jpg';
 import Male2 from '../../../images/team/Male2.jpg';
@@ -258,5 +259,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Female2
+    },
+    Inocente: {
+        name: 'Inocente Aguirre',
+        title: 'Embroidery Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Inocente
     },
 }
