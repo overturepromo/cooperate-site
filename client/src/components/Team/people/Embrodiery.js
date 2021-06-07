@@ -19,6 +19,9 @@ import Amberlie from '../../../images/team/Warehouse/Amberlie.jpg';
 import Rolando from '../../../images/team/Embrodiery/RolandoPuck.jpg';
 
 import Male1 from '../../../images/team/Male1.jpg';
+import Male2 from '../../../images/team/Male2.jpg';
+import Female1 from '../../../images/team/Female1.jpg';
+import Female2 from '../../../images/team/Female2.jpg';
 
 
 export const People = {
@@ -168,7 +171,7 @@ export const People = {
     },
     Tina: {
         name: 'Tina Rodriguez',
-        title: 'Production Receiving Clerk',
+        title: 'Production Admin',
         bio: '',
         movie: '',
         vacation: '',
@@ -192,5 +195,68 @@ export const People = {
         vacation: '',
         why: '',
         image: Rolando
+    },
+    Alejandra: {
+        name: 'Alejandra Ayon',
+        title: 'Embroidery Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    Debra: {
+        name: 'Debra Dube',
+        title: 'Embroidery Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
+    Elia: {
+        name: 'Elia Tinoco',
+        title: 'Embroidery Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Miguel: {
+        name: 'Miguel Gonzalez',
+        title: 'Screen Print Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
+    },
+    Julio: {
+        name: 'Julio Martinez',
+        title: 'Screen Print Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Angelica: {
+        name: 'Angelica Tobon Castillo',
+        title: 'Screen Print Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    Mayra: {
+        name: 'Mayra Cruz',
+        title: 'Production Receiving',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
     },
 }
