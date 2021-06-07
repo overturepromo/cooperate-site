@@ -6,7 +6,6 @@ import Lisa from '../../../images/team/Operations/Lisa.jpg'
 import Eileen from '../../../images/team/Operations/Eileen.jpg'
 import Liz from '../../../images/team/Operations/Liz.jpg'
 import Morgan from '../../../images/team/Operations/Morgan.jpg'
-import Anthony from '../../../images/team/Operations/Anthony.jpg'
 import Robyn from '../../../images/team/Operations/Robyn.jpg'
 import Trina from '../../../images/team/Operations/Trina.jpg'
 import Ashley from '../../../images/team/Operations/Ashley.jpg'
@@ -17,7 +16,6 @@ import Kevin from '../../../images/team/Operations/Kevin.jpg'
 import Jacob from '../../../images/team/Operations/Jacob.jpg'
 import Tiffany from '../../../images/team/Operations/Tiffany.jpg';
 import Carolyn from '../../../images/team/Warehouse/Carolyn.jpg';
-import Sue from '../../../images/team/Operations/Sue.jpg';
 import Chris from '../../../images/team/Operations/Chris.jpg';
 import Sheehy from '../../../images/team/Operations/Sheehy.jpg';
 import Dave from '../../../images/team/Operations/Dave.jpg';
@@ -111,15 +109,6 @@ export const People = {
         why: '',
         image: Morgan
     },
-    Anthony: {
-        name: 'Anthony James',
-        title: 'Billing Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Anthony
-    },
     Robyn: {
         name: 'Robyn Yoder',
         title: 'Purchasing Coordinator',
@@ -155,15 +144,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Melissa
-    },
-    Leyla:{
-        name: 'Leyla Anderfuren',
-        title: 'Fulfillment Coordinator',
-        bio: '',
-        movie: 'Pee-Wee’s Big Adventure',
-        vacation: 'Hawaii (even though I’ve never been there!)',
-        why: 'It was love at first site when I saw the video ',
-        // image: ''
     },
     Shawn: {
         name: 'Shawn Wohlt',
@@ -218,15 +198,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Carolyn
-    },
-    Sue: {
-        name: "Sue Nagelberg",
-        title: "Office Manager",
-        bio: "I am currently the Office Manager at Overture which allows me to do a great variety of things which I really like. When not at work I like to spend my time with family and friends, I also enjoy sewing and doing craft projects.",
-        movie: "One of my favorite movies is Forrest Gump. This movie is a wonderful example of how we should all live . . . . . . enjoy life for what it is, don’t dwell on what you don’t have in life – enjoy what you have.",
-        vacation: "My favorite place to go is Lake Ann, Michigan. Lake Ann is the most relaxing spot that I’ve ever been to.  You are right on the lake, homes are spread out and it’s so very peaceful.  If you’ve never been there and you’re looking for a quiet and relaxing spot then Lake Ann, MI is where you need to go.",
-        why: 'Overture Promotions was a customer of mine while I worked for my previous employer. Everyone that I came in contact with at Overture was very nice and seemed to be happy with their job, so when it came time for me to look for a job I decided that I would check with Overture to see if there was an opportunity here for me…..the rest is history.',
-        image: Sue,
     },
     ChrisM: {
         name: 'Chris Mendoza',

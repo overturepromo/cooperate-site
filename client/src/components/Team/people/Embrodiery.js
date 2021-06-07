@@ -1,21 +1,15 @@
 import Wendy from '../../../images/team/Embrodiery/Wendy.jpg'
-import Nastia from '../../../images/team/Embrodiery/Nastia.jpg'
 import Gabriel from '../../../images/team/Embrodiery/Gabriel.jpg'
 import Jose from '../../../images/team/Embrodiery/Jose.jpg'
-import Kilino from '../../../images/team/Embrodiery/Kilino.jpg'
 import Edgar from '../../../images/team/Embrodiery/Edgar.jpg'
-import Leroy from '../../../images/team/Embrodiery/Leroy.jpg'
 import Esmeralda from '../../../images/team/Embrodiery/Esmerelda.jpg'
 import Maria from '../../../images/team/Embrodiery/Maria.jpg'
 import Adriana from '../../../images/team/Embrodiery/Adriana.jpg'
 import Carolina from '../../../images/team/Embrodiery/Carolina.jpg'
 import Dorotea from '../../../images/team/Embrodiery/Dorotea.jpg'
-import Laura from '../../../images/team/Embrodiery/Laura.jpg'
-import Daniela from '../../../images/team/Embrodiery/Daniela.jpg'
 import Zenaida from '../../../images/team/Embrodiery/Zenaida.jpg'
 import Victor from '../../../images/team/Embrodiery/Victor.jpg'
 import Tina from '../../../images/team/Embrodiery/Tina.jpg'
-import Amberlie from '../../../images/team/Warehouse/Amberlie.jpg';
 import Rolando from '../../../images/team/Embrodiery/RolandoPuck.jpg';
 import Inocente from '../../../images/team/Embrodiery/Inocente.jpg'
 
@@ -35,15 +29,6 @@ export const People = {
         why: 'I was recruited to come to work here, but liked the sense of excitement as well as the opportunity to develop professionally.',
         image: Wendy
     },
-    Nastia: {
-        name: 'Nastia Ilnitska',
-        title: 'Production Assistant',
-        bio: 'Nastia joined Overture team in July of 2015. Coming with an Associate degree in Graphic Design she started out as a graphic design intern in the art department. After working there part-time, and then splitting her day between art department and the warehouse, she became Production Assistant working closely with Wendy Parsons. Her main responsibilities include assisting Wendy with processing screen print orders, providing sales staff with proofs, creating logo separations and printing films for burning screens, tracking daily production in screen print and embroidery departments, and working on various production-related projects.',
-        movie: 'Rory O’Shea Was Here (Inside I’m Dancing)',
-        vacation: 'Toronto, Canada',
-        why: 'For its fun environment, and opportunity to learn lots of new work skills while improving existing ones. ',
-        image: Nastia
-    },
     Gabriel: {
         name: 'Gabriel Ramirez',
         title: 'Screen Print Floor Manager',
@@ -62,15 +47,6 @@ export const People = {
         why: '',
         image: Jose
     },
-    Kilino: {
-        name: 'Kilino Saucedo',
-        title: 'Senior Screen Print Operator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Kilino
-    },
     Edgar: {
         name: 'Edgar Nabor',
         title: 'Senior Screen Print Operator',
@@ -79,15 +55,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Edgar
-    },
-    Leroy: {
-        name: 'LeRoy Walker',
-        title: 'Screen Print Operator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Leroy
     },
     Esmeralda: {
         name: 'Esmeralda Ibarra',
@@ -134,24 +101,6 @@ export const People = {
         why: '',
         image: Dorotea
     },
-    Laura: {
-        name: 'Laura Cordova',
-        title: 'Senior Embroidery Operator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Laura
-    },
-    Daniela: {
-        name: 'Daniela Delgado',
-        title: 'Embroidery Operator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Daniela
-    },
     Zenaida: {
         name: 'Zenaida Gonzalez',
         title: 'Embroidery Trimmer',
@@ -178,15 +127,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Tina
-    },
-    Amberlie: {
-        name: 'Amberlie Hamm',
-        title: 'Production Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Amberlie
     },
     Rolando: {
         name: 'Rolando Puck',

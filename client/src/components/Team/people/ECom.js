@@ -1,12 +1,7 @@
 import Ethan from '../../../images/team/ECom/Ethan.jpg';
-import Anne from '../../../images/team/ECom/Anne.jpg';
-import Ashley from '../../../images/team/ECom/Ashley.jpg';
 import Brittany from '../../../images/team/ECom/Brittany.jpg';
 import Dean from '../../../images/team/ECom/Dean.jpg';
-import Jeff from '../../../images/team/ECom/Jeff.jpg';
-import John from '../../../images/team/ECom/John.jpg';
 import Katelynn from '../../../images/team/ECom/Katelynn.jpg';
-import Michael from '../../../images/team/ECom/Michael.jpg';
 import Nicole from '../../../images/team/ECom/Nicole.jpg';
 import Victoria from '../../../images/team/ECom/Victoria.jpg';
 import Gabrielle from '../../../images/team/ECom/Gabrielle.jpg';
@@ -14,13 +9,10 @@ import Sarah from '../../../images/team/ECom/Sarah.jpg';
 import Steven from '../../../images/team/ECom/Steven.jpg';
 import Will from '../../../images/team/ECom/Will.jpg';
 import Jessica from '../../../images/team/ECom/Jessica.jpg';
-import Sean from '../../../images/team/ECom/Sean.jpg';
 import Kristina from '../../../images/team/ECom/Kristina.jpg';
 import SarahC from '../../../images/team/ECom/SarahC.jpg';
 import Melissa from '../../../images/team/ECom/Melissa.jpg';
 import Mallory from '../../../images/team/ECom/Mallory.jpg';
-import Yas from '../../../images/team/ECom/Yas.jpg';
-import Vivien from '../../../images/team/ECom/Vivien.jpg';
 import NicoleS from '../../../images/team/Sales/Nicole.jpg';
 import Megan from '../../../images/team/Sales/Megan.jpg';
 import Rory from '../../../images/team/ECom/RoryTucker.jpg';
@@ -43,24 +35,6 @@ export const People = {
         why: 'Because creativity is the driving force behind Overture’s growth. From product design to logistical problem solving, this is a company that has fun innovating!',
         image: Ethan
     },
-    Anne: {
-        name: 'Anne Gross',
-        title: 'New Business Director',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Anne
-    },
-    Ashley: {
-        name: 'Ashley Anderson',
-        title: 'Sr. Account Manager',
-        bio: '',
-        movie: 'Blow or The Blind Side. ',
-        vacation: 'Conover, WI',
-        why: 'They chose me!',
-        image: Ashley
-    },
     Brittany: {
         name: 'Brittany Foley',
         title: 'Sr. Account Manager',
@@ -79,24 +53,6 @@ export const People = {
         why: '',
         image: Dean
     },
-    Jeff: {
-        name: 'Jeff Lamarche',
-        title: 'Sr. Account Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Jeff
-    },
-    John: {
-        name: 'John Seeder',
-        title: 'Sr. Account Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: John
-    },
     Katelynn: {
         name: 'Katelynn Fioretto',
         title: 'Sr. Account Manager',
@@ -105,15 +61,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Katelynn
-    },
-    Michael: {
-        name: 'Michael Santiago',
-        title: 'Account Manager',
-        bio: '',
-        movie: 'Sniper',
-        vacation: 'Miami',
-        why: 'Overture Chose me',
-        image: Michael
     },
     Nicole: {
         name: 'Nicole Vechiola',
@@ -178,15 +125,6 @@ export const People = {
         why: '',
         image: Jessica
     },
-    Sean: {
-        name: 'Sean Boban',
-        title: 'Account Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Sean
-    }, 
     Kristina: {
         name: 'Kristina Keller',
         title: 'Sales Admin',
@@ -231,24 +169,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Mallory
-    },
-    Yasmin: {
-        name: 'Yasmin Marrero',
-        title: 'Account Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Yas
-    },
-    Vivien: {
-        name: 'Vivien Marafko',
-        title: 'Marketing',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Vivien
     },
     Rory: {
         name: 'Rory Tucker',

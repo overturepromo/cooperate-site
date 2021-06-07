@@ -1,10 +1,6 @@
 import Christine from '../../../images/team/Creative/Christine.jpg';
 import Laura from '../../../images/team/Creative/Laura.png';
-import Erin from '../../../images/team/Creative/Erin.png';
-import Brandon from '../../../images/team/Creative/Brandon.jpg';
-import Emily from '../../../images/team/Creative/Emily.png';
 import Duane from '../../../images/team/Creative/Duane.jpg';
-import Brent from '../../../images/team/Creative/Brent.jpg';
 import Enzo from '../../../images/team/Creative/Enzo.jpg';
 import Jeri from '../../../images/team/Creative/Jeri.jpg';
 
@@ -32,42 +28,6 @@ export const People = {
         why: '',
         image: Laura
     },
-    Erin: {
-        name: 'Erin Daniels',
-        title: 'Graphic Designer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Erin
-    },
-    Brandon: {
-        name: 'Brandon Hawks',
-        title: 'Graphic Designer',
-        bio: '',
-        movie: 'Mad Max',
-        vacation: 'Someplace new!',
-        why: 'Great work atmosphere with great people! ',
-        image: Brandon
-    },
-    Emily: {
-        name: 'Emily Williams',
-        title: 'Graphic Designer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Emily
-    },
-    Bridget: {
-        name: 'Bridget Miller',
-        title: 'Graphic Designer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Female1
-    },
     Duane: {
         name: 'Duane Zoldak',
         title: 'Graphic Designer',
@@ -76,15 +36,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Duane
-    },
-    Brent: {
-        name: 'Brent Saemann',
-        title: 'Graphic Designer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Brent
     },
     Enzo: {
         name: 'Enzo Daniel',

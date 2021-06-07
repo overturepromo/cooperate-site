@@ -7,7 +7,6 @@ import Jennifer from '../../../images/team/Sales/Jennifer.jpg'
 import Karyn from '../../../images/team/Sales/Karyn.jpg'
 import Katie from '../../../images/team/Sales/Katie.jpg'
 import Kat from '../../../images/team/Sales/Kat.jpg'
-import Lauren from '../../../images/team/Sales/Lauren.jpg'
 import Lindsay from '../../../images/team/Sales/Lindsay.jpg'
 import Lisa from '../../../images/team/Sales/Lisa.jpg'
 import Lupe from '../../../images/team/Sales/Lupe.jpg'
@@ -19,18 +18,14 @@ import Shannon from '../../../images/team/Sales/Shannon.jpg'
 import Stefanie from '../../../images/team/Sales/Stefani.jpg'
 import Cindy from '../../../images/team/Sales/Cindy.jpg'
 import Oksana from '../../../images/team/Sales/Oksana.jpg'
-import Brittany from '../../../images/team/Sales/Brittany.jpg'
-import Anna from '../../../images/team/Sales/Anna.jpg'
 import Josella from '../../../images/team/Sales/Josella.jpg';
 import Roger from '../../../images/team/Operations/Roger.jpg';
 import Bruce from '../../../images/team/Sales/Bruce.jpg';
 import Kailee from '../../../images/team/Sales/Kailee.jpg';
-import Samantha from '../../../images/team/Sales/Samantha.jpg';
 import Michelle from '../../../images/team/Sales/Michelle.jpg';
 import Alexandra from '../../../images/team/Sales/Alexandra.jpg';
 import Julie from '../../../images/team/Operations/Julie.jpg';
 import Ricky from '../../../images/team/ECom/Ricky.jpg';
-import Jasmyn from '../../../images/team/Sales/Jasmyn.jpg';
 import Kaley from '../../../images/team/ECom/Kaley.jpg';
 import Jen from '../../../images/team/Operations/Jen.jpg'
 
@@ -123,15 +118,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Kat
-    },
-    Lauren: {
-        name: 'Lauren Cole',
-        title: 'Account Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Lauren
     },
     Lindsay: {
         name: 'Lindsay Oswalt',
@@ -232,24 +218,6 @@ export const People = {
         why: 'A job she would be terrible at is a truck driver.',
         image: Oksana
     },
-    Brittany: {
-        name: 'Brittany Naughton',
-        title: 'Sales Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Brittany
-    },
-    Anna: {
-        name: 'Anna Ayala',
-        title: 'Sales Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Anna
-    },
     Josella: {
         name: 'Josella Boudreau',
         title: 'Account Coordinator',
@@ -295,24 +263,6 @@ export const People = {
         why: '',
         image: Michelle
     },
-    Samantha: {
-        name: 'Samantha Uhl',
-        title: 'Sales Account Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Samantha
-    },
-    JenniferG: {
-        name: 'Jen Gragg',
-        title: 'Sales Account Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Female1
-    },
     Alexandra: {
         name: 'Alexandra Ladd',
         title: 'Account Coordinator',
@@ -322,24 +272,6 @@ export const People = {
         why: '',
         image: Alexandra
     },
-    Miguel: {
-        name: 'Miguel Suarez-Garcia',
-        title: 'Sales Account Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Male1
-    },
-    Janice: {
-        name: 'Janice Maher',
-        title: 'Account Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Female1
-    },
     Julie: {
         name: 'Julie Maldonado',
         title: 'Account Coordinator',
@@ -348,15 +280,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Julie
-    },
-    Jasmyn: {
-        name: 'Jasmyn Bey',
-        title: 'Sales Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Jasmyn
     },
     Ricky: {
         name: 'Ricky Bryant',

@@ -286,7 +286,7 @@ export const People = {
         why: '',
         image: Female1
     },
-    Gloria: {
+    GloriaVT: {
         name: 'Gloria Velez-Tamayo',
         title: 'Special Projects',
         bio: '',
