@@ -18,6 +18,8 @@ import Laura from '../../../images/team/ExpertsPhotos/Laura.jpg';
 import Amy from '../../../images/team/ExpertsPhotos/Amy.jpg';
 import Blake from '../../../images/team/ExpertsPhotos/Blake.jpg';
 import David from '../../../images/team/ExpertsPhotos/David.jpg';
+import Bruce from '../../../images/team/Sales/Bruce.jpg';
+
 
 export const People = {
     JoG: {
@@ -199,5 +201,14 @@ export const People = {
         vacation: "Almost any island in the Caribbean. Somewhere warm and Sandy.",
         why: "During my search I was looking for a great opportunity to use my skills and knowledge with a company that has an exciting future.  When I saw the atmosphere at Overture and the people that I would be working with, I knew that this was a great fit.  ",
         image: David
+    },
+    BruceR: {
+        name: "Bruce Robbin",
+        title: "Sales ",
+        bio: "Bruce Robbin brings over twenty years of promotional product experience to Overture with a background in manufacturing and small business ownership. According to Bruce, 'Overture is the right place to be to utilize my expertise in the wellness industry. I like to be creative with products, development and design; I enjoy seeing projects completed from start to finish. My sales and service style has always been hands-on.'",
+        movie: "The Bourne trilogy, keeps me interested with the adventure and action. Just like my average work day.",
+        vacation: "Florida to see my granddaughter.",
+        why: "I can accomplish anything for my clients, thanks to our services and staff.",
+        image: Bruce
     },
 }

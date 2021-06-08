@@ -20,7 +20,6 @@ import Cindy from '../../../images/team/Sales/Cindy.jpg'
 import Oksana from '../../../images/team/Sales/Oksana.jpg'
 import Josella from '../../../images/team/Sales/Josella.jpg';
 import Roger from '../../../images/team/Operations/Roger.jpg';
-import Bruce from '../../../images/team/Sales/Bruce.jpg';
 import Kailee from '../../../images/team/Sales/Kailee.jpg';
 import Michelle from '../../../images/team/Sales/Michelle.jpg';
 import Alexandra from '../../../images/team/Sales/Alexandra.jpg';
@@ -235,15 +234,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Roger
-    },
-    BruceR: {
-        name: "Bruce Robbin",
-        title: "Sales ",
-        bio: "Bruce Robbin brings over twenty years of promotional product experience to Overture with a background in manufacturing and small business ownership. According to Bruce, 'Overture is the right place to be to utilize my expertise in the wellness industry. I like to be creative with products, development and design; I enjoy seeing projects completed from start to finish. My sales and service style has always been hands-on.'",
-        movie: "The Bourne trilogy, keeps me interested with the adventure and action. Just like my average work day.",
-        vacation: "Florida to see my granddaughter.",
-        why: "I can accomplish anything for my clients, thanks to our services and staff.",
-        image: Bruce
     },
     Kailee: {
         name: 'Kailee Murphy',
