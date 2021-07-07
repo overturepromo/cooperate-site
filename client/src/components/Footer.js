@@ -13,7 +13,7 @@ class Footer extends Component {
                 <div className="row">
                     <div className="col-md-3 contact-col">
                         <div className="address">
-                            <h4 className="overture" >Overture, LLC</h4>
+                            <h4 className="overture" >Overture Promotions, Inc.</h4>
                             <h5 className="info">800 S. Northpoint Blvd.</h5>
                             <h5 className="infoBreak">Waukegan, IL 60085</h5>
                         </div>
