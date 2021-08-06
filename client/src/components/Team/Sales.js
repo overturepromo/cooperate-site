@@ -52,13 +52,13 @@ class Sales extends Component {
                     <Employee image={People.Alexandra.image} name={People.Alexandra.name} title={People.Alexandra.title} />
                     <Employee image={People.Lupe.image} name={People.Lupe.name} title={People.Lupe.title} />
                     <Employee image={People.Renee.image} name={People.Renee.name} title={People.Renee.title} />
-                    <Employee image={People.Ricky.image} name={People.Ricky.name} title={People.Ricky.title} />
                     <Employee image={People.Roger.image} name={People.Roger.name} title={People.Roger.title} />
                     <Employee image={People.Sara.image} name={People.Sara.name} title={People.Sara.title} />
                     <Employee image={People.Shannon.image} name={People.Shannon.name} title={People.Shannon.title} />
                     <Employee image={People.Stefanie.image} name={People.Stefanie.name} title={People.Stefanie.title} />
                     <Employee image={People.Kaley.image} name={People.Kaley.name} title={People.Kaley.title} />
                     <Employee image={People.Jen.image} name={People.Jen.name} title={People.Jen.title} />
+                    <Employee image={People.KatieD.image} name={People.KatieD.name} title={People.KatieD.title} />
 
                     
                     {/* <Employee image={People.Oksana.image} name={People.Oksana.name} title={People.Oksana.title} clicked={() => this.openModal(0)} /> */}
