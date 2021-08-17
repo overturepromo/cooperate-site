@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from 'react-helmet';
 
 import Hero from './Hero';
 import AbstractImages from './AbstractImages';
@@ -14,6 +15,13 @@ const index = () => {
     topFunction();
     return (
         <div>
+            <Helmet>
+                <title>Who We Are | Creative Control Freaks & Marketing Experts</title>
+                <meta 
+                    name="description" 
+                    content="We handle everything in-house - from account management to webstore development to warehousing and inventory. Just let us know how we can help and we have you covered!" 
+                />
+            </Helmet>
             <Hero />
             <History />
             <AbstractImages />

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import {Helmet} from 'react-helmet';
 import Hero from './Hero'
 import JumpAround from './JumpAround';
 import Experts from './Experts';
@@ -15,6 +16,13 @@ import Mantra from '../Contact/Mantra'
 const index = () => {
     return (
         <div>
+            <Helmet>
+                <title>Meet the Team | Creative Gurus & Swag Industry Experts</title>
+                <meta 
+                    name="description" 
+                    content="We’re promotional marketing and branding experts. We’re creative curators. We're innovators. We’re problem solvers. Meet our talented, weird-is-cool family." 
+                />
+            </Helmet>
             <Hero />
             <JumpAround />
             <Switch>
