@@ -7,6 +7,7 @@ import Work from './Work'
 import Contact from './Contact/index.js'
 import Careers from './Careers'
 import Privacy from './Privacy'
+import Terms from './Terms'
 import Error from './Error'
 import CoreValues from './Core'
 import PPE from './PPE'
@@ -23,6 +24,7 @@ const Main = () => (
       <Route path='/contact' component={Contact} />
       <Route path='/careers' component={Careers} />
       <Route path='/privacy' component={Privacy} />
+      <Route path='/terms' component={Terms} />
       <Route path='/corevalues' component={CoreValues} />
       <Route path='/ppe' component={PPE} />
       <Route path='/protectiveinfo' component={ProtectiveInfo} />
