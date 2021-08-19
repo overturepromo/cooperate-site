@@ -3,10 +3,10 @@ import React from 'react';
 const Privacy = () => {
     topFunction();
     return (
-        <div style={{background: 'linear-gradient(to bottom right, #5fc1d9, #3babc5)', marginTop: '-90px', paddingTop: '150px'}}>
+        <div style={{background: 'linear-gradient(to bottom right, #5fc1d9, #3babc5)', marginTop: '-70px', paddingTop: '150px'}}>
             <div className="container" style={{color: 'white'}}>
                 <h2 style={headlines}>PRIVACY POLICY AND TERMS OF USE</h2>
-                <p>We value your personal information as if it is our own. We want your experience on our site to be of value and importance to you as well as provide you with fun products. We make every effort to protect data privacy and confidentiality. This Privacy Policy applies to the overturepromotions.com website, which is administered by a third party service provider to The Company. We use the personal information you provide us in some areas of this site to provide you with the best customer experience. The amount and type of information you provide depends on how you use this site. Information may be stored and used to enhance your experience.</p>
+                <p>We value your personal information as if it is our own. We want your experience on our site to be of value and importance to you as well as provide you with fun products. We make every effort to protect data privacy and confidentiality. This Privacy Policy applies to the overturepromotions.com website, which is administered Overture Promotions, Inc. We use the personal information you provide us in some areas of this site to provide you with the best customer experience. The amount and type of information you provide depends on how you use this site. Information may be stored and used to enhance your experience.</p>
                 <p>In all cases, your use of overturepromotions.com implies your agreement to the terms of this privacy policy. You also grant overturepromotions.com permission to collect information about the pages served to you as an anonymous user for the purpose of calculating aggregate site statistics.</p>
                 <p>&nbsp;</p>
                 <h3 style={headlines}>Information We Collect</h3>
