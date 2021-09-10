@@ -45,7 +45,6 @@ class Sales extends Component {
                     <Employee image={People.Karyn.image} name={People.Karyn.name} title={People.Karyn.title} />
                     <Employee image={People.Katie.image} name={People.Katie.name} title={People.Katie.title} />
                     <Employee image={People.Kat.image} name={People.Kat.name} title={People.Kat.title} />
-                    <Employee image={People.Kailee.image} name={People.Kailee.name} title={People.Kailee.title} />
                     <Employee image={People.Lindsay.image} name={People.Lindsay.name} title={People.Lindsay.title} />
                     <Employee image={People.Michelle.image} name={People.Michelle.name} title={People.Michelle.title} />
                     <Employee image={People.Lisa.image} name={People.Lisa.name} title={People.Lisa.title} />
@@ -59,6 +58,7 @@ class Sales extends Component {
                     <Employee image={People.Kaley.image} name={People.Kaley.name} title={People.Kaley.title} />
                     <Employee image={People.Jen.image} name={People.Jen.name} title={People.Jen.title} />
                     <Employee image={People.KatieD.image} name={People.KatieD.name} title={People.KatieD.title} />
+                    <Employee image={People.SaraM.image} name={People.SaraM.name} title={People.SaraM.title} />
 
                     
                     {/* <Employee image={People.Oksana.image} name={People.Oksana.name} title={People.Oksana.title} clicked={() => this.openModal(0)} /> */}

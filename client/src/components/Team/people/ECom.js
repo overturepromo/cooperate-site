@@ -18,6 +18,7 @@ import Megan from '../../../images/team/Sales/Megan.jpg';
 import Rory from '../../../images/team/ECom/RoryTucker.jpg';
 import MeganK from '../../../images/team/Sales/MeganKragenbrink.jpg';
 import ShannonL from '../../../images/team/Sales/ShannonL.jpg';
+import Kailee from '../../../images/team/Sales/Kailee.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -223,5 +224,14 @@ export const People = {
         vacation: '',
         why: '',
         image: ShannonL
+    },
+    Kailee: {
+        name: 'Kailee Murphy',
+        title: 'Sales Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Kailee
     },             
 }

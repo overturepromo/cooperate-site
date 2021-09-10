@@ -20,7 +20,6 @@ import Cindy from '../../../images/team/Sales/Cindy.jpg'
 import Oksana from '../../../images/team/Sales/Oksana.jpg'
 import Josella from '../../../images/team/Sales/Josella.jpg';
 import Roger from '../../../images/team/Operations/Roger.jpg';
-import Kailee from '../../../images/team/Sales/Kailee.jpg';
 import Michelle from '../../../images/team/Sales/Michelle.jpg';
 import Alexandra from '../../../images/team/Sales/Alexandra.jpg';
 import Julie from '../../../images/team/Operations/Julie.jpg';
@@ -235,15 +234,6 @@ export const People = {
         why: '',
         image: Roger
     },
-    Kailee: {
-        name: 'Kailee Murphy',
-        title: 'Sales Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Kailee
-    },
     Michelle: {
         name: 'Michelle Inman',
         title: 'Sales Account Admin',
@@ -306,5 +296,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Female1
-    },  
+    },
+    SaraM: {
+        name: 'Sara Moll',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    }  
 }
