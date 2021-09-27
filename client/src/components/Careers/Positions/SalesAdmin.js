@@ -54,11 +54,15 @@ class SalesAdmin extends Component {
                     <li>Generous paid time off and volunteer opportunities with paid day off </li>
                     <li>401(k) eligibility day one of hire, and based on position and compensation, after first year of employment potential Company match</li>
                     <li>Relaxed dress code</li>
+                    <li>Paid maternity and paternity leave based on years of service</li>
+                    <li>Overture family fun – Summer BBQs, volunteer engagement groups (Culture Crew, Green Team, Safety Team, Diversity and Inclusion Advisory Council), employee vegetable garden, contests, potlucks and cookoffs</li>
+                    <li>Employee referral bonus</li>
                 </ul>
                 <h4>EDUCATION/EXPERIENCE</h4>
                 <ul style={{color: "gray"}}>
                     <li>High School diploma required.</li>
                 </ul>
+                <p>*Relocation is not provided for this role.</p>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('salesAdmin')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
