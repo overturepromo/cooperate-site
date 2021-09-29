@@ -32,14 +32,6 @@ class Experts extends Component {
             <div className="container">
                 <Element id="experts-orange" name="experts">The Experts</Element>
                 <div className="row">
-                    <Employee image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} clicked={() => this.openModal(0)} />
-                    <Employee image={People.JoeH.image} name={People.JoeH.name} title={People.JoeH.title} clicked={() => this.openModal(2)} />
-                    <Employee image={People.RonG.image} name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />
-                    <Employee image={People.BrianL.image} name={People.BrianL.name} title={People.BrianL.title} clicked={() => this.openModal(5)} />
-                    <Employee image={People.TejS.image} name={People.TejS.name} title={People.TejS.title} clicked={() => this.openModal(3)} />
-                    <Employee image={People.MikeW.image} name={People.MikeW.name} title={People.MikeW.title} clicked={() => this.openModal(4)} />
-                    <Employee image={People.ChristinaN.image} name={People.ChristinaN.name} title={People.ChristinaN.title} clicked={() => this.openModal(6)} />
-                    <Employee image={People.David.image} name={People.David.name} title={People.David.title} clicked={() => this.openModal(21)} />
                     <Employee image={People.AimeeE.image} name={People.AimeeE.name} title={People.AimeeE.title} clicked={() => this.openModal(8)} />
                     <Employee image={People.AmyW.image} name={People.AmyW.name} title={People.AmyW.title} clicked={() => this.openModal(18)} />
                     <Employee image={People.BenB.image} name={People.BenB.name} title={People.BenB.title} clicked={() => this.openModal(9)} />
@@ -53,66 +45,15 @@ class Experts extends Component {
                     <Employee image={People.JeremyM.image} name={People.JeremyM.name} title={People.JeremyM.title} clicked={() => this.openModal(15)} />
                     <Employee image={People.LarryB.image} name={People.LarryB.name} title={People.LarryB.title} clicked={() => this.openModal(16)} />
                     <Employee image={People.LauraI.image} name={People.LauraI.name} title={People.LauraI.title} clicked={() => this.openModal(17)} />
+                    <Employee image={People.Ethan.image} name={People.Ethan.name} title={People.Ethan.title} />
+                    <Employee image={People.NicoleS.image} name={People.NicoleS.name} title={People.NicoleS.title} />
+                    <Employee image={People.Dean.image} name={People.Dean.name} title={People.Dean.title} />
+                    <Employee image={People.Katelynn.image} name={People.Katelynn.name} title={People.Katelynn.title} />
+                    <Employee image={People.Kimberline.image} name={People.Kimberline.name} title={People.Kimberline.title} />
                 </div>
 
 
                 {/* All The modals */}
-                <Modal isOpen={this.state.showModal[0]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.JoG.image} 
-                        name={People.JoG.name} 
-                        title={People.JoG.title} 
-                        bio={People.JoG.bio} movie={People.JoG.movie} vacation={People.JoG.vacation} why={People.JoG.why}
-                    close={() => this.closeModal()}  />
-                </Modal>
-                <Modal isOpen={this.state.showModal[1]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.RonG.image} 
-                        name={People.RonG.name} 
-                        title={People.RonG.title} 
-                        bio={People.RonG.bio} movie={People.RonG.movie} vacation={People.RonG.vacation} why={People.RonG.why}
-                    close={() => this.closeModal()} />
-                </Modal>
-                <Modal isOpen={this.state.showModal[2]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.JoeH.image} 
-                        name={People.JoeH.name} 
-                        title={People.JoeH.title} 
-                        bio={People.JoeH.bio} movie={People.JoeH.movie} vacation={People.JoeH.vacation} why={People.JoeH.why} 
-                    close={() => this.closeModal()} />
-                </Modal>
-                <Modal isOpen={this.state.showModal[3]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.TejS.image} 
-                        name={People.TejS.name} 
-                        title={People.TejS.title} 
-                        bio={People.TejS.bio} movie={People.TejS.movie} vacation={People.TejS.vacation} why={People.TejS.why}
-                    close={() => this.closeModal()} />
-                </Modal>
-                <Modal isOpen={this.state.showModal[4]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.MikeW.image} 
-                        name={People.MikeW.name} 
-                        title={People.MikeW.title} 
-                        bio={People.MikeW.bio} movie={People.MikeW.movie} vacation={People.MikeW.vacation} why={People.MikeW.why}
-                    close={() => this.closeModal()} />
-                </Modal>
-                <Modal isOpen={this.state.showModal[5]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.BrianL.image} 
-                        name={People.BrianL.name} 
-                        title={People.BrianL.title} 
-                        bio={People.BrianL.bio} movie={People.BrianL.movie} vacation={People.BrianL.vacation} why={People.BrianL.why}
-                    close={() => this.closeModal()} />
-                </Modal>
-                <Modal isOpen={this.state.showModal[6]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.ChristinaN.image} 
-                        name={People.ChristinaN.name} 
-                        title={People.ChristinaN.title} 
-                        bio={People.ChristinaN.bio} movie={People.ChristinaN.movie} vacation={People.ChristinaN.vacation} why={People.ChristinaN.why}
-                    close={() => this.closeModal()} />
-                </Modal>
                 <Modal isOpen={this.state.showModal[8]} onRequestClose={this.closeModal} className="employee-modal">
                     <WorkCard 
                         image={People.AimeeE.image} 
@@ -207,14 +148,6 @@ class Experts extends Component {
                         name={People.BlakeW.name} 
                         title={People.BlakeW.title} 
                         bio={People.BlakeW.bio} movie={People.BlakeW.movie} vacation={People.BlakeW.vacation} why={People.BlakeW.why}
-                    close={() => this.closeModal()} />
-                </Modal>
-                <Modal isOpen={this.state.showModal[21]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.David.image} 
-                        name={People.David.name} 
-                        title={People.David.title} 
-                        bio={People.David.bio} movie={People.David.movie} vacation={People.David.vacation} why={People.David.why}
                     close={() => this.closeModal()} />
                 </Modal>
                 <Modal isOpen={this.state.showModal[22]} onRequestClose={this.closeModal} className="employee-modal">

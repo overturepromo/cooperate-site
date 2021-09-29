@@ -21,6 +21,14 @@ import David from '../../../images/team/ExpertsPhotos/David.jpg';
 import Bruce from '../../../images/team/Sales/Bruce.jpg';
 
 
+import Ethan from '../../../images/team/ECom/Ethan.jpg';
+import Dean from '../../../images/team/ECom/Dean.jpg';
+import Katelynn from '../../../images/team/ECom/Katelynn.jpg';
+import NicoleS from '../../../images/team/Sales/Nicole.jpg';
+
+import Female1 from '../../../images/team/Female1.jpg';
+
+
 export const People = {
     JoG: {
         name: 'Jo Gilley',
@@ -210,5 +218,50 @@ export const People = {
         vacation: "Florida to see my granddaughter.",
         why: "I can accomplish anything for my clients, thanks to our services and staff.",
         image: Bruce
+    },
+    Ethan: {
+        name: 'Ethan Collins',
+        title: 'Director of Sales',
+        bio: '',
+        movie: 'Saving Private Ryan',
+        vacation: 'Reykjavik, Iceland',
+        why: 'Because creativity is the driving force behind Overture’s growth. From product design to logistical problem solving, this is a company that has fun innovating!',
+        image: Ethan
+    },
+    NicoleS: {
+        name: 'Nicole Sommerville',
+        title: 'Sr. Account Executive',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: NicoleS
+    },
+    Dean: {
+        name: 'Dean Schwartz',
+        title: 'Sr. Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Dean
+    },
+    Katelynn: {
+        name: 'Katelynn Fioretto',
+        title: 'Sr. Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Katelynn
+    },
+    Kimberline: {
+        name: 'Kimberlin Sawyer',
+        title: 'Account Director',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
     },
 }

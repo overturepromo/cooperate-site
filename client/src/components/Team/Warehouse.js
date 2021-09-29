@@ -32,7 +32,6 @@ class Warehouse extends Component {
                 <Element id="warehouse-orange">Warehouse</Element>
                 <div className="row">
                     <Employee image={People.Jeremy.image} name={People.Jeremy.name} title={People.Jeremy.title} />
-                    <Employee image={People.Jeff.image} name={People.Jeff.name} title={People.Jeff.title} />
                     <Employee image={People.Abi.image} name={People.Abi.name} title={People.Abi.title} />
                     <Employee image={People.Mario.image} name={People.Mario.name} title={People.Mario.title} />
                     <Employee image={People.Karla.image} name={People.Karla.name} title={People.Karla.title} />
@@ -43,7 +42,6 @@ class Warehouse extends Component {
                     <Employee image={People.Estella.image} name={People.Estella.name} title={People.Estella.title} />
                     <Employee image={People.Gloria.image} name={People.Gloria.name} title={People.Gloria.title} />
                     <Employee image={People.Abbey.image} name={People.Abbey.name} title={People.Abbey.title} />
-                    <Employee image={People.Hector.image} name={People.Hector.name} title={People.Hector.title} />
                     <Employee image={People.Julio.image} name={People.Julio.name} title={People.Julio.title} />
                     <Employee image={People.Jacob.image} name={People.Jacob.name} title={People.Jacob.title} />
                     <Employee image={People.Aristarco.image} name={People.Aristarco.name} title={People.Aristarco.title} />
@@ -63,7 +61,6 @@ class Warehouse extends Component {
                     <Employee image={People.Guillermina.image} name={People.Guillermina.name} title={People.Guillermina.title} />
                     <Employee image={People.GloriaVT.image} name={People.GloriaVT.name} title={People.GloriaVT.title} />
                     <Employee image={People.Edith.image} name={People.Edith.name} title={People.Edith.title} />
-                    <Employee image={People.FelipeS.image} name={People.FelipeS.name} title={People.FelipeS.title} />
                 </div>
             </div>
         )

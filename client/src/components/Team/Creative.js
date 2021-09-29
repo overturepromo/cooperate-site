@@ -29,13 +29,15 @@ class Creative extends Component {
     render(){
         return (
             <div className="container">
-                <Element id="creative-orange">Creative</Element>
+                <Element id="creative-orange">Creative & Marketing</Element>
                 <div className="row">
                     <Employee image={People.Christine.image} name={People.Christine.name} title={People.Christine.title} />
                     <Employee image={People.Laura.image} name={People.Laura.name} title={People.Laura.title} />
+                    <Employee image={People.Victoria.image} name={People.Victoria.name} title={People.Victoria.title} />
                     <Employee image={People.Duane.image} name={People.Duane.name} title={People.Duane.title} />   
                     <Employee image={People.Enzo.image} name={People.Enzo.name} title={People.Enzo.title} /> 
-                    <Employee image={People.Aaron.image} name={People.Aaron.name} title={People.Aaron.title} />                                           
+                    <Employee image={People.Aaron.image} name={People.Aaron.name} title={People.Aaron.title} />
+                    <Employee image={People.MeganK.image} name={People.MeganK.name} title={People.MeganK.title} />                                           
                 </div>
             </div>
         )

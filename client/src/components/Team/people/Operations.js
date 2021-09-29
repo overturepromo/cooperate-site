@@ -28,6 +28,7 @@ import Bethani from '../../../images/team/Operations/Bethani.jpg';
 import Holly from '../../../images/team/Operations/Holly.jpg';
 import Sam from '../../../images/team/Operations/Sam.jpg';
 import Glenda from '../../../images/team/Operations/Glenda.jpg';
+import Jeff from '../../../images/team/Warehouse/Jeff.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -136,51 +137,6 @@ export const People = {
         why: '',
         image: Ashley
     },
-    Melissa: {
-        name: 'Melissa Jones',
-        title: 'Web Project Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Melissa
-    },
-    Shawn: {
-        name: 'Shawn Wohlt',
-        title: 'IT Specialist',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Shawn
-    },
-    Chintan: {
-        name: 'Chintan Patel',
-        title: 'IT Business Analyst',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Chintan
-    },
-    Kevin: {
-        name: 'Kevin Doss',
-        title: 'Sr. Web Developer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Kevin
-    },
-    Jacob: {
-        name: 'Jacob Goodall',
-        title: 'Junior Web Developer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Jacob
-    },
     Tiffany: {
         name: 'Tiffany Cobwell',
         title: 'Fulfillment Coordinator',
@@ -208,33 +164,6 @@ export const People = {
         why: '',
         image: Chris
     },
-    ChrisS: {
-        name: 'Chris Sheehy',
-        title: 'Sr. Web Developer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Sheehy
-    },
-    Dave: {
-        name: 'Dave Walton',
-        title: 'Web Developer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Dave
-    },
-    Charles: {
-        name: 'Charles Koers',
-        title: 'Web Developer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Charles
-    },
     Keyla: {
         name: 'Keyla Patricio',
         title: 'Fulfillment Shipping Coordinator',
@@ -253,15 +182,6 @@ export const People = {
         why: '',
         image: Barb
     },
-    Sam: {
-        name: 'Sam Mintz',
-        title: 'Junior Web Developer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Sam
-    },
     Holly: {
         name: 'Holly Duron',
         title: 'Fulfillment Coordinator',
@@ -270,15 +190,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Holly
-    },
-    Briana: {
-        name: 'Briana Goodall',
-        title: 'Junior Web Developer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Briana
     },
     Grace: {
         name: 'Grace Nelson',
@@ -316,15 +227,6 @@ export const People = {
         why: '',
         image: Female2
     },
-    Mark: {
-        name: 'Mark Bain',
-        title: 'Web Developer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Male1
-    },
     Troy: {
         name: 'Troy Nichols',
         title: 'Accounting Manager',
@@ -342,5 +244,23 @@ export const People = {
         vacation: '',
         why: '',
         image: Female2
+    },
+    Jeff: {
+        name: 'Jeff Norlin',
+        title: 'Special Projects Operations Lead',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Jeff
+    },
+    Maria: {
+        name: 'Maria Alejandre ',
+        title: 'Vouching Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
     },
 }

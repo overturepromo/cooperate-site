@@ -3,6 +3,8 @@ import Laura from '../../../images/team/Creative/Laura.png';
 import Duane from '../../../images/team/Creative/Duane.jpg';
 import Enzo from '../../../images/team/Creative/Enzo.jpg';
 import Jeri from '../../../images/team/Creative/Jeri.jpg';
+import Victoria from '../../../images/team/ECom/Victoria.jpg';
+import MeganK from '../../../images/team/Sales/MeganKragenbrink.jpg';
 
 import Female1 from '../../../images/team/Female1.jpg';
 import Male1 from '../../../images/team/Male1.jpg';
@@ -63,5 +65,23 @@ export const People = {
         vacation: '',
         why: '',
         image: Male1
+    },
+    MeganK: {
+        name: 'Megan Kragenbrink',
+        title: 'Marketing Assistant',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: MeganK
+    },
+    Victoria: {
+        name: 'Victoria Robertson',
+        title: 'Marketing Manager',
+        bio: '',
+        movie: 'Some Like it Hot',
+        vacation: 'Fiji',
+        why: 'Overture’s values are ones that I share in my personal life, which made this role the perfect fit for me. Oh, and there was the opening in marketing. But mostly the values thing.',
+        image: Victoria
     },
 }

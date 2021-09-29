@@ -74,7 +74,7 @@ nav {
     }
     .header-mobile {
         display: block;
-        /* padding-top: 10px; */
+        padding-top: 10px;
         position: fixed;
         width: 100%;
         background-color: white;

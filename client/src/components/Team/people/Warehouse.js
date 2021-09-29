@@ -3,7 +3,6 @@ import Mayla from '../../../images/team/Warehouse/Mayla.jpg';
 import MattC from '../../../images/team/Warehouse/MattC.jpg';
 import MattN from '../../../images/team/Warehouse/MattN.jpg';
 import Juvenita from '../../../images/team/Warehouse/Juevenita.jpg';
-import Jeff from '../../../images/team/Warehouse/Jeff.jpg';
 import Karla from '../../../images/team/Warehouse/Karla.jpg';
 import Abi from '../../../images/team/Warehouse/Abi.jpg';
 import Salvador from '../../../images/team/Warehouse/Salvador.jpg';
@@ -69,15 +68,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Juvenita
-    },
-    Jeff: {
-        name: 'Jeff Norlin',
-        title: 'Special Projects Operations Lead',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Jeff
     },
     Karla: {
         name: 'Karla Lainez',

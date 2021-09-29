@@ -45,6 +45,7 @@ class SalesAdmin extends Component {
                     <li>Ability to work independently and on a team</li>
                     <li>Strong work ethic and ambition to succeed</li>
                     <li>Must be a person with high integrity</li>
+                    <li>Prior promotional product (industry) experience is required</li>
                 </ul>
                 <h4>BENIFITS</h4>
                 <ul style={{color: "gray"}}>

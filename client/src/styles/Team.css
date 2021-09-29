@@ -25,12 +25,14 @@
 .jump-list{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 0;
+    margin-top: 25px;
 }
 
 .jump-link{
     list-style-type: none;
-    margin: 50px 0;
+    margin: 10px 37px;
 }
 
 
