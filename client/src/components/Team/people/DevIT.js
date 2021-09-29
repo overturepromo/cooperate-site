@@ -95,7 +95,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Zuckerberg
+        image: Sam
     },
     Briana: {
         name: 'Briana Goodall',
