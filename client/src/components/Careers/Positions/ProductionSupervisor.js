@@ -54,11 +54,12 @@ class ProductionSupervisor extends Component {
                     <li>Generous paid time off</li>
                     <li>401(k) eligible on day 1 of hire; company match after first year of employment</li>
                     <li>Relaxed dress code</li>
+                    <li>Overture family fun – Summer BBQs, volunteer engagement groups (Culture Crew, Green Team, Safety Team, Diversity and Inclusion Advisory Council), employee vegetable garden, contests, potlucks and cookoffs</li>
+                    <li>Employee referral bonus</li>
                 </ul>
                 <h4>EDUCATION/EXPERIENCE</h4>
                 <ul style={{color: "gray"}}>
-                    <li>1-3 years of customer service experience</li>
-                    <li>High school diploma</li>
+                    <li>1-3 years of customer service experience and a minimum of high school diploma</li>
                 </ul>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('productionSupervisor')} className="view-button">Hide Details</h5>
