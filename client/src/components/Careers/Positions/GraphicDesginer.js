@@ -30,10 +30,12 @@ class GraphicDesigner extends Component {
                 <ul style={{color: "gray"}}>
                     <li>Ability to work in a fast-paced environment and manage multiple projects with tight deadlines</li>
                     <li>Develop graphics for products, websites, eBlasts, collateral, logos/branding, and more</li>
+                    <li>Marketing: create blogs, eblasts, and images for presentation decks</li>
                     <li>Convert raster artwork into vector artwork </li>
                     <li>Produce virtual product mockups </li>
+                    <li>Product photography</li>
                     <li>Design promotional webstores and present them to clients</li>
-                    <li>Communicate effectively with internal sales teams and clients, and present website designs</li>
+                    <li>Communicate effectively with internal sales teams and managers, including providing updates about projects and deadlines</li>
                     <li>Maintain composure in stressful situations</li>
                     <li>Work with our copywriter to develop social media content and messaging for other graphics</li>
                     <li>Participate in our team critique of creative work and work collaboratively with the team</li>
@@ -44,12 +46,12 @@ class GraphicDesigner extends Component {
                     <li>Knowledge of typography, hierarchy, color theory, layout, and using a grid</li>
                     <li>Web design experience preferred (coding skills not required, but you must have an understanding of responsive/mobile design and best practices for web design)</li>
                     <li>UXPin or other prototyping tool experience</li>
-                    <li>Product photography experience</li>
                     <li>Proven resourcefulness with creative problem-solving skills</li>
                     <li>Excellent communication skills</li>
                     <li>Detail-oriented</li>
                     <li>Positive, upbeat and team player attitude</li>
-                    <li>Video and video editing experience a plus</li>
+                    <li>Animation and After Effects experience a plus</li>
+                    <li>Video experience a plus</li>
                 </ul>
                 <h4>Benefits</h4>
                 <ul style={{color: "gray"}}>
@@ -68,7 +70,7 @@ class GraphicDesigner extends Component {
                     <li>4 year degree in Graphic Design, or equivalent</li>
                     <li>2-5 years of experience working on a graphic design team</li>
                 </ul>
-                <p>*All candidates will be expected to provide a digital portfolio of work that showcases both digital and print work.*</p>
+                <p>*All candidates will be expected to provide a digital portfolio of work that showcases both print and website designs*</p>
                 <p>*Relocation is not provided for this role.</p>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('graphicDesigner')} className="view-button">Hide Details</h5>
