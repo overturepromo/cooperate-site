@@ -7,9 +7,7 @@ class JumpAround extends Component {
             <div className="jump-div container">
                 <ul className="jump-list">
                     <li id="na-jump-link" className="jump-link"><strong>Jump to:</strong></li>
-                    <Link to="/team/board" className="jump-link">The Board</Link>
-                    <Link to="/team/acquisition" className="jump-link">The Acquisition Team</Link>
-                    <Link to="/team/management" className="jump-link">The Management Team</Link>
+                    <Link to="/team/management" className="jump-link">The Board & The Acquisition Team & The Management Team</Link>
                     <Link to="/team/experts" className="jump-link">The Experts</Link>
                     <Link to="/team/sales" className="jump-link">Sales</Link>
                     <Link to="/team/creative" className="jump-link">Creative & Marketing</Link>

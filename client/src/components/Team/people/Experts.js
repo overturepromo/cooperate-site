@@ -27,6 +27,7 @@ import Katelynn from '../../../images/team/ECom/Katelynn.jpg';
 import NicoleS from '../../../images/team/Sales/Nicole.jpg';
 
 import Female1 from '../../../images/team/Female1.jpg';
+import Male1 from '../../../images/team/Male1.jpg';
 
 
 export const People = {
@@ -263,5 +264,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Female1
+    },
+    Eric: {
+        name: 'Eric Yaggi',
+        title: 'Sr. Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
     },
 }
