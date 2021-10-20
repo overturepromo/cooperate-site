@@ -12,6 +12,11 @@ import Victor from '../../../images/team/Embrodiery/Victor.jpg'
 import Tina from '../../../images/team/Embrodiery/Tina.jpg'
 import Rolando from '../../../images/team/Embrodiery/RolandoPuck.jpg';
 import Inocente from '../../../images/team/Embrodiery/Inocente.jpg'
+import Alejandra from '../../../images/team/Embrodiery/AlejandraA.jpg';
+import Debra from '../../../images/team/Embrodiery/DebraD.jpg';
+import MiguelG from '../../../images/team/Embrodiery/MiguelG.jpg';
+import Angelica from '../../../images/team/Embrodiery/AngelicaT.jpg';
+import Mayra from '../../../images/team/Embrodiery/MayraC.jpg';
 
 import Male1 from '../../../images/team/Male1.jpg';
 import Male2 from '../../../images/team/Male2.jpg';
@@ -153,7 +158,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Debra
     },
     Elia: {
         name: 'Elia Tinoco',
@@ -171,7 +176,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: MiguelG
     },
     Julio: {
         name: 'Julio Martinez',
@@ -189,7 +194,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Angelica
     },
     Mayra: {
         name: 'Mayra Cruz',
@@ -198,7 +203,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Mayra
     },
     Inocente: {
         name: 'Inocente Aguirre',

@@ -13,6 +13,18 @@ import Gloria from '../../../images/team/Warehouse/Gloria.jpg';
 import Justin from '../../../images/team/Warehouse/Justin.jpg';
 import Estella from '../../../images/team/Warehouse/Estella.jpg';
 import Jacob from '../../../images/team/Warehouse/Jacob.jpg';
+import Abbey from '../../../images/team/Warehouse/AbbeyR.jpg';
+import JulioR from '../../../images/team/Warehouse/JulioR.jpg';
+import Aristarco from '../../../images/team/Warehouse/AristarcoG.jpg';
+import JoesR from '../../../images/team/Warehouse/JoseR.jpg';
+import JoesphY from '../../../images/team/Warehouse/JoesphY.jpg';
+import AlejandraE from '../../../images/team/Warehouse/AlejandraE.jpg';
+import Byron from '../../../images/team/Warehouse/BryonC.jpg';
+import DavidM from '../../../images/team/Warehouse/DavidM.jpg';
+import Elizabeth from '../../../images/team/Warehouse/ElizabethP.jpg';
+import MariaP from '../../../images/team/Warehouse/MariaP.jpg';
+import GloriaV from '../../../images/team/Warehouse/GloriaV.jpg';
+import EdithV from '../../../images/team/Warehouse/EdithV.jpg';
 
 
 //These are the default photos to be used when photo no avail.
@@ -175,7 +187,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Byron
     },
     Alejandra: {
         name: 'Alejandra Esteban',
@@ -184,7 +196,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: AlejandraE
     },
     Araceli: {
         name: 'Araceli Garcia',
@@ -202,7 +214,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: Aristarco
     },
     David: {
         name: 'David Montoya',
@@ -211,7 +223,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: DavidM
     },
     Elizabeth: {
         name: 'Elizabeth Pagan',
@@ -220,7 +232,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Elizabeth
     },
     Maria: {
         name: 'Maria Playa Vazquez',
@@ -229,7 +241,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: MariaP
     },
     Abbey: {
         name: 'Abbey Ramsey',
@@ -238,7 +250,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Abbey
     },
     Hector: {
         name: 'Hector Reyes',
@@ -256,7 +268,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: JoesR
     },
     Julio: {
         name: 'Julio Rodriguez',
@@ -265,7 +277,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: JulioR
     },
     Guillermina: {
         name: 'Guillermina Ruiz',
@@ -283,7 +295,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: GloriaV
     },
     Edith: {
         name: 'Edith Villalobos',
@@ -292,7 +304,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: EdithV
     },
     Joesph: {
         name: 'Joesph Yarbrough',
@@ -301,7 +313,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: JoesphY
     },
     FelipeS: {
         name: 'Felipe Sanchez',

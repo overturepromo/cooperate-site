@@ -29,6 +29,8 @@ import Holly from '../../../images/team/Operations/Holly.jpg';
 import Sam from '../../../images/team/Operations/Sam.jpg';
 import Glenda from '../../../images/team/Operations/Glenda.jpg';
 import Jeff from '../../../images/team/Warehouse/Jeff.jpg';
+import Troy from '../../../images/team/Operations/TroyN.jpg';
+import Maria from '../../../images/team/Operations/MariaA.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -234,7 +236,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: Troy
     },
     Annabelle: {
         name: 'Annabelle Cocom',
@@ -261,6 +263,6 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Maria
     },
 }

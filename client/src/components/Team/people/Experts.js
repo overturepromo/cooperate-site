@@ -25,6 +25,7 @@ import Ethan from '../../../images/team/ECom/Ethan.jpg';
 import Dean from '../../../images/team/ECom/Dean.jpg';
 import Katelynn from '../../../images/team/ECom/Katelynn.jpg';
 import NicoleS from '../../../images/team/Sales/Nicole.jpg';
+import Eric from '../../../images/team/ExpertsPhotos/EricY.jpg';
 
 import Female1 from '../../../images/team/Female1.jpg';
 import Male1 from '../../../images/team/Male1.jpg';
@@ -272,6 +273,6 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Eric
     },
 }
