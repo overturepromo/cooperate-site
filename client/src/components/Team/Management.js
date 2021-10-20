@@ -30,7 +30,7 @@ class Management extends Component {
     render(){
         return (
             <div className="container">
-                <Element id="experts-orange" name="experts">The Board & The Acquisition Team & The Management Team</Element>
+                <Element id="experts-orange" name="experts">Leadership</Element>
                 <div className="row">
                     <Employee image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} clicked={() => this.openModal(0)} />
                     <Employee image={People.JoeH.image} name={People.JoeH.name} title={People.JoeH.title} clicked={() => this.openModal(2)} />
