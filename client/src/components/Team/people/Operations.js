@@ -31,6 +31,7 @@ import Glenda from '../../../images/team/Operations/Glenda.jpg';
 import Jeff from '../../../images/team/Warehouse/Jeff.jpg';
 import Troy from '../../../images/team/Operations/TroyN.jpg';
 import Maria from '../../../images/team/Operations/MariaA.jpg';
+import Annabelle from '../../../images/team/Operations/Annabelle.jpg'
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -245,7 +246,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Annabelle
     },
     Jeff: {
         name: 'Jeff Norlin',
