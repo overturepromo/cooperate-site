@@ -12,6 +12,11 @@ import Error from './Error'
 import CoreValues from './Core'
 import PPE from './PPE'
 import ProtectiveInfo from './ProtectiveInfo';
+import CSR from './CSR';
+import Diversity from './Diversity';
+import Sustainability from './Sustainability';
+import Kitting from './Kitting';
+import LongKitting from './LongKitting';
 
 
 const Main = () => (
@@ -28,6 +33,11 @@ const Main = () => (
       <Route path='/corevalues' component={CoreValues} />
       <Route path='/ppe' component={PPE} />
       <Route path='/protectiveinfo' component={ProtectiveInfo} />
+      <Route path='/csr' component={CSR} />
+      <Route path='/diversity' component={Diversity} />
+      <Route path='/sustainability' component={Sustainability} />
+      <Route path='/kitting' component={Kitting} />
+      <Route path='/LongKitting' component={LongKitting} />
       <Route component={Error} />
     </Switch>
   </main>

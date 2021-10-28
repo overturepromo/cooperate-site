@@ -1,9 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Parallax } from 'react-parallax';
 import HowImage from '../../images/about/howwework.jpg';
 import Computer from '../../images/about/computer_screen.png';
 import Service from '../../images/about/customerservice_grahic.svg';
 import Mapy from '../../images/about/map.gif';
+import GiveImage from '../../images/about/give_back.svg'
+
 
 const Work = () => {
     return (
@@ -16,6 +19,20 @@ const Work = () => {
                     </div>
                     <div className="col-md-5">
                         <img src={Computer} alt="computer" style={{width: '100%', padding: '20px'}} />
+                    </div>
+                </div>
+            </div>
+            <div style={{margin: '50px 0'}}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-4">
+                            <img src={GiveImage} style={{height: '300px'}} />
+                        </div>
+                        <div className="col-md-8">
+                            <h4 className="about-blue-words">We give back.</h4>
+                            <p className="basic" style={{marginBottom: '40px'}}>Overture is dedicated to community engagement, <Link to="/sustainability" style={{color: '#696969', textDecoration: 'underline'}}>sustainability</Link>, and <Link to="/diversity" style={{color: '#696969', textDecoration: 'underline'}}>diversity</Link>. Learn more about our Corporate Social Responsibility program here</p>
+                            <Link to="/csr" className="giveback-button">CSR AT OVERTURE</Link>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -42,8 +59,7 @@ const Work = () => {
             <div style={{ height: 500 }}>
                 <div className="where-box">
                     <h4 className="about-orange-words">Where we work.</h4>
-                    <h4 className="thin-orange-words">(Hint: everywhere.)</h4>
-                    <p className="basic">The magic starts in our offices in Chicago and Dallas, and our partner’s office in Montreal, then spreads to all the places around the world that you need to reach. To help reduce your costs, we create import sourcing programs for large quantity and custom orders, and we regularly import from our accredited factories overseas. International shipments leave our warehouse daily.</p>
+                    <p className="basic">The magic starts in our offices in Chicago and Dallas, then spreads to all the places around the world that you need to reach. Our Brand Unbound global network is a collective of best-in-market promotional marketing experts, giving us local partners in Canada, Mexico, Central America, UK, Ireland, Netherlands, Malta, Germany, Russia, China, Australia, and Hong Kong. To help reduce your costs, we create import sourcing programs for large quantity and custom orders, and we regularly import from our accredited factories overseas. International shipments leave our warehouse daily.</p>
                 </div>
             </div>
             </Parallax>

@@ -309,6 +309,21 @@ img.active-users {
     display: none;
 }
 
+.giveback-button {
+    color: white;
+    font-size: 18px;
+    padding: 17px 25px;
+    background-color: #ef7521;
+    border-radius: 7px;
+    font-family: 'Proxima-bold';
+}
+
+.giveback-button:hover {
+    background-color: #Ce5400;
+    color: white;
+    text-decoration: none;
+}
+
 
 @media(min-width: 1250px){
     .col-md-5.strange-images{

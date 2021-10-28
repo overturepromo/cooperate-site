@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
 import Check from '../../images/about/checkmark.svg';
 import Computer from '../../images/about/computer_screen.png';
@@ -45,7 +46,7 @@ class History extends Component {
                                 </div>
                                 <div className="we-do-right">
                                     <ul className="we-do-ul">
-                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Kit assembly</li>
+                                        <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Custom Kits <Link to="/kitting" style={{color: '#36b0c9', textDecoration: 'underline'}}>Kitting Questions?</Link></li>
                                         <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Tradeshow giveaways</li>
                                         <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Incentives</li>
                                         <li className="we-do-green"><img src={Check} className="checkmark" alt="checkmark" style={{height: '15px'}} /> Retail programs</li>

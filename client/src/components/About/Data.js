@@ -6,6 +6,7 @@ import NewSourcing from '../../images/about/newsourcing.jpg';
 import State3 from '../../images/about/ordersbystate3.svg'
 import ActiveTwo from '../../images/about/activeusers.png';
 import QCA from '../../images/about/QCA_Badge.jpg';
+import AboutCreative from '../../images/about/about_creative.svg';
 
 class Data extends Component {
 
@@ -27,28 +28,31 @@ class Data extends Component {
         return (
             <div className="data-div">
                 <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-md-4">
-                        <Parallax className='sourcing' bgImage={NewSourcing} strength={300}>
-                            <div style={{height: 430}}>
-
+                    <div className="container">
+                        <div className="row" style={{marginBottom: '35px'}}>
+                            <div className="col-xs-12" style={{marginBottom: '25px'}}>
+                                <h4 className="green-history">How carefully we work.</h4>
                             </div>
-                        </Parallax>
-                            {/* <img src={Source1} alt="source" className="source-one" /> */}
-                            {/* <Parallax className="source-one" bgImage={Source1} strength={400}>
-                                <div style={{ height: 300 }}>
-                                </div>
-                            </Parallax> */}
-                            {/* <img src={Source2} alt="source" className="source-two" /> */}
-                            {/* <Parallax className="source-two" bgImage={Source2} strength={400}>
-                                <div style={{ height: 250 }}>
-                                </div>
-                            </Parallax> */}
+                            <div className="col-md-4">
+                                <img src={AboutCreative} style={{height: '175px'}} />
+                            </div>
+                            <div className="col-md-8">
+                                <p className="basic">We call ourselves “creative control freaks” because we’ve built Overture on these foundational values: creativity, responsiveness, accuracy, and on-time delivery. Our quality control process has 14 checkpoints. We’re serious about investing in technology to streamline processes and improve quality and inventory control. We are meticulous in our security precautions to protect customer data, and we’re CCPA compliant.* Twelve years ago, Overture was one of fifteen distributors chosen to serve on the Quality Certification Alliance Advisory Council, helping set product quality standards. Today, we continue to vet suppliers, only working with those manufacturers who we have certified for product quality and safety, supply chain security, social accountability, and environmental stewardship.</p>
+                            </div>
                         </div>
-                        <div className="col-md-7 responsible">
-                            <h4 className="green-history">How carefully we work.</h4>
-                            <p className="basic">We call ourselves “creative control freaks” because we’ve built Overture on these foundational values: creativity, responsiveness, accuracy and on-time delivery. Our quality control process has 14 checkpoints. We’re serious about investing in technology to streamline processes and improve quality and inventory control. We are meticulous in our security precautions to protect customer data, and we’re CCPA compliant. Twelve years ago, Overture was one of fifteen distributors chosen to serve on the Quality Certification Alliance Advisory Council, helping set product quality standards. Today, we continue to vet suppliers, only working with those manufacturers who we have certified for product quality and safety, supply chain security, social accountability, and environmental stewardship.</p>
-                            <img src={QCA} style={{height: '140px'}} alt="badge" />
+                    </div>
+                    <div className="container">
+                        <div className="col-md-6">
+                            <p className="basic" style={{marginBottom: '25px', fontSize: '20px'}}>*We’re really serious about IT security. <strong>Endpoint Detection & Response (EDR), powered by SentinelOne</strong>, is installed on all Overture computers and laptops. SentinelOne uses on-device AI to prevent, detect, and recover from threats in real time.</p>
+                            <p className="basic" style={{marginBottom: '25px', fontSize: '20px'}}>We use <strong>Citrix Sharefile</strong>, with bank level encryption, to securely store, send, and sync data with our customers.</p>
+                            <p className="basic" style={{marginBottom: '25px', fontSize: '20px'}}><strong>SpamTitan</strong> identifies and quarantines malicious emails and spam. (It’s been independently tested and shown to block 99.97% of spam emails.) </p>
+                            <p className="basic" style={{marginBottom: '25px', fontSize: '20px'}}><strong>TraceSecurity</strong> conducts annual, onsite IT Information Security Audits to evaluate the effectiveness of our controls to protect the confidentiality, integrity, and availability of business and user data.</p>
+                        </div>
+                        <div className="col-md-6 responsible">
+                            <Parallax className='sourcing' bgImage={NewSourcing} strength={300}>
+                                <div style={{height: 430}}>
+                                </div>
+                            </Parallax>
                         </div>
                     </div>
                 </div>
