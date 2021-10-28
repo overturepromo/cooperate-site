@@ -19,7 +19,7 @@ import Amy from '../../../images/team/ExpertsPhotos/Amy.jpg';
 import Blake from '../../../images/team/ExpertsPhotos/Blake.jpg';
 import David from '../../../images/team/ExpertsPhotos/David.jpg';
 import Bruce from '../../../images/team/Sales/Bruce.jpg';
-
+import Kimberlin from '../../../images/team/ExpertsPhotos/kimberlin.jpg'
 
 import Ethan from '../../../images/team/ECom/Ethan.jpg';
 import Dean from '../../../images/team/ECom/Dean.jpg';
@@ -264,7 +264,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Kimberlin
     },
     Eric: {
         name: 'Eric Yaggi',
