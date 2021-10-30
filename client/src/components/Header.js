@@ -16,7 +16,7 @@ class Header extends Component{
 
     colorChange = (links) => {
 
-        for(var i = 0; i < 5; i++){
+        for(var i = 0; i < 7; i++){
             document.querySelectorAll(".nav-links")[i].style.color = 'white'
         }
         var changeLink = document.getElementById(links);
@@ -24,7 +24,7 @@ class Header extends Component{
     }
 
     clearAll = () => {
-        for(var i = 0; i < 5; i++){
+        for(var i = 0; i < 7; i++){
             document.querySelectorAll(".nav-links")[i].style.color = 'white'
         }
     }
@@ -37,15 +37,17 @@ class Header extends Component{
             <div className="headers-div">
                 <div className="container header-desktop">
                     <div className="row">
-                        <div className="col-md-5">
+                        <div className="col-md-4">
                             <Link to="/" onClick={() => this.colorChange('home-link')}><img src={Logo} style={{width: '234px', marginTop: '5px'}} alt="main-logo" /></Link>
                         </div>
-                        <div className="col-md-7">
+                        <div className="col-md-8">
                             <nav>
                                 <Link id="home-link" className="nav-links" to="/" onClick={() => this.colorChange('home-link')}>HOME</Link>
                                 <Link id="about-link" className="nav-links" to="/about" onClick={() => this.colorChange('about-link')}>ABOUT</Link>
                                 <Link id="team-link" className="nav-links" to="/team" onClick={() => this.colorChange('team-link')}>TEAM</Link>
                                 <Link id="work-link" className="nav-links" to="/work" onClick={() => this.colorChange('work-link')}>WORK</Link>
+                                <Link id="csr-link" className="nav-links" to="/csr" onClick={() => this.colorChange('csr-link')}>CSR</Link>
+                                <Link id="careers-link" className="nav-links" to="/careers" onClick={() => this.colorChange('careers-link')}>CAREERS</Link>
                                 <a href="https://overturemarket.espwebsite.com" target="blank" className="nav-links">CATALOG</a>
                                 <Link className="contact-button" to="/contact" onClick={() => this.clearAll()}>CONTACT US</Link>
                             </nav>

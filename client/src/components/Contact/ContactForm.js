@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import ReCaptchaV2 from 'react-google-recaptcha'
 
 import '../../styles/Contact.css'
 
@@ -100,6 +101,7 @@ class ContactForm extends Component {
                             <div className="col-xs-12 contact-inputs-box">
                                 <textarea className="contact-inputs text-area-contact" type='text' name="message" required placeholder="Message*" value={this.state.message} onChange={this.handleChange} />
                             </div>
+                            {/* <ReCaptchaV2 sitekey='6LevO_scAAAAAFRhm0LW5TKW7SLzsJmTouS5_7W9' /> */}
                             <div className="col-xs-12" style={{textAlign: 'right'}}>
                                 <button className="contact-button-send">SEND</button>
                             </div>

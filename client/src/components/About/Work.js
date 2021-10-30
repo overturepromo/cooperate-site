@@ -5,7 +5,8 @@ import HowImage from '../../images/about/howwework.jpg';
 import Computer from '../../images/about/computer_screen.png';
 import Service from '../../images/about/customerservice_grahic.svg';
 import Mapy from '../../images/about/map.gif';
-import GiveImage from '../../images/about/give_back.svg'
+import GiveImage from '../../images/about/give_back.svg';
+import AboutUnbound from '../../images/about/about_aunbound.svg'
 
 
 const Work = () => {
@@ -60,6 +61,7 @@ const Work = () => {
                 <div className="where-box">
                     <h4 className="about-orange-words">Where we work.</h4>
                     <p className="basic">The magic starts in our offices in Chicago and Dallas, then spreads to all the places around the world that you need to reach. Our Brand Unbound global network is a collective of best-in-market promotional marketing experts, giving us local partners in Canada, Mexico, Central America, UK, Ireland, Netherlands, Malta, Germany, Russia, China, Australia, and Hong Kong. To help reduce your costs, we create import sourcing programs for large quantity and custom orders, and we regularly import from our accredited factories overseas. International shipments leave our warehouse daily.</p>
+                    <img src={AboutUnbound} style={{height: '100px', margin: '25px'}} />
                 </div>
             </div>
             </Parallax>
