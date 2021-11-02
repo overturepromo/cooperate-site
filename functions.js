@@ -101,3 +101,34 @@ var mail = require('nodemailer').mail;
       }
     });
   };
+
+  exports.kitRequest = (name, company, email, phone, message) => {
+    var transporter = nodemailer.createTransport({
+          service: 'gmail',
+          secure: true,
+          tls: {
+            rejectUnauthorized: false
+          },
+          auth: {
+            type: 'OAuth2',
+            user: process.env.OAUTH_USER,
+            clientId: process.env.OAUTH_CLIENTID,
+            clientSecret: process.env.OAUTH_CLIENTSECRET,
+            refreshToken: process.env.OAUTH_REFRESHTOKEN,
+            accessToken: process.env.OAUTH_ACCESSTOKEN,
+          },
+      });
+    var mailOptions = {
+      from: email,
+      to: 'jacobg@overturepromo.com', //hr@overturepromo.com 
+      subject: 'You have a new custom kit request',
+      html: `<h4>name:</h4> ${name} <h4>company:</h4> ${company} <h4>email:</h4> ${email} <h4>phone:</h4> ${phone} <h4>message:</h4> ${message}`,
+    };
+    transporter.sendMail(mailOptions, function (error, info) {
+      if (error) {
+        console.log('error is ' + error);
+      } else {
+        console.log('Email sent: ' + info.response);
+      }
+    });
+  };

@@ -50,6 +50,12 @@ app.post('/contact', (req, res) => {
     //Right here we will want to be able to send an email to me of what the actual error was via nodmailer with my email
 })
 
+app.post('/kitting', (req, res) => {
+  res.send();
+  fn.kitRequest(req.body.name, req.body.company, req.body.email, req.body.phone, req.body.message)
+    //Right here we will want to be able to send an email to me of what the actual error was via nodmailer with my email
+})
+
 app.post('/apply', upload.single('selectedFile'), (req, res) => {
   const s3Request = client.put(req.file.filename, {
     'Content-Type': req.file.mimetype,

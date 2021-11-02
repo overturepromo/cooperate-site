@@ -1,12 +1,17 @@
 import React from 'react';
+import Hero from './Hero';
 import SubFooter from '../SubFooter';
+import ContactForm from './ContactForm';
+import ImageGrid from './ImageGrid';
 
 
 const index = () => {
     topFunction();
     return (
         <div>
-            <h1>Kitting</h1>
+            <Hero />
+            <ContactForm />
+            <ImageGrid />
             <SubFooter />
         </div>
     )

@@ -1,4 +1,6 @@
 import React from 'react';
+import Hero from './Hero'
+import About from './About'
 import SubFooter from '../SubFooter';
 
 
@@ -6,7 +8,8 @@ const index = () => {
     topFunction();
     return (
         <div>
-            <h1>Long Kitting</h1>
+            <Hero />
+            <About />
             <SubFooter />
         </div>
     )
