@@ -1,0 +1,121 @@
+.hero-sus {
+    background-image: url('../images/sustainability/hero_sus.jpg');
+    width: 100%;
+    height: 636px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.basic-sus{
+    color: #696969;
+    font-size: 20px;
+}
+
+ul.basic-sus{
+    margin-bottom: 30px;
+}
+
+.history-box{
+    margin-top: -109px;
+}
+
+.sus-cta-top{
+    font-size: 70px;
+    color: white;
+    font-family: proxima-bold;
+    line-height: 1;
+}
+
+.sus-cta-bottom{
+    font-size: 25px;
+    color: white;
+}
+
+.sus-hero-box{
+    padding-top: 15%;
+    padding-right: 25%;
+}
+
+.sus-about{
+    margin-top: 50px;
+}
+
+.sus-blue{
+    color: #36b0c9;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.sus-img-margin{
+    margin-bottom: 50px;
+}
+
+.sus-11{
+    padding-left: 50px;
+}
+
+.sus-big{
+    font-size: 128px;
+    font-family: Proxima-bold;
+    color: #ededed;
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin-top: -15px;
+}
+
+.sus-green{
+    font-size: 45px;
+    color: #b8be14;
+    font-family: Proxima-bold;
+    margin-top: -75px;
+    margin-left: 0;
+}
+
+.sus-blue{
+    font-size: 45px;
+    color: #36b0c9;
+    font-family: Proxima-bold;
+    margin-top: -75px;
+    margin-left: 50px;
+}
+
+.sus-orange{
+    font-size: 45px;
+    color: #ee7623;
+    font-family: Proxima-bold;
+    margin-top: -75px;
+    margin-left: 50px;
+    white-space: nowrap;
+}
+
+.sus-link{
+    text-decoration: underline;
+    color: #54565a;
+}
+.strange-div{
+    display: flex;
+    align-items: center;
+}
+
+.row.block-row {
+    margin-top: 65px;
+}
+
+.sus-img{
+    max-width: 100%;
+}
+
+.sus-leaf{
+    height: 25px;
+    margin-right: 15px;
+}
+
+.leaf-div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.together-sus {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,139 @@
+.hero-diversity {
+    background-image: url('../images/diversity/diversity_hero.jpg');
+    width: 100%;
+    height: 636px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.basic-diversity{
+    color: #696969;
+    font-size: 20px;
+}
+
+ul.basic-diversity{
+    margin-bottom: 30px;
+}
+
+.history-box{
+    margin-top: -109px;
+}
+
+.diversity-cta-top{
+    font-size: 70px;
+    color: white;
+    font-family: proxima-bold;
+    line-height: 1;
+}
+
+.diversity-cta-bottom{
+    font-size: 25px;
+    color: white;
+}
+
+.diversity-hero-box{
+    padding-top: 15%;
+    padding-right: 25%;
+}
+
+.diversity-about{
+    margin-top: 50px;
+}
+
+.diversity-blue{
+    color: #36b0c9;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.diversity-img-margin{
+    margin-bottom: 50px;
+}
+
+.diversity-11{
+    padding-left: 50px;
+}
+
+.diversity-big{
+    font-size: 140px;
+    font-family: Proxima-bold;
+    color: #ededed;
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin-top: -15px;
+}
+
+.diversity-green{
+    font-size: 45px;
+    color: #b8be14;
+    font-family: Proxima-bold;
+    margin-top: -75px;
+    margin-left: 0;
+}
+
+.diversity-blue{
+    font-size: 45px;
+    color: #36b0c9;
+    font-family: Proxima-bold;
+    margin-top: -75px;
+    margin-left: 50px;
+}
+
+.diversity-orange{
+    font-size: 45px;
+    color: #ee7623;
+    font-family: Proxima-bold;
+    margin-top: -75px;
+    margin-left: 50px;
+    white-space: nowrap;
+}
+
+.diversity-link{
+    text-decoration: underline;
+    color: #54565a;
+}
+.strange-div{
+    display: flex;
+    align-items: center;
+}
+
+.row.block-row {
+    margin-top: 65px;
+}
+
+.diverse-img{
+    max-width: 100%;
+}
+
+.butterfly{
+    float: left;
+    height: 33px;
+    margin-right: 15px;
+}
+
+.l-b{
+    height: 37px;
+}
+
+.g-b{
+    height: 30px;
+}
+
+.b-b{
+    height: 43px;
+}
+
+.butterfly-margin{
+    margin: 50px;
+}
+
+.butterfly-div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.butterfly-div-top {
+    display: flex;
+    margin-bottom: 20px;
+}

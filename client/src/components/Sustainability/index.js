@@ -1,4 +1,7 @@
 import React from 'react';
+import Hero from './Hero';
+import GiveBack from './GiveBack';
+import BlockImages from './BlockImages'
 import SubFooter from '../SubFooter';
 
 
@@ -6,7 +9,9 @@ const index = () => {
     topFunction();
     return (
         <div>
-            <h1 style={{height: '200px', backgroundColor: '#3babc5', paddingTop: '100px', margin: '0', textAlign: 'center', color: '#fff'}}>Sustainability Page Coming Soon!</h1>
+            <Hero />
+            <BlockImages />
+            <GiveBack />
             <SubFooter />
         </div>
     )

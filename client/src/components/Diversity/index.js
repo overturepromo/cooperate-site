@@ -1,4 +1,7 @@
 import React from 'react';
+import Hero from './Hero';
+import BlockImages from './BlockImages'
+import Together from './Together'
 import SubFooter from '../SubFooter';
 
 
@@ -6,7 +9,9 @@ const index = () => {
     topFunction();
     return (
         <div>
-            <h1 style={{height: '200px', backgroundColor: '#3babc5', paddingTop: '100px', margin: '0', textAlign: 'center', color: '#fff'}}>Diversity Page Coming Soon!</h1>
+            <Hero />
+            <BlockImages />
+            <Together />
             <SubFooter />
         </div>
     )
