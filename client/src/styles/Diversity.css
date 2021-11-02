@@ -137,3 +137,19 @@ ul.basic-diversity{
     display: flex;
     margin-bottom: 20px;
 }
+
+@media(max-width:767px){
+
+    .hero-diversity {
+        height: auto;
+    }
+
+    .diversity-cta-top{
+        font-size: 34px;
+    }
+    
+    .diversity-cta-bottom{
+        font-size: 20px;
+    }
+
+}

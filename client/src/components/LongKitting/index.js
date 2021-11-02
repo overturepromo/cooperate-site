@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from './Hero'
 import About from './About'
-import SubFooter from '../SubFooter';
+import KittingSubFooter from './KittingSubFooter';
 
 
 const index = () => {
@@ -10,7 +10,7 @@ const index = () => {
         <div>
             <Hero />
             <About />
-            <SubFooter />
+            <KittingSubFooter />
         </div>
     )
 }

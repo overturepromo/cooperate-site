@@ -57,6 +57,7 @@ ul.basic-kittin{
     background-color: #ef7521;
     border-radius: 7px;
     font-family: 'Proxima-bold';
+    white-space: nowrap;
 }
 
 .long-kitting-btn:hover {
@@ -133,4 +134,29 @@ ul.basic-kittin{
 
 .kitting-contact-form {
     margin: 50px;
+}
+
+@media(max-width:767px){
+
+    .hero-long-kitting {
+        height: 600px;
+    }
+
+    .hero-kitting {
+        height: auto;
+    }
+
+    .long-kitting-cta-top{
+        font-size: 34px;
+    }
+    
+    .long-kitting-cta-bottom{
+        font-size: 20px;
+    }
+
+    .long-kitting-hero-box {
+        padding-top: 16%;
+        padding-right: 25%;
+    }
+
 }

@@ -74,3 +74,19 @@ ul.basic-csr{
     text-decoration: underline;
     color: #54565a;
 }
+
+@media(max-width:767px){
+
+    .hero-csr {
+        height: auto;
+    }
+
+    .csr-cta-top{
+        font-size: 34px;
+    }
+    
+    .csr-cta-bottom{
+        font-size: 20px;
+    }
+
+}

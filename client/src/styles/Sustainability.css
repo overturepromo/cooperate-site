@@ -119,3 +119,19 @@ ul.basic-sus{
 .together-sus {
     margin-bottom: 50px;
 }
+
+@media(max-width:767px){
+
+    .hero-sus {
+        height: auto;
+    }
+
+    .sus-cta-top{
+        font-size: 34px;
+    }
+    
+    .sus-cta-bottom{
+        font-size: 20px;
+    }
+
+}
