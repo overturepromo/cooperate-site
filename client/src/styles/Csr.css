@@ -88,5 +88,15 @@ ul.basic-csr{
     .csr-cta-bottom{
         font-size: 20px;
     }
-
+    .csr-11 {
+        padding-left: 15px;
+    }
+    .csr-big {
+        font-size: 63px;
+    }
+    .csr-small {
+        font-size: 30px;
+        margin-top: 0;
+        margin-left: 0;
+    }
 }

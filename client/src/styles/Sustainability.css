@@ -133,5 +133,13 @@ ul.basic-sus{
     .sus-cta-bottom{
         font-size: 20px;
     }
-
+    .sus-big {
+        font-size: 63px;
+        margin-top: 15px;
+    }
+    .sus-small, .sus-blue, .sus-green, .sus-orange {
+        font-size: 30px;
+        margin-top: 0;
+        margin-left: 0;
+    }
 }

@@ -19,37 +19,37 @@ const CsrAbout = () => {
                 </ul>
                 <p className="basic-csr csr-img-margin">It all starts with our volunteer employee resource groups:</p>
                 <div className="row csr-img-margin">
-                    <div class="col-xs-1">
+                    <div class="col-sm-1">
                         <img src={Culture} />
                     </div>
-                    <div className="col-xs-11 csr-11">
+                    <div className="col-sm-11 csr-11">
                         <h4 className="csr-blue">Culture Crew</h4>
                         <p className="basic-csr">Ensures we are making connections between front-of-house and back-of-house employees, keeps us all informed of Overture family news and victories, and brings the fun. </p>
                     </div>
                 </div>
                 <div className="row csr-img-margin">
-                    <div class="col-xs-1">
+                    <div class="col-sm-1">
                         <img src={Diac} />
                     </div>
-                    <div className="col-xs-11 csr-11">
+                    <div className="col-sm-11 csr-11">
                         <h4 className="csr-blue">DIAC (Diversity and Inclusion Advisory Council)</h4>
                         <p className="basic-csr">Makes recommendations to management and creates programs and training to ensure Overture is a diverse and inclusive workplace. <Link to="/diversity" className="csr-link">Learn More</Link></p>
                     </div>
                 </div>
                 <div className="row csr-img-margin">
-                    <div class="col-xs-1">
+                    <div class="col-sm-1">
                         <img src={Green} />
                     </div>
-                    <div className="col-xs-11 csr-11">
+                    <div className="col-sm-11 csr-11">
                         <h4 className="csr-blue">Green Team</h4>
                         <p className="basic-csr">Pushes us to be more conscious of our impact on the environment, scopes and recommends initiatives to management, helps identify sustainable promotional products, and makes our family vegetable and herb garden happen. <Link to="/sustainability" className="csr-link">Learn More</Link></p>
                     </div>
                 </div>
                 <div className="row csr-img-margin">
-                    <div class="col-xs-1">
+                    <div class="col-sm-1">
                         <img src={Safety} />
                     </div>
-                    <div className="col-xs-11 csr-11">
+                    <div className="col-sm-11 csr-11">
                         <h4 className="csr-blue">Safety Team</h4>
                         <p className="basic-csr">Trains staff for every day and crisis safety and ensures we have appropriate certifications and equipment. </p>
                     </div>

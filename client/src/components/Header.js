@@ -56,7 +56,7 @@ class Header extends Component{
                 </div>
                 <div className="header-mobile">
                     <div className="hellobar-div-mobile">
-                        <a href="/ppe" className="hellobar-cta">BROWSE PPE</a>
+                        <a href="/kitting" className="hellobar-cta">EXPLORE KITTING</a>
                     </div>
                     <div className="container">
                         <div className="col-xs-2">

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const HelloBar = () => {
     return (
         <div className="hellobar-div">
-            <p className="hellobar-p">Need Personal Protective Equipment? We’ve Got You Covered (Literally)!</p>
-            <a href="/ppe" className="hellobar-cta">BROWSE PPE</a>
+            <p className="hellobar-p">Every Kit Made to Your Specifications? You’ve Got to be Kitting! Request Your Custom Kit Here!</p>
+            <a href="/kitting" className="hellobar-link">Request a Kit </a>
         </div>
     )
 }

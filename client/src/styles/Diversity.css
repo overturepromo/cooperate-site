@@ -151,5 +151,16 @@ ul.basic-diversity{
     .diversity-cta-bottom{
         font-size: 20px;
     }
-
+    .diversity-big {
+        font-size: 63px;
+        margin-top: 15px;
+    }
+    .diversity-small, .diversity-blue, .diversity-green, .diversity-orange {
+        font-size: 30px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .butterfly-margin {
+        margin: 0px;
+    }
 }

@@ -7,34 +7,39 @@
 
 
 .hellobar-div{
-    background-color: #ef7521;
+    background-color: #36b0c9;
     text-align: center;
     padding: 16px 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 9999999;
-    display: none;
 }
 
 .hellobar-div-mobile{
-    background-color: #ef7521;
+    background-color: #36b0c9;
     text-align: center;
     padding: 10px;
     margin-bottom: 10px;
     display: none;
-
 }
 
 .hellobar-p{
     font-size: 20px;
     color: #fff;
     display: inline;
-    margin-right: 20px;
+    margin-right: 10px;
+}
+
+.hellobar-link{
+    font-size: 20px;
+    color: #fff;
+    display: inline;
+    text-decoration: underline;
 }
 
 .hellobar-cta{
-    color: #ef7521;
+    color: #36b0c9;
     font-size: 18px;
     padding: 10px 20px;
     background-color: #fff;

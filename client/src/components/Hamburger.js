@@ -30,6 +30,9 @@ class Hamburger extends Component {
                             <Link to='/work' onClick={() => this.props.noCheese(false)} className='burger-link'>Work</Link>
                         </div>
                         <div className="col-xs-12">
+                            <Link to='/csr' onClick={() => this.props.noCheese(false)} className='burger-link'>CSR</Link>
+                        </div>
+                        <div className="col-xs-12">
                             <a href="https://overturemarket.espwebsite.com" target="blank" onClick={() => this.props.noCheese(false)} className='burger-link'>Catalog</a>
                         </div>
                         <div className="col-xs-12">
