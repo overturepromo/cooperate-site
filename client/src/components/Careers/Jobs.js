@@ -122,7 +122,7 @@ class Jobs extends Component {
                         {this.state.warehouseAssociate ? <WarehouseAssociate bye={this.handleOff} /> : null}
                     </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3>Graphic Designer</h3>
+                        <h3>Graphic Designer (Remote)</h3>
                         <h5 onClick={() => this.handleOn('graphicDesigner')} className="view-button">View Details</h5>
                         {this.state.graphicDesigner ? <GraphicDesigner bye={this.handleOff} /> : null}
                     </div>

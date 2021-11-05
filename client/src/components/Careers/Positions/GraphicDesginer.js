@@ -75,7 +75,7 @@ class GraphicDesigner extends Component {
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('graphicDesigner')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Graphic Designer" close={this.closeModal} />
+                    <ApplyBox title="Graphic Designer (Remote)" close={this.closeModal} />
                 </Modal>
             </div>
         )
