@@ -136,10 +136,18 @@ ul.basic-kittin{
     margin: 50px;
 }
 
-@media(max-width:767px){
+@media(max-width:811px){
 
     .hero-long-kitting {
         height: 600px;
+    }
+
+    .kitting-contact-form {
+        margin: 50px 0;
+    }
+
+    .long-kitting-cta-top {
+        font-size: 55px;
     }
 
     .hero-kitting {
@@ -159,4 +167,13 @@ ul.basic-kittin{
         padding-right: 25%;
     }
 
+}
+
+@media(max-width: 767px){
+    .kitting-img {
+        margin-bottom: 20px;
+    }
+    h4.long-kitting-green {
+        font-size: 25px;
+    }
 }

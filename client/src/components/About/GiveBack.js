@@ -10,7 +10,7 @@ const GiveBack = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <img src={GiveImage} style={{height: '300px'}} />
+                        <img className="give-back-img" src={GiveImage} style={{height: '300px'}} />
                     </div>
                     <div className="col-md-8">
                         <h4 className="about-blue-words">We give back.</h4>

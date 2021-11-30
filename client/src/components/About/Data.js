@@ -33,8 +33,8 @@ class Data extends Component {
                             <div className="col-xs-12" style={{marginBottom: '25px'}}>
                                 <h4 className="green-history">How carefully we work.</h4>
                             </div>
-                            <div className="col-md-4">
-                                <img src={AboutCreative} style={{height: '175px'}} />
+                            <div className="col-md-4 careful-img-div">
+                                <img className='about-careful-img' src={AboutCreative} style={{height: '175px'}} />
                             </div>
                             <div className="col-md-8">
                                 <p className="basic">We call ourselves “creative control freaks” because we’ve built Overture on these foundational values: creativity, responsiveness, accuracy, and on-time delivery. Our quality control process has 14 checkpoints. We’re serious about investing in technology to streamline processes and improve quality and inventory control. We are meticulous in our security precautions to protect customer data, and we’re CCPA compliant.* Twelve years ago, Overture was one of fifteen distributors chosen to serve on the Quality Certification Alliance Advisory Council, helping set product quality standards. Today, we continue to vet suppliers, only working with those manufacturers who we have certified for product quality and safety, supply chain security, social accountability, and environmental stewardship.</p>
@@ -43,10 +43,10 @@ class Data extends Component {
                     </div>
                     <div className="container">
                         <div className="col-md-6">
-                            <p className="basic" style={{marginBottom: '25px', fontSize: '20px'}}>*We’re really serious about IT security. <strong>Endpoint Detection & Response (EDR), powered by SentinelOne</strong>, is installed on all Overture computers and laptops. SentinelOne uses on-device AI to prevent, detect, and recover from threats in real time.</p>
-                            <p className="basic" style={{marginBottom: '25px', fontSize: '20px'}}>We use <strong>Citrix Sharefile</strong>, with bank level encryption, to securely store, send, and sync data with our customers.</p>
-                            <p className="basic" style={{marginBottom: '25px', fontSize: '20px'}}><strong>SpamTitan</strong> identifies and quarantines malicious emails and spam. (It’s been independently tested and shown to block 99.97% of spam emails.) </p>
-                            <p className="basic" style={{marginBottom: '25px', fontSize: '20px'}}><strong>TraceSecurity</strong> conducts annual, onsite IT Information Security Audits to evaluate the effectiveness of our controls to protect the confidentiality, integrity, and availability of business and user data.</p>
+                            <p className="basic" style={{marginBottom: '25px'}}>*We’re really serious about IT security. <strong>Endpoint Detection & Response (EDR), powered by SentinelOne</strong>, is installed on all Overture computers and laptops. SentinelOne uses on-device AI to prevent, detect, and recover from threats in real time.</p>
+                            <p className="basic" style={{marginBottom: '25px'}}>We use <strong>Citrix Sharefile</strong>, with bank level encryption, to securely store, send, and sync data with our customers.</p>
+                            <p className="basic" style={{marginBottom: '25px'}}><strong>SpamTitan</strong> identifies and quarantines malicious emails and spam. (It’s been independently tested and shown to block 99.97% of spam emails.) </p>
+                            <p className="basic" style={{marginBottom: '25px'}}><strong>TraceSecurity</strong> conducts annual, onsite IT Information Security Audits to evaluate the effectiveness of our controls to protect the confidentiality, integrity, and availability of business and user data.</p>
                         </div>
                         <div className="col-md-6 responsible">
                             <Parallax className='sourcing' bgImage={NewSourcing} strength={300}>

@@ -12,15 +12,15 @@ const ImageGrid = () => {
     return (
         <div className="kitting-image-grid">
             <div className="container-fluid">
-                <div className="col-xs-4">
+                <div className="col-sm-4">
                      <img src={One} className="kitting-img" style={{marginBottom: '20px'}} />
                      <img src={Two} className="kitting-img" />
                 </div>
-                <div className="col-xs-4">
+                <div className="col-sm-4">
                     <img src={Three} className="kitting-img" style={{marginBottom: '10px'}} />
                     <img src={Four} className="kitting-img" />
                 </div>
-                <div className="col-xs-4">
+                <div className="col-sm-4">
                     <img src={Five} className="kitting-img" style={{marginBottom: '20px'}} />
                     <img src={Six} className="kitting-img" />
                 </div>

@@ -27,7 +27,7 @@ const Work = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
-                            <img src={GiveImage} style={{height: '300px'}} />
+                            <img className="give-back-img" src={GiveImage} style={{height: '300px'}} />
                         </div>
                         <div className="col-md-8">
                             <h4 className="about-blue-words">We give back.</h4>
@@ -57,11 +57,11 @@ const Work = () => {
                 </div>
             </div>
             <Parallax bgImage={Mapy} strength={500}>
-            <div style={{ height: 500 }}>
+            <div className="gif-background" style={{ height: 500 }}>
                 <div className="where-box">
                     <h4 className="about-orange-words">Where we work.</h4>
                     <p className="basic">The magic starts in our offices in Chicago and Dallas, then spreads to all the places around the world that you need to reach. Our Brand Unbound global network is a collective of best-in-market promotional marketing experts, giving us local partners in Canada, Mexico, Central America, UK, Ireland, Netherlands, Malta, Germany, Russia, China, Australia, and Hong Kong. To help reduce your costs, we create import sourcing programs for large quantity and custom orders, and we regularly import from our accredited factories overseas. International shipments leave our warehouse daily.</p>
-                    <img src={AboutUnbound} style={{height: '100px', margin: '25px'}} />
+                    <img className="unbound-img" src={AboutUnbound} style={{height: '100px', margin: '25px'}} />
                 </div>
             </div>
             </Parallax>

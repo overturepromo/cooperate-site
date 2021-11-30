@@ -138,6 +138,10 @@ ul.basic-diversity{
     margin-bottom: 20px;
 }
 
+.mobile-melissa{
+    display: none;
+}
+
 @media(max-width:767px){
 
     .hero-diversity {
@@ -151,13 +155,22 @@ ul.basic-diversity{
     .diversity-cta-bottom{
         font-size: 20px;
     }
+    .mobile-melissa{
+        display: block;
+    }
+
+    .desktop-melissa{
+        display: none;
+    }
+
     .diversity-big {
         font-size: 63px;
         margin-top: 15px;
+        display: none;
     }
     .diversity-small, .diversity-blue, .diversity-green, .diversity-orange {
         font-size: 30px;
-        margin-top: 0;
+        margin-top: 20px;
         margin-left: 0;
     }
     .butterfly-margin {

@@ -75,10 +75,15 @@ ul.basic-csr{
     color: #54565a;
 }
 
-@media(max-width:767px){
+@media(max-width:811px){
 
     .hero-csr {
         height: auto;
+    }
+
+    img.csr-icons {
+        height: 60px;
+        padding-top: 10px;
     }
 
     .csr-cta-top{
@@ -93,6 +98,7 @@ ul.basic-csr{
     }
     .csr-big {
         font-size: 63px;
+        display: none;
     }
     .csr-small {
         font-size: 30px;

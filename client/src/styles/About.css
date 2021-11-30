@@ -419,6 +419,9 @@ img.active-users {
     .history-box {
         margin-top: 0;
     }
+    .how-box{
+        left: 37%;
+    }
     .about-cta-top{
         font-size: 34px;
     }
@@ -428,9 +431,22 @@ img.active-users {
     .hero-about{
         height: 375px;
     }
+    img.about-careful-img {
+        height: 100px !important;
+    }
+    .gif-background{
+        height: 750px !important;
+    }
+    .unbound-img{
+        height: 55px !important;
+    }
     .abstract-div{
         text-align: center;
         margin-top: 20px
+    }
+    img.give-back-img {
+        width: 100%;
+        height: auto !important;
     }
     .big-words-about {
         font-size: 32px;
@@ -456,6 +472,10 @@ img.active-users {
     }
     .how-we-work{
         height: 555px;
+    }
+    .col-md-4.careful-img-div {
+        text-align: center;
+        padding-bottom: 30px;
     }
     .about-orange-words{
         font-size: 32px;

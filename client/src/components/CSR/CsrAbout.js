@@ -19,8 +19,8 @@ const CsrAbout = () => {
                 </ul>
                 <p className="basic-csr csr-img-margin">It all starts with our volunteer employee resource groups:</p>
                 <div className="row csr-img-margin">
-                    <div class="col-sm-1">
-                        <img src={Culture} />
+                    <div className="col-sm-1">
+                        <img className="csr-icons" src={Culture} />
                     </div>
                     <div className="col-sm-11 csr-11">
                         <h4 className="csr-blue">Culture Crew</h4>
@@ -28,8 +28,8 @@ const CsrAbout = () => {
                     </div>
                 </div>
                 <div className="row csr-img-margin">
-                    <div class="col-sm-1">
-                        <img src={Diac} />
+                    <div className="col-sm-1">
+                        <img className="csr-icons" src={Diac} />
                     </div>
                     <div className="col-sm-11 csr-11">
                         <h4 className="csr-blue">DIAC (Diversity and Inclusion Advisory Council)</h4>
@@ -37,8 +37,8 @@ const CsrAbout = () => {
                     </div>
                 </div>
                 <div className="row csr-img-margin">
-                    <div class="col-sm-1">
-                        <img src={Green} />
+                    <div className="col-sm-1">
+                        <img className="csr-icons" src={Green} />
                     </div>
                     <div className="col-sm-11 csr-11">
                         <h4 className="csr-blue">Green Team</h4>
@@ -46,8 +46,8 @@ const CsrAbout = () => {
                     </div>
                 </div>
                 <div className="row csr-img-margin">
-                    <div class="col-sm-1">
-                        <img src={Safety} />
+                    <div className="col-sm-1">
+                        <img className="csr-icons" src={Safety} />
                     </div>
                     <div className="col-sm-11 csr-11">
                         <h4 className="csr-blue">Safety Team</h4>

@@ -24,6 +24,7 @@ ul.basic-sus{
     color: white;
     font-family: proxima-bold;
     line-height: 1;
+    text-transform: uppercase;
 }
 
 .sus-cta-bottom{
@@ -120,7 +121,7 @@ ul.basic-sus{
     margin-bottom: 50px;
 }
 
-@media(max-width:767px){
+@media(max-width:811px){
 
     .hero-sus {
         height: auto;
@@ -136,10 +137,21 @@ ul.basic-sus{
     .sus-big {
         font-size: 63px;
         margin-top: 15px;
+        display: none;
     }
     .sus-small, .sus-blue, .sus-green, .sus-orange {
         font-size: 30px;
-        margin-top: 0;
+        margin-top: 20px;
         margin-left: 0;
+    }
+}
+
+@media(max-width: 767px){
+    .row.block-row {
+        margin-top: 10px !important;
+    }
+    .flippy-stuff{
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
