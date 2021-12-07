@@ -48,7 +48,6 @@ class WebDeveloper extends Component {
                     <li>Detail-oriented, with the ability to effectively prioritize multiple projects</li> 
                     <li>Ability to work calmly under pressure</li> 
                 </ul>
-
                 <h4>Benefits</h4>
                 <ul style={{color: "gray"}}>
                     <li>Complete insurance coverage – Medical, dental, vision, life insurance, flex spending accounts and disability plans with Company contributions</li>
