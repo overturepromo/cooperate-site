@@ -24,35 +24,29 @@ class WebDeveloper extends Component {
         return (
             <div>
                 <h4>SUMMARY</h4>
-                <p style={{color: 'gray'}}>This position is primarily responsible for monitoring and managing inventory in the Warehouse with the support of the Warehouse Manager. The position will report directly to Warehouse Manager. Ideal candidates will have prior experience in managing inventory and cycle counts.</p>
+                <p style={{color: 'gray'}}>We are looking for a driven and analytical Full-Stack .NET Web Developer to join our fast-growing team. Our ideal candidate will have experience working on multiple different client projects simultaneously. This person will work on a team of both Jr and Sr level developers, reporting in to the Sr Web Developer. A fast paced and outcome-focused approach allows our development team the autonomy for their work and the delivery of various business and technical capabilities.</p>
                 <h4>Duties and Responsibilities </h4>
                 <ul style={{color: "gray"}}>
-                    <li>Responsible for overseeing both cycle counts of inventory and bin transfers</li>
-                    <li>Maintain and update inventory records as required</li>
-                    <li>Develop and implement efficient inventory management procedures</li>
-                    <li>Reconcile any inventory discrepancies</li>
-                    <li>Reports damages, vendor compliance issues and stock issues to management</li>
-                    <li>Safely operate all necessary equipment only when properly trained or certified to do so</li>
-                    <li>May be responsible for palletizing and shrink-wrapping items</li>
-                    <li>May be required to stack pallets and repeatedly lift up to 50 pounds without restriction</li>
-                    <li>Ability to work as a team player, but also independently</li>
-                    <li>Maintains an acceptable level of attendance based on Company attendance policy.</li>
-                    <li>Ensures safety techniques are used in all aspects of daily work responsibilities</li>
-                    <li>Maintain warehouse clean and free of debris at all times.</li>
-                    <li>Ability to withstand unavoidable exposure to unfavorable atmospheric conditions or extreme temperatures inside and outside the facility</li>
+                    <li>Design, develop and test new and existing web applications</li>
+                    <li>Develop and maintain e-commerce web stores</li> 
+                    <li>Develop and maintain e-commerce web store management tools</li> 
+                    <li>Develop scripting and components to support continuous integration and delivery pipelines</li>
+                    <li>Quality Assurance (QA) test new sites in the final stages of pre-launch</li> 
+                    <li>Hunt and Squash bugs</li> 
+                    <li>Performs other duties as assigned</li>
                 </ul>
                 <h4>Skills and Competencies</h4>
                 <ul style={{color: "gray"}}>
-                    <li>2+ years of required experience in inventory control</li>
-                    <li>2+ years of required experience within a WMS environment/system; NetSuite experience a plus</li>
-                    <li>Excellent written and verbal communication skills</li>
-                    <li>Proficient in MS office (Word and Excel specifically)</li>
-                    <li>Must be forklift operator trained and certified, as well as trained on a stand-up reach</li>
-                    <li>Must be able to lift up to 50lbs</li>
-                    <li>Able to stand, walk, pull and bend 100% of the day</li>
-                    <li>Ability to determine priorities and accomplish multiple tasks with minimal supervision.</li>
-                    <li>Ability to work in a fast-paced production manner</li>
-                    <li>Must have reliable and dependable transportation</li>
+                    <li>4+ years of development experience</li> 
+                    <li>2+ years of web development experience working with .NET, C#, HTML/CSS/Javascript</li> 
+                    <li>Experience with jQuery</li>
+                    <li>Experience developing e-commerce web stores</li> 
+                    <li>Experience with Visual Studio</li> 
+                    <li>Experience with MS SQL Server tables, relationships and stored procedures</li> 
+                    <li>Bootstrap or similar grid framework</li>  
+                    <li>Version control (Git and/or Visual Studio Azure DevOps)</li> 
+                    <li>Detail-oriented, with the ability to effectively prioritize multiple projects</li> 
+                    <li>Ability to work calmly under pressure</li> 
                 </ul>
 
                 <h4>Benefits</h4>
@@ -61,20 +55,20 @@ class WebDeveloper extends Component {
                     <li>Pet insurance and bring your dog to work days</li>
                     <li>Corporate partnerships with Life Time Fitness, Bears Fit, Skechers and Tickets at Work</li>
                     <li>Generous paid time off (vacation, sick and personal days as well as yearly floating holiday)</li>
-                    <li>401(k) eligible on day 1 of hire; company match after first year of employment</li>
+                    <li>401(k) eligibility day one of employment, with a Company match after the first year of employment</li>
+                    <li>Paid maternity and paternity leave based on years of service</li>
                     <li>Relaxed dress code</li>
                     <li>Overture family fun – Summer BBQs, volunteer engagement groups (Culture Crew, Green Team, Safety Team, Diversity and Inclusion Advisory Council), employee vegetable garden, contests, potlucks and cookoffs</li>
                     <li>Employee referral bonus</li>
                 </ul>
                 <h4>EDUCATION/EXPERIENCE</h4>
                 <ul style={{color: "gray"}}>
-                    <li>High School Diploma or equivalent working experience</li>
-                    <li>At least 18 years of age</li>
+                    <li>4-year degree in Computer Science, or equivalent</li>
                 </ul>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('webDeveloper')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Warehouse Inventory Lead" close={this.closeModal} />
+                    <ApplyBox title="Web Developer" close={this.closeModal} />
                 </Modal>
             </div>
         )
