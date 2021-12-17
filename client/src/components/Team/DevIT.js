@@ -29,7 +29,7 @@ class DevIT extends Component {
     render(){
         return (
             <div className="container">
-                <Element id="creative-orange">Web Development & IT</Element>
+                <Element id="creative-orange">Web Dev & IT</Element>
                 <div className="row">
                     <Employee image={People.Melissa.image} name={People.Melissa.name} title={People.Melissa.title} />
                     <Employee image={People.Shawn.image} name={People.Shawn.name} title={People.Shawn.title} />

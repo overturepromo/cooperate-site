@@ -40,15 +40,22 @@ class Management extends Component {
                     <Employee image={People.ChristinaN.image} name={People.ChristinaN.name} title={People.ChristinaN.title} clicked={() => this.openModal(6)} />
                     <Employee image={People.David.image} name={People.David.name} title={People.David.title} clicked={() => this.openModal(21)} />
                     <Employee image={People.RonG.image} name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />
-                    <Employee image={People.Lou.image} name={People.Lou.name} title={People.Lou.title} clicked={() => this.openModal(22)} />
-                    <Employee image={People.Mark.image} name={People.Mark.name} title={People.Mark.title} clicked={() => this.openModal(23)} />
-                    <Employee image={People.MichaelN.image} name={People.MichaelN.name} title={People.MichaelN.title} clicked={() => this.openModal(24)} />
+                </div>
+                <Element id="experts-orange" name="experts">The Board</Element>
+                <div className="row">
                     <Employee image={People.MichaelM.image} name={People.MichaelM.name} title={People.MichaelM.title} clicked={() => this.openModal(25)} />
                     <Employee image={People.Trish.image} name={People.Trish.name} title={People.Trish.title} clicked={() => this.openModal(26)} />
                     <Employee image={People.Stuart.image} name={People.Stuart.name} title={People.Stuart.title} clicked={() => this.openModal(27)} />
                     <Employee image={People.Justin.image} name={People.Justin.name} title={People.Justin.title} clicked={() => this.openModal(28)} />
+                    <Employee image={People.Lou.image} name={People.Lou.name} title={People.Lou.title} clicked={() => this.openModal(22)} />
+                    <Employee image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} clicked={() => this.openModal(0)} />
                 </div>
-
+                <Element id="experts-orange" name="experts">The Acquisition Team</Element>
+                <div className="row">
+                    <Employee image={People.Lou.image} name={People.Lou.name} title={People.Lou.title} clicked={() => this.openModal(22)} />
+                    <Employee image={People.Mark.image} name={People.Mark.name} title={People.Mark.title} clicked={() => this.openModal(23)} />
+                    <Employee image={People.MichaelN.image} name={People.MichaelN.name} title={People.MichaelN.title} clicked={() => this.openModal(24)} />
+                </div>
 
                 {/* All The modals */}
                 <Modal isOpen={this.state.showModal[0]} onRequestClose={this.closeModal} className="employee-modal">

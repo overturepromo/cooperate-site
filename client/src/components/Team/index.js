@@ -41,7 +41,7 @@ const index = () => {
                 <Route path='/team/acquisition' component={Acquisition} />
                 <Route path='/team/management' component={Management} />
                 <Route path='/team/devit' component={DevIT} />
-                <Route path='/team' component={Experts} />                
+                <Route path='/team' component={Management} />                
             </Switch>
             <Mantra />
         </div>

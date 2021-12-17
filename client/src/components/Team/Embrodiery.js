@@ -29,7 +29,7 @@ class Embrodiery extends Component {
     render(){
         return (
             <div className="container">
-                <Element id="embrodiery-orange">Embroidery & Screen Printing</Element>
+                <Element id="embrodiery-orange">Production</Element>
                 <div className="row">
                     <Employee image={People.Wendy.image} name={People.Wendy.name} title={People.Wendy.title} />
                     <Employee image={People.Rolando.image} name={People.Rolando.name} title={People.Rolando.title} />
@@ -50,6 +50,7 @@ class Embrodiery extends Component {
                     <Employee image={People.Miguel.image} name={People.Miguel.name} title={People.Miguel.title} />
                     <Employee image={People.Angelica.image} name={People.Angelica.name} title={People.Angelica.title} />
                     <Employee image={People.Mayra.image} name={People.Mayra.name} title={People.Mayra.title} />
+                    <Employee image={People.Julyne.image} name={People.Julyne.name} title={People.Julyne.title} />
                 </div>
             </div>
         )

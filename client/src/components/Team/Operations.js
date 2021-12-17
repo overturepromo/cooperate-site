@@ -29,7 +29,7 @@ class Operations extends Component {
     render(){
         return (
             <div className="container">
-                <Element id="operations-orange">Operations & Logistics</Element>
+                <Element id="operations-orange">Operations</Element>
                 <div className="row">
                     <Employee image={People.Glenda.image} name={People.Glenda.name} title={People.Glenda.title} />
                     <Employee image={People.Don.image} name={People.Don.name} title={People.Don.title} />

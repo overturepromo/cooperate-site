@@ -214,4 +214,13 @@ export const People = {
         why: '',
         image: Inocente
     },
+    Julyne: {
+        name: 'Julyne Ayala',
+        title: 'Production Admin Assistant',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }

@@ -24,7 +24,7 @@
 
 .jump-list{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0;
     margin-top: 25px;
@@ -33,6 +33,7 @@
 .jump-link{
     list-style-type: none;
     margin: 10px 37px;
+    width: 18%;
 }
 
 
