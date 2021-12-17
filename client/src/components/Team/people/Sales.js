@@ -515,5 +515,41 @@ export const People = {
         vacation: '',
         why: '',
         image: Kailee
-    },             
+    },
+    Katarina: {
+        name: 'Katarina Petronijevic',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
+    Erin: {
+        name: 'Erin Boudreau',
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
+    Lauren: {
+        name: 'Lauren LeMay',
+        title: 'Sales Account Executive',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    MichelleF: {
+        name: 'Michelle Fisher',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },                         
 }

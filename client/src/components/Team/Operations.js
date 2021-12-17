@@ -43,17 +43,19 @@ class Operations extends Component {
                     <Employee image={People.Robyn.image} name={People.Robyn.name} title={People.Robyn.title} />
                     <Employee image={People.Barb.image} name={People.Barb.name} title={People.Barb.title} />
                     <Employee image={People.EmilyJ.image} name={People.EmilyJ.name} title={People.EmilyJ.title} />
+                    <Employee image={People.Javier.image} name={People.Javier.name} title={People.Javier.title} />
                     <Employee image={People.Grace.image} name={People.Grace.name} title={People.Grace.title} />
                     <Employee image={People.Trina.image} name={People.Trina.name} title={People.Trina.title} />
-                    <Employee image={People.Ashley.image} name={People.Ashley.name} title={People.Ashley.title} />
                     <Employee image={People.ChrisM.image} name={People.ChrisM.name} title={People.ChrisM.title} />
                     <Employee image={People.Tiffany.image} name={People.Tiffany.name} title={People.Tiffany.title} />
                     <Employee image={People.Keyla.image} name={People.Keyla.name} title={People.Keyla.title} />
                     <Employee image={People.Holly.image} name={People.Holly.name} title={People.Holly.title} />
                     <Employee image={People.Bethani.image} name={People.Bethani.name} title={People.Bethani.title} />
                     <Employee image={People.Annabelle.image} name={People.Annabelle.name} title={People.Annabelle.title} />
+                    <Employee image={People.Blair.image} name={People.Blair.name} title={People.Blair.title} />
                     <Employee image={People.Jeff.image} name={People.Jeff.name} title={People.Jeff.title} />
                     <Employee image={People.Maria.image} name={People.Maria.name} title={People.Maria.title} />
+                    <Employee image={People.Joe.image} name={People.Joe.name} title={People.Joe.title} />
                 </div>
             </div>
         )

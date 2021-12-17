@@ -85,4 +85,13 @@ export const People = {
         why: 'Overture’s values are ones that I share in my personal life, which made this role the perfect fit for me. Oh, and there was the opening in marketing. But mostly the values thing.',
         image: Victoria
     },
+    Christopher: {
+        name: 'Christopher Westby',
+        title: 'Graphic Designer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }

@@ -266,4 +266,31 @@ export const People = {
         why: '',
         image: Maria
     },
+    Joe: {
+        name: 'Joe Levy',
+        title: 'Controller',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Blair: {
+        name: 'Blair Ellis',
+        title: 'Fulfillment Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    Javier: {
+        name: 'Javier Gaytan',
+        title: 'Billing Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
