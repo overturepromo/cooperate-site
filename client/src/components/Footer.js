@@ -30,9 +30,10 @@ class Footer extends Component {
                         </div>
                     </div>
                     <div className="col-md-4 map-divy">
+                        <p className="map-paragraph">Nationwide network of 200 warehouses<br />Canadian partner</p>
                         <img src={Map} alt="map" /><br />
                         <img src={Dallas} alt="Love-dallas" style={{margin: '30px 0 15px 0'}} />
-                        <p className="map-paragraph">Nationwide network of 200 warehouses<br />Canadian partner</p>
+                        <p className="map-paragraph">Overture's headquares in Waukegan, Illinois sits upon the traditional lands of the Potawatomi, Chippewa and Ottawa tribes.</p>
                     </div>
                     <div className="col-md-4 col-md-offset-1 footer-right-nav">
                     <h4 className="overture" >Opportunity is knocking</h4>
