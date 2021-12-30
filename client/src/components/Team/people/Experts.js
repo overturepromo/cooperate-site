@@ -98,27 +98,27 @@ export const People = {
     AimeeE: {
         name: "Aimee Ericson",
         title: "Sales ",
-        bio: "When Aimee first came out of college she started at a large promotional products company where she started in inside sales. She trained with some of the most seasoned salespeople (one being our very own, Joe Hazan). At that time she learned the foundation of sales: service, service, service. In her spare time, she loves to run, a new hobby she recently took up and spending time her husband, Dave, her daughter, Kaci, and her son, Brady.",
-        movie: "It changes all this time....this week it is 'Just Friends'.",
-        vacation: "Grand Wailea in Maui, Hawaii.",
-        why: "I have been with Overture since the beginning of its existence. Watching our company blossom into what it is today has been an incredible journey. No challenge is too hard to conquer and each one has made this company stronger. I am proud to say that I am part Overture and I can't wait to see what we do next!",
+        bio: "When Aimee first graduated college, she worked at a large promotional products company where she learned the promo business by working in inside sales. She trained with some of the most seasoned salespeople (one being our very own, Joe Hazan). As a result of this experience, she has gone on to become an autonomous, successful salesperson. When she’s not working, she loves to spend time with her family, read, binge tv shows, and ride her Peloton.",
+        movie: "Cannot pick: it is between Breaking Bad, Handmaid’s Tale, and The Night Of",
+        vacation: "Grand Cayman Islands",
+        why: "I am one of Overture’s founding employees, and I can honestly say, I would pick Overture to work at, over and over again. There is so much pride in watching the company grow into what it is today. I think the perfect way to describe the growth within Overture is through a quote I once heard: “Everything is possible. Even the impossible.” Overture employees don’t give up. We find solutions so we have the ability to rise to the occasion. I am proud to say that I am part of Overture and can’t express enough how much I appreciate the journey it has taken me on. I can't wait to see what we do next!",
         image: Aimee
     },
     BenB: {
         name: "Ben Barrows",
         title: "Sales ",
-        bio: "Joining the promotional marketing industry in 2005, Ben Barrows has quickly developed a vast product knowledge that his rapidly growing client base definitely seems to appreciate. His favorite part of the job? Ben loves the creative aspect. 'Coming up with completely unique products that nobody has ever seen before and also products that resonate with my clients brand name and voice is the biggest challenge of my job, but that's what I love.' Ben has three children and enjoys playing basketball or watching sports.",
+        bio: "Joining the promotional marketing industry in 2005, Ben Barrows has quickly developed a vast product knowledge that his rapidly growing client base definitely seems to appreciate. His favorite part of the job? Ben loves the creative aspect. \"Coming up with completely unique products that nobody has ever seen before and also products that resonate with my clients brand name and voice is the biggest challenge of my job, but that's what I love.\" Ben enjoys playing basketball or watching sports and he and his wife, Nikki, have three children.",
         movie: "Kung Fu Panda (I have 3 young children...)",
         vacation: "Santa Barbara, CA. Get to see family and the beautiful California coast all at the same time!",
-        why: "I chose Overture because customer service is their number one priority. The team atmosphere created as well as going above and beyond for our clients is what I feel separates us from our competition",
+        why: "I chose Overture because customer service is their number one priority. The team atmosphere created as well as going above and beyond for our clients is what I feel separates us from our competition.",
         image: Ben
     },
     BobbyH: {
         name: "Bobby Hazan",
         title: "Sales ",
-        bio: "Bobby came to Overture in 2014 after a 10 year career as a Crude Oil Options Trader.  In a short time, his amazing 6-person team now services Market-Leaders in Fashion, Academics, Aviation, and High Finance.  His team won the 2017 Overture Growth Award. Bobby loves to spend time outside of work with his beautiful wife and 3 amazing children.  He is a competitive Amateur Golfer and practices yoga regularly.  Bobby has an MBA and Accounting degree from Indiana University.",
-        movie: "My all-time favorite movie is Trading Places, so it is very fitting that he was a Crude Oil Options Trader for 10 years before coming to Overture.",
-        vacation: "Cabo San Lucas",
+        bio: "Bobby came to Overture in 2014 after a 10 year career as an Options Trader. His amazing 6-person team now services three of the most recognizable brands in Aviation, Fin Tech, and Education. Bobby loves to spend time at the lake with his beautiful wife and 3 amazing children. He is a competitive Amateur Golfer and High School Golf Coach. Bobby has an MBA from Indiana University.",
+        movie: "My all-time favorite movie is Caddyshack.",
+        vacation: "Ojai, California",
         why: "I love the autonomy and human interaction I get to have as a sales person. We get to help clients grow their brand via the newest and best products on the market. The answer is always different for each client and that is what I love.",
         image: Bobby
     },
@@ -134,10 +134,10 @@ export const People = {
     CynthiaL: {
         name: "Cynthia Lavin",
         title: "Sales ",
-        bio: "I am passionate about life and relationships; I bring enthusiasm, creativity, service and value to business. I received a BFA from The Art Institute of Chicago and have completed graduate work at Loyola University Chicago in Organizational Development. With 30 years experience in the field of sales and marketing of custom and branded merchandise, I have maintained long term business relationships and have been recognized nationally in our industry representing client projects.",
-        movie: "Coco, La La Land, Shape of Water, Lion, Gladiator, Avatar, Dead Poets Society, American Pie",
+        bio: "I am passionate about life and relationships; I bring enthusiasm, creativity, service, and value to business. I received a BFA from The Art Institute of Chicago and have completed graduate work at Loyola University Chicago in Organizational Development. With 30+ years of experience in the field of sales and marketing of custom and branded merchandise, I have maintained long-term business relationships and have been recognized nationally in our industry representing client projects. I have and continue to spend much of my free time for the last 15 years as a competitive amateur Latin Dancer. I bring my talent to Ballroom Dancesport Competitions throughout the USA with my professional partner. I have won many awards and am recognized nationally in my division. Commencing 2022 after mentoring my team, I have come to an agreement and a partnership with Jenna Herchenbach to take the leading role of my team as I transition in my 5 year exit strategy.",
+        movie: "Most recently the series Reign, historical fiction, has gripped my interest.",
         vacation: "Storfjord Hotel, Skodje, Norway, Bora Bora, New Zealand-South Island ",
-        why: "Overture is a service business comprised of strong characters that are motivated to excel while working together. I am grateful and proud of the relationships I share in partnership with clients, at the office with my support staff and associates, as well as our valued suppliers.",
+        why: "Overture is a service business comprised of strong characters that are motivated to excel while working together. We are always raising the bar on quality and services and remain flexible with the changing times. I am grateful and proud of the relationships I share in partnership with clients, at the office with my support staff and associates, as well as our valued suppliers.",
         image: Cynthia
     },
     DaveR: {
@@ -170,10 +170,10 @@ export const People = {
     LarryB: {
         name: "Larry Bluestone",
         title: "Sales ",
-        bio: "Larry has over 20 years of experience in the promotions and premiums industries while managing national consumer programs and developing unique products for clients including McDonald's, Abbott Laboratories, Caesars Entertainment, Procter & Gamble, OfficeMax Office Depot, Reynolds, Hyatt, and many more.  Larry makes sure his team addresses customers’ needs from more of a strategic-planning approach to ensure we deliver break-through, targeted, and highly-memorable solutions to help our clients positively impact their audiences and stand apart from their competition.   ",
-        movie: "Any sophomoric comedy works for me.  After all, laughter is the best medicine. (Hold on. Actually, a warm Krispy Kreme donut with sprinkles is best).",
-        vacation: "Anywhere on a boat, with hot weather, hotter fishing, and lots of cold drinks.  As they say… “I'd rather be in a boat with a drink on the rocks than in the drink with a boat on the rocks.”",
-        why: "It was a crystal clear choice when seeing that Overture does more in-house and provides more value-added services to its customers, well beyond its competitors.  Just look at all we offer. Also, absolutely no one has a better company culture or a better reputation across this industry for providing truly extraordinary customer service.",
+        bio: "Larry has over 20 years of experience in the promotions and premiums industries, while managing national-consumer programs and developing unique, custom products for his clients, including McDonald's, Abbott Laboratories, VF Corporation, Caesars Entertainment, Office Depot / OfficeMax, Procter & Gamble, Reynolds Consumer Brands, and many more. Larry makes sure his team guides customers using a strategic-planning approach to ensure that we deliver targeted, creative, and highly-memorable business solutions so that our clients positively impact their key audiences and stand apart from their competition.",
+        movie: "Any great comedy does it for me. After all, they say laughter may not add years to your life, but will surely add life to your years.",
+        vacation: "Anywhere on a boat, with hot weather, hotter fishing, and lots of cold drinks.",
+        why: "It was a clear choice, seeing that Overture has more in-house services than others and provides more added value to clients. Also, absolutely no one has a better reputation across this industry for providing extraordinary customer service.",
         image: Larry
     },
     LauraI: {
@@ -188,7 +188,7 @@ export const People = {
     AmyW: {
         name: "Amy Waldorf",
         title: "Sales ",
-        bio: "Amy’s a California girl at heart, with a degree from Cal Poly, San Luis Obispo in Business Administration/Marketing. With over 20 years of sales and marketing experience in the US and Europe, Amy’s a master multi-tasker who brings a “can-do” attitude and appreciation for the value of building strong client relationships. When she’s not at work, she’s either outside, or on a plane ready to explore!",
+        bio: "Amy’s a California girl at heart, with a degree from Cal Poly, San Luis Obispo in Business Administration/Marketing. With over 20 years of sales and marketing experience in the US and Europe, Amy’s a master multi-tasker who brings a ‘can-do’ attitude and appreciation for the value of building strong client relationships. When she’s not at work, she’s either outside, or on a plane ready to explore!",
         movie: "The Breakfast Club",
         vacation: "Dalmatian Coast – Croatia",
         why: "I enjoy the creativity, and that every day at work is different",
@@ -215,19 +215,19 @@ export const People = {
     BruceR: {
         name: "Bruce Robbin",
         title: "Sales ",
-        bio: "Bruce Robbin brings over twenty years of promotional product experience to Overture with a background in manufacturing and small business ownership. According to Bruce, 'Overture is the right place to be to utilize my expertise in the wellness industry. I like to be creative with products, development and design; I enjoy seeing projects completed from start to finish. My sales and service style has always been hands-on.'",
+        bio: "Bruce Robbin brings over thirty years of promotional product experience to Overture with a background in manufacturing and small business ownership. According to Bruce, \"Overture is the right place to be to utilize my expertise in the wellness industry. I like to be creative with products, development and design; I enjoy seeing projects completed from start to finish. My sales and service style has always been hands-on.\"",
         movie: "The Bourne trilogy, keeps me interested with the adventure and action. Just like my average work day.",
-        vacation: "Florida to see my granddaughter.",
+        vacation: "Traveling to visit my grandchildren in Colorado and Florida.",
         why: "I can accomplish anything for my clients, thanks to our services and staff.",
         image: Bruce
     },
     Ethan: {
         name: 'Ethan Collins',
         title: 'Director of Sales',
-        bio: '',
+        bio: 'Ethan Collins joined the Overture team in 2014 and is proud to have been a part of the explosive growth the company has seen since then. With a background in sales, Ethan started at Overture as an account manager, but his service-oriented mindset and creative problem solving skills propelled him to the role of Director of Sales. Ethan was thrilled to help open Overture’s Chicago office in 2019 and he can be found feverishly researching new products, 23 floors up in downtown River North. A genuine understanding of your brand’s story, promotional products that will punctuate that story, and Insomnia Cookies are just three of the things Ethan brings to the table.',
         movie: 'Saving Private Ryan',
-        vacation: 'Reykjavik, Iceland',
-        why: 'Because creativity is the driving force behind Overture’s growth. From product design to logistical problem solving, this is a company that has fun innovating!',
+        vacation: 'My favorite trip was filled with sushi, live music, and hiking in Seattle with my fiancé, Annie.',
+        why: 'I love the brilliance that Overture can throw at any project. Overture’s collection of artists, tech wizards, logistical gurus, production perfectionists, and passionate sales people come together regularly to accomplish hard tasks.',
         image: Ethan
     },
     NicoleS: {
@@ -242,19 +242,19 @@ export const People = {
     Dean: {
         name: 'Dean Schwartz',
         title: 'Sr. Account Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
+        bio: 'When Dean was in college at the University of Iowa, he took an intern position at a promotional marketing company and knew that was the field for him. He strives to be much more than just a salesperson and pushes to grow his customer’s brand through marketing. With hard work, creative ideas, reliability, and attention to detail, he has gone from being an intern at a small company to a successful Sr. Account Manager at Overture.',
+        movie: 'I will change this question slightly to ‘Desert Island’ movie. For re-watchability, I have to go with Superbad. It just gets me every time and I can’t help but crack up throughout the entire movie. Brilliant from start to finish. "I am McLovin."',
+        vacation: 'This is a tough one, but the one place I am just dying to go back to is Osaka, Japan. From the culture, to the food, to the scenery and everything along the way, it was easily the most fun I have ever had on vacation.',
         why: '',
         image: Dean
     },
     Katelynn: {
         name: 'Katelynn Fioretto',
         title: 'Sr. Account Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        bio: 'Katelynn is best known for her no-nonsense attitude. With plenty of satisfied customers, Katelynn might be small in stature, but don’t underestimate her; she knows what she’s doing and she does it well. She’s a multi-tasker who is passionate about building strong, collaborative partnerships. When she’s not at work, you can find her working out and spending time with her husband, JJ, and two kids, Charlee and Grayson.',
+        movie: "I don’t think I have a favorite- but I will watch over and over 'How to Loose a Guy in 10 Days' and ‘The Goonies.’",
+        vacation: 'Take me anywhere with a pool and warm weather!',
+        why: 'I love coming to work each day knowing I will get to do something different; each client has a different type of request. Over the years, I’ve come to find that the team at Overture is really the best in the industry! The teamwork between operations and sales is what sets us apart as well as going above and beyond for our clients.',
         image: Katelynn
     },
     Kimberline: {

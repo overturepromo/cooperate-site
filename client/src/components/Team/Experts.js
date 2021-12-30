@@ -41,12 +41,12 @@ class Experts extends Component {
                     <Employee image={People.CodyS.image} name={People.CodyS.name} title={People.CodyS.title} clicked={() => this.openModal(11)} />
                     <Employee image={People.CynthiaL.image} name={People.CynthiaL.name} title={People.CynthiaL.title} clicked={() => this.openModal(12)} />
                     <Employee image={People.DaveR.image} name={People.DaveR.name} title={People.DaveR.title} clicked={() => this.openModal(13)} />
-                    <Employee image={People.Dean.image} name={People.Dean.name} title={People.Dean.title} />
-                    <Employee image={People.Ethan.image} name={People.Ethan.name} title={People.Ethan.title} />
+                    <Employee image={People.Dean.image} name={People.Dean.name} title={People.Dean.title} clicked={() => this.openModal(23)} />
+                    <Employee image={People.Ethan.image} name={People.Ethan.name} title={People.Ethan.title} clicked={() => this.openModal(24)} />
                     <Employee image={People.Eric.image} name={People.Eric.name} title={People.Eric.title} />
                     <Employee image={People.FrankM.image} name={People.FrankM.name} title={People.FrankM.title} clicked={() => this.openModal(14)} />
                     <Employee image={People.JeremyM.image} name={People.JeremyM.name} title={People.JeremyM.title} clicked={() => this.openModal(15)} />
-                    <Employee image={People.Katelynn.image} name={People.Katelynn.name} title={People.Katelynn.title} />
+                    <Employee image={People.Katelynn.image} name={People.Katelynn.name} title={People.Katelynn.title} clicked={() => this.openModal(25)} />
                     <Employee image={People.Kimberline.image} name={People.Kimberline.name} title={People.Kimberline.title} />
                     <Employee image={People.LarryB.image} name={People.LarryB.name} title={People.LarryB.title} clicked={() => this.openModal(16)} />
                     <Employee image={People.LauraI.image} name={People.LauraI.name} title={People.LauraI.title} clicked={() => this.openModal(17)} />
@@ -157,6 +157,30 @@ class Experts extends Component {
                         name={People.BruceR.name} 
                         title={People.BruceR.title} 
                         bio={People.BruceR.bio} movie={People.BruceR.movie} vacation={People.BruceR.vacation} why={People.BruceR.why}
+                    close={() => this.closeModal()} />
+                </Modal>
+                <Modal isOpen={this.state.showModal[23]} onRequestClose={this.closeModal} className="employee-modal">
+                    <WorkCard 
+                        image={People.Dean.image} 
+                        name={People.Dean.name} 
+                        title={People.Dean.title} 
+                        bio={People.Dean.bio} movie={People.Dean.movie} vacation={People.Dean.vacation} why={People.Dean.why}
+                    close={() => this.closeModal()} />
+                </Modal>
+                <Modal isOpen={this.state.showModal[24]} onRequestClose={this.closeModal} className="employee-modal">
+                    <WorkCard 
+                        image={People.Ethan.image} 
+                        name={People.Ethan.name} 
+                        title={People.Ethan.title} 
+                        bio={People.Ethan.bio} movie={People.Ethan.movie} vacation={People.Ethan.vacation} why={People.Ethan.why}
+                    close={() => this.closeModal()} />
+                </Modal>
+                <Modal isOpen={this.state.showModal[25]} onRequestClose={this.closeModal} className="employee-modal">
+                    <WorkCard 
+                        image={People.Katelynn.image} 
+                        name={People.Katelynn.name} 
+                        title={People.Katelynn.title} 
+                        bio={People.Katelynn.bio} movie={People.Katelynn.movie} vacation={People.Katelynn.vacation} why={People.Katelynn.why}
                     close={() => this.closeModal()} />
                 </Modal>
             </div>

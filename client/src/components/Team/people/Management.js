@@ -40,16 +40,16 @@ export const People = {
     JoeH: {
         name: 'Joe Hazan',
         title: 'President',
-        bio: "Joe joined Overture Premiums & Promotions when the company was founded in 2001, after more than 20 years in the promotional products industry. He has developed a loyal client base, and he loves his job. He's an avid golfer, a serious White Sox fan, and he's married to a Yankee fan. Despite that, he's been married since 1979 with 2 sons, a daughter, a daughter-in-law, 2 grandsons and a granddaughter.",
+        bio: "Joe started Overture Premiums & Promotions when the company was founded in 2001, after more than 20 years in the promotional products industry. He has developed a loyal client base, and he loves his job. He's an avid golfer, a serious White Sox fan, and he's married to a Yankee fan. Despite that, he's been married since 1979 with 2 sons, a daughter, a daughter-in-law, 2 grandsons, and 2 granddaughters.",
         movie: 'Animal House',
         vacation: 'I love any vacation that includes golf, water, beach and family.',
-        why: 'What attracted me to Overture was the chance to provide my customers with the most in-house services – embroidery, silk screening and all the other amenities that literally (well, not literally) obliterates the competition.',
+        why: 'What attracted me to Overture was the chance to provide my customers with the most in-house services – embroidery, silk screening, and all the other amenities that literally (well, not literally) obliterate the competition.',
         image: Joe
     },
     TejS: {
         name: 'Tej Shah',
         title: 'VP, Marketing & E-Commerce',
-        bio: "A true nerd at heart that embraces his newfound dad-bod, Tej is responsible for overseeing all marketing, new business and e-commerce strategies for Overture. Prior to joining Overture, Tej co-founded WeRemember.org, which was later acquired by Ancestry.com. His experience also consists of marketing and e-commerce for ServiceMaster, SharkZoo and Bank of America. Tej was previously nominated as one of BusinessWeek's Top 25 Entrepreneurs Under 25 and has been featured in The New York Times and Wall Street Journal. Tej has a bachelor's degree in pre-medical biochemistry from Loyola University Chicago.",
+        bio: "A true nerd at heart that embraces his newfound dad-bod, Tej is responsible for overseeing all marketing, new business, and e-commerce strategies for Overture. Prior to joining Overture, Tej co-founded WeRemember.org, which was later acquired by Ancestry.com. His experience also consists of marketing and e-commerce for ServiceMaster, SharkZoo, and Bank of America. Tej was previously nominated as one of BusinessWeek's Top 25 Entrepreneurs Under 25 and has been featured in The New York Times and Wall Street Journal. Tej has a bachelor's degree in pre-medical biochemistry from Loyola University Chicago and an MBA from University of Illinois.",
         movie: "Superbad, Step Brothers, The Fighter, Donnie Brasco, Million Dollar Baby, Lone Survivor, Bourne Identity... AHHHH!!! Too many to pick just one!",
         vacation: 'Maui. But, I’ll take anywhere with beer and a beach.',
         why: "I joined Overture for many reasons, but mainly because of the free bagels and regular happy hour outings. But, I decided to stay with Overture because of how they believe branded merchandise should be managed; I might be biased, but Overture offers a solution unlike any other (cutting edge technology + vertical supply chain in-house + insane creativity).",
@@ -58,10 +58,10 @@ export const People = {
     MikeW: {
         name: 'Mike Wilson',
         title: 'VP, Operations',
-        bio: 'Mike has shared his experience in management and growth in many departments within Overture. Assisting in all aspects of the building, from managing all in-house services to quality control for all items that are inventoried. No two days are the same in this building and that constant change is what continues to excel Mike forward. Mike understands in order to stay ahead of the curve, Overture needs to constantly be streamlining operations in our many e-commerce stores and finding new technology that will assist in the many decoration methods Overture offers. With all of Overture’s many in-house services, Mike enjoys working with the sales staff to find creative and innovative solutions to new challenges that arise. Mike has earned a bachelor’s degree from Purdue University.',
+        bio: 'Mike has shared his experience in management and growth in many departments within Overture. Assisting in all aspects of the building, from managing all in-house services to quality control for all items that are inventoried. No two days are the same in this building and that constant change is what continues to excel Mike forward. Mike understands in order to stay ahead of the curve, Overture needs to constantly be streamlining operations in our many e-commerce stores and finding new technology that will assist in the many decoration methods Overture offers. With all of Overture’s many in-house services, Mike enjoys working with the sales staff to find creative and innovative solutions to new challenges that arise. Mike has earned a bachelor’s degree from Purdue University.Mike has shared his experience in management and growth in many departments within Overture. He assists in all aspects of the building, from managing all in-house services to quality control for all items that are inventoried. No two days are the same in this building and that constant change is what continues to propel Mike forward. Mike understands in order to stay ahead of the curve, Overture needs to constantly be streamlining operations in our many e-commerce stores and finding new technology that will assist in the many decoration methods Overture offers. With all of Overture’s many in-house services, Mike enjoys working with the sales staff to find creative and innovative solutions to new challenges that arise. Mike has earned a bachelor’s degree from Purdue University.',
         movie: 'Goonies. I might hold the world record for seeing this movie.',
-        vacation: "Paris and London.",
-        why: "Overture has brought together the best in the industry! Whether it be working with the sales staff or operations, every day is a collaborative effort that moves us forward. I have not seen another company that has so much to offer under one roof. This is a value for the customers that we service with our many in-house services and e-commerce solutions, and also to the employees that work in such a unique atmosphere. Once I walked through those doors on my first day, I knew I had found a company I wanted to be a part of and grow with.",
+        vacation: "Palm Springs, CA",
+        why: "Overture has brought together the best in the industry! Whether working with the sales staff or operations, every day is a collaborative effort that moves us forward. I have not seen another company that has so much to offer under one roof. This is a value for the customers that we service with our many in-house services and e-commerce solutions, and also for the employees that work in such a unique atmosphere. Once I walked through those doors on my first day, I knew I had found a company I wanted to be a part of and grow with.",
         image: Mike,
     },
     BrianL: {
@@ -76,19 +76,19 @@ export const People = {
     ChristinaN: {
         name: "Christina Nelson",
         title: "Human Resources Manager",
-        bio: "Christina brings 17 years of HR experience to Overture.  From small companies, to large organizations as well as experience from the retail sales space.  In her free time, you can find her spending time with her husband Nick and her little man Connor.  If not there, her and her husband will be wherever the next Marvel movie is playing… providing there is an opening at Day Care for the little man.",
+        bio: "Christina brings over 2 decades of HR experience to Overture, spanning small companies to large organizations, as well as experience from the retail sales space. In her free time, you can find her spending time with her husband, Nick, and her little man, Connor. Otherwise, she and her husband will be wherever the next Marvel movie is playing…which basically means waiting until it lands on Disney+ and then watching it for free.",
         movie: "All time favorite movie would be Sweet Home Alabama, but anything Marvel is pretty much tied for 1st place.",
         vacation: "Vacation, what’s vacation?  My dream vacation spot would be to take my little man to Disney World someday…then maybe it will become my favorite vacation spot, or not I suppose depending on the time of year we go.  😉",
-        why: 'I chose Overture hands down because of the culture….and wearing jeans every day, but mostly the culture.  It was the family atmosphere that took me in, and it was a place that felt like home. It was exciting to be able to do a refresh on HR best practices and share my expertise and knowledge from the places I have been and what I have done before.',
+        why: 'I chose Overture hands down because of the culture….and wearing jeans every day, but mostly the culture. It was the family atmosphere that took me in, and it was a place that felt like home. It was exciting to be able to do a refresh on HR best practices and share my expertise and knowledge from the places I have been and what I have done before. It was also the way Overture treats and supports their employees like family. From the very first interview years ago, I was able to see the culture first hand and I got sucked in.',
         image: Christina,
     },
     David: {
         name: "David Croft",
         title: "Distribution Center Manager",
-        bio: "David has spent the past 25 years working for fun companies that were experiencing high growth and was looking for ways to increase their productivity and show process improvements in Distribution. He has worked for Art.com, Buycostumes.com, Celebratexpress.com and a few more",
+        bio: "David has spent the past 25 years working for fun companies that were experiencing high growth and was looking for ways to increase their productivity and show process improvements in distribution. He has worked for Art.com, Buycostumes.com, Celebratexpress.com and a few more organizations as well.",
         movie: "Kelly’s Hero’s staring Clint Eastwood and Donald Sutherland and many other great actors.",
         vacation: "Almost any island in the Caribbean. Somewhere warm and Sandy.",
-        why: "During my search I was looking for a great opportunity to use my skills and knowledge with a company that has an exciting future.  When I saw the atmosphere at Overture and the people that I would be working with, I knew that this was a great fit.  ",
+        why: "During my search I was looking for a great opportunity to use my skills and knowledge with a company that has an exciting future. When I saw the atmosphere at Overture and the people that I would be working with, I knew that this was a great fit.",
         image: David
     },
     MichaelM: {
