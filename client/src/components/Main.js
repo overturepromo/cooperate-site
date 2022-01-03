@@ -17,6 +17,7 @@ import Diversity from './Diversity';
 import Sustainability from './Sustainability';
 import Kitting from './Kitting';
 import LongKitting from './LongKitting';
+import Portal from './Portal';
 
 
 const Main = () => (
@@ -38,6 +39,7 @@ const Main = () => (
       <Route path='/sustainability' component={Sustainability} />
       <Route path='/kitting' component={Kitting} />
       <Route path='/LongKitting' component={LongKitting} />
+      <Route path='/Portal' component={Portal} />
       <Route component={Error} />
     </Switch>
   </main>
