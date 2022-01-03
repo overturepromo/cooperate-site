@@ -4,7 +4,7 @@ import '../../styles/animate.css';
 
 const Hero = () => {
     return (
-        <div className="hero-diversity" style={{height: '350px', backgroundPositionY: '50%'}}>
+        <div className="hero-diversity hero-news" style={{height: '350px', backgroundPositionY: '50%'}}>
             <div className="diversity-hero-box container" style={portalStyle}>
                 <p className="diversity-cta-top animated fadeInDown">OVERTURE NEWS</p>
             </div>

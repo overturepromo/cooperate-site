@@ -6,6 +6,10 @@
     background-size: cover;
 }
 
+.hero-news{
+    background-image: url('../images/News/OvertureNewsBanner.jpg') !important;
+}
+
 .basic-diversity{
     color: #696969;
     font-size: 20px;
@@ -148,6 +152,31 @@ ul.basic-diversity{
 
 .diverse-link:hover{
     color: #fff;
+}
+
+
+.news-orange{
+    font-size: 45px;
+    color: #ee7623;
+    font-family: Proxima-bold;
+    margin-top: 50px;
+}
+
+.news-strong{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.news-link{
+    display: block;
+    color: #36b0c9;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+.Blog {
+    margin: 50px 0;
 }
 
 @media(max-width:767px){
