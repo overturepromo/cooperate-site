@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../styles/Diversity.css'
 import '../../styles/animate.css';
 import OrangeButterfly from '../../images/diversity/orange_butterfly.svg'
@@ -42,7 +43,7 @@ const Together = () => {
                 </div>
                 <div className="butterfly-div">
                     <img src={GreenButterfly} className="butterfly g-b" />
-                    <p className="basic">We are creating an Overture Supplier Diversity Portal, to give our sales and operations teams easy access to diverse suppliers, so we can increase our Tier Two spend. </p>
+                    <p className="basic">We created an <Link to="/portal">Overture Supplier Diversity Portal</Link>, to give our sales and operations teams easy access to diverse suppliers, so we can increase our Tier Two spend.</p>
                 </div>
                 <div className="butterfly-div">
                     <img src={BlueButterfly} className="butterfly b-b" />
