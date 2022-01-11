@@ -231,12 +231,12 @@ export const People = {
         image: Ethan
     },
     NicoleS: {
-        name: 'Nicole Sommerville',
+        name: 'Nicole Somerville',
         title: 'Sr. Account Executive',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        bio: 'As a fast walker and talker, Nicole is always on the move and ready to tackle the next challenge. She uses her accounting background and love of operations to help provide clients with robust solutions to complex implementations. She believes that a brand can leave a lasting impression with a small amount of marketing and she prides herself on helping clients’ messages reach the target audience in the most effective and memorable way possible. When she is not working, she loves spending time with her family, tending to her plants, and adventuring outside. ',
+        movie: 'It’s hard to pick just one! I love animated movies and rom-coms so I would probably pick either Brave or The Wedding Singer….BUT the 90s kid in me is screaming “TMNT!” (for the original live action Teenage Mutant Ninja Turtles) so any of those 3 would work',
+        vacation: 'I love to travel and adventure to new places, but my favorite spot would include warm weather, either the beach or a pool, and a fruity drink with an umbrella in it!',
+        why: 'I love working at Overture because of the shared sense of teamwork, dedication, and excitement we have across the company. No matter the client or the promotion, every department works together to make it a success and we all take immense pride in a job well done.',
         image: NicoleS
     },
     Dean: {
@@ -245,7 +245,7 @@ export const People = {
         bio: 'When Dean was in college at the University of Iowa, he took an intern position at a promotional marketing company and knew that was the field for him. He strives to be much more than just a salesperson and pushes to grow his customer’s brand through marketing. With hard work, creative ideas, reliability, and attention to detail, he has gone from being an intern at a small company to a successful Sr. Account Manager at Overture.',
         movie: 'I will change this question slightly to ‘Desert Island’ movie. For re-watchability, I have to go with Superbad. It just gets me every time and I can’t help but crack up throughout the entire movie. Brilliant from start to finish. "I am McLovin."',
         vacation: 'This is a tough one, but the one place I am just dying to go back to is Osaka, Japan. From the culture, to the food, to the scenery and everything along the way, it was easily the most fun I have ever had on vacation.',
-        why: '',
+        why: 'Picking Overture was a no-brainer.  You noticed the amazing culture as soon as you walked in.  Lots of laughter, movie posters all over and just a great vibe.  I had done an internship in college at a promotional marketing company and knew this is what I wanted to do—I just had to find out where, and Overture became a very easy choice.',
         image: Dean
     },
     Katelynn: {
@@ -260,19 +260,19 @@ export const People = {
     Kimberline: {
         name: 'Kimberlin Sawyer',
         title: 'Account Director',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        bio: 'The excitement of our industry and the fast paced, positive team atmosphere at Overture is what gets Kimberlin up in the morning! Her passion is building solid, long-lasting relationships with both clients and internal teammates. Her main focus is always providing extraordinary service to her clients and building and mentoring her strong, successful team. Kimberlin was fortunate enough to fall in love with the promotional/marketing industry many moons ago and brings a wealth of knowledge and experience to Overture. Kimberlin shares her life with her amazing husband, Brian, and their five sons and can usually be spotted hiking/walking with her dogs, attending concerts, or travelling to see her boy',
+        movie: 'How to Lose a Guy in 10 Days and Sleeping with the Enemy',
+        vacation: 'Kimo loves Hawaii!',
+        why: 'Overture is committed to the success of their employees, and our reputation in this industry is impeccable, two things that are most important to me',
         image: Kimberlin
     },
     Eric: {
         name: 'Eric Yaggi',
         title: 'Sr. Account Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
+        bio: 'Eric brings 10 years of experience in the promotional marketing industry to Overture. With a background in warehouse management and operations, he understands the teamwork required to make any project a winner. Strong communication and meaningful relationships are the foundation of Eric’s approach to creating successful programs for his clients. Outside the office, Eric enjoys spending time with his young son and wife, or on the golf course.',
+        movie: 'Caddyshack or The Big Lebowski',
+        vacation: 'Tuscany, Italy',
+        why: 'The people - Our creative, operations, and leadership teams are second to none.',
         image: Eric
     },
 }
