@@ -551,5 +551,16 @@ export const People = {
         vacation: '',
         why: '',
         image: Female2
-    },                         
+    },
+    KellyM: {
+        name: 'Kelly McNeff ',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },                          
 }
+
+        

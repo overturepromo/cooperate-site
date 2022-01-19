@@ -94,4 +94,14 @@ export const People = {
         why: '',
         image: Male1
     },
+    Samantha: {
+        name: 'Samantha Logan',
+        title: 'Graphic Designer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }
+
