@@ -560,7 +560,16 @@ export const People = {
         vacation: '',
         why: '',
         image: Female2
-    },                          
+    },
+    Taylor: {
+        name: 'Taylor Moore',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },                            
 }
 
         
