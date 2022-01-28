@@ -293,4 +293,13 @@ export const People = {
         why: '',
         image: Male1
     },
+    AnnaN: {
+        name: 'Anna Nava',
+        title: 'HR Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }

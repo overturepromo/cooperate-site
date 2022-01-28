@@ -28,6 +28,9 @@ class Footer extends Component {
                             <a href="https://www.instagram.com/overturepromotions/" target="blank"><i className="fa fa-instagram" style={footerIcons}></i></a>
                             <a href="https://www.linkedin.com/company/overture-promotions2018/" target="blank"><i className="fa fa-linkedin" style={footerIcons}></i></a>
                         </div>
+                        <div className="news-button-div">
+                             <Link to="/news" className="news-button">Overture News</Link>
+                        </div>
                     </div>
                     <div className="col-md-4 map-divy">
                         <p className="map-paragraph">Nationwide network of 200 warehouses<br />Canadian partner</p>

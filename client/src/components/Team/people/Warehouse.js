@@ -25,6 +25,8 @@ import Elizabeth from '../../../images/team/Warehouse/ElizabethP.jpg';
 import MariaP from '../../../images/team/Warehouse/MariaP.jpg';
 import GloriaV from '../../../images/team/Warehouse/GloriaV.jpg';
 import EdithV from '../../../images/team/Warehouse/EdithV.jpg';
+import Araceli from '../../../images/team/Warehouse/Araceli.jpg';
+import Mona from '../../../images/team/Warehouse/MonaR.jpg';
 
 
 //These are the default photos to be used when photo no avail.
@@ -205,7 +207,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Araceli
     },
     Aristarco: {
         name: 'Aristarco Garcia',
@@ -280,13 +282,13 @@ export const People = {
         image: JulioR
     },
     Guillermina: {
-        name: 'Guillermina Ruiz',
+        name: 'Mona Ruiz',
         title: 'Special Projects',
         bio: '',
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Mona
     },
     GloriaVT: {
         name: 'Gloria Velez-Tamayo',

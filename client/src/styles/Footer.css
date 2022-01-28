@@ -108,6 +108,25 @@
     transform: scale(1.2);
 }
 
+.news-button-div {
+    margin-top: 20px;
+}
+
+.news-button {
+    border: 1px solid #36b0c9;
+    color: #36b0c9;
+    font-size: 18px;
+    font-family: 'Proxima-Bold';
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.news-button:hover{
+    text-decoration: none;
+    background-color: #36b0c9;
+    color: #fff;
+}
+
 
 @media(max-width:991px){
     .footer-nav-links{
