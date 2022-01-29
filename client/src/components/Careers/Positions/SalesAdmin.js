@@ -47,7 +47,7 @@ class SalesAdmin extends Component {
                     <li>Must be a person with high integrity</li>
                     <li>Prior promotional product (industry) experience is required</li>
                 </ul>
-                <h4>BENIFITS</h4>
+                <h4>BENEFITS</h4>
                 <ul style={{color: "gray"}}>
                     <li>Complete insurance coverage, with insurance eligibility day one of hire – Medical, dental, vision, life insurance and disability plans with Company contributions</li>
                     <li>Pet insurance and quarterly bring your dog to work days</li>
