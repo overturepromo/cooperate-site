@@ -75,7 +75,7 @@ export const People = {
     },
     ChristinaN: {
         name: "Christina Nelson",
-        title: "Human Resources Manager",
+        title: "VP, Human Resources",
         bio: "Christina brings over 2 decades of HR experience to Overture, spanning small companies to large organizations, as well as experience from the retail sales space. In her free time, you can find her spending time with her husband, Nick, and her little man, Connor. Otherwise, she and her husband will be wherever the next Marvel movie is playing…which basically means waiting until it lands on Disney+ and then watching it for free.",
         movie: "All time favorite movie would be Sweet Home Alabama, but anything Marvel is pretty much tied for 1st place.",
         vacation: "Vacation, what’s vacation?  My dream vacation spot would be to take my little man to Disney World someday…then maybe it will become my favorite vacation spot, or not I suppose depending on the time of year we go.  😉",

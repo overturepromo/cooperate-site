@@ -24,7 +24,7 @@ export const People = {
     },
     Laura: {
         name: 'Laura Hudec',
-        title: 'Graphic Design Manager',
+        title: 'Art Director',
         bio: '',
         movie: '',
         vacation: '',
