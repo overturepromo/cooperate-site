@@ -569,7 +569,32 @@ export const People = {
         vacation: '',
         why: '',
         image: Female1
-    },                            
+    },
+    Kyle: {
+        name: 'Kyle Carson',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Jamie: {
+        name: 'Jamie Billings',
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
+    SarahL: {
+        name: 'Sarah Lasam',
+        title: 'Account Manager, Inside Sales',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },                                  
 }
-
-        

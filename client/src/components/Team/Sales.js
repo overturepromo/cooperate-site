@@ -40,6 +40,7 @@ class Sales extends Component {
                     <Employee image={People.Danny.image} name={People.Danny.name} title={People.Danny.title} />
                     <Employee image={People.Erin.image} name={People.Erin.name} title={People.Erin.title} />
                     <Employee image={People.Gabrielle.image} name={People.Gabrielle.name} title={People.Gabrielle.title} />
+                    <Employee image={People.Jamie.image} name={People.Jamie.name} title={People.Jamie.title} />
                     <Employee image={People.Jenna.image} name={People.Jenna.name} title={People.Jenna.title} />
                     <Employee image={People.Jennifer.image} name={People.Jennifer.name} title={People.Jennifer.title} />
                     <Employee image={People.Jen.image} name={People.Jen.name} title={People.Jen.title} />
@@ -53,6 +54,7 @@ class Sales extends Component {
                     <Employee image={People.Katarina.image} name={People.Katarina.name} title={People.Katarina.title} />
                     <Employee image={People.Katie.image} name={People.Katie.name} title={People.Katie.title} />
                     <Employee image={People.KellyM.image} name={People.KellyM.name} title={People.KellyM.title} />
+                    <Employee image={People.Kyle.image} name={People.Kyle.name} title={People.Kyle.title} />
                     <Employee image={People.Lauren.image} name={People.Lauren.name} title={People.Lauren.title} />
                     <Employee image={People.Lindsay.image} name={People.Lindsay.name} title={People.Lindsay.title} />
                     <Employee image={People.Lisa.image} name={People.Lisa.name} title={People.Lisa.title} />
@@ -67,6 +69,7 @@ class Sales extends Component {
                     <Employee image={People.Sara.image} name={People.Sara.name} title={People.Sara.title} />
                     <Employee image={People.SaraM.image} name={People.SaraM.name} title={People.SaraM.title} />
                     <Employee image={People.Sarah.image} name={People.Sarah.name} title={People.Sarah.title} />
+                    <Employee image={People.SarahL.image} name={People.SarahL.name} title={People.SarahL.title} />
                     <Employee image={People.Shannon.image} name={People.Shannon.name} title={People.Shannon.title} />
                     <Employee image={People.ShannonL.image} name={People.ShannonL.name} title={People.ShannonL.title} />
                     <Employee image={People.Stefanie.image} name={People.Stefanie.name} title={People.Stefanie.title} />
