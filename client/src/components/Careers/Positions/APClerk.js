@@ -23,35 +23,42 @@ class APClerk extends Component {
     render(){
         return (
             <div>
-                <h4>Job Description</h4>
-                <p style={{color: 'gray'}}>Are you a self-starter, master communicator, and Excel whiz?  If you are looking to build your career in Finance/Accounting, this may be the role for you!  With general direction, this role performs a variety of billing functions to ensure the preparation of accurate and timely bills to our customers.  This also includes the following responsibilities:</p>
-                <h4> Responsibilities </h4>
+                <h4>Summary</h4>
+                <p style={{color: 'gray'}}>Manage all operations of two warehouses, including receiving, storing, stocking, kitting and distributing a wide variety of promotional products. Ensure that all warehouse processes are running smoothly and efficiently, that productivity targets are met, and that safety procedures and practices are followed. Manage, schedule and train all permanent and temporary warehouse staff, and plan for seasonal and project-based hiring. Responsible for sourcing warehouse equipment and supplies. Requires travel between warehouses in Waukegan and Libertyville (15 minutes by car).</p>
+                <h4>Essential Duties and Responsibilities</h4>
                 <ul style={{color: "gray"}}>
-                    <li>Gather and apply merchandise and shipping costs to orders</li>
-                    <li>Invoice customer orders in a timely manner</li>
-                    <li>Analyze open order reports and communicate directly with sales teams</li>
-                    <li>Willing to work with all departments of the company whenever necessary</li>
-                    <li>Run, organize, and distribute various reports to sales teams and monthly reporting to clients</li>
-                    <li>Check accuracy of orders and prepare invoices for billing</li>
-                    <li>Develop up-to-date knowledge of various client billing requirements</li>
-                    <li>Research and resolve routine and non-routine billing questions and discrepancies</li>
-                    <li>Prepare credit memos for returns or adjustments</li>
-                    <li>Answer questions from customers or from the Accounts Receivable department</li>
-                    <li>Communicate directly with clients and provide excellent customer service</li>
-                    <li>Organizing and entering vendor bills as needed</li>
-                    <li>Performs other duties as assigned</li>
+                    <li>Strategically manage warehouses in compliance with company’s policies and vision.</li>
+                    <li>Oversee receiving, warehousing, picking, assembly, and distribution/shipping operations.</li>
+                    <li>Setup warehouse layout and ensure efficient space utilization and organization by program.</li>
+                    <li>Initiate, coordinate and enforce optimal operational policies and procedures.</li>
+                    <li>Adhere to all warehousing, handling and shipping legislation requirements.</li>
+                    <li>Maintain standards of health and safety, hygiene and security, schedule appropriate training as required.</li>
+                    <li>Interview, select, train, coach, and motivate employees.</li>
+                    <li>Plan work schedules, assign tasks appropriately and appraise results.</li>
+                    <li>Address staff performance and attendance issues as required.</li>
+                    <li>Produce reports and statistics to inform planning process.</li>
+                    <li>Work closely with both the Special Projects and Customer Service areas to resolve print/pick/pack/ship issues, and to reallocate staff according to current needs.</li>
+                    <li>Work with Customer Service team to ensure that orders are processed and shipped on time.</li>
+                    <li>Partner with the sales teams to reduce obsolete inventory.</li>
+                    <li>Regularly review overstock and consolidate and donate expired/unwanted goods to free additional space for current inventory overstock.</li>
+                    <li>Liaise with suppliers and transport companies, seeking cost savings and process improvements.</li>
+                    <li>Regularly inspect equipment; issue work orders for repair and requisitions for replacement.</li>
+                    <li>Plan with senior management for operational expansion which will include adding warehouses, processes, labor and machinery.</li>
                 </ul>
-                <h4>Required Skills and Experience</h4>
+                <h4>Qualifications</h4>
                 <ul style={{color: "gray"}}>
-                    <li>Excellent oral and written communication skills</li>
-                    <li>Must have critical thinking ability and be able to analyze all aspects of an order</li>
-                    <li>Strong initiative, confidence and the ability to ask questions as needed</li>
-                    <li>Have a thick skin with communicating with other areas of the Company, and not be afraid to say no</li>
-                    <li>Detail-oriented, with the ability to effectively prioritize multiple projects</li>
-                    <li>Detailed and accurate data entry</li>
-                    <li>Strong organizational skills</li>
-                    <li>Ability to work calmly under pressure</li>
-                    <li>Proficient in MS Office Suite and Adobe Acrobat, with significant experience in MS Excel</li>
+                    <li>Proven work experience as a warehouse manager</li>
+                    <li>Hands on experience with warehouse management software and databases</li>
+                    <li>Expertise in warehouse management procedures and best practices</li>
+                    <li>Proven ability to implement process improvement initiatives</li>
+                    <li>Leadership skills and the ability to manage and develop staff</li>
+                    <li>Strong decision-making and problem-solving skills</li>
+                    <li>Excellent communication skills</li>
+                    <li>Detail-oriented</li>
+                    <li>Knowledge of inventory control methods and procedures and all applicable Federal and State rules and regulations, such as the Occupational Safety and Health Act (OSHA) and the Americans with Disabilities Act (ADA)</li>
+                    <li>Ability to prioritize and handle multiple tasks in a fast-moving work environment</li>
+                    <li>Positive, upbeat and team player attitude</li>
+                    <li>NetSuite WMS experience</li>
                 </ul>
                 <h4>Benefits</h4>
                 <ul style={{color: "gray"}}>
@@ -67,13 +74,14 @@ class APClerk extends Component {
                 </ul>
                 <h4>Education/Experience</h4>
                 <ul style={{color: "gray"}}>
-                    <li>BS/BA degree or equivalent combination of education and experience required.</li>
+                    <li>BS degree in logistics, supply chain management or business administration</li>
+                    <li>At least 7 years of experience as a warehouse manager</li>
                 </ul>
                 <p>*Relocation is not provided for this role.</p>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('apClerk')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Billing Coordinator" close={this.closeModal} />
+                    <ApplyBox title="Distribution Center Manager" close={this.closeModal} />
                 </Modal>
             </div>
         )
