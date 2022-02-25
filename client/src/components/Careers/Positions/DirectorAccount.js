@@ -24,41 +24,54 @@ class DirectorAccount extends Component {
         return (
             <div>
                 <h4>SUMMARY</h4>
-                <p style={{color: 'gray'}}>If you’ve been working in promotional marketing for a few years, have experience developing new business leads with minimal support, presenting to prospective customers, and mentoring up-and-coming sales reps, we’ve got the job for you.  Overture is a fast-growing, women-owned promotional marketing agency that has been ranked as one of the Best Places to Work by Counselor Magazine, and as a Chicago’s Best Workplace by the Chicago Tribune.</p>
-                <h4>Primary Responsibilities</h4>
-                <p style={{color: 'gray'}}>The primary responsibilities of this new position are twofold:</p>
+                <p style={{color: 'gray'}}>Are you a self-starter, master communicator, and Excel whiz? If you are looking to build your career in Finance/Accounting, this may be the role for you! The Accounts Receivable clerk will be responsible for collecting payments for Overture Promotions from clients and customers. This role will be responsible for making bank deposits and running applicable reports as needed. This role also includes the following responsibilities:</p>
+                <h4>Duties and Responsibilities:</h4>
                 <ul style={{color: "gray"}}>
-                    <li>To generate new business by nurturing high potential, identified leads, and by outreach to targeted prospects.</li>
-                    <li>To ensure that high-quality service is being provided to client accounts through account managers, and to expand those client relationships.</li>
+                    <li>Prepares, posts, verifies, and records customer payments and transactions related to accounts receivable.</li>
+                    <li>Creates invoices according to company practices</li>
+                    <li>Maintains and updates customer files, including name or address changes, mergers, or mailing attentions</li>
+                    <li>Maintains relationships with clients and regularly corresponds with customers regarding outstanding balances and payments</li>
+                    <li>Creates reports regarding the current status of customer accounts as requested</li>
+                    <li>Researches customer discrepancies and past-due amounts with the assistance of the Accounting Manager and other A/R staff</li>
+                    <li>Collaborates with the Accounting Manager to reconcile accounts receivable on a periodic basis.</li>
+                    <li>Assists in generating monthly billing statements based on the general ledger</li>
+                    <li>Copies, files, and retrieves materials for accounts receivable as needed</li>
+                    <li>Relays changes of information to appropriate sales team members for their accounts</li>
+                    <li>Post journal entries with the understanding of how debits and credits work</li>
+                    <li>Performs other duties as assigned</li>
                 </ul>
-                <p style={{color: 'gray'}}>More specifically, these will include the following responsibilities:</p>
+                <h4>Skills and Competencies:</h4>
                 <ul style={{color: "gray"}}>
-                    <li>Assist in identifying new business opportunities with both potential and existing customers.</li>
-                    <li>Cultivate new client opportunities through nurturing high potential leads.</li>
-                    <li>Develop relationships with targeted prospects by cold outreach.</li>
-                    <li>Provide consultative support for sales reps working with new and existing customers, including regular meetings to discuss issues and work progress.</li>
-                    <li>Develop, motivate and train team members, and create a spirit of teamwork.</li>
-                    <li>Understand all aspects of our process for customer account orders, including order processing, product quotes and coordinating product sample requests.</li>
-                    <li>Keep management informed of pertinent activities and potential problems.</li>
+                    <li>Excellent verbal and written communication skills</li>
+                    <li>Strong initiative, confidence and the ability to ask questions as needed</li>
+                    <li>Ability to work independently and in a fast-paced environment</li>
+                    <li>Ability to anticipate work needs and interact professionally and courteously with both internal and external customers</li>
+                    <li>Detail-oriented, with the ability to effectively prioritize multiple projects</li>
+                    <li>Excellent organizational skills and attention to detail, with the ability to prioritize multiple projects throughout the day</li>
+                    <li>Ability to work calmly under pressure</li>
+                    <li>Proficient in MS Office Suite and Adobe Acrobat, with significant experience in MS Excel</li>
                 </ul>
-                <h4>Personal Qualifications:</h4>
+                <h4>Benefits</h4>
                 <ul style={{color: "gray"}}>
-                    <li>3-5 years of experience in promotional marketing </li>
-                    <li>Experience managing and mentoring sales staff</li>
-                    <li>Experience developing leads and prospects </li>
-                    <li>MS Office proficiency in Word, Excel, PowerPoint and Outlook</li>
-                    <li>Ability to prioritize and handle multiple tasks in a fast-moving work environment</li>
-                    <li>Excellent written and verbal communication skills </li>
-                    <li>Strong work ethic and ambition to succeed </li>
-                    <li>Have a positive, upbeat and team player attitude</li>
-                    <li>Must be a person of high integrity, with a sense of humor</li>
-                    <li>College degree required</li>
+                    <li>Complete insurance coverage – Medical, dental, vision, life insurance, flex spending accounts and disability plans with Company contributions</li>
+                    <li>Pet insurance and bring your dog to work days</li>
+                    <li>Corporate partnerships with Life Time Fitness, Bears Fit, Skechers and Tickets at Work</li>
+                    <li>Generous paid time off (vacation, sick and personal days as well as yearly floating holiday)</li>
+                    <li>401(k) eligibility day one of employment, with a Company match after the first year of employment</li>
+                    <li>Paid maternity and paternity leave based on years of service</li>
+                    <li>Relaxed dress code</li>
+                    <li>Overture family fun – Summer BBQs, volunteer engagement groups (Culture Crew, Green Team, Safety Team, Diversity and Inclusion Advisory Council), employee vegetable garden, contests, potlucks and cookoffs</li>
+                    <li>Employee referral bonus</li>
                 </ul>
-                <p>*Please note that this role is not a remote position, and the expectation is to be on site daily. Relocation is not provided.*</p>
+                <h4>Education/Experience</h4>
+                <ul style={{color: "gray"}}>
+                    <li>BS/BA degree or equivalent combination of education and experience required.</li>
+                </ul>
+                <p>*Relocation is not provided for this role.</p>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('directorAccount')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Account Development Manager" close={this.closeModal} />
+                    <ApplyBox title="Accounts Receivable Clerk" close={this.closeModal} />
                 </Modal>
             </div>
         )
