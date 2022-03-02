@@ -7,6 +7,7 @@ import MobileCta from './MobileCta';
 import MyVideo from '../../images/Video.mp4';
 import HeroText from '../../images/home/herotext.svg';
 import BackupImage from '../../images/home/temp_hero.jpg';
+import VideoFailImage from '../../images/home/Home_Backup_Hero.jpg';
 
 import {Link as LinkScroll} from "react-scroll";
 
