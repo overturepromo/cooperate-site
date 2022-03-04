@@ -596,5 +596,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Female2
-    },                                  
+    },
+    Tony: {
+        name: 'Tony Cook',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
+    },                                           
 }

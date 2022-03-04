@@ -70,7 +70,7 @@ class ProductionSupervisor extends Component {
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('productionSupervisor')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Customer Care Assistant" close={this.closeModal} />
+                    <ApplyBox title="Customer Care Assistant Manager" close={this.closeModal} />
                 </Modal>
             </div>
         )
