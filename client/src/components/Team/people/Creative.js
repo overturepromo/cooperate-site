@@ -6,7 +6,7 @@ import Jeri from '../../../images/team/Creative/Jeri.jpg';
 import Victoria from '../../../images/team/ECom/Victoria.jpg';
 import MeganK from '../../../images/team/Sales/MeganKragenbrink.jpg';
 import Aaron from '../../../images/team/Creative/AaronB.jpg';
-import Samantha from '../../../images/team/Creative/Samantha-Logan-Headshot.png';
+import Samantha from '../../../images/team/Creative/Samantha-Logan-square.jpg';
 
 import Female1 from '../../../images/team/Female1.jpg';
 import Male1 from '../../../images/team/Male1.jpg';
@@ -102,7 +102,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Samantha
     },
 }
 
