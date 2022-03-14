@@ -27,7 +27,7 @@ import GloriaV from '../../../images/team/Warehouse/GloriaV.jpg';
 import EdithV from '../../../images/team/Warehouse/EdithV.jpg';
 import Araceli from '../../../images/team/Warehouse/Araceli.jpg';
 import Mona from '../../../images/team/Warehouse/MonaR.jpg';
-
+import Gonzalo from '../../../images/team/Warehouse/Gonzalo_Lopez.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -333,6 +333,6 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Gonzalo
     }
 }

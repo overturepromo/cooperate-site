@@ -45,6 +45,7 @@ import Megan from '../../../images/team/Sales/Megan.jpg';
 import Rory from '../../../images/team/ECom/RoryTucker.jpg';
 import ShannonL from '../../../images/team/Sales/ShannonL.jpg';
 import Kailee from '../../../images/team/Sales/Kailee.jpg';
+import SaraM from '../../../images/team/Sales/Sara_Moll.jpg';
 
 
 
@@ -323,7 +324,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: SaraM
     },
     Ethan: {
         name: 'Ethan Collins',
