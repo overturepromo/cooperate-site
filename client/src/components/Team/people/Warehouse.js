@@ -28,6 +28,11 @@ import EdithV from '../../../images/team/Warehouse/EdithV.jpg';
 import Araceli from '../../../images/team/Warehouse/Araceli.jpg';
 import Mona from '../../../images/team/Warehouse/MonaR.jpg';
 import Gonzalo from '../../../images/team/Warehouse/Gonzalo_Lopez.jpg';
+import William from '../../../images/team/Warehouse/William_Perrin.jpg';
+import Angelica from '../../../images/team/Warehouse/Angelica_Gonzalez.jpg';
+import Doris from '../../../images/team/Warehouse/Doris_Quijada.jpg';
+import Michael from '../../../images/team/Warehouse/Michael_Wynn.jpg';
+import Iveth from '../../../images/team/Warehouse/Iveth_Acosta.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -334,5 +339,50 @@ export const People = {
         vacation: '',
         why: '',
         image: Gonzalo
-    }
+    },
+    William: {
+        name: 'William Perrin',
+        title: 'Warehouse Inventory',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: William
+    },
+    Angelica: {
+        name: 'Angelica Gonzalez',
+        title: 'Special Projects',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Angelica
+    },
+    Doris: {
+        name: 'Doris Quijada',
+        title: 'Pick/Pack',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Doris
+    },
+    Michael: {
+        name: 'Michael Wynn',
+        title: 'Pick/Pack',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Michael
+    },
+    Iveth: {
+        name: 'Iveth Acosta',
+        title: 'Pick/Pack',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Iveth
+    },
 }

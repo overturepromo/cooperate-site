@@ -46,7 +46,7 @@ import Rory from '../../../images/team/ECom/RoryTucker.jpg';
 import ShannonL from '../../../images/team/Sales/ShannonL.jpg';
 import Kailee from '../../../images/team/Sales/Kailee.jpg';
 import SaraM from '../../../images/team/Sales/Sara_Moll.jpg';
-
+import Erin from '../../../images/team/Sales/Erin_Boudreau.jpg';
 
 
 //These are the default photos to be used when photo no avail.
@@ -533,7 +533,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Erin
     },
     Lauren: {
         name: 'Lauren LeMay',

@@ -18,6 +18,12 @@ import Angelica from '../../../images/team/Embrodiery/AngelicaT.jpg';
 import Mayra from '../../../images/team/Embrodiery/MayraC.jpg';
 import Alejandra from '../../../images/team/Embrodiery/Alejandra_Ayon.jpg';
 import Julyne from '../../../images/team/Embrodiery/Julyne_Ayala.jpg';
+import Martha from '../../../images/team/Embrodiery/Martha_Esparza.jpg';
+import Titiana from '../../../images/team/Embrodiery/Titiana_Atempa.jpg';
+import Citlali from '../../../images/team/Embrodiery/Citlali_Fuentes.jpg';
+import Gladys from '../../../images/team/Embrodiery/Gladys_Andrade.jpg';
+import Leomar from '../../../images/team/Embrodiery/Leomar_Santos.jpg';
+import Delfina from '../../../images/team/Embrodiery/Delfina_Garcia.jpg';
 
 import Male1 from '../../../images/team/Male1.jpg';
 import Male2 from '../../../images/team/Male2.jpg';
@@ -223,5 +229,59 @@ export const People = {
         vacation: '',
         why: '',
         image: Julyne
+    },
+    Martha: {
+        name: 'Martha Esparza',
+        title: 'Embroidery Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Martha
+    },
+    Titiana: {
+        name: 'Titiana Atempa',
+        title: 'Embroidery Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Titiana
+    },
+    Citlali: {
+        name: 'Citlali Fuentes',
+        title: 'Screen Print Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Citlali
+    },
+    Gladys: {
+        name: 'Gladys Andrade',
+        title: 'Screen Print Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Gladys
+    },
+    Leomar: {
+        name: 'Leomar Santos',
+        title: 'Screen Print Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Leomar
+    },
+    Delfina: {
+        name: 'Delfina Garcia',
+        title: 'Screen Print Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Delfina
     },
 }
