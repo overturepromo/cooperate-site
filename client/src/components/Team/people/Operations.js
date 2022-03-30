@@ -303,4 +303,13 @@ export const People = {
         why: '',
         image: Female1
     },
+    Asia: {
+        name: 'Asia Rodgers',
+        title: 'Customer Care Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
 }
