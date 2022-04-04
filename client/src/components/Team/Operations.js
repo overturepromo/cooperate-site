@@ -42,7 +42,6 @@ class Operations extends Component {
                     <Employee image={People.Troy.image} name={People.Troy.name} title={People.Troy.title} />
                     <Employee image={People.Morgan.image} name={People.Morgan.name} title={People.Morgan.title} />                    
                     <Employee image={People.Robyn.image} name={People.Robyn.name} title={People.Robyn.title} />
-                    <Employee image={People.Barb.image} name={People.Barb.name} title={People.Barb.title} />
                     <Employee image={People.EmilyJ.image} name={People.EmilyJ.name} title={People.EmilyJ.title} />
                     <Employee image={People.Javier.image} name={People.Javier.name} title={People.Javier.title} />
                     <Employee image={People.Grace.image} name={People.Grace.name} title={People.Grace.title} />
