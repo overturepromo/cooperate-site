@@ -29,19 +29,24 @@ class DevIT extends Component {
     render(){
         return (
             <div className="container">
-                <Element id="creative-orange">Web Dev & IT</Element>
+                <Element id="creative-orange">IT</Element>
                 <div className="row">
-                    <Employee image={People.Melissa.image} name={People.Melissa.name} title={People.Melissa.title} />
                     <Employee image={People.Shawn.image} name={People.Shawn.name} title={People.Shawn.title} />
-                    <Employee image={People.Chintan.image} name={People.Chintan.name} title={People.Chintan.title} />
-                    <Employee image={People.Kevin.image} name={People.Kevin.name} title={People.Kevin.title} />
+                    <Employee image={People.Chintan.image} name={People.Chintan.name} title={People.Chintan.title} />                                         
+                </div>
+                <Element id="creative-orange">Web Dev</Element>
+                <div className="row">
                     <Employee image={People.ChrisS.image} name={People.ChrisS.name} title={People.ChrisS.title} />
-                    <Employee image={People.Dave.image} name={People.Dave.name} title={People.Dave.title} />
                     <Employee image={People.Charles.image} name={People.Charles.name} title={People.Charles.title} />
+                    <Employee image={People.Melissa.image} name={People.Melissa.name} title={People.Melissa.title} />
+                    <Employee image={People.Kevin.image} name={People.Kevin.name} title={People.Kevin.title} />
+                    <Employee image={People.Dave.image} name={People.Dave.name} title={People.Dave.title} />
                     <Employee image={People.Mark.image} name={People.Mark.name} title={People.Mark.title} />
+                    <Employee image={People.Open1.image} name={People.Open1.name} title={People.Open1.title} />
+                    <Employee image={People.Open2.image} name={People.Open2.name} title={People.Open2.title} />
                     <Employee image={People.Jacob.image} name={People.Jacob.name} title={People.Jacob.title} />
                     <Employee image={People.Sam.image} name={People.Sam.name} title={People.Sam.title} />
-                    <Employee image={People.Briana.image} name={People.Briana.name} title={People.Briana.title} />                                         
+                    <Employee image={People.Briana.image} name={People.Briana.name} title={People.Briana.title} />
                 </div>
             </div>
         )

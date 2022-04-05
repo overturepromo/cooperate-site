@@ -45,7 +45,7 @@ export const People = {
     },
     Kevin: {
         name: 'Kevin Doss',
-        title: 'Sr. Web Developer',
+        title: 'Senior Web Developer',
         bio: '',
         movie: '',
         vacation: '',
@@ -63,7 +63,7 @@ export const People = {
     },
     ChrisS: {
         name: 'Chris Sheehy',
-        title: 'Sr. Web Developer',
+        title: 'Director of Web Development',
         bio: '',
         movie: '',
         vacation: '',
@@ -72,7 +72,7 @@ export const People = {
     },
     Dave: {
         name: 'Dave Walton',
-        title: 'Web Developer',
+        title: 'Senior Web Developer',
         bio: '',
         movie: '',
         vacation: '',
@@ -81,7 +81,7 @@ export const People = {
     },
     Charles: {
         name: 'Charles Koers',
-        title: 'Web Developer',
+        title: 'Web Team Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -108,11 +108,29 @@ export const People = {
     },
     Mark: {
         name: 'Mark Bain',
-        title: 'Web Developer',
+        title: 'Senior Web Developer',
         bio: '',
         movie: '',
         vacation: '',
         why: '',
         image: Male1
+    },
+    Open1: {
+        name: 'Open Position',
+        title: 'Web Developer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    Open2: {
+        name: 'Open Position',
+        title: 'Web Developer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
     },
 }
