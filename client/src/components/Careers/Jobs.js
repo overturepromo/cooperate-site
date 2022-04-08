@@ -101,16 +101,16 @@ class Jobs extends Component {
                         <h5 onClick={() => this.handleOn('acRiverNorth')} className="view-button">View Details</h5>
                         {this.state.acRiverNorth ? <ACRiverNorth bye={this.handleOff} /> : null}
                     </div>
-                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3>Account Coordinator - Waukegan</h3>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3>Purchasing Coordinator</h3>
                         <h5 onClick={() => this.handleOn('acWaukegan')} className="view-button">View Details</h5>
                         {this.state.acWaukegan ? <ACWaukegan bye={this.handleOff} /> : null}
-                    </div> */}
-                    {/*<div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3>Sales Assistant</h3>
+                    </div>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3>Billing Coordinator</h3>
                         <h5 onClick={() => this.handleOn('salesAssistant')} className="view-button">View Details</h5>
                         {this.state.salesAssistant ? <SalesAssistant bye={this.handleOff} /> : null}
-                    </div> */}
+                    </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Sales Account Admin</h3>
                         <h5 onClick={() => this.handleOn('salesAdmin')} className="view-button">View Details</h5>

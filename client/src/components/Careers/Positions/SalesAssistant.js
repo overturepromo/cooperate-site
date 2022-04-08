@@ -23,35 +23,56 @@ class SalesAssistant extends Component {
     render(){
         return (
             <div>
-                <p style={{color: 'gray'}}><strong>We are always looking for organized and hardworking team players to help keep our sales team firing on all cylinders.</strong></p>
-                <p style={{color: 'gray'}}>The Sales Assistant is responsible for responding to customer inquiries, assisting customers via phone and e-mail and working with vendors.</p>
-                <h4>YOUR RESPONSIBILITIES</h4>
+                <p style={{color: 'gray'}}><strong>Summary: </strong>Are you a self-starter, master communicator, and Excel whiz? If you are looking to build your career in Finance/Accounting, this may be the role for you! With general direction, this role performs a variety of billing functions to ensure the preparation of accurate and timely bills to our customers. This also includes the following responsibilities:</p>
+                <h4>DUTIES AND RESPONSIBILITIES</h4>
                 <ul style={{color: "gray"}}>
-                    <li>Professionally interact with customers over the phone and email</li>
-                    <li>Maintain electronic databases for the sales team</li>
-                    <li>Coordinate shipping logistics</li>
-                    <li>Provide vendor follow up, including order and tracking information</li>
-                    <li>Process web orders</li>
-                    <li>Respond to ad hoc requests by sales team members</li>
+                    <li>Gather and apply merchandise and shipping costs to orders</li>
+                    <li>Invoice customer orders in a timely manner</li>
+                    <li>Analyze open order reports and communicate directly with sales teams</li>
+                    <li>Willing to work with all departments of the company whenever necessary</li>
+                    <li>Run, organize, and distribute various reports to sales teams and monthly reporting to clients</li>
+                    <li>Check accuracy of orders and prepare invoices for billing</li>
+                    <li>Develop up-to-date knowledge of various client billing requirements</li>
+                    <li>Research and resolve routine and non-routine billing questions and discrepancies</li>
+                    <li>Prepare credit memos for returns or adjustments</li>
+                    <li>Answer questions from customers or from the Accounts Receivable department</li>
+                    <li>Communicate directly with clients and provide excellent customer service</li>
+                    <li>Organizing and entering vendor bills as needed</li>
+                    <li>Performs other duties as assigned</li>
                 </ul>
-                <h4>SKILLS/EXPERIENCE REQUIRED</h4>
+                <h4>SKILLS AND COMPETENICES</h4>
                 <ul style={{color: "gray"}}>
-                    <li>Previous customer service or sales experience preferred</li>
-                    <li>Computer proficiency, keyboard and web navigation skills</li>
-                    <li>Strong attention to detail</li>
-                    <li>Ability to prioritize and handle multiple tasks in a fast-moving work environment</li>
-                    <li>Excellent written and verbal communication skills</li>
-                    <li>Ability to work independently and on a team</li>
-                    <li>Strong work ethic and ambition to succeed</li>
-                    <li>Must be a person with high integrity</li>
-                    <li>College degree preferred, but not required</li>
+                    <li>Excellent oral and written communication skills</li>
+                    <li>Must have critical thinking ability and be able to analyze all aspects of an order</li>
+                    <li>Strong initiative, confidence and the ability to ask questions as needed</li>
+                    <li>Have a thick skin with communicating with other areas of the Company, and not be afraid to say no</li>
+                    <li>Detail-oriented, with the ability to effectively prioritize multiple projects</li>
+                    <li>Detailed and accurate data entry</li>
+                    <li>Strong organizational skills</li>
+                    <li>Ability to work calmly under pressure</li>
+                    <li>Proficient in MS Office Suite and Adobe Acrobat, with significant experience in MS Excel</li>
                 </ul>
-                <p>*Please note that this role is not a remote position, and the expectation is to be on site daily.  Relocation is not provided.*</p>
-                <p>*We also have a location in Waukegan, so the ideal candidate would have the flexibility to work at both locations.*</p>
+                <h4>BENEFITS</h4>
+                <ul style={{color: "gray"}}>
+                    <li>Complete insurance coverage – Medical, dental, vision, life insurance, flex spending accounts and disability plans with Company contributions</li>
+                    <li>Pet insurance and bring your dog to work days</li>
+                    <li>Corporate partnerships with Life Time Fitness, Bears Fit, Skechers and Tickets at Work</li>
+                    <li>Generous paid time off (vacation, sick and personal days as well as yearly floating holiday)</li>
+                    <li>401(k) eligibility day one of employment, with a Company match after the first year of employment</li>
+                    <li>Paid maternity and paternity leave based on years of service</li>
+                    <li>Relaxed dress code</li>
+                    <li>Overture family fun – Summer BBQs, volunteer engagement groups (Culture Crew, Green Team, Safety Team, Diversity and Inclusion Advisory Council), employee vegetable garden, contests, potlucks and cookoffs</li>
+                    <li>Employee referral bonus</li>
+                </ul>
+                <h4>EDUCATION/EXPERIENCE</h4>
+                <ul style={{color: "gray"}}>
+                    <li>High School Diploma or Equivalent</li>
+                </ul>
+                <p>*Relocation is not provided.*</p>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('salesAssistant')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Sales Assistant" close={this.closeModal} />
+                    <ApplyBox title="Billing Coordinator" close={this.closeModal} />
                 </Modal>
             </div>
         )

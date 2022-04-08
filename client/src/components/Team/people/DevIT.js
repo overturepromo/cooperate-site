@@ -115,14 +115,14 @@ export const People = {
         why: '',
         image: Male1
     },
-    Open1: {
-        name: 'Open Position',
+    Igor: {
+        name: 'Igor Maydanik',
         title: 'Web Developer',
         bio: '',
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Male2
     },
     Open2: {
         name: 'Open Position',
@@ -131,6 +131,6 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: Female1
     },
 }
