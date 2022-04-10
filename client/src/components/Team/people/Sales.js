@@ -598,8 +598,8 @@ export const People = {
         why: '',
         image: Female2
     },
-    Tony: {
-        name: 'Tony Cook',
+    Sean: {
+        name: 'Sean Stevens',
         title: 'Account Manager',
         bio: '',
         movie: '',

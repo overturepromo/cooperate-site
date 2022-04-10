@@ -312,4 +312,22 @@ export const People = {
         why: '',
         image: Female2
     },
+    Serafin: {
+        name: 'Serafin Rodriguez',
+        title: 'Distribution Center Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Aldo: {
+        name: 'Aldo Rossi',
+        title: 'Director of Sales Operations',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
+    },
 }
