@@ -166,7 +166,7 @@ export const People = {
     },
     Brittani: {
         name: 'Brittani Michela',
-        title: 'Project Manager',
+        title: 'Sr. Account Manager',
         bio: '',
         movie: '',
         vacation: '',
