@@ -24,31 +24,34 @@ class ProductionSupervisor extends Component {
         return (
             <div>
                 <h4>SUMMARY</h4>
-                <p style={{color: 'gray'}}>The Customer Care Assistant Manager will be primarily responsible for the day to day management of the entire customer care team. The role will also be responsible to all customer service aspects for high level customers. This role requires excellent attention to detail, as well as excelled phone and email etiquette when handling both internal and external customers.</p>
+                <p style={{color: 'gray'}}>Assist the Purchasing Manager in all aspects purchasing as well as being primarily responsible for new item creation and item updates to various e-commerce webstores.</p>
                 <h4>DUITES AND RESPONSIBILITIES</h4>
                 <ul style={{color: "gray"}}>
-                    <li>Day to day management, supervision, mentoring and training of customer care (Fulfillment) coordinators. This would also include managing workloads and appropriate distribution of work amongst the team, handling vacation and time off approvals and approving bi-weekly timesheets for payroll.</li>
-                    <li>Manage multiple high-level webstores with live inventory, and manage the order processing and customer service for those stores.</li>
-                    <li>Responsible for organizing and securing shipping dates in relation to both need by and event dates for all orders.</li>
-                    <li>Work closely with warehouse staff to ensure that all orders are processed and are shipping in a timely manner; with the ability and comfortability to problem solve if stock issues arise.</li>
-                    <li>Partner closely with Purchasing department on inventory management; responsible for monitoring stock availability for orders through our order management system, NetSuite</li>
-                    <li>Monitoring all areas of the customer care department including open orders, back orders, inbound and outbound call logs, voicemails and bulk emails.</li>
-                    <li>Act as the primary escalation point for both customers and sales teams, and escalating concerns to the Customer Care Manager when necessary.</li>
-                    <li>Assisting with various incoming projects and popup webstores</li>
-                    <li>Responsible for the onboarding and training of all new Customer Care Coordinators. This includes keeping department and team training documents up to date and current, and setting up a regular cadence to meet with and check in with team members</li>
-                    <li>Have regularly scheduled meetings (1:1 sessions) with each Customer Care Coordinator to go over concerns, questions and new or broken processes. Ensure communication with Customer Care Manager on all items so that action items can be addressed.</li>
-                    <li>Performs other duties as assigned including assisting the larger team with overflow customer service on larger customers by both phone and email as required.</li>
+                    <li>Receive item information from Sales teams and verifying information is filled out in its entirety and if complete add to new or existing Web Stores.  However, if incomplete information is received, report problems encountered to appropriate Sales teams.</li>
+                    <li>Verifies data entry activity completed to ensure 100% accuracy.</li>
+                    <li>Performs new item setup, including handling item adjustments and all future item maintenance.</li>
+                    <li>Partner with Sales and Operations teams to create best practices and continued improvements on item forms, and orders missing item maintenance.</li>
+                    <li>Program specific inventory allocation and adjustments in the system to help with order transition to other departments in the building. </li>
+                    <li>Assist in Purchasing and help create and design process improvements for the reorder point process, and assume the backup responsibilities when the Purchasing Lead is not in the office.</li>
+                    <li>Purchasing Manager will assign clients to the Purchasing Assistant that the Purchasing Assistant will be primarily responsible for purchasing for.  This includes all facets of the purchasing process, including follow up to item receipt.</li>
+                    <li>Responsible for running and creating various reports within NetSuite, and reformatting and improving spreadsheets upon request.</li>
+                    <li>Daily monitoring, adjusting and closing of orders with missing item maintenance within NetSuite by filling in appropriate missing information.</li>
+                    <li>Monitor websites to remove any out of stock, discounted product on Hive Platforms, and verifying any website description add ons that are no longer valid and partnering with IT as needed </li>
+                    <li>Develop reporting on slow moving items and/or low value items to sell in bulk to Sales teams.</li>
+                    <li>Sort and filter through UPS bills, and import landed costs onto items within NetSuite.</li>
+                    <li>Performs other related duties as assigned.</li>
                 </ul>
                 <h4>SKILLS AND COMPETENCIES</h4>
                 <ul style={{color: "gray"}}>
-                    <li>Customer service, both great phone and email etiquette</li>
-                    <li>Excellent oral and written communication skills</li>
-                    <li>Must have critical thinking ability and excellent attention to detail</li>
+                    <li>Excellent verbal and written communication skills</li>
+                    <li>Must have critical thinking ability and be able to analyze all aspects of an order</li>
                     <li>Strong initiative, confidence and the ability to ask questions as needed</li>
-                    <li>Have a thick skin with communicating with other areas of the Company</li>
-                    <li>Detail-oriented, with the ability to effectively prioritize multiple projects at a time</li>
+                    <li>Ability to work independently and in a fast-paced environment</li>
+                    <li>Ability to anticipate work needs and interact professionally and courteously with both internal and external customers</li>
+                    <li>Detail-oriented, with the ability to effectively prioritize multiple projects</li>
+                    <li>Excellent organizational skills and attention to detail, with the ability to prioritize multiple projects throughout the day</li>
                     <li>Ability to work calmly under pressure</li>
-                    <li>Proficient in MS Office Suite and Adobe Acrobat; beginner to intermediate Excel experience</li>
+                    <li>Proficient in MS Office Suite and Adobe Acrobat, with significant experience in MS Excel</li>
                 </ul>
                 <h4>BENEFITS</h4>
                 <ul style={{color: "gray"}}>
@@ -64,13 +67,12 @@ class ProductionSupervisor extends Component {
                 </ul>
                 <h4>EDUCATION/EXPERIENCE</h4>
                 <ul style={{color: "gray"}}>
-                    <li>1-3 years of customer service experience</li>
-                    <li>High school diploma</li>
+                    <li>High School Diploma or Equivalent.</li>
                 </ul>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('productionSupervisor')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Customer Care Assistant Manager" close={this.closeModal} />
+                    <ApplyBox title="Purchasing Assistant" close={this.closeModal} />
                 </Modal>
             </div>
         )
