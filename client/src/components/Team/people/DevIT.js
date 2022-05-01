@@ -125,12 +125,12 @@ export const People = {
         image: Male2
     },
     Open2: {
-        name: 'Open Position',
+        name: 'Ishmael Olwal',
         title: 'Web Developer',
         bio: '',
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Male1
     },
 }

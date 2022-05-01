@@ -24,41 +24,39 @@ class APClerk extends Component {
         return (
             <div>
                 <h4>Summary</h4>
-                <p style={{color: 'gray'}}>Manage all operations of two warehouses, including receiving, storing, stocking, kitting and distributing a wide variety of promotional products. Ensure that all warehouse processes are running smoothly and efficiently, that productivity targets are met, and that safety procedures and practices are followed. Manage, schedule and train all permanent and temporary warehouse staff, and plan for seasonal and project-based hiring. Responsible for sourcing warehouse equipment and supplies. Requires travel between warehouses in Waukegan and Libertyville (15 minutes by car).</p>
-                <h4>Essential Duties and Responsibilities</h4>
+                <p style={{color: 'gray'}}>This role will report directly to the Chief Financial Officer, the Director, IT & Information Security is responsible for the continued development, implementation, and management of Overture’s enterprise security, data privacy, and IT compliance programs. This is a leadership role that requires strategic capabilities, implementing best practices by ensuring IT-related policies and procedures are in place and that all employees are trained on those policies and procedures.</p>
+                <h4>Duties and Responsibilities</h4>
                 <ul style={{color: "gray"}}>
-                    <li>Strategically manage warehouses in compliance with company’s policies and vision.</li>
-                    <li>Oversee receiving, warehousing, picking, assembly, and distribution/shipping operations.</li>
-                    <li>Setup warehouse layout and ensure efficient space utilization and organization by program.</li>
-                    <li>Initiate, coordinate and enforce optimal operational policies and procedures.</li>
-                    <li>Adhere to all warehousing, handling and shipping legislation requirements.</li>
-                    <li>Maintain standards of health and safety, hygiene and security, schedule appropriate training as required.</li>
-                    <li>Interview, select, train, coach, and motivate employees.</li>
-                    <li>Plan work schedules, assign tasks appropriately and appraise results.</li>
-                    <li>Address staff performance and attendance issues as required.</li>
-                    <li>Produce reports and statistics to inform planning process.</li>
-                    <li>Work closely with both the Special Projects and Customer Service areas to resolve print/pick/pack/ship issues, and to reallocate staff according to current needs.</li>
-                    <li>Work with Customer Service team to ensure that orders are processed and shipped on time.</li>
-                    <li>Partner with the sales teams to reduce obsolete inventory.</li>
-                    <li>Regularly review overstock and consolidate and donate expired/unwanted goods to free additional space for current inventory overstock.</li>
-                    <li>Liaise with suppliers and transport companies, seeking cost savings and process improvements.</li>
-                    <li>Regularly inspect equipment; issue work orders for repair and requisitions for replacement.</li>
-                    <li>Plan with senior management for operational expansion which will include adding warehouses, processes, labor and machinery.</li>
+                    <li>Responsible for the foundation of risk assessment practices, policies, procedures, and security and compliance reporting</li>
+                    <li>Coordinates the continuous development, implementation and updating of security and privacy policies, standards, guidelines, baselines, processes and procedures in compliance with local, state and federal regulations, as well as client requirements.</li>
+                    <li>As the functional owner of IT compliance and SOPs for all technology-related activity, the Director, IT & Information Security will assist in the hosting and response to client audits and will work with the larger IT team in conducting and responding to regular audits and inspections, which may include policy development and/or enhancements.</li>
+                    <li>Directly responsible for establishing and monitoring information security-related policies, procedures, and controls to assure compliance with applicable regulatory, legal, and audit requirements</li>
+                    <li>Continued assessment of IT procedures and policies against industry standards, recommending any necessary updates to documentation in collaboration with appropriate departments and Senior Leadership.</li>
+                    <li>Ensure policies and procedures are communicated to all personnel and that compliance is enforced and trained on at minimum a quarterly basis.</li>
+                    <li>Schedule periodic internal audits or Quality Control reviews with internal and external resources</li>
+                    <li>Ensure that disaster recovery and business continuity plans are in place, appropriately documented, and tested</li>
+                    <li>Review investigations after breaches or incidents, including impact analysis and recommendations for avoiding similar vulnerabilities</li>
+                    <li>Provide leadership and direction to the company to oversee successful completion of security-related and compliance projects</li>
+                    <li>Collaborate Senior Leadership to update the cyber security strategy and leverage new technology and threat information</li>
+                    <li>Maintain a current understanding the IT threat landscape for the industry and translate that knowledge to identification of risks and actionable plans to protect the business</li>
+                    <li>Brief the executive team on status and risks, including taking the role of champion for the overall security strategy</li>
                 </ul>
-                <h4>Qualifications</h4>
+                <h4>Skills and Competencies</h4>
                 <ul style={{color: "gray"}}>
-                    <li>Proven work experience as a warehouse manager</li>
-                    <li>Hands on experience with warehouse management software and databases</li>
-                    <li>Expertise in warehouse management procedures and best practices</li>
-                    <li>Proven ability to implement process improvement initiatives</li>
-                    <li>Leadership skills and the ability to manage and develop staff</li>
-                    <li>Strong decision-making and problem-solving skills</li>
-                    <li>Excellent communication skills</li>
-                    <li>Detail-oriented</li>
-                    <li>Knowledge of inventory control methods and procedures and all applicable Federal and State rules and regulations, such as the Occupational Safety and Health Act (OSHA) and the Americans with Disabilities Act (ADA)</li>
-                    <li>Ability to prioritize and handle multiple tasks in a fast-moving work environment</li>
-                    <li>Positive, upbeat and team player attitude</li>
-                    <li>NetSuite WMS experience</li>
+                    <li>Proven success in building a security strategy driven by business initiatives and presenting the solution to senior leaders and colleagues.</li>
+                    <li>Background in building, leading, and retaining Security and Compliance teams</li>
+                    <li>Track record of effectively leading project teams, including internal and external resources, across an array of functional areas and departments</li>
+                    <li>Demonstrated willingness and passion to work in a hands-on manner with complex challenges</li>
+                    <li>Strong knowledge and experience in information security processes, procedures, systems, methodologies, and best practices</li>
+                    <li>Understanding of Business Continuity and Disaster Recovery principles</li>
+                    <li>Leading and/or participating in regulatory inspections and audits</li>
+                    <li>Experience establishing and managing security and data privacy policies and standards in a growing company</li>
+                    <li>Superior communication skills, both written and verbal, with ability to communicate effectively at all levels of the organization</li>
+                    <li>Excellent leadership and organization skills with a results-oriented mindset</li>
+                    <li>Strong strategic planning discipline, with experience building and communicating business cases for technology change</li>
+                    <li>Demonstrated ability to build strong relationships with both business and IT stakeholders and leaders, as well as related IT project and operations teams</li>
+                    <li>Grasp of current and emerging technologies and trends, with ability to rapidly assess and apply new and emerging technologies</li>
+                    <li>Strong analytical problem-solving ability</li>
                 </ul>
                 <h4>Benefits</h4>
                 <ul style={{color: "gray"}}>
@@ -74,14 +72,13 @@ class APClerk extends Component {
                 </ul>
                 <h4>Education/Experience</h4>
                 <ul style={{color: "gray"}}>
-                    <li>BS degree in logistics, supply chain management or business administration</li>
-                    <li>At least 7 years of experience as a warehouse manager</li>
+                    <li>Bachelor's degree from accredited university, or equivalent background or experience</li>
                 </ul>
                 <p>*Relocation is not provided for this role.</p>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('apClerk')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Distribution Center Manager" close={this.closeModal} />
+                    <ApplyBox title="Director, IT & Information Security" close={this.closeModal} />
                 </Modal>
             </div>
         )
