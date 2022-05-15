@@ -6,6 +6,23 @@ import '../../styles/Contact.css'
 
 class ContactForm extends Component {
 
+    componentDidMount() {
+      const script = document.createElement('script');
+      script.src = 'https://js.hsforms.net/forms/v2.js';
+      const formLocation = document.querySelector('#hubform')
+      document.body.appendChild(script);
+      
+    //   script.addEventListener('load', () => {
+    //       if(window.hbspt) {
+    //         window.hbspt.forms.create({
+    //             region: "na1",
+    //             portalId: "20650520",
+    //             formId: "451f7941-0f99-4375-9b83-5c23cf961226"
+    //       })
+    //     }
+    //   });
+    }
+
     state = {
         name: '',
         company: '',
@@ -84,7 +101,7 @@ class ContactForm extends Component {
                             </div>
                           </div>
                         :
-                    <div className="col-md-8">
+                    <div id="hubform" className="col-md-8">
                         <form onSubmit={this.handleSubmit} className="contact-form row">
                             <div className="col-xs-12 col-md-6 contact-inputs-box">
                                 <input className="contact-inputs" type='text' name="name" placeholder="Name*" required value={this.state.name} onChange={this.handleChange} />

@@ -606,5 +606,23 @@ export const People = {
         vacation: '',
         why: '',
         image: Male2
-    },                                           
+    },
+    Dennis: {
+        name: 'Dennis Gonzalez',
+        title: 'Sales Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Kaci: {
+        name: 'Kaci Ericson',
+        title: 'Intern/Sales Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },                                            
 }
