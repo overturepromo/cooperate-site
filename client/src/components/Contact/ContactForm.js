@@ -12,15 +12,16 @@ class ContactForm extends Component {
       const formLocation = document.querySelector('#hubform')
       document.body.appendChild(script);
       
-    //   script.addEventListener('load', () => {
-    //       if(window.hbspt) {
-    //         window.hbspt.forms.create({
-    //             region: "na1",
-    //             portalId: "20650520",
-    //             formId: "451f7941-0f99-4375-9b83-5c23cf961226"
-    //       })
-    //     }
-    //   });
+      var hubBody = script.addEventListener('load', () => {
+          if(window.hbspt) {
+            window.hbspt.forms.create({
+                region: "na1",
+                portalId: "20650520",
+                formId: "451f7941-0f99-4375-9b83-5c23cf961226",
+                target: '#hubform'
+          })
+        }
+      });
     }
 
     state = {
@@ -93,38 +94,9 @@ class ContactForm extends Component {
                             <a href="https://twitter.com/overturepromo?lang=en" target="blank"><i className="fa fa-twitter" style={icons}></i></a>
                         </div>
                     </div>
-                    {this.state.form === false
-                        ? <div className="col-md-8">
-                            <div className="confirm-box">
-                                <h4 className="confirm-title">You have questions, we have answers!</h4>
-                                <p className="confirm-p">In fact, we'll have your answers within one business day! We look forward to speaking with you then!</p>
-                            </div>
-                          </div>
-                        :
-                    <div id="hubform" className="col-md-8">
-                        <form onSubmit={this.handleSubmit} className="contact-form row">
-                            <div className="col-xs-12 col-md-6 contact-inputs-box">
-                                <input className="contact-inputs" type='text' name="name" placeholder="Name*" required value={this.state.name} onChange={this.handleChange} />
-                            </div>
-                            <div className="col-xs-12 col-md-6 contact-inputs-box">
-                                <input className="contact-inputs" type='text' name="company" placeholder="Company" value={this.state.company} onChange={this.handleChange} />
-                            </div> 
-                            <div className="col-xs-12 col-md-6 contact-inputs-box">
-                                <input className="contact-inputs" type='email' name="email" placeholder="Email*" required value={this.state.email} onChange={this.handleChange} />
-                            </div> 
-                            <div className="col-xs-12 col-md-6 contact-inputs-box">
-                                <input className="contact-inputs" type='text' name="phone" placeholder="Phone" value={this.state.phone} onChange={this.handleChange} />
-                            </div>  
-                            <div className="col-xs-12 contact-inputs-box">
-                                <textarea className="contact-inputs text-area-contact" type='text' name="message" required placeholder="Message*" value={this.state.message} onChange={this.handleChange} />
-                            </div>
-                            {/* <ReCaptchaV2 sitekey='6LevO_scAAAAAFRhm0LW5TKW7SLzsJmTouS5_7W9' /> */}
-                            <div className="col-xs-12" style={{textAlign: 'right'}}>
-                                <button className="contact-button-send">SEND</button>
-                            </div>
-                        </form>
+                    <div id="hubform" className="col-md-8" style={{marginTop: '25px'}}>
+                        
                     </div>
-                    }
                 </div>
             </div>
         )
@@ -138,5 +110,26 @@ const icons = {
     fontSize: '2.2em'
 }
 
+
+{/* <form onSubmit={this.handleSubmit} className="contact-form row">
+<div className="col-xs-12 col-md-6 contact-inputs-box">
+    <input className="contact-inputs" type='text' name="name" placeholder="Name*" required value={this.state.name} onChange={this.handleChange} />
+</div>
+<div className="col-xs-12 col-md-6 contact-inputs-box">
+    <input className="contact-inputs" type='text' name="company" placeholder="Company" value={this.state.company} onChange={this.handleChange} />
+</div> 
+<div className="col-xs-12 col-md-6 contact-inputs-box">
+    <input className="contact-inputs" type='email' name="email" placeholder="Email*" required value={this.state.email} onChange={this.handleChange} />
+</div> 
+<div className="col-xs-12 col-md-6 contact-inputs-box">
+    <input className="contact-inputs" type='text' name="phone" placeholder="Phone" value={this.state.phone} onChange={this.handleChange} />
+</div>  
+<div className="col-xs-12 contact-inputs-box">
+    <textarea className="contact-inputs text-area-contact" type='text' name="message" required placeholder="Message*" value={this.state.message} onChange={this.handleChange} />
+</div>
+<div className="col-xs-12" style={{textAlign: 'right'}}>
+    <button className="contact-button-send">SEND</button>
+</div>
+</form> */}
 
 export default ContactForm;
