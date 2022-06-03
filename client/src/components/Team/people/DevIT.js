@@ -9,6 +9,7 @@ import Charles from '../../../images/team/Operations/Charles.jpg';
 import Briana from '../../../images/team/Creative/Briana.jpg';
 import Sam from '../../../images/team/Operations/Sam.jpg';
 import Zuckerberg from '../../../images/team/Operations/zuckerberg.jpg';
+import Igor from '../../../images/team/Operations/Igor.jpg';
 
 import Female1 from '../../../images/team/Female1.jpg';
 import Male1 from '../../../images/team/Male1.jpg';
@@ -122,7 +123,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: Igor
     },
     Open2: {
         name: 'Ishmael Olwal',

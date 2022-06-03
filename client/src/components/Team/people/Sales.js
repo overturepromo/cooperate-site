@@ -624,5 +624,33 @@ export const People = {
         vacation: '',
         why: '',
         image: Female1
-    },                                            
+    },
+    Adam: {
+        name: 'Adam Fuller',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
+    },
+    Devon: {
+        name: 'Devon Huston',
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
+    },
+    Leunshe: {
+        name: "Leunshe' Heim",
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },                                                    
 }
+
