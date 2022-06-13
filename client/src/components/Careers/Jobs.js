@@ -101,16 +101,16 @@ class Jobs extends Component {
                         <h5 onClick={() => this.handleOn('acRiverNorth')} className="view-button">View Details</h5>
                         {this.state.acRiverNorth ? <ACRiverNorth bye={this.handleOff} /> : null}
                     </div>
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Purchasing Manager</h3>
                         <h5 onClick={() => this.handleOn('acWaukegan')} className="view-button">View Details</h5>
                         {this.state.acWaukegan ? <ACWaukegan bye={this.handleOff} /> : null}
-                    </div>
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                    </div> */}
+                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Purchasing Assistant</h3>
                         <h5 onClick={() => this.handleOn('productionSupervisor')} className="view-button">View Details</h5>
                         {this.state.productionSupervisor ? <ProductionSupervisor bye={this.handleOff} /> : null}
-                    </div>
+                    </div> */}
                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Billing Coordinator</h3>
                         <h5 onClick={() => this.handleOn('salesAssistant')} className="view-button">View Details</h5>
@@ -131,11 +131,11 @@ class Jobs extends Component {
                         <h5 onClick={() => this.handleOn('graphicDesigner')} className="view-button">View Details</h5>
                         {this.state.graphicDesigner ? <GraphicDesigner bye={this.handleOff} /> : null}
                     </div> */}
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Accounts Receivable Clerk</h3>
                         <h5 onClick={() => this.handleOn('directorAccount')} className="view-button">View Details</h5>
                         {this.state.directorAccount ? <DirectorAccount bye={this.handleOff} /> : null}
-                    </div>
+                    </div> */}
                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Director, IT & Information Security</h3>
                         <h5 onClick={() => this.handleOn('apClerk')} className="view-button">View Details</h5>

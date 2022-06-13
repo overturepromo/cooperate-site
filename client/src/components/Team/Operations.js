@@ -40,7 +40,9 @@ class Operations extends Component {
                     <Employee image={People.Lisa.image} name={People.Lisa.name} title={People.Lisa.title} />
                     <Employee image={People.Eileen.image} name={People.Eileen.name} title={People.Eileen.title} />
                     <Employee image={People.Liz.image} name={People.Liz.name} title={People.Liz.title} />
+                    <Employee image={People.Rebecca.image} name={People.Rebecca.name} title={People.Rebecca.title} />
                     <Employee image={People.Troy.image} name={People.Troy.name} title={People.Troy.title} />
+                    <Employee image={People.Brittney.image} name={People.Brittney.name} title={People.Brittney.title} />
                     <Employee image={People.Morgan.image} name={People.Morgan.name} title={People.Morgan.title} />                    
                     <Employee image={People.Robyn.image} name={People.Robyn.name} title={People.Robyn.title} />
                     <Employee image={People.EmilyJ.image} name={People.EmilyJ.name} title={People.EmilyJ.title} />
@@ -48,6 +50,7 @@ class Operations extends Component {
                     <Employee image={People.Yanis.image} name={People.Yanis.name} title={People.Yanis.title} />
                     <Employee image={People.Brenda.image} name={People.Brenda.name} title={People.Brenda.title} />
                     <Employee image={People.Grace.image} name={People.Grace.name} title={People.Grace.title} />
+                    <Employee image={People.Elizabeth.image} name={People.Elizabeth.name} title={People.Elizabeth.title} />
                     <Employee image={People.Trina.image} name={People.Trina.name} title={People.Trina.title} />
                     <Employee image={People.ChrisM.image} name={People.ChrisM.name} title={People.ChrisM.title} />
                     <Employee image={People.Tiffany.image} name={People.Tiffany.name} title={People.Tiffany.title} />

@@ -358,4 +358,31 @@ export const People = {
         why: '',
         image: DavidM
     },
+    Brittney: {
+        name: 'Brittney Rodriguez',
+        title: 'Purchasing Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    Rebecca: {
+        name: 'Rebecca Coleman',
+        title: 'Sr. Purchasing Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
+    Elizabeth: {
+        name: 'Elizabeth Klawv',
+        title: 'AR Clerk',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }
