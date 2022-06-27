@@ -6,7 +6,7 @@ const Be = (props) => {
         <div className="live-modal">
             <div className="row">
                 <div className='col-xs-6'>
-                    <h4 className="values-title">Be Significant Be Big</h4>
+                    <h4 className="values-title">Be Significant, Be Humble</h4>
                 </div>
                 <div className='col-xs-6' style={{textAlign: 'right'}}>
                 <img src={Close} alt="" className="close-img-team" onClick={props.close} /><br />

@@ -6,7 +6,7 @@ const Work = (props) => {
         <div className="live-modal">
             <div className="row">
                 <div className='col-xs-6'>
-                    <h4 className="values-title">Work Hard, Play Hard</h4>
+                    <h4 className="values-title">Work Hard, Have Fun, Make History</h4>
                 </div>
                 <div className='col-xs-6' style={{textAlign: 'right'}}>
                 <img src={Close} alt="" className="close-img-team" onClick={props.close} /><br />

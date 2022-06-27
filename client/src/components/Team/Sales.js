@@ -34,6 +34,7 @@ class Sales extends Component {
                 <div className="row">
                     <Employee image={People.Adam.image} name={People.Adam.name} title={People.Adam.title} />
                     <Employee image={People.Amy.image} name={People.Amy.name} title={People.Amy.title} />
+                    <Employee image={People.AlexandraB.image} name={People.AlexandraB.name} title={People.AlexandraB.title} />
                     <Employee image={People.Alexandra.image} name={People.Alexandra.name} title={People.Alexandra.title} />
                     <Employee image={People.Angela.image} name={People.Angela.name} title={People.Angela.title} />
                     <Employee image={People.Beth.image} name={People.Beth.name} title={People.Beth.title} />

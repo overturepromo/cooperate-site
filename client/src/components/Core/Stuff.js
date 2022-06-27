@@ -11,7 +11,7 @@ const Stuff = () => {
                     <span className='big-words-video'>our community.</span><br />
                     <div className='green-words-box-core'>
                         <span className="small-green-words-core">How we make a difference.</span>
-                        <p className="stuff-text">We call ourselves "The 595 Family" and we're always looking for ways to serve together. We pack meals for children in developing nations, write letters to veterans overseas to send with candy and swag, create gorgeous valentines for seniors and hospitalized children.</p>
+                        <p className="stuff-text">We call ourselves "The 800 Family" and we're always looking for ways to serve together. We pack meals for children in developing nations, write letters to veterans overseas to send with candy and swag, create gorgeous valentines for seniors and hospitalized children.</p>
                         <p className="stuff-text">And with two warehouses full of swag, we have lots of opportunities to donate unused inventory to local charities (always with your prior approval). Our employees donate generously to the "Overture Family Fund," so we can give grants to teammates who need a hand.</p>
                     </div>
                 </div>

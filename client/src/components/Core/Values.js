@@ -21,6 +21,14 @@ import Seven from '../../images/core/domore-03.svg';
 import Eight from '../../images/core/integrity-06.svg';
 import Nine from '../../images/core/solveproblems-07.svg';
 
+import CommunicateOne from '../../images/core/CV_CommunicateAndCollaborate.svg';
+import WorkTwo from '../../images/core/CV_WorkHardHaveFunMakeHistory.svg';
+import WeirdThree from '../../images/core/CV_WeirdIsCool.svg';
+import LiveFour from '../../images/core/CV_LiveWithIntegrityAndRespect.svg';
+import TakeFive from '../../images/core/CV_TakeOwnershipAndAccountability.svg';
+import MakeSix from '../../images/core/CV_MakeAnImpact.svg';
+import BeSeven from '../../images/core/CV_BeSignificantBeHumble.svg';
+
 import '../../styles/Core.css';
 
 class Values extends Component {
@@ -48,15 +56,13 @@ class Values extends Component {
             <div className="container-fluid">
                 <div className="row">
                     <div className="values-img-div">
-                        <img src={One} alt="one" className="values-img" onClick={() => this.openModal(0)} />
-                        <img src={Two} alt="one" className="values-img" onClick={() => this.openModal(1)} />
-                        <img src={Three} alt="one" className="values-img" onClick={() => this.openModal(2)} />
-                        <img src={Four} alt="one" className="values-img" onClick={() => this.openModal(3)} />
-                        <img src={Five} alt="one" className="values-img" onClick={() => this.openModal(4)} />
-                        <img src={Six} alt="one" className="values-img" onClick={() => this.openModal(5)} />
-                        <img src={Seven} alt="one" className="values-img" onClick={() => this.openModal(6)} />
-                        <img src={Eight} alt="one" className="values-img" onClick={() => this.openModal(7)} />
-                        <img src={Nine} alt="one" className="values-img" onClick={() => this.openModal(8)} />
+                        <img src={CommunicateOne} alt="one" className="values-img" onClick={() => this.openModal(5)} />
+                        <img src={WorkTwo} alt="one" className="values-img" onClick={() => this.openModal(0)} />
+                        <img src={WeirdThree} alt="one" className="values-img" onClick={() => this.openModal(2)} />
+                        <img src={LiveFour} alt="one" className="values-img" onClick={() => this.openModal(6)} />
+                        <img src={TakeFive} alt="one" className="values-img" onClick={() => this.openModal(4)} />
+                        <img src={MakeSix} alt="one" className="values-img" onClick={() => this.openModal()} />
+                        <img src={BeSeven} alt="one" className="values-img" onClick={() => this.openModal(3)} />
                     </div>
                 </div>
                 <Modal isOpen={this.state.showModal[0]}onRequestClose={this.closeModal} className="core-modal"><Work close={() => this.closeModal()} /></Modal>
@@ -65,9 +71,7 @@ class Values extends Component {
                 <Modal isOpen={this.state.showModal[3]}onRequestClose={this.closeModal} className="core-modal"><Be close={() => this.closeModal()} /></Modal>
                 <Modal isOpen={this.state.showModal[4]}onRequestClose={this.closeModal} className="core-modal"><Take close={() => this.closeModal()} /></Modal>
                 <Modal isOpen={this.state.showModal[5]}onRequestClose={this.closeModal} className="core-modal"><Communicate close={() => this.closeModal()} /></Modal>
-                <Modal isOpen={this.state.showModal[6]}onRequestClose={this.closeModal} className="core-modal"><Do close={() => this.closeModal()} /></Modal>
-                <Modal isOpen={this.state.showModal[7]}onRequestClose={this.closeModal} className="core-modal"><Integrity close={() => this.closeModal()} /></Modal>
-                <Modal isOpen={this.state.showModal[8]}onRequestClose={this.closeModal} className="core-modal"><Solve close={() => this.closeModal()} /></Modal>
+                <Modal isOpen={this.state.showModal[6]}onRequestClose={this.closeModal} className="core-modal"><Integrity close={() => this.closeModal()} /></Modal>
             </div>
         )
     }
