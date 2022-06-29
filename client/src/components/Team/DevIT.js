@@ -43,7 +43,6 @@ class DevIT extends Component {
                     <Employee image={People.Dave.image} name={People.Dave.name} title={People.Dave.title} />
                     <Employee image={People.Mark.image} name={People.Mark.name} title={People.Mark.title} />
                     <Employee image={People.Igor.image} name={People.Igor.name} title={People.Igor.title} />
-                    <Employee image={People.Open2.image} name={People.Open2.name} title={People.Open2.title} />
                     <Employee image={People.Jacob.image} name={People.Jacob.name} title={People.Jacob.title} />
                     <Employee image={People.Sam.image} name={People.Sam.name} title={People.Sam.title} />
                     <Employee image={People.Briana.image} name={People.Briana.name} title={People.Briana.title} />
