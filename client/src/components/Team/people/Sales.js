@@ -669,6 +669,33 @@ export const People = {
         vacation: '',
         why: '',
         image: Female1
-    },                                                      
+    },
+    Kelli: {
+        name: "Kelli Bennett",
+        title: 'Sr Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    }, 
+    Lynette: {
+        name: "Lynette Stwertnik",
+        title: 'Sr Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    }, 
+    Jocelyn: {
+        name: "Jocelyn Cash",
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },                                                       
 }
 
