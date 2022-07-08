@@ -12,13 +12,9 @@ const Be = (props) => {
                 <img src={Close} alt="" className="close-img-team" onClick={props.close} /><br />
                 </div>
             </div>
-            <p className="values-quote">“Aim for the moon. If you miss, you may hit a star.” – W. Clement Stone</p>
+            <p className="values-quote">“Keep your eyes on the stars and your feet on the ground.” Theodore Roosevelt</p>
            <div style={styles.orange}></div>
-           <p className="values-paragraph">We believe that whatever it is that you choose to do in life, you must strive to be the very best at it. We’re not an average company and neither are our people. Don’t settle for mediocrity.</p>
-           <p className="values-paragraph">Be a difference maker. Have a positive impact on everyone around you through your words and actions.</p>
-           <p className="values-paragraph">Be bold. Raise the bar and grow from your mistakes. Push your limits to reach all your goals.</p>
-           <p className="values-paragraph">Be a global citizen. Consistently give your time, money, or resources to help those in need.</p>
-           <p className="values-paragraph">Be Significant. Be Big.</p>
+           <p className="values-paragraph">We set big goals and work together to reach them. We mobilize to make every vision a reality. When it comes to customer service, we don’t reach for the bar, we raise it. Whether looking at internal processes, organizational goals, or industry standards, we always strive to drive creativity and innovation rather than following in someone else’s footsteps. We take pride in our work, our colleagues, and our company, but we know there is always more to learn, and there are always ways to do it better. </p>
         </div>
     )
 }

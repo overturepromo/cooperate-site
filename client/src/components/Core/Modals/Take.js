@@ -12,10 +12,9 @@ const Take = (props) => {
                 <img src={Close} alt="" className="close-img-team" onClick={props.close} /><br />
                 </div>
             </div>
-            <p className="values-quote">“He that is good for making excuses is seldom good for anything else.” – Benjamin Franklin</p>
+            <p className="values-quote">“A person who never made a mistake never tried anything new.” Albert Einstein </p>
            <div style={styles.orange}></div>
-           <p className="values-paragraph">We believe that the best teams work well together because each individual member takes personal responsibility for their role and is always there for their teammates. The best team members take initiative when they notice issues so the team can succeed. The best team members will voluntarily step in and help out when they see a teammate overwhelmed, in return only wanting to see the team succeed.</p>
-           <p className="values-paragraph">As a team, it is important that we commit to an open and honest environment that fosters learning and growth. If all of us are accountable for our actions and take ownership of our roles and responsibilities, we will build a championship team through the combined force of our strengths.</p>
+           <p className="values-paragraph">We know that mistakes happen, and we know they are always opportunities to improve. We acknowledge when something goes wrong and find the solutions together. We empower the individuals most involved in a process to participate in its improvement. We are accountable to each other for always asking how we can make something better. We own every mistake, and we take the initiative to do whatever it takes to make things right for our clients.</p>
         </div>
     )
 }

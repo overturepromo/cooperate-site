@@ -12,10 +12,9 @@ const Weird = (props) => {
                 <img src={Close} alt="" className="close-img-team" onClick={props.close} /><br />
                 </div>
             </div>
-            <p className="values-quote">“I think everybody’s weird. We should all celebrate our individuality and not be embarrassed or ashamed of it.” – Johnny Depp</p>
+            <p className="values-quote">“If you are always trying to be normal, you will never know how amazing you can be.” Maya Angelou </p>
            <div style={styles.orange}></div>
-           <p className="values-paragraph">We love weird. It’s what comprises each and every one of us. We encourage weird. It’s what makes our company what it is today. Being creative, taking chances, and trying things no one else has ever done before is what defines our personality.</p>
-           <p className="values-paragraph">We are the unusual thinkers, the pioneers of new ideas every day. Sometimes we are great and sometimes we make mistakes. But our ability to learn from setbacks and head in a different direction than everyone else is the key to our success</p>
+           <p className="values-paragraph">We believe in celebrating our diversity and valuing our varying perspectives. We strive to be unusual thinkers and innovative creators. We shy away from the idea of “normalcy” and instead embrace our inner weirdness, because our differences are where we find the diversity of thought and process nuances that set us apart.</p>
         </div>
     )
 }

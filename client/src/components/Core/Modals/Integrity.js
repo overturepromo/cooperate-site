@@ -14,8 +14,7 @@ const Integrity = (props) => {
             </div>
             <p className="values-quote">“Live in such a way that you would not be ashamed to sell your parrot to the town gossip.” – Will Rogers</p>
            <div style={styles.orange}></div>
-           <p className="values-paragraph">Responsibilities Remember to always live by the “Golden Rule” – treat others the way you would want them to treat you. We hold the door open for others, we say “please” and “thank you”, we don’t engage in office gossip or say hurtful things to others. We treat each other as family. At Overture, we genuinely believe it is important to adhere to the highest moral and ethical standards.</p>
-           <p className="values-paragraph">This commitment to truth and mutual respect is displayed throughout all levels of the company, as well as across our supplier and client partners. The Overture culture is not only about how we behave towards each other within our walls, but also how we represent ourselves in the general community every day.</p>
+           <p className="values-paragraph">We are committed to respecting each other, our supplier partners, and our clients, and we carry that commitment into our public lives. We emphasize the importance of truth and respect in all of our interpersonal relationships. Just as we value the aspects that make each of us unique, we also respect those differences. We aim to be the same people inside and outside the walls of Overture. </p>
         </div>
     )
 }

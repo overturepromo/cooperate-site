@@ -10,6 +10,7 @@ import Communicate from './Modals/Communicate';
 import Do from './Modals/Do';
 import Integrity from './Modals/Integrity';
 import Solve from './Modals/Solve';
+import Make from './Modals/Make';
 
 import One from '../../images/core/workhard-09.svg';
 import Two from '../../images/core/liveproud-08.svg';
@@ -61,7 +62,7 @@ class Values extends Component {
                         <img src={WeirdThree} alt="one" className="values-img" onClick={() => this.openModal(2)} />
                         <img src={LiveFour} alt="one" className="values-img" onClick={() => this.openModal(6)} />
                         <img src={TakeFive} alt="one" className="values-img" onClick={() => this.openModal(4)} />
-                        <img src={MakeSix} alt="one" className="values-img" onClick={() => this.openModal()} />
+                        <img src={MakeSix} alt="one" className="values-img" onClick={() => this.openModal(7)} />
                         <img src={BeSeven} alt="one" className="values-img" onClick={() => this.openModal(3)} />
                     </div>
                 </div>
@@ -72,6 +73,7 @@ class Values extends Component {
                 <Modal isOpen={this.state.showModal[4]}onRequestClose={this.closeModal} className="core-modal"><Take close={() => this.closeModal()} /></Modal>
                 <Modal isOpen={this.state.showModal[5]}onRequestClose={this.closeModal} className="core-modal"><Communicate close={() => this.closeModal()} /></Modal>
                 <Modal isOpen={this.state.showModal[6]}onRequestClose={this.closeModal} className="core-modal"><Integrity close={() => this.closeModal()} /></Modal>
+                <Modal isOpen={this.state.showModal[7]}onRequestClose={this.closeModal} className="core-modal"><Make close={() => this.closeModal()} /></Modal>
             </div>
         )
     }

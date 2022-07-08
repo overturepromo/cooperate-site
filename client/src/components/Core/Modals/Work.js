@@ -12,10 +12,9 @@ const Work = (props) => {
                 <img src={Close} alt="" className="close-img-team" onClick={props.close} /><br />
                 </div>
             </div>
-            <p className="values-quote">"I work hard, and I tend to play hard. I very seldom rest hard." - Jacqueline Bisset</p>
+            <p className="values-quote">“Always take some of the play, fun, freedom, and wonder of the weekend into your week and your work.” - Rasheed Ogunlaru</p>
            <div style={styles.orange}></div>
-           <p className="values-paragraph">We set aggressive (but realistic) goals, then work hard to meet and even exceed those goals. The key is to make sure that you don’t get so consumed in your work that you forget what is truly important: enjoying life, having fun and loving whatever it is that you do.</p>
-           <p className="values-paragraph">Some may suggest we’ve perfected the art of celebration, we think we understand that proper work-life balance is the key to evolving and not burning out. Life is not all about work and every conversation doesn’t need to be about business. Having this balance is what deepens our relationships and guides us in our pursuit of happiness.</p>
+           <p className="values-paragraph">We live by the philosophy “do what it takes.” We set aggressive goals and work hard to achieve them, all the while understanding the importance of enjoying what we do. From office pranks to company barbecues to friendly competition to making a difference in our community and the world, we value having fun, together. We believe that working hard and having fun are equally important, and it’s in their balance that we achieve greatness.</p>
         </div>
     )
 }
