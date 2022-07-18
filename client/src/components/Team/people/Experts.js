@@ -20,6 +20,9 @@ import Blake from '../../../images/team/ExpertsPhotos/Blake.jpg';
 import David from '../../../images/team/ExpertsPhotos/David.jpg';
 import Bruce from '../../../images/team/Sales/Bruce.jpg';
 import Kimberlin from '../../../images/team/ExpertsPhotos/kimberlin.jpg'
+import Katie from '../../../images/team/Sales/Katie.jpg'
+import Jenna from '../../../images/team/Sales/Jenna.jpg'
+
 
 import Ethan from '../../../images/team/ECom/Ethan.jpg';
 import Dean from '../../../images/team/ECom/Dean.jpg';
@@ -274,5 +277,23 @@ export const People = {
         vacation: 'Tuscany, Italy',
         why: 'The people - Our creative, operations, and leadership teams are second to none.',
         image: Eric
+    },
+    Jenna: {
+        name: 'Jenna Herchenbach',
+        title: 'Sales',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Jenna
+    },
+    Katie: {
+        name: 'Katie Puente',
+        title: 'Sales',
+        bio: '',
+        movie: 'The Man Who Knew Too Little',
+        vacation: 'Mexico',
+        why: 'The job description included a preferred (but not required) “a love for The Office and Chipotle burritos”. I knew I could get along with these people.',
+        image: Katie
     },
 }

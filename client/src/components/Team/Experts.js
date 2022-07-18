@@ -45,7 +45,9 @@ class Experts extends Component {
                     <Employee image={People.Eric.image} name={People.Eric.name} title={People.Eric.title} clicked={() => this.openModal(28)} />
                     <Employee image={People.FrankM.image} name={People.FrankM.name} title={People.FrankM.title} clicked={() => this.openModal(14)} />
                     <Employee image={People.JeremyM.image} name={People.JeremyM.name} title={People.JeremyM.title} clicked={() => this.openModal(15)} />
+                    <Employee image={People.Jenna.image} name={People.Jenna.name} title={People.Jenna.title} clicked={() => this.openModal()} />
                     <Employee image={People.Katelynn.image} name={People.Katelynn.name} title={People.Katelynn.title} clicked={() => this.openModal(25)} />
+                    <Employee image={People.Katie.image} name={People.Katie.name} title={People.Katie.title} clicked={() => this.openModal()} />
                     <Employee image={People.Kimberline.image} name={People.Kimberline.name} title={People.Kimberline.title} clicked={() => this.openModal(27)} />
                     <Employee image={People.LarryB.image} name={People.LarryB.name} title={People.LarryB.title} clicked={() => this.openModal(16)} />
                     <Employee image={People.LauraI.image} name={People.LauraI.name} title={People.LauraI.title} clicked={() => this.openModal(17)} />
