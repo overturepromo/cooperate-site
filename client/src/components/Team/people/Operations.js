@@ -34,6 +34,13 @@ import Maria from '../../../images/team/Operations/MariaA.jpg';
 import Annabelle from '../../../images/team/Operations/Annabelle.jpg'
 import Joe from '../../../images/team/Operations/Joe_Levy.jpg';
 import DavidM from '../../../images/team/Warehouse/DavidM.jpg';
+import Asia from '../../../images/team/Operations/Asia Rodgers.jpg';
+import Serafin from '../../../images/team/Operations/Serafin Rodriguez.jpg';
+import Aldo from '../../../images/team/Operations/Aldo Rossi.jpg';
+import Yanis from '../../../images/team/Operations/Yanis Tolbert.jpg';
+import AnnaN from '../../../images/team/Operations/Anna Nava.jpg';
+import Brenda from '../../../images/team/Operations/Brenda Munoz.jpg';
+import Javier from '../../../images/team/Operations/Javier Gaytan.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -293,7 +300,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Javier
     },
     AnnaN: {
         name: 'Anna Nava',
@@ -302,7 +309,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: AnnaN
     },
     Asia: {
         name: 'Asia Rodgers',
@@ -311,7 +318,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Asia
     },
     Serafin: {
         name: 'Serafin Rodriguez',
@@ -320,7 +327,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Serafin
     },
     Aldo: {
         name: 'Aldo Rossi',
@@ -329,7 +336,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: Aldo
     },
     Yanis: {
         name: 'Yanis Tolbert',
@@ -338,7 +345,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Yanis
     },
     Brenda: {
         name: 'Brenda Munoz',
@@ -347,7 +354,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Brenda
     },
     DavidM: {
         name: 'David Montoya',

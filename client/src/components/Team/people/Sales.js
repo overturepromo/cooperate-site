@@ -47,7 +47,9 @@ import ShannonL from '../../../images/team/Sales/ShannonL.jpg';
 import Kailee from '../../../images/team/Sales/Kailee.jpg';
 import SaraM from '../../../images/team/Sales/Sara_Moll.jpg';
 import Erin from '../../../images/team/Sales/Erin_Boudreau.jpg';
-
+import Jamie from '../../../images/team/Sales/Jamie Billings.jpg';
+import SarahL from '../../../images/team/Sales/Sarah Lasam.jpg';
+import Sean from '../../../images/team/Sales/Sean Stevens.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -587,7 +589,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Jamie
     },
     SarahL: {
         name: 'Sarah Lasam',
@@ -596,7 +598,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: SarahL
     },
     Sean: {
         name: 'Sean Stevens',
@@ -605,7 +607,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: Sean
     },
     Dennis: {
         name: 'Dennis Gonzalez',
