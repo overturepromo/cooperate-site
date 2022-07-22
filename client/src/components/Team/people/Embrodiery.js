@@ -24,6 +24,9 @@ import Citlali from '../../../images/team/Embrodiery/Citlali_Fuentes.jpg';
 import Gladys from '../../../images/team/Embrodiery/Gladys_Andrade.jpg';
 import Leomar from '../../../images/team/Embrodiery/Leomar_Santos.jpg';
 import Delfina from '../../../images/team/Embrodiery/Delfina_Garcia.jpg';
+import Esteban from '../../../images/team/Embrodiery/Esteban Garcia.jpg';
+import Geovanni from '../../../images/team/Embrodiery/Geovanni Ramirez.jpg';
+import Mario from '../../../images/team/Embrodiery/Mario Carreno.jpg';
 
 import Male1 from '../../../images/team/Male1.jpg';
 import Male2 from '../../../images/team/Male2.jpg';
@@ -283,5 +286,32 @@ export const People = {
         vacation: '',
         why: '',
         image: Delfina
+    },
+    Esteban: {
+        name: 'Esteban Garcia',
+        title: 'Screen Print Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Esteban
+    },
+    Geovanni: {
+        name: 'Geovanni Ramirez',
+        title: 'Screen Print Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Geovanni
+    },
+    Mario: {
+        name: 'Mario Carreno',
+        title: 'Embroidery Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Mario
     },
 }

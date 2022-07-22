@@ -33,6 +33,10 @@ import Angelica from '../../../images/team/Warehouse/Angelica_Gonzalez.jpg';
 import Doris from '../../../images/team/Warehouse/Doris_Quijada.jpg';
 import Michael from '../../../images/team/Warehouse/Michael_Wynn.jpg';
 import Iveth from '../../../images/team/Warehouse/Iveth_Acosta.jpg';
+import Brandy from '../../../images/team/Warehouse/Brandy Marban.jpg';
+import CarlosO from '../../../images/team/Warehouse/Carlos Otero.jpg';
+import Epi from '../../../images/team/Warehouse/Epigmenio Rodriguez.jpg';
+import JoseF from '../../../images/team/Warehouse/Jose Flores.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -384,5 +388,41 @@ export const People = {
         vacation: '',
         why: '',
         image: Iveth
+    },
+    Brandy: {
+        name: 'Brandy Marban',
+        title: 'Inventory Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Brandy
+    },
+    CarlosO: {
+        name: 'Carlos Otero',
+        title: 'Receiving Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: CarlosO
+    },
+    Epi: {
+        name: 'Epi Rodriguez',
+        title: 'Inventory Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Epi
+    },
+    JoseF: {
+        name: 'Jose Flores',
+        title: 'Pick Pack Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: JoseF
     },
 }
