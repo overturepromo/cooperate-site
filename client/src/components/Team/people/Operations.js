@@ -41,6 +41,7 @@ import Yanis from '../../../images/team/Operations/Yanis Tolbert.jpg';
 import AnnaN from '../../../images/team/Operations/Anna Nava.jpg';
 import Brenda from '../../../images/team/Operations/Brenda Munoz.jpg';
 import Javier from '../../../images/team/Operations/Javier Gaytan.jpg';
+import Brittney from '../../../images/team/Operations/Brittney Rodriguez.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -372,7 +373,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Brittney
     },
     Rebecca: {
         name: 'Rebecca Coleman',

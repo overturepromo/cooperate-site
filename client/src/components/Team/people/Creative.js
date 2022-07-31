@@ -7,6 +7,7 @@ import Victoria from '../../../images/team/ECom/Victoria.jpg';
 import MeganK from '../../../images/team/Sales/MeganKragenbrink.jpg';
 import Aaron from '../../../images/team/Creative/AaronB.jpg';
 import Samantha from '../../../images/team/Creative/Samantha-Logan-square.jpg';
+import Christopher from '../../../images/team/Creative/Chris Westby.jpg';
 
 import Female1 from '../../../images/team/Female1.jpg';
 import Male1 from '../../../images/team/Male1.jpg';
@@ -93,7 +94,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Christopher
     },
     Samantha: {
         name: 'Samantha Logan',
@@ -103,6 +104,15 @@ export const People = {
         vacation: '',
         why: '',
         image: Samantha
+    },
+    Elizabeth: {
+        name: 'Elizabeth Purtell',
+        title: 'Social Media Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
     },
 }
 
