@@ -698,6 +698,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Female2
-    },                                                       
+    },
+    Melanie: {
+        name: "Melanie Vess",
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },                                                         
 }
-
