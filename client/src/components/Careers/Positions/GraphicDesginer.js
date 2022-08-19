@@ -40,7 +40,7 @@ class GraphicDesigner extends Component {
                 <ul style={{color: "gray"}}>
                     <li>Proficient with Adobe Illustrator, Photoshop, and InDesign</li>
                     <li>Web design experience preferred (coding skills not required, but you must have an understanding of responsive/mobile design and best practices for web design)</li>
-                    <li>UXPin or other prototyping tool experience</li>
+                    <li>Adobe XD or other prototyping tool experience</li>
                     <li>Proven resourcefulness with creative problem-solving skills</li>
                     <li>Excellent communication skills</li>
                     <li>Positive, upbeat and team player attitude</li>
@@ -68,7 +68,7 @@ class GraphicDesigner extends Component {
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
                 <h5 onClick={() => this.props.bye('graphicDesigner')} className="view-button">Hide Details</h5>
                 <Modal isOpen={this.state.showModal} onRequestClose={this.closeModal} className="apply-lightbox">
-                    <ApplyBox title="Graphic Designer (Remote)" close={this.closeModal} />
+                    <ApplyBox title="Graphic Designer" close={this.closeModal} />
                 </Modal>
             </div>
         )

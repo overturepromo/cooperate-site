@@ -1,7 +1,8 @@
 import React from 'react';
 import Hero from './Hero';
 import GiveBack from './GiveBack';
-import BlockImages from './BlockImages'
+import BlockImages from './BlockImages';
+import Trees from './Trees';
 import SubFooter from '../SubFooter';
 
 
