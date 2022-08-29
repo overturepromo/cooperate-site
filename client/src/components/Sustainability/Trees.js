@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import '../../styles/Contact.css'
+import '../../styles/Sustainability.css'
 
 class Trees extends Component {
 

@@ -44,7 +44,6 @@ class Operations extends Component {
                     <Employee image={People.Troy.image} name={People.Troy.name} title={People.Troy.title} />
                     <Employee image={People.Brittney.image} name={People.Brittney.name} title={People.Brittney.title} />
                     <Employee image={People.Morgan.image} name={People.Morgan.name} title={People.Morgan.title} />                    
-                    <Employee image={People.Robyn.image} name={People.Robyn.name} title={People.Robyn.title} />
                     <Employee image={People.EmilyJ.image} name={People.EmilyJ.name} title={People.EmilyJ.title} />
                     <Employee image={People.Javier.image} name={People.Javier.name} title={People.Javier.title} />
                     <Employee image={People.Yanis.image} name={People.Yanis.name} title={People.Yanis.title} />
@@ -64,6 +63,7 @@ class Operations extends Component {
                     <Employee image={People.Joe.image} name={People.Joe.name} title={People.Joe.title} />
                     <Employee image={People.Asia.image} name={People.Asia.name} title={People.Asia.title} />
                     <Employee image={People.DavidM.image} name={People.DavidM.name} title={People.DavidM.title} />
+                    <Employee image={People.BrittneyH.image} name={People.BrittneyH.name} title={People.BrittneyH.title} />
                 </div>
             </div>
         )
