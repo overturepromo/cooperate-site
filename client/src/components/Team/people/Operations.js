@@ -42,6 +42,9 @@ import AnnaN from '../../../images/team/Operations/Anna Nava.jpg';
 import Brenda from '../../../images/team/Operations/Brenda Munoz.jpg';
 import Javier from '../../../images/team/Operations/Javier Gaytan.jpg';
 import Brittney from '../../../images/team/Operations/Brittney Rodriguez.jpg';
+import Blair from '../../../images/team/Operations/Headshot_Crop_Blair_Ellis.jpg';
+import Elizabeth from '../../../images/team/Operations/Headshot_Crop_Elizabeth_Klaw.jpg';
+import EmilyJ from '../../../images/team/Operations/Headshot_Crop_Emily_Jones.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -238,7 +241,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: EmilyJ
     },
     Troy: {
         name: 'Troy Nichols',
@@ -292,7 +295,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Blair
     },
     Javier: {
         name: 'Javier Gaytan',
@@ -385,13 +388,13 @@ export const People = {
         image: Female2
     },
     Elizabeth: {
-        name: 'Elizabeth Klawv',
+        name: 'Elizabeth Klaw',
         title: 'AR Clerk',
         bio: '',
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Elizabeth
     },
     BrittneyH: {
         name: 'Brittney Hartfield',

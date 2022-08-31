@@ -50,6 +50,15 @@ import Erin from '../../../images/team/Sales/Erin_Boudreau.jpg';
 import Jamie from '../../../images/team/Sales/Jamie Billings.jpg';
 import SarahL from '../../../images/team/Sales/Sarah Lasam.jpg';
 import Sean from '../../../images/team/Sales/Sean Stevens.jpg';
+import Adam from '../../../images/team/Sales/Headshot_Crop_Adam_Fuller.jpg';
+import Carolyn from '../../../images/team/Sales/Headshot_Crop_Carolyn_Topps.jpg';
+import Katarina from '../../../images/team/Sales/Headshot_Crop_Katarina_Petronijevic.jpg';
+import Kelli from '../../../images/team/Sales/Headshot_Crop_Kelli Bennett.jpg';
+import Kyle from '../../../images/team/Sales/Headshot_Crop_Kyle_Carson.jpg';
+import Lauren from '../../../images/team/Sales/Headshot_Crop_Lauren_LeMay.jpg';
+import Leunshe from '../../../images/team/Sales/Headshot_Crop_Leunshe_Heim.jpg';
+import Lynette from '../../../images/team/Sales/Headshot_Crop_Lynette_Stwertnik.jpg';
+import MichelleF from '../../../images/team/Sales/Headshot_Crop_Michelle_Fisher.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -526,7 +535,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Katarina
     },
     Erin: {
         name: 'Erin Boudreau',
@@ -544,7 +553,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Lauren
     },
     MichelleF: {
         name: 'Michelle Fisher',
@@ -553,7 +562,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: MichelleF
     },
     KellyM: {
         name: 'Kelly McNeff ',
@@ -580,7 +589,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Kyle
     },
     Jamie: {
         name: 'Jamie Billings',
@@ -634,7 +643,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: Adam
     },
     Devon: {
         name: 'Devon Huston',
@@ -652,7 +661,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Leunshe
     },
     Carolyn: {
         name: "Carolyn Topps",
@@ -661,7 +670,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Carolyn
     },
     AlexandraB: {
         name: "Alexandra Boltz",
@@ -679,7 +688,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Kelli
     }, 
     Lynette: {
         name: "Lynette Stwertnik",
@@ -688,7 +697,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Lynette
     }, 
     Jocelyn: {
         name: "Jocelyn Cash",

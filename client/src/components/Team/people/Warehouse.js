@@ -425,4 +425,13 @@ export const People = {
         why: '',
         image: JoseF
     },
+    Anthony: {
+        name: 'Anthony Gray',
+        title: 'Receiving',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
