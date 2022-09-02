@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="hero-careers">
             <div className="career-hero-box container">
                 <p className="work-cta-top animated fadeInDown">CAREERS</p>
-                <div>
+                <div style={{marginBottom: '30px'}}>
                     <a className='careers-button'>HOLD UP!</a>
                 </div>
                 <p className="careers-cta-bottom animated fadeInDown">Studies have shown that women and people of color are less likely to apply to jobs they don’t meet every single qualification for. At Overture, building a diverse workforce is a high priority and, let’s face it, we don’t want to miss out on someone great over a job requirement!</p>
