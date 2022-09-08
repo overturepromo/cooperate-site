@@ -405,4 +405,13 @@ export const People = {
         why: '',
         image: Female1
     },
+    Angela: {
+        name: 'Angela Kowalczyk',
+        title: 'Recruiter',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
 }
