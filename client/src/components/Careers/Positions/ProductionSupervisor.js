@@ -40,6 +40,7 @@ class ProductionSupervisor extends Component {
                 </ul>
                 <h4>SKILLS AND COMPETENCIES</h4>
                 <ul style={{color: "gray"}}>
+                    <li>Previous promotional product purchasing experience is required</li>
                     <li>Excellent verbal and written communication skills</li>
                     <li>Must have critical thinking ability and be able to analyze all aspects of an order</li>
                     <li>Strong initiative, confidence and the ability to ask questions as needed</li>
