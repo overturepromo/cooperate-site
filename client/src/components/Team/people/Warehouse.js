@@ -434,4 +434,31 @@ export const People = {
         why: '',
         image: Male1
     },
+    Araceli: {
+        name: 'Araceli Sanchez',
+        title: 'Receiving',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    Charles: {
+        name: 'Charles Burnett',
+        title: 'Receiving',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
+    },
+    Vincent: {
+        name: 'Vincent Pryor',
+        title: 'Receiving',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
