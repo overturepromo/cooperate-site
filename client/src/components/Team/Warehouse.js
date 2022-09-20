@@ -53,7 +53,6 @@ class Warehouse extends Component {
                     <Employee image={People.Natalie.image} name={People.Natalie.name} title={People.Natalie.title} />
                     <Employee image={People.Byron.image} name={People.Byron.name} title={People.Byron.title} />
                     <Employee image={People.Alejandra.image} name={People.Alejandra.name} title={People.Alejandra.title} />
-                    <Employee image={People.Araceli.image} name={People.Araceli.name} title={People.Araceli.title} />
                     <Employee image={People.Elizabeth.image} name={People.Elizabeth.name} title={People.Elizabeth.title} />
                     <Employee image={People.Maria.image} name={People.Maria.name} title={People.Maria.title} />
                     <Employee image={People.Guillermina.image} name={People.Guillermina.name} title={People.Guillermina.title} />
@@ -71,6 +70,7 @@ class Warehouse extends Component {
                     <Employee image={People.Araceli.image} name={People.Araceli.name} title={People.Araceli.title} />
                     <Employee image={People.Charles.image} name={People.Charles.name} title={People.Charles.title} />
                     <Employee image={People.Vincent.image} name={People.Vincent.name} title={People.Vincent.title} />
+                    <Employee image={People.Esmeralda.image} name={People.Esmeralda.name} title={People.Esmeralda.title} />
                 </div>
             </div>
         )

@@ -461,4 +461,13 @@ export const People = {
         why: '',
         image: Male1
     },
+    Esmeralda: {
+        name: 'Esmeralda Fuentes',
+        title: 'Kitting',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
 }
