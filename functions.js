@@ -50,7 +50,7 @@ var mail = require('nodemailer').mail;
     });
     var mailOptions = {
       from: email,
-      to: 'christinan@overturepromo.com, jacobg@overturepromo.com, glendaD@overturepromo.com, AnnaN@overturepromo.com',
+      to: 'christinan@overturepromo.com, jacobg@overturepromo.com, AngelaK@overturepromo.com',
       subject: `You have a new application for ${position}`,
       html: `<h4>First:</h4> ${first} 
              <h4>Last:</h4> ${last}
