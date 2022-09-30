@@ -126,11 +126,11 @@ class Jobs extends Component {
                         <h5 onClick={() => this.handleOn('warehouseAssociate')} className="view-button">View Details</h5>
                         {this.state.warehouseAssociate ? <WarehouseAssociate bye={this.handleOff} /> : null}
                     </div> */}
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Graphic Designer</h3>
                         <h5 onClick={() => this.handleOn('graphicDesigner')} className="view-button">View Details</h5>
                         {this.state.graphicDesigner ? <GraphicDesigner bye={this.handleOff} /> : null}
-                    </div>
+                    </div> */}
                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Accounts Receivable Clerk</h3>
                         <h5 onClick={() => this.handleOn('directorAccount')} className="view-button">View Details</h5>
@@ -141,11 +141,11 @@ class Jobs extends Component {
                         <h5 onClick={() => this.handleOn('apClerk')} className="view-button">View Details</h5>
                         {this.state.apClerk ? <APClerk bye={this.handleOff} /> : null}
                     </div> */}
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Web Developer </h3>
                         <h5 onClick={() => this.handleOn('webDeveloper')} className="view-button">View Details</h5>
                         {this.state.webDeveloper ? <WebDeveloper bye={this.handleOff} /> : null}
-                    </div>
+                    </div> */}
                 </div>
                 <div style={{margin: '30px 0'}}>
                     <p className="basic">Overture is an equal opportunity/affirmative action employer committed to a diverse and inclusive workplace. All qualified applicants will receive consideration for employment without regards to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, or any other basis prohibited by law. If you are an individual with a disability and need assistance in applying for a position, please contact us <a href="mailto:Humanresources@overturepromo.com" style={{color: '#54565a', textDecoration: 'underline'}}>here</a>.</p>
