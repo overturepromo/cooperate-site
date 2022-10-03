@@ -725,5 +725,41 @@ export const People = {
         vacation: '',
         why: '',
         image: Male1
-    },                                                         
+    },
+    Shelly: {
+        name: "Shelly Aberson",
+        title: 'Sales Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
+    Julia: {
+        name: "Julia Bruggeman",
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    Kara: {
+        name: "Kara Werchek",
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
+    Hal: {
+        name: "Hal Narotzky",
+        title: 'Sales Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
+    },                                                            
 }

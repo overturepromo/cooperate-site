@@ -470,4 +470,13 @@ export const People = {
         why: '',
         image: Female2
     },
+    Oga: {
+        name: 'Oga Lyles',
+        title: 'Receiving',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }

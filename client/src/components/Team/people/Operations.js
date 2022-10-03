@@ -414,4 +414,22 @@ export const People = {
         why: '',
         image: Female2
     },
+    Justin: {
+        name: 'Justin Christopher',
+        title: 'Staff Accountant',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Wade: {
+        name: 'Wade Maki',
+        title: 'Project Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male2
+    },
 }

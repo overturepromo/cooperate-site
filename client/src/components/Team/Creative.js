@@ -37,6 +37,7 @@ class Creative extends Component {
                     <Employee image={People.Aaron.image} name={People.Aaron.name} title={People.Aaron.title} />
                     <Employee image={People.Christopher.image} name={People.Christopher.name} title={People.Christopher.title} />
                     <Employee image={People.Samantha.image} name={People.Samantha.name} title={People.Samantha.title} />
+                    <Employee image={People.Brandon.image} name={People.Brandon.name} title={People.Brandon.title} />
                     <Employee image={People.MeganK.image} name={People.MeganK.name} title={People.MeganK.title} /> 
                     <Employee image={People.Elizabeth.image} name={People.Elizabeth.name} title={People.Elizabeth.title} />                                           
                 </div>

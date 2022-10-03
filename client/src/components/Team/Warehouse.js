@@ -39,7 +39,6 @@ class Warehouse extends Component {
                     <Employee image={People.Salvador.image} name={People.Salvador.name} title={People.Salvador.title} />
                     <Employee image={People.Nancy.image} name={People.Nancy.name} title={People.Nancy.title} />
                     <Employee image={People.Estella.image} name={People.Estella.name} title={People.Estella.title} />
-                    <Employee image={People.Gloria.image} name={People.Gloria.name} title={People.Gloria.title} />
                     <Employee image={People.Julio.image} name={People.Julio.name} title={People.Julio.title} />
                     <Employee image={People.Gonzalo.image} name={People.Gonzalo.name} title={People.Gonzalo.title} />
                     <Employee image={People.Jacob.image} name={People.Jacob.name} title={People.Jacob.title} />
@@ -66,11 +65,11 @@ class Warehouse extends Component {
                     <Employee image={People.Brandy.image} name={People.Brandy.name} title={People.Brandy.title} />
                     <Employee image={People.CarlosO.image} name={People.CarlosO.name} title={People.CarlosO.title} />
                     <Employee image={People.Epi.image} name={People.Epi.name} title={People.Epi.title} />
-                    <Employee image={People.JoseF.image} name={People.JoseF.name} title={People.JoseF.title} />
                     <Employee image={People.Araceli.image} name={People.Araceli.name} title={People.Araceli.title} />
                     <Employee image={People.Charles.image} name={People.Charles.name} title={People.Charles.title} />
                     <Employee image={People.Vincent.image} name={People.Vincent.name} title={People.Vincent.title} />
                     <Employee image={People.Esmeralda.image} name={People.Esmeralda.name} title={People.Esmeralda.title} />
+                    <Employee image={People.Oga.image} name={People.Oga.name} title={People.Oga.title} />
                 </div>
             </div>
         )
