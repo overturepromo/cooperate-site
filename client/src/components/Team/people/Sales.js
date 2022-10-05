@@ -59,6 +59,7 @@ import Lauren from '../../../images/team/Sales/Headshot_Crop_Lauren_LeMay.jpg';
 import Leunshe from '../../../images/team/Sales/Headshot_Crop_Leunshe_Heim.jpg';
 import Lynette from '../../../images/team/Sales/Headshot_Crop_Lynette_Stwertnik.jpg';
 import MichelleF from '../../../images/team/Sales/Headshot_Crop_Michelle_Fisher.jpg';
+import MeganK from '../../../images/team/Sales/MeganKragenbrink.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -475,7 +476,7 @@ export const People = {
     },
     Rory: {
         name: 'Rory Tucker',
-        title: 'Account Manager',
+        title: 'Sr. Account Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -493,7 +494,7 @@ export const People = {
     },
     Megan: {
         name: 'Megan Murphy',
-        title: 'Account Manager',
+        title: 'Sr. Account Manager',
         bio: '',
         movie: 'Homeward Bound (if you don’t love this movie you have no soul)',
         vacation: 'MEXICO!! ',
@@ -521,7 +522,7 @@ export const People = {
     },
     Kailee: {
         name: 'Kailee Murphy',
-        title: 'Sales Admin',
+        title: 'Account Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -761,5 +762,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Male2
+    },
+    MeganK: {
+        name: 'Megan Kragenbrink',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: MeganK
     },                                                            
 }

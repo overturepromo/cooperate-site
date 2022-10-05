@@ -12,6 +12,10 @@ import MichaelM from '../../../images/team/Board/MichaelM.jpg';
 import Trish from '../../../images/team/Board/Trish.jpg';
 import Stuart from '../../../images/team/Board/Stuart.jpg';
 import Justin from '../../../images/team/Board/Justin.jpg';
+import JoeL from '../../../images/team/Operations/Joe_Levy.jpg';
+import Aldo from '../../../images/team/Operations/Aldo Rossi.jpg';
+
+
 
 import Female1 from '../../../images/team/Female1.jpg';
 import Male1 from '../../../images/team/Male1.jpg';
@@ -153,5 +157,23 @@ export const People = {
         vacation: 'Puerto Vallarta',
         why: 'People, upside potential',
         image: MichaelN
+    },
+    JoeL: {
+        name: 'Joe Levy',
+        title: 'Controller',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: JoeL
+    },
+    Aldo: {
+        name: 'Aldo Rossi',
+        title: 'Director of Sales Operations',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Aldo
     },
 }

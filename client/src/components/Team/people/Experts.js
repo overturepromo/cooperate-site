@@ -22,6 +22,7 @@ import Bruce from '../../../images/team/Sales/Bruce.jpg';
 import Kimberlin from '../../../images/team/ExpertsPhotos/kimberlin.jpg'
 import Katie from '../../../images/team/Sales/Katie.jpg'
 import Jenna from '../../../images/team/Sales/Jenna.jpg'
+import Lindsay from '../../../images/team/Sales/Lindsay.jpg'
 
 
 import Ethan from '../../../images/team/ECom/Ethan.jpg';
@@ -295,5 +296,14 @@ export const People = {
         vacation: 'Mexico',
         why: 'The job description included a preferred (but not required) “a love for The Office and Chipotle burritos”. I knew I could get along with these people.',
         image: Katie
+    },
+    Lindsay: {
+        name: 'Lindsay Oswalt',
+        title: 'Training Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Lindsay
     },
 }

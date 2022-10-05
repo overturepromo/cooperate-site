@@ -9,14 +9,12 @@ import Salvador from '../../../images/team/Warehouse/Salvador.jpg';
 import Ismeal from '../../../images/team/Warehouse/Ismeal.jpg';
 import Nancy from '../../../images/team/Warehouse/Nancy.jpg';
 import Jeremy from '../../../images/team/Warehouse/Jeremy.jpg';
-import Gloria from '../../../images/team/Warehouse/Gloria.jpg';
 import Justin from '../../../images/team/Warehouse/Justin.jpg';
 import Estella from '../../../images/team/Warehouse/Estella.jpg';
 import Jacob from '../../../images/team/Warehouse/Jacob.jpg';
 import Abbey from '../../../images/team/Warehouse/AbbeyR.jpg';
 import JulioR from '../../../images/team/Warehouse/JulioR.jpg';
 import Aristarco from '../../../images/team/Warehouse/AristarcoG.jpg';
-import JoesR from '../../../images/team/Warehouse/JoseR.jpg';
 import JoesphY from '../../../images/team/Warehouse/JoesphY.jpg';
 import AlejandraE from '../../../images/team/Warehouse/AlejandraE.jpg';
 import Byron from '../../../images/team/Warehouse/BryonC.jpg';
@@ -32,11 +30,9 @@ import William from '../../../images/team/Warehouse/William_Perrin.jpg';
 import Angelica from '../../../images/team/Warehouse/Angelica_Gonzalez.jpg';
 import Doris from '../../../images/team/Warehouse/Doris_Quijada.jpg';
 import Michael from '../../../images/team/Warehouse/Michael_Wynn.jpg';
-import Iveth from '../../../images/team/Warehouse/Iveth_Acosta.jpg';
 import Brandy from '../../../images/team/Warehouse/Brandy Marban.jpg';
 import CarlosO from '../../../images/team/Warehouse/Carlos Otero.jpg';
 import Epi from '../../../images/team/Warehouse/Epigmenio Rodriguez.jpg';
-import JoseF from '../../../images/team/Warehouse/Jose Flores.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -136,15 +132,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Nancy
-    },
-    Gloria: {
-        name: 'Gloria Ramierz',
-        title: 'Picker',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Gloria
     },
     Natalie: {
         name: 'Natalie Flanagan',
@@ -272,15 +259,6 @@ export const People = {
         why: '',
         image: Male2
     },
-    Jose: {
-        name: 'Jose Rodriguez',
-        title: 'Receiving',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: JoesR
-    },
     Julio: {
         name: 'Julio Rodriguez',
         title: 'Picker',
@@ -380,15 +358,6 @@ export const People = {
         why: '',
         image: Michael
     },
-    Iveth: {
-        name: 'Iveth Acosta',
-        title: 'Pick/Pack',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Iveth
-    },
     Brandy: {
         name: 'Brandy Marban',
         title: 'Inventory Associate',
@@ -416,15 +385,6 @@ export const People = {
         why: '',
         image: Epi
     },
-    JoseF: {
-        name: 'Jose Flores',
-        title: 'Pick Pack Associate',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: JoseF
-    },
     Anthony: {
         name: 'Anthony Gray',
         title: 'Receiving',
@@ -433,42 +393,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Male1
-    },
-    Araceli: {
-        name: 'Araceli Sanchez',
-        title: 'Receiving',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Female1
-    },
-    Charles: {
-        name: 'Charles Burnett',
-        title: 'Receiving',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Male2
-    },
-    Vincent: {
-        name: 'Vincent Pryor',
-        title: 'Receiving',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Male1
-    },
-    Esmeralda: {
-        name: 'Esmeralda Fuentes',
-        title: 'Kitting',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Female2
     },
     Oga: {
         name: 'Oga Lyles',

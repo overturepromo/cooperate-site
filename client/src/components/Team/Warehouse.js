@@ -42,10 +42,7 @@ class Warehouse extends Component {
                     <Employee image={People.Julio.image} name={People.Julio.name} title={People.Julio.title} />
                     <Employee image={People.Gonzalo.image} name={People.Gonzalo.name} title={People.Gonzalo.title} />
                     <Employee image={People.Jacob.image} name={People.Jacob.name} title={People.Jacob.title} />
-                    <Employee image={People.Aristarco.image} name={People.Aristarco.name} title={People.Aristarco.title} />
-                    <Employee image={People.Jose.image} name={People.Jose.name} title={People.Jose.title} />
                     <Employee image={People.Joesph.image} name={People.Joesph.name} title={People.Joesph.title} />
-                    <Employee image={People.Mayla.image} name={People.Mayla.name} title={People.Mayla.title} />
                     <Employee image={People.MattC.image} name={People.MattC.name} title={People.MattC.title} />
                     <Employee image={People.MattN.image} name={People.MattN.name} title={People.MattN.title} />
                     <Employee image={People.Juvenita.image} name={People.Juvenita.name} title={People.Juvenita.title} />
@@ -55,20 +52,14 @@ class Warehouse extends Component {
                     <Employee image={People.Elizabeth.image} name={People.Elizabeth.name} title={People.Elizabeth.title} />
                     <Employee image={People.Maria.image} name={People.Maria.name} title={People.Maria.title} />
                     <Employee image={People.Guillermina.image} name={People.Guillermina.name} title={People.Guillermina.title} />
-                    <Employee image={People.GloriaVT.image} name={People.GloriaVT.name} title={People.GloriaVT.title} />
                     <Employee image={People.Edith.image} name={People.Edith.name} title={People.Edith.title} />
                     <Employee image={People.William.image} name={People.William.name} title={People.William.title} />
                     <Employee image={People.Angelica.image} name={People.Angelica.name} title={People.Angelica.title} />
                     <Employee image={People.Doris.image} name={People.Doris.name} title={People.Doris.title} />
                     <Employee image={People.Michael.image} name={People.Michael.name} title={People.Michael.title} />
-                    <Employee image={People.Iveth.image} name={People.Iveth.name} title={People.Iveth.title} />
                     <Employee image={People.Brandy.image} name={People.Brandy.name} title={People.Brandy.title} />
                     <Employee image={People.CarlosO.image} name={People.CarlosO.name} title={People.CarlosO.title} />
                     <Employee image={People.Epi.image} name={People.Epi.name} title={People.Epi.title} />
-                    <Employee image={People.Araceli.image} name={People.Araceli.name} title={People.Araceli.title} />
-                    <Employee image={People.Charles.image} name={People.Charles.name} title={People.Charles.title} />
-                    <Employee image={People.Vincent.image} name={People.Vincent.name} title={People.Vincent.title} />
-                    <Employee image={People.Esmeralda.image} name={People.Esmeralda.name} title={People.Esmeralda.title} />
                     <Employee image={People.Oga.image} name={People.Oga.name} title={People.Oga.title} />
                 </div>
             </div>

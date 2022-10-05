@@ -9,34 +9,22 @@ import Morgan from '../../../images/team/Operations/Morgan.jpg'
 import Robyn from '../../../images/team/Operations/Robyn.jpg'
 import Trina from '../../../images/team/Operations/Trina.jpg'
 import Ashley from '../../../images/team/Operations/Ashley.jpg'
-import Melissa from '../../../images/team/Operations/Melissa.jpg'
-import Shawn from '../../../images/team/Operations/Shawn.jpg'
-import Chintan from '../../../images/team/Operations/Chintan.jpg'
-import Kevin from '../../../images/team/Operations/Kevin.jpg'
-import Jacob from '../../../images/team/Operations/Jacob.jpg'
 import Tiffany from '../../../images/team/Operations/Tiffany.jpg';
 import Carolyn from '../../../images/team/Warehouse/Carolyn.jpg';
 import Chris from '../../../images/team/Operations/Chris.jpg';
-import Sheehy from '../../../images/team/Operations/Sheehy.jpg';
-import Dave from '../../../images/team/Operations/Dave.jpg';
-import Charles from '../../../images/team/Operations/Charles.jpg';
 import Keyla from '../../../images/team/Operations/Keyla.jpg';
 import Barb from '../../../images/team/Operations/Barbara.jpg';
-import Briana from '../../../images/team/Creative/Briana.jpg';
 import Grace from '../../../images/team/Operations/Grace.jpg';
 import Bethani from '../../../images/team/Operations/Bethani.jpg';
 import Holly from '../../../images/team/Operations/Holly.jpg';
-import Sam from '../../../images/team/Operations/Sam.jpg';
 import Glenda from '../../../images/team/Operations/Glenda.jpg';
 import Jeff from '../../../images/team/Warehouse/Jeff.jpg';
 import Troy from '../../../images/team/Operations/TroyN.jpg';
 import Maria from '../../../images/team/Operations/MariaA.jpg';
 import Annabelle from '../../../images/team/Operations/Annabelle.jpg'
-import Joe from '../../../images/team/Operations/Joe_Levy.jpg';
 import DavidM from '../../../images/team/Warehouse/DavidM.jpg';
 import Asia from '../../../images/team/Operations/Asia Rodgers.jpg';
 import Serafin from '../../../images/team/Operations/Serafin Rodriguez.jpg';
-import Aldo from '../../../images/team/Operations/Aldo Rossi.jpg';
 import Yanis from '../../../images/team/Operations/Yanis Tolbert.jpg';
 import AnnaN from '../../../images/team/Operations/Anna Nava.jpg';
 import Brenda from '../../../images/team/Operations/Brenda Munoz.jpg';
@@ -279,15 +267,6 @@ export const People = {
         why: '',
         image: Maria
     },
-    Joe: {
-        name: 'Joe Levy',
-        title: 'Controller',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Joe
-    },
     Blair: {
         name: 'Blair Ellis',
         title: 'Fulfillment Coordinator',
@@ -308,7 +287,7 @@ export const People = {
     },
     AnnaN: {
         name: 'Anna Nava',
-        title: 'HR Coordinator',
+        title: 'HR Business Partner',
         bio: '',
         movie: '',
         vacation: '',
@@ -332,15 +311,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Serafin
-    },
-    Aldo: {
-        name: 'Aldo Rossi',
-        title: 'Director of Sales Operations',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Aldo
     },
     Yanis: {
         name: 'Yanis Tolbert',

@@ -10,6 +10,8 @@ import Briana from '../../../images/team/Creative/Briana.jpg';
 import Sam from '../../../images/team/Operations/Sam.jpg';
 import Zuckerberg from '../../../images/team/Operations/zuckerberg.jpg';
 import Igor from '../../../images/team/Operations/Igor.jpg';
+import Josella from '../../../images/team/Sales/Josella.jpg';
+
 
 import Female1 from '../../../images/team/Female1.jpg';
 import Male1 from '../../../images/team/Male1.jpg';
@@ -19,7 +21,7 @@ import Male2 from '../../../images/team/Male2.jpg';
 export const People = {
     Melissa: {
         name: 'Melissa Jones',
-        title: 'Web Project Manager',
+        title: 'Sr. Web Project Manager',
         bio: '',
         movie: '',
         vacation: '',
@@ -125,13 +127,22 @@ export const People = {
         why: '',
         image: Igor
     },
-    Open2: {
-        name: 'Ishmael Olwal',
+    Brian: {
+        name: 'Brian Rahn',
         title: 'Web Developer',
         bio: '',
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Male2
+    },
+    Josella: {
+        name: 'Josella Boudreau',
+        title: 'Web Project Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Josella
     },
 }

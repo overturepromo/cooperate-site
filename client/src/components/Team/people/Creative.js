@@ -35,7 +35,7 @@ export const People = {
     },
     Duane: {
         name: 'Duane Zoldak',
-        title: 'Graphic Designer',
+        title: 'Sr. Graphic Designer',
         bio: '',
         movie: '',
         vacation: '',
@@ -62,7 +62,7 @@ export const People = {
     },
     Aaron: {
         name: 'Aaron Bauer',
-        title: 'Graphic Designer',
+        title: 'Art Director',
         bio: '',
         movie: '',
         vacation: '',

@@ -39,7 +39,6 @@ class Experts extends Component {
                     <Employee image={People.BobbyH.image} name={People.BobbyH.name} title={People.BobbyH.title} clicked={() => this.openModal(10)} />
                     <Employee image={People.BruceR.image} name={People.BruceR.name} title={People.BruceR.title} clicked={() => this.openModal(22)} />
                     <Employee image={People.CynthiaL.image} name={People.CynthiaL.name} title={People.CynthiaL.title} clicked={() => this.openModal(12)} />
-                    <Employee image={People.DaveR.image} name={People.DaveR.name} title={People.DaveR.title} clicked={() => this.openModal(13)} />
                     <Employee image={People.Dean.image} name={People.Dean.name} title={People.Dean.title} clicked={() => this.openModal(23)} />
                     <Employee image={People.Ethan.image} name={People.Ethan.name} title={People.Ethan.title} clicked={() => this.openModal(24)} />
                     <Employee image={People.Eric.image} name={People.Eric.name} title={People.Eric.title} clicked={() => this.openModal(28)} />
@@ -51,6 +50,7 @@ class Experts extends Component {
                     <Employee image={People.Kimberline.image} name={People.Kimberline.name} title={People.Kimberline.title} clicked={() => this.openModal(27)} />
                     <Employee image={People.LarryB.image} name={People.LarryB.name} title={People.LarryB.title} clicked={() => this.openModal(16)} />
                     <Employee image={People.LauraI.image} name={People.LauraI.name} title={People.LauraI.title} clicked={() => this.openModal(17)} />
+                    <Employee image={People.Lindsay.image} name={People.Lindsay.name} title={People.Lindsay.title}  />
                     <Employee image={People.NicoleS.image} name={People.NicoleS.name} title={People.NicoleS.title} clicked={() => this.openModal(26)} />
                 </div>
 

@@ -39,6 +39,8 @@ class Management extends Component {
                     <Employee image={People.MikeW.image} name={People.MikeW.name} title={People.MikeW.title} clicked={() => this.openModal(4)} />
                     <Employee image={People.ChristinaN.image} name={People.ChristinaN.name} title={People.ChristinaN.title} clicked={() => this.openModal(6)} />
                     <Employee image={People.RonG.image} name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />
+                    <Employee image={People.Aldo.image} name={People.Aldo.name} title={People.Aldo.title} />
+                    <Employee image={People.JoeL.image} name={People.JoeL.name} title={People.JoeL.title}  />
                 </div>
                 <Element id="experts-orange" name="experts">The Board</Element>
                 <div className="row">
