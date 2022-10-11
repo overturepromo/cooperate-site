@@ -737,7 +737,7 @@ export const People = {
         image: Female2
     },
     Julia: {
-        name: "Julia Bruggeman",
+        name: "Julia Brueggeman",
         title: 'Sales Account Admin',
         bio: '',
         movie: '',
