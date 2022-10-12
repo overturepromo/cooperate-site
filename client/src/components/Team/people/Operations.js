@@ -294,15 +294,6 @@ export const People = {
         why: '',
         image: AnnaN
     },
-    Asia: {
-        name: 'Asia Rodgers',
-        title: 'Customer Care Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Asia
-    },
     Serafin: {
         name: 'Serafin Rodriguez',
         title: 'Distribution Center Manager',
