@@ -14,7 +14,7 @@ import Stuart from '../../../images/team/Board/Stuart.jpg';
 import Justin from '../../../images/team/Board/Justin.jpg';
 import JoeL from '../../../images/team/Operations/Joe_Levy.jpg';
 import Aldo from '../../../images/team/Operations/Aldo Rossi.jpg';
-
+import Sheehy from '../../../images/team/Operations/Sheehy.jpg';
 
 
 import Female1 from '../../../images/team/Female1.jpg';
@@ -175,5 +175,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Aldo
+    },
+    ChrisS: {
+        name: 'Chris Sheehy',
+        title: 'Director of Web Development',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Sheehy
     },
 }

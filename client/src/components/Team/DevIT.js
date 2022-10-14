@@ -36,7 +36,6 @@ class DevIT extends Component {
                 </div>
                 <Element id="creative-orange">Web Dev</Element>
                 <div className="row">
-                    <Employee image={People.ChrisS.image} name={People.ChrisS.name} title={People.ChrisS.title} />
                     <Employee image={People.Charles.image} name={People.Charles.name} title={People.Charles.title} />
                     <Employee image={People.Melissa.image} name={People.Melissa.name} title={People.Melissa.title} />
                     <Employee image={People.Josella.image} name={People.Josella.name} title={People.Josella.title} />

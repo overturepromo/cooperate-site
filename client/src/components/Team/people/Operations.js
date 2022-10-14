@@ -33,6 +33,7 @@ import Brittney from '../../../images/team/Operations/Brittney Rodriguez.jpg';
 import Blair from '../../../images/team/Operations/Headshot_Crop_Blair_Ellis.jpg';
 import Elizabeth from '../../../images/team/Operations/Headshot_Crop_Elizabeth_Klaw.jpg';
 import EmilyJ from '../../../images/team/Operations/Headshot_Crop_Emily_Jones.jpg';
+import Lupe from '../../../images/team/Sales/Lupe.jpg'
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -392,5 +393,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Male2
+    },
+    Lupe: {
+        name: 'Lupe Carpio',
+        title: 'Customer Care Asst Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Lupe
     },
 }

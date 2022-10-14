@@ -41,6 +41,7 @@ class Management extends Component {
                     <Employee image={People.RonG.image} name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />
                     <Employee image={People.Aldo.image} name={People.Aldo.name} title={People.Aldo.title} />
                     <Employee image={People.JoeL.image} name={People.JoeL.name} title={People.JoeL.title}  />
+                    <Employee image={People.ChrisS.image} name={People.ChrisS.name} title={People.ChrisS.title} />
                 </div>
                 <Element id="experts-orange" name="experts">The Board</Element>
                 <div className="row">
@@ -51,12 +52,12 @@ class Management extends Component {
                     <Employee image={People.Lou.image} name={People.Lou.name} title={People.Lou.title} clicked={() => this.openModal(22)} />
                     <Employee image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} clicked={() => this.openModal(0)} />
                 </div>
-                <Element id="experts-orange" name="experts">The Acquisition Team</Element>
+                {/* <Element id="experts-orange" name="experts">The Acquisition Team</Element>
                 <div className="row">
                     <Employee image={People.Lou.image} name={People.Lou.name} title={People.Lou.title} clicked={() => this.openModal(22)} />
                     <Employee image={People.Mark.image} name={People.Mark.name} title={People.Mark.title} clicked={() => this.openModal(23)} />
                     <Employee image={People.MichaelN.image} name={People.MichaelN.name} title={People.MichaelN.title} clicked={() => this.openModal(24)} />
-                </div>
+                </div> */}
 
                 {/* All The modals */}
                 <Modal isOpen={this.state.showModal[0]} onRequestClose={this.closeModal} className="employee-modal">

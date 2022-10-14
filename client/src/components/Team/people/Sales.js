@@ -60,6 +60,8 @@ import Leunshe from '../../../images/team/Sales/Headshot_Crop_Leunshe_Heim.jpg';
 import Lynette from '../../../images/team/Sales/Headshot_Crop_Lynette_Stwertnik.jpg';
 import MichelleF from '../../../images/team/Sales/Headshot_Crop_Michelle_Fisher.jpg';
 import MeganK from '../../../images/team/Sales/MeganKragenbrink.jpg';
+import Chris from '../../../images/team/Operations/Chris.jpg';
+
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -771,5 +773,14 @@ export const People = {
         vacation: '',
         why: '',
         image: MeganK
-    },                                                            
+    }, 
+    ChrisM: {
+        name: 'Chris Mendoza',
+        title: 'Sales Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Chris
+    },                                                           
 }

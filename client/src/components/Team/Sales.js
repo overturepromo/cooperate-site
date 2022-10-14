@@ -42,6 +42,7 @@ class Sales extends Component {
                     <Employee image={People.Brittany.image} name={People.Brittany.name} title={People.Brittany.title} />
                     <Employee image={People.Carolyn.image} name={People.Carolyn.name} title={People.Carolyn.title} />
                     <Employee image={People.Cindy.image} name={People.Cindy.name} title={People.Cindy.title} />
+                    <Employee image={People.ChrisM.image} name={People.ChrisM.name} title={People.ChrisM.title} />
                     <Employee image={People.Danny.image} name={People.Danny.name} title={People.Danny.title} />
                     <Employee image={People.Erin.image} name={People.Erin.name} title={People.Erin.title} />
                     <Employee image={People.Hal.image} name={People.Hal.name} title={People.Hal.title} />
@@ -63,7 +64,6 @@ class Sales extends Component {
                     <Employee image={People.Lauren.image} name={People.Lauren.name} title={People.Lauren.title} />
                     <Employee image={People.Leunshe.image} name={People.Leunshe.name} title={People.Leunshe.title} />
                     <Employee image={People.Lisa.image} name={People.Lisa.name} title={People.Lisa.title} />
-                    <Employee image={People.Lupe.image} name={People.Lupe.name} title={People.Lupe.title} />
                     <Employee image={People.Lynette.image} name={People.Lynette.name} title={People.Lynette.title} />
                     <Employee image={People.Mallory.image} name={People.Mallory.name} title={People.Mallory.title} />
                     <Employee image={People.MeganK.image} name={People.MeganK.name} title={People.MeganK.title} /> 
