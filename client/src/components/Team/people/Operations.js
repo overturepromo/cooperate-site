@@ -403,4 +403,22 @@ export const People = {
         why: '',
         image: Lupe
     },
+    Cristian: {
+        name: 'Cristian Perez-Arredondo',
+        title: 'Customer Care',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Jennifer: {
+        name: 'Jennifer Vigliano',
+        title: 'Purchasing Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
 }
