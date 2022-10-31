@@ -782,5 +782,32 @@ export const People = {
         vacation: '',
         why: '',
         image: Chris
-    },                                                           
+    },
+    Cassie: {
+        name: 'Cassie Sackett',
+        title: 'Sr. Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
+    Stella: {
+        name: 'Stella Topps',
+        title: 'Sales Account Admin',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    AmyB: {
+        name: 'Amy Burger',
+        title: 'Sr. Account Executive',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },                                                                    
 }
