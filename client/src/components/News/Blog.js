@@ -8,6 +8,12 @@ const Blog = () => {
             <div className="container">
                 <p className="basic">Stay up to date on everything Overture Promotions, including recognition, industry news, and acquisitions.</p>
                 <h4 className="news-orange">Overture in the News</h4>
+                <p className="news-strong">September 2022</p>
+                <p className="basic">Overture Promotions makes a tree planting pledge as part of their sustainability initiatives.</p>
+                <a href="https://www.asicentral.com/news/newsletters/promogram/september-2022/overture-promotions-makes-tree-planting-pledge/" className="news-link" target="blank">https://www.asicentral.com/news/newsletters/promogram/september-2022/overture-promotions-makes-tree-planting-pledge/</a>
+                <p className="news-strong">August 2022</p>
+                <p className="basic">Jo Gilley shares tales from a top executive.</p>
+                <a href="http://digitaleditions.napco.com/publication/?i=757956&p=72&view=issueViewer" className="news-link" target="blank">http://digitaleditions.napco.com/publication/?i=757956&p=72&view=issueViewer</a>
                 <p className="news-strong">May 2021</p>
                 <p className="basic">Profile of CEO Jo Gilley</p>
                 <a href="https://pubs.ppai.org/ppb-magazine/leadership-in-motion" className="news-link" target="blank">https://pubs.ppai.org/ppb-magazine/leadership-in-motion</a>
@@ -26,13 +32,21 @@ const Blog = () => {
                 <p className="news-strong">August 2019</p>
                 <p className="basic">Overture values creativity and customer service excellence. </p>
                 <a href="https://magazine.promomarketing.com/article/promo-businesses-culture-core-values-continuous-improvement/" className="news-link" target="blank">https://magazine.promomarketing.com/article/promo-businesses-culture-core-values-continuous-improvement/</a>
+
                 <h4 className="news-orange">Awards & Recognition</h4>
+                <p className="news-strong">November 2022</p>
+                <p className="basic">Jo Gilley ranks at 31 on the 2022 Power 50 list</p>
+                <a href="https://www.asicentral.com/news/magazines/counselor/november-2022/power-50-2022-no-31-jo-gilley-overture-promotions/" className="news-link" target="blank">https://www.asicentral.com/news/magazines/counselor/november-2022/power-50-2022-no-31-jo-gilley-overture-promotions/</a>
+                <p className="news-strong">January 2022</p>
+                <p className="basic">Overture Promotions promotes Tej Shah to new C-suite role</p>
+                <a href="https://www.asicentral.com/news/newsletters/promogram/january-2022/overture-promotions-promotes-tej-shah-to-new-c-suite-role/" className="news-link" target="blank">https://www.asicentral.com/news/newsletters/promogram/january-2022/overture-promotions-promotes-tej-shah-to-new-c-suite-role/</a>
                 <p className="news-strong">November 2021</p>
                 <p className="basic">Overture ranked 13th on the 50 Fastest Growing Women-Owned/Led Companies list.</p>
                 <a href="https://www.asicentral.com/news/newsletters/promogram/november-2021/in-the-news-november-2021/" className="news-link" target="blank">https://www.asicentral.com/news/newsletters/promogram/november-2021/in-the-news-november-2021/</a>
                 <p className="news-strong">October 2021</p>
                 <p className="basic">CEO Jo Gilley ranks 36th on the 2021 Power 50 list. </p>
                 <a href="https://www.asicentral.com/news/magazines/counselor/october-2021/power-50-2021-no-36-jo-gilley-overture-promotions" className="news-link" target="blank">https://www.asicentral.com/news/magazines/counselor/october-2021/power-50-2021-no-36-jo-gilley-overture-promotions</a>
+                
                 <h4 className="news-orange">Press Releases</h4>
                 <p className="basic">Nothing for this section yet.</p>
             </div>
