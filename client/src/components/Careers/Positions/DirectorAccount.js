@@ -65,7 +65,7 @@ class DirectorAccount extends Component {
                 </ul>
                 <h4>Education/Experience</h4>
                 <ul style={{color: "gray"}}>
-                    <li>BS/BA degree or equivalent combination of education and experience required.</li>
+                    <li>BS/BA degree recommend, but not required</li>
                 </ul>
                 <p>*Relocation is not provided for this role.</p>
                 <button className="apply-button" onClick={this.openModal}>APPLY FOR POSITION</button>
