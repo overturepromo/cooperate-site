@@ -30,6 +30,8 @@ import Dean from '../../../images/team/ECom/Dean.jpg';
 import Katelynn from '../../../images/team/ECom/Katelynn.jpg';
 import NicoleS from '../../../images/team/Sales/Nicole.jpg';
 import Eric from '../../../images/team/ExpertsPhotos/EricY.jpg';
+import Lauren from '../../../images/team/Sales/Headshot_Crop_Lauren_LeMay.jpg';
+
 
 import Female1 from '../../../images/team/Female1.jpg';
 import Male1 from '../../../images/team/Male1.jpg';
@@ -305,5 +307,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Lindsay
+    },
+    Lauren: {
+        name: 'Lauren LeMay',
+        title: 'Sales Account Executive',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Lauren
     },
 }

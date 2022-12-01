@@ -50,6 +50,7 @@ class Experts extends Component {
                     <Employee image={People.Kimberline.image} name={People.Kimberline.name} title={People.Kimberline.title} clicked={() => this.openModal(27)} />
                     <Employee image={People.LarryB.image} name={People.LarryB.name} title={People.LarryB.title} clicked={() => this.openModal(16)} />
                     <Employee image={People.LauraI.image} name={People.LauraI.name} title={People.LauraI.title} clicked={() => this.openModal(17)} />
+                    <Employee image={People.Lauren.image} name={People.Lauren.name} title={People.Lauren.title} />
                     <Employee image={People.Lindsay.image} name={People.Lindsay.name} title={People.Lindsay.title}  />
                     <Employee image={People.NicoleS.image} name={People.NicoleS.name} title={People.NicoleS.title} clicked={() => this.openModal(26)} />
                 </div>
