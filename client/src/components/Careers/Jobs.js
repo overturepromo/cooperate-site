@@ -137,7 +137,7 @@ class Jobs extends Component {
                         {this.state.directorAccount ? <DirectorAccount bye={this.handleOff} /> : null}
                     </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3>Receiving Associate</h3>
+                        <h3>Scheduling Coordinator</h3>
                         <h5 onClick={() => this.handleOn('apClerk')} className="view-button">View Details</h5>
                         {this.state.apClerk ? <APClerk bye={this.handleOff} /> : null}
                     </div>
