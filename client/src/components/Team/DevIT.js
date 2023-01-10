@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Modal from 'react-modal';
 import {Element} from "react-scroll";
 import Employee from './Employee';
+import NotPictured from './NotPictured';
 import { People } from './people/DevIT';
 
 import '../../styles/Team.css'
@@ -41,12 +42,15 @@ class DevIT extends Component {
                     <Employee image={People.Josella.image} name={People.Josella.name} title={People.Josella.title} />
                     <Employee image={People.Kevin.image} name={People.Kevin.name} title={People.Kevin.title} />
                     <Employee image={People.Dave.image} name={People.Dave.name} title={People.Dave.title} />
-                    <Employee image={People.Mark.image} name={People.Mark.name} title={People.Mark.title} />
                     <Employee image={People.Igor.image} name={People.Igor.name} title={People.Igor.title} />
-                    <Employee image={People.Brian.image} name={People.Brian.name} title={People.Brian.title} />
                     <Employee image={People.Jacob.image} name={People.Jacob.name} title={People.Jacob.title} />
                     <Employee image={People.Sam.image} name={People.Sam.name} title={People.Sam.title} />
                     <Employee image={People.Briana.image} name={People.Briana.name} title={People.Briana.title} />
+                </div>
+                <Element id="creative-orange">Not Pictured Yet</Element>
+                <div className="row" style={{marginBottom: '50px'}}>
+                    <NotPictured name={People.Mark.name} title={People.Mark.title} />
+                    <NotPictured name={People.Brian.name} title={People.Brian.title} />
                 </div>
             </div>
         )

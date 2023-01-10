@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Modal from 'react-modal';
 import {Element} from "react-scroll";
 import Employee from './Employee';
+import NotPictured from './NotPictured';
 import { People } from './people/Warehouse';
 
 import '../../styles/Team.css'
@@ -46,7 +47,6 @@ class Warehouse extends Component {
                     <Employee image={People.MattC.image} name={People.MattC.name} title={People.MattC.title} />
                     <Employee image={People.MattN.image} name={People.MattN.name} title={People.MattN.title} />
                     <Employee image={People.Juvenita.image} name={People.Juvenita.name} title={People.Juvenita.title} />
-                    <Employee image={People.Natalie.image} name={People.Natalie.name} title={People.Natalie.title} />
                     <Employee image={People.Byron.image} name={People.Byron.name} title={People.Byron.title} />
                     <Employee image={People.Alejandra.image} name={People.Alejandra.name} title={People.Alejandra.title} />
                     <Employee image={People.Elizabeth.image} name={People.Elizabeth.name} title={People.Elizabeth.title} />
@@ -60,7 +60,11 @@ class Warehouse extends Component {
                     <Employee image={People.Brandy.image} name={People.Brandy.name} title={People.Brandy.title} />
                     <Employee image={People.CarlosO.image} name={People.CarlosO.name} title={People.CarlosO.title} />
                     <Employee image={People.Epi.image} name={People.Epi.name} title={People.Epi.title} />
-                    <Employee image={People.Oga.image} name={People.Oga.name} title={People.Oga.title} />
+                </div>
+                <Element id="creative-orange">Not Pictured Yet</Element>
+                <div className="row" style={{marginBottom: '50px'}}>
+                    <NotPictured name={People.Natalie.name} title={People.Natalie.title} />
+                    <NotPictured name={People.Oga.name} title={People.Oga.title} />
                 </div>
             </div>
         )
