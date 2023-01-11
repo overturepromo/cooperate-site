@@ -39,7 +39,7 @@ class Creative extends Component {
                     <Employee image={People.Christopher.image} name={People.Christopher.name} title={People.Christopher.title} />
                     <Employee image={People.Samantha.image} name={People.Samantha.name} title={People.Samantha.title} />
                 </div>
-                <Element id="creative-orange">Not Pictured Yet</Element>
+                <Element id="creative-orange">Not Pictured</Element>
                 <div className="row" style={{marginBottom: '50px'}}>
                     <NotPictured name={People.Elizabeth.name} title={People.Elizabeth.title} />
                     <NotPictured name={People.Brandon.name} title={People.Brandon.title} />

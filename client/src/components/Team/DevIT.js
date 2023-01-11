@@ -47,7 +47,7 @@ class DevIT extends Component {
                     <Employee image={People.Sam.image} name={People.Sam.name} title={People.Sam.title} />
                     <Employee image={People.Briana.image} name={People.Briana.name} title={People.Briana.title} />
                 </div>
-                <Element id="creative-orange">Not Pictured Yet</Element>
+                <Element id="creative-orange">Not Pictured</Element>
                 <div className="row" style={{marginBottom: '50px'}}>
                     <NotPictured name={People.Mark.name} title={People.Mark.title} />
                     <NotPictured name={People.Brian.name} title={People.Brian.title} />

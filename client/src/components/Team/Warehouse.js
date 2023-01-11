@@ -61,7 +61,7 @@ class Warehouse extends Component {
                     <Employee image={People.CarlosO.image} name={People.CarlosO.name} title={People.CarlosO.title} />
                     <Employee image={People.Epi.image} name={People.Epi.name} title={People.Epi.title} />
                 </div>
-                <Element id="creative-orange">Not Pictured Yet</Element>
+                <Element id="creative-orange">Not Pictured</Element>
                 <div className="row" style={{marginBottom: '50px'}}>
                     <NotPictured name={People.Natalie.name} title={People.Natalie.title} />
                     <NotPictured name={People.Oga.name} title={People.Oga.title} />

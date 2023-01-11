@@ -25,7 +25,6 @@
 .jump-list{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding: 0;
     margin-top: 25px;
 }
@@ -34,6 +33,10 @@
     list-style-type: none;
     margin: 10px 37px;
     width: 18%;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 
@@ -130,7 +133,8 @@
     }
     .jump-link{
         margin: 5px 0;
-        font-size: 22px;
+        font-size: 14px;
+        width: 100%;
     }
 }
 
