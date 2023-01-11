@@ -66,7 +66,7 @@ app.post('/apply', upload.single('selectedFile'), (req, res) => {
   const readStream = fs.createReadStream(req.file.path);
   readStream.pipe(s3Request);
   res.send()
-  fn.applyEmail(req.body.position, req.body.first, req.body.last, req.body.email, req.body.phone, req.body.movies, req.body.coverLetter, amazonFile)
+  fn.applyEmail(req.body.position, req.body.first, req.body.last, req.body.email, req.body.phone, req.body.movies, req.body.hear, req.body.coverLetter, amazonFile)
 })
 
 app.post('/quote', (req, res) => {

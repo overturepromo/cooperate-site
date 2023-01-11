@@ -32,7 +32,7 @@ var mail = require('nodemailer').mail;
     });
   };
 
-  exports.applyEmail = (position, first, last, email, phone, movies, coverLetter, resume) => {
+  exports.applyEmail = (position, first, last, email, phone, movies, hear, coverLetter, resume) => {
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         secure: true,
@@ -57,6 +57,7 @@ var mail = require('nodemailer').mail;
              <h4>Email:</h4> ${email} 
              <h4>Phone:</h4> ${phone} 
              <h4>Movies:</h4> ${movies}
+             <h4>Hear About Us:</h4> ${hear}
              <h4>Cover Letter</h4> ${coverLetter} `,
       attachments: [{
         href: resume

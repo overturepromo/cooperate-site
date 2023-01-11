@@ -10,6 +10,7 @@ class ApplyBox extends Component {
         email: '',
         phone: '',
         movies: '',
+        hear: '',
         coverLetter: '',
         selectedFile: '',
         applied: false
@@ -32,6 +33,9 @@ class ApplyBox extends Component {
             case 'movies':
                 this.setState({movies: e.target.value})
                 break;
+            case 'hear':
+                this.setState({hear: e.target.value})
+                break;
             case 'coverLetter':
                 this.setState({coverLetter: e.target.value})
                 break;
@@ -46,7 +50,7 @@ class ApplyBox extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
-        const { first, last, email, phone, movies, coverLetter, selectedFile } = this.state;
+        const { first, last, email, phone, movies, hear, coverLetter, selectedFile } = this.state;
 
         let formData = new FormData();
         formData.append('position', this.props.title)
@@ -55,6 +59,7 @@ class ApplyBox extends Component {
         formData.append('email', email);
         formData.append('phone', phone);
         formData.append('movies', movies);
+        formData.append('hear', hear);
         formData.append('coverLetter', coverLetter);
         formData.append('selectedFile', selectedFile);
 
@@ -65,7 +70,7 @@ class ApplyBox extends Component {
           .catch(function (error) {
             console.log(error);
           });
-        this.setState({first: '', last: '', email: '', phone: '', movies: '', coverLetter: '', selectedFile: '', applied: true})
+        this.setState({first: '', last: '', email: '', phone: '', movies: '', hear: '', coverLetter: '', selectedFile: '', applied: true})
     }
 
     render(){
@@ -91,6 +96,7 @@ class ApplyBox extends Component {
                     <input className="apply-inputs" type='text' name="email" placeholder="Email" required value={this.state.email} onChange={this.handleChange} />
                     <input className="apply-inputs" type='text' name="phone" placeholder="Phone" required value={this.state.phone} onChange={this.handleChange} />
                     <input className="apply-inputs" type='text' name="movies" placeholder="What are your 3 favorite movies?" required value={this.state.movies} onChange={this.handleChange} />
+                    <input className="apply-inputs" type='text' name="hear" placeholder="How did you hear about us?" required value={this.state.hear} onChange={this.handleChange} />
                     <textarea className="apply-inputs text-area-contact" style={{height: "100px"}} type='text' name="coverLetter" placeholder="Paste your cover letter" value={this.state.coverLetter} onChange={this.handleChange} />
                     <div style={{display: 'flex'}}>
                         <lable>Attach your resume<br /> (PDF or Word attachment)</lable>
