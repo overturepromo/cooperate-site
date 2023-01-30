@@ -729,15 +729,6 @@ export const People = {
         why: '',
         image: Female2
     },
-    Julia: {
-        name: "Julia Brueggeman",
-        title: 'Sales Account Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Female1
-    },
     Kara: {
         name: "Kara Werchek",
         title: 'Sales Account Admin',
