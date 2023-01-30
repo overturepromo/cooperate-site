@@ -178,7 +178,7 @@ export const People = {
     },
     ChrisS: {
         name: 'Chris Sheehy',
-        title: 'Director of Web Development',
+        title: 'CTO',
         bio: '',
         movie: '',
         vacation: '',
