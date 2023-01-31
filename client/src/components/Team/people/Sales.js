@@ -665,15 +665,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Carolyn
-    },
-    Kelli: {
-        name: "Kelli Bennett",
-        title: 'Sr Account Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Kelli
     }, 
     Lynette: {
         name: "Lynette Stwertnik",
