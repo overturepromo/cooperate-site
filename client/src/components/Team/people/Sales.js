@@ -800,5 +800,23 @@ export const People = {
         vacation: '',
         why: '',
         image: Male1
-    },                                                                    
+    },
+    Clair: {
+        name: 'Clair Hermesch',
+        title: 'Account Director',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
+    RachelD: {
+        name: 'Rachel Dudek',
+        title: 'Account Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },                                                                      
 }

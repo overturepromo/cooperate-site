@@ -349,15 +349,6 @@ export const People = {
         why: '',
         image: Female2
     },
-    Elizabeth: {
-        name: 'Elizabeth Klaw',
-        title: 'AR Clerk',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Elizabeth
-    },
     BrittneyH: {
         name: 'Brittney Hartfield',
         title: 'Purchasing Coordinator',
