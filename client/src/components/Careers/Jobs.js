@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Helmet} from "react-helmet";
 import AccountCoordinator from './Positions/AccountCoordinator'
 import ACRiverNorth from './Positions/ACRiverNorth'
 import SalesAssistant from './Positions/SalesAssistant'
@@ -92,6 +93,16 @@ class Jobs extends Component {
         }     
     }
 
+    componentDidMount () {
+        // const script = document.createElement("script");
+    
+        // script.src = "https://app.jazz.co/widgets/basic/create/overturepromotions";
+        // script.async = true;
+    
+        // document.body.appendChild(script);
+
+    }
+
     render(){
         return (
             <div className='container' style={{marginTop: '20px'}}>
@@ -147,6 +158,14 @@ class Jobs extends Component {
                         {this.state.webDeveloper ? <WebDeveloper bye={this.handleOff} /> : null}
                     </div> */}
                 </div>
+                {/* <iframe name="resumator-job-frame" id="resumator-job-frame" class="resumator-advanced-widget" src="https://app.jazz.co/widgets/basic/create/overturepromotions" width="100%" height="1500px" scrolling="yes" frameborder="0" allowTransparency="true"></iframe>{function resizeResumatorIframe(height,nojump){if(nojump== 0){window.scrollTo(0,0);}document.getElementById("resumator-job-frame").height = parseInt(height)+20;}} */}
+                {/* <Helmet>
+                    <script 
+                        src="https://app.jazz.co/widgets/basic/create/overturepromotions"
+                        crossorigin="anonymous"
+                        async>
+                        </script>
+                </Helmet> */}
                 <div style={{margin: '30px 0'}}>
                     <p className="basic">Overture is an equal opportunity/affirmative action employer committed to a diverse and inclusive workplace. All qualified applicants will receive consideration for employment without regards to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, or any other basis prohibited by law. If you are an individual with a disability and need assistance in applying for a position, please contact us <a href="mailto:Humanresources@overturepromo.com" style={{color: '#54565a', textDecoration: 'underline'}}>here</a>.</p>
                 </div>
