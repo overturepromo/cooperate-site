@@ -818,5 +818,41 @@ export const People = {
         vacation: '',
         why: '',
         image: Female1
-    },                                                                      
+    },
+    StephanieK: {
+        name: 'Stephanie Kerkovich',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    JulieH: {
+        name: 'Julie Haizel',
+        title: 'Account Executive',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    TiffanyC: {
+        name: 'Tiffany Cobwell',
+        title: 'Account Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    JacquelineJ: {
+        name: 'Jacqueline James',
+        title: 'Sr. Account Executive',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },                                                                            
 }
