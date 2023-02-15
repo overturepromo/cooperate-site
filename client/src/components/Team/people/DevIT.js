@@ -118,15 +118,6 @@ export const People = {
         why: '',
         image: Male1
     },
-    Igor: {
-        name: 'Igor Maydanik',
-        title: 'Web Developer',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Igor
-    },
     Brian: {
         name: 'Brian Rahn',
         title: 'Web Developer',
