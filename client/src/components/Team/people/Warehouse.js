@@ -151,15 +151,6 @@ export const People = {
         why: '',
         image: Justin
     },
-    Jeremy: {
-        name: 'Jeremy Schulz',
-        title: 'Asst Distribution Center Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Jeremy
-    },
     Estella: {
         name: 'Estella Diaz',
         title: 'Picker',

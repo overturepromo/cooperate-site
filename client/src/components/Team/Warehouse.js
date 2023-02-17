@@ -32,7 +32,6 @@ class Warehouse extends Component {
             <div className="container">
                 <Element id="warehouse-orange">Warehouse</Element>
                 <div className="row">
-                    <Employee image={People.Jeremy.image} name={People.Jeremy.name} title={People.Jeremy.title} />
                     <Employee image={People.Abi.image} name={People.Abi.name} title={People.Abi.title} />
                     <Employee image={People.Mario.image} name={People.Mario.name} title={People.Mario.title} />
                     <Employee image={People.Ismeal.image} name={People.Ismeal.name} title={People.Ismeal.title} />

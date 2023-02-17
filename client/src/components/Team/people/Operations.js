@@ -421,4 +421,13 @@ export const People = {
         why: '',
         image: Female2
     },
+    RachelK: {
+        name: 'Rachel King',
+        title: 'Accounts Receivable Clerk',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female2
+    },
 }
