@@ -63,7 +63,6 @@ class Warehouse extends Component {
                 <Element id="creative-orange">Not Pictured</Element>
                 <div className="row" style={{marginBottom: '50px'}}>
                     <NotPictured name={People.Natalie.name} title={People.Natalie.title} />
-                    <NotPictured name={People.Oga.name} title={People.Oga.title} />
                 </div>
             </div>
         )
