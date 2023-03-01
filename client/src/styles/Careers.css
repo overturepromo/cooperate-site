@@ -10,6 +10,15 @@
     padding-top: 175px;
 }
 
+.apply-link{
+    color: #696969;
+    text-decoration: underline;
+}
+
+.apply-link:hover{
+    color: #3babc5;
+}
+
 .view-button{
     color: #ef7521;
 }
