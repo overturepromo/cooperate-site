@@ -108,9 +108,10 @@ class Jobs extends Component {
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
                     <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3>Account Manager, Inside Sales</h3>
-                        <h5 onClick={() => this.handleOn('acRiverNorth')} className="view-button">View Details</h5>
-                        {this.state.acRiverNorth ? <ACRiverNorth bye={this.handleOff} /> : null}
+                        <h3>Customer Care Coordinator</h3>
+                        <h5><a target='blank' href="https://overturepromotions.applytojob.com/apply/GliYJzUQ87/Customer-Care-Coordinator">Click to apply</a></h5>
+                        {/* <h5 onClick={() => this.handleOn('acRiverNorth')} className="view-button">View Details</h5> */}
+                        {/* {this.state.acRiverNorth ? <ACRiverNorth bye={this.handleOff} /> : null} */}
                     </div>
                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Purchasing Manager</h3>
@@ -158,7 +159,10 @@ class Jobs extends Component {
                         {this.state.webDeveloper ? <WebDeveloper bye={this.handleOff} /> : null}
                     </div> */}
                 </div>
+                <h3><a target="blank" href="https://overturepromotions.applytojob.com/apply/">View All Positions!</a></h3>
+                {/* The second iframe is the one that works. But will have to change scrolling to yes and at height as well */}
                 {/* <iframe name="resumator-job-frame" id="resumator-job-frame" class="resumator-advanced-widget" src="https://app.jazz.co/widgets/basic/create/overturepromotions" width="100%" height="1500px" scrolling="yes" frameborder="0" allowTransparency="true"></iframe>{function resizeResumatorIframe(height,nojump){if(nojump== 0){window.scrollTo(0,0);}document.getElementById("resumator-job-frame").height = parseInt(height)+20;}} */}
+                {/* <iframe name="resumator-job-frame" id="resumator-job-frame" className="resumator-advanced-widget" src="//overturepromotions.applytojob.com/apply/jobs/" width="100%" scrolling="yes" height="250" frameBorder="0" allowtransparency="true"></iframe>{function resizeResumatorIframe(height,nojump){if(nojump== 0){window.scrollTo(0,0);}document.getElementById("resumator-job-frame").height = parseInt(height)+20;}}<a href="//overturepromotions.applytojob.com/apply/jobs/">View all jobs</a> */}
                 {/* <Helmet>
                     <script 
                         src="https://app.jazz.co/widgets/basic/create/overturepromotions"
