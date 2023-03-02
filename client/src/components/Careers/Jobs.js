@@ -112,6 +112,12 @@ class Jobs extends Component {
                         {/* <h5 onClick={() => this.handleOn('acRiverNorth')} className="view-button">View Details</h5> */}
                         {/* {this.state.acRiverNorth ? <ACRiverNorth bye={this.handleOff} /> : null} */}
                     </div>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/Ss2cg9R6Xl/Account-Manager-Inside-Sales">Account Manager, Inside Sales</a></h3>
+                    </div>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/0Uq651OEMJ/Controller">Controller</a></h3>
+                    </div>
                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Purchasing Manager</h3>
                         <h5 onClick={() => this.handleOn('acWaukegan')} className="view-button">View Details</h5>

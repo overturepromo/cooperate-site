@@ -158,15 +158,6 @@ export const People = {
         why: 'People, upside potential',
         image: MichaelN
     },
-    JoeL: {
-        name: 'Joe Levy',
-        title: 'Controller',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: JoeL
-    },
     Aldo: {
         name: 'Aldo Rossi',
         title: 'Director of Sales Operations',

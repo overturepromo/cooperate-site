@@ -40,7 +40,6 @@ class Management extends Component {
                     <Employee image={People.ChristinaN.image} name={People.ChristinaN.name} title={People.ChristinaN.title} clicked={() => this.openModal(6)} />
                     <Employee image={People.RonG.image} name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />
                     <Employee image={People.Aldo.image} name={People.Aldo.name} title={People.Aldo.title} />
-                    <Employee image={People.JoeL.image} name={People.JoeL.name} title={People.JoeL.title}  />
                     <Employee image={People.ChrisS.image} name={People.ChrisS.name} title={People.ChrisS.title} />
                 </div>
                 <Element id="experts-orange" name="experts">The Board</Element>

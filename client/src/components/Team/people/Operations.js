@@ -430,15 +430,6 @@ export const People = {
         why: '',
         image: Female2
     },
-    LuisS: {
-        name: 'Luis Amaya Sanchez',
-        title: 'Customer Care',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Female2
-    },
     Emely: {
         name: 'Emely Lobo',
         title: 'Customer Care',

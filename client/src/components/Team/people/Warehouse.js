@@ -250,15 +250,6 @@ export const People = {
         why: '',
         image: Male2
     },
-    Julio: {
-        name: 'Julio Rodriguez',
-        title: 'Picker',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: JulioR
-    },
     Guillermina: {
         name: 'Mona Ruiz',
         title: 'Special Projects',
