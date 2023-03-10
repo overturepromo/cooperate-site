@@ -268,15 +268,6 @@ export const People = {
         why: '',
         image: Maria
     },
-    Blair: {
-        name: 'Blair Ellis',
-        title: 'Fulfillment Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Blair
-    },
     Javier: {
         name: 'Javier Gaytan',
         title: 'Billing Coordinator',

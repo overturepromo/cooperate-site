@@ -8,6 +8,7 @@ import MyVideo from '../../images/Video.mp4';
 import HeroText from '../../images/home/herotext.svg';
 import BackupImage from '../../images/home/temp_hero.jpg';
 import VideoFailImage from '../../images/home/Home_Backup_Hero.jpg';
+import CreativeImage from '../../images/home/CreativeControlFreaks_White_TM.svg';
 
 import {Link as LinkScroll} from "react-scroll";
 
@@ -42,7 +43,8 @@ class Hero extends Component {
                 }
                     <div className="cta-home">
                         <div className="container">
-                            <img src={HeroText} className="hero-text" alt="overture-hero" />
+                            <img src={CreativeImage} className="hero-text" alt="overture-hero" />
+                            {/* <img src={HeroText} className="hero-text" alt="overture-hero" /> */}
                             <p className="home-cta-top">Wildly creative promotional marketing programs + exacting supply chain control.</p>    
                             <Link to="/contact">
                                 <p className="home-cta-bottom">Ask us how 

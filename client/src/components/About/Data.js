@@ -7,6 +7,7 @@ import State3 from '../../images/about/ordersbystate3.svg'
 import ActiveTwo from '../../images/about/activeusers.png';
 import QCA from '../../images/about/QCA_Badge.jpg';
 import AboutCreative from '../../images/about/about_creative.svg';
+import OrangeCreative from '../../images/about/CreativeControlFreaks_Orange_TM.svg';
 
 class Data extends Component {
 
@@ -34,7 +35,7 @@ class Data extends Component {
                                 <h4 className="green-history">How carefully we work.</h4>
                             </div>
                             <div className="col-md-4 careful-img-div">
-                                <img className='about-careful-img' src={AboutCreative} style={{height: '175px'}} />
+                                <img className='about-careful-img' src={OrangeCreative} style={{height: '200px'}} />
                             </div>
                             <div className="col-md-8">
                                 <p className="basic">We call ourselves “creative control freaks” because we’ve built Overture on these foundational values: creativity, responsiveness, accuracy, and on-time delivery. Our quality control process has 14 checkpoints. We’re serious about investing in technology to streamline processes and improve quality and inventory control. We are meticulous in our security precautions to protect customer data, and we’re CCPA compliant.* Twelve years ago, Overture was one of fifteen distributors chosen to serve on the Quality Certification Alliance Advisory Council, helping set product quality standards. Today, we continue to vet suppliers, only working with those manufacturers who we have certified for product quality and safety, supply chain security, social accountability, and environmental stewardship.</p>

@@ -21,7 +21,8 @@
 }
 
 .hero-text {
-    height: 175px;
+    height: 200px;
+    margin-left: -25px;
 }
 
 .cta-home {
