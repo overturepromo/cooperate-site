@@ -123,5 +123,14 @@ export const People = {
         why: '',
         image: Male1
     },
+    Evie: {
+        name: 'Evie Daniels',
+        title: 'Graphic Designer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }
 
