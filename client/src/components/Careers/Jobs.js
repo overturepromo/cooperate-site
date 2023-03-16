@@ -108,13 +108,11 @@ class Jobs extends Component {
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
                     <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/GliYJzUQ87/Customer-Care-Coordinator">Customer Care Coordinator</a></h3>
-                        {/* <h5 onClick={() => this.handleOn('acRiverNorth')} className="view-button">View Details</h5> */}
-                        {/* {this.state.acRiverNorth ? <ACRiverNorth bye={this.handleOff} /> : null} */}
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/ThzVHON0bn/Account-Coordinator">Account Coordinator</a></h3>
                     </div>
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/Ss2cg9R6Xl/Account-Manager-Inside-Sales">Account Manager, Inside Sales</a></h3>
-                    </div>
+                    </div> */}
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/0Uq651OEMJ/Controller">Controller</a></h3>
                     </div>
