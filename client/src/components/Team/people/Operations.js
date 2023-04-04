@@ -448,5 +448,14 @@ export const People = {
         why: '',
         image: Male1
     },
+    Michael: {
+        name: 'Michael Haake',
+        title: 'Billing Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
 
