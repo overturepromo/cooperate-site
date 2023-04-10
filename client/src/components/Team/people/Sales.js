@@ -854,5 +854,23 @@ export const People = {
         vacation: '',
         why: '',
         image: Female1
+    },
+    LuisP: {
+        name: 'Luis Pacheco',
+        title: 'Account Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    AshleyL: {
+        name: 'Ashley Lewis',
+        title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
     },                                                                            
 }

@@ -76,6 +76,7 @@ class Sales extends Component {
                 <div className="row" style={{marginBottom: '50px'}}>
                     <NotPictured name={People.Amanda.name} title={People.Amanda.title} />
                     <NotPictured name={People.AmyB.name} title={People.AmyB.title} />
+                    <NotPictured name={People.AshleyL.name} title={People.AshleyL.title} />
                     <NotPictured name={People.Cassie.name} title={People.Cassie.title} />
                     <NotPictured name={People.Clair.name} title={People.Clair.title} />
                     <NotPictured name={People.Hal.name} title={People.Hal.title} />
@@ -84,6 +85,7 @@ class Sales extends Component {
                     <NotPictured name={People.JulieH.name} title={People.JulieH.title} />
                     <NotPictured name={People.Kara.name} title={People.Kara.title} />
                     <NotPictured name={People.KatieG.name} title={People.KatieG.title} />
+                    <NotPictured name={People.LuisP.name} title={People.LuisP.title} />
                     <NotPictured name={People.Melanie.name} title={People.Melanie.title} />
                     <NotPictured name={People.RachelD.name} title={People.RachelD.title} />
                     <NotPictured name={People.Shelly.name} title={People.Shelly.title} />

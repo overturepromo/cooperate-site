@@ -457,5 +457,14 @@ export const People = {
         why: '',
         image: Male1
     },
+    Bernadette: {
+        name: 'Bernadette Walther',
+        title: 'Billing Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }
 

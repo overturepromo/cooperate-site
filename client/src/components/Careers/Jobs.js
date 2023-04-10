@@ -107,17 +107,17 @@ class Jobs extends Component {
         return (
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/ThzVHON0bn/Account-Coordinator">Account Coordinator</a></h3>
-                    </div>
                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/Ss2cg9R6Xl/Account-Manager-Inside-Sales">Account Manager, Inside Sales</a></h3>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/ThzVHON0bn/Account-Coordinator">Account Coordinator</a></h3>
                     </div> */}
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/Ss2cg9R6Xl/Account-Manager-Inside-Sales">Account Manager, Inside Sales</a></h3>
+                    </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/0Uq651OEMJ/Controller">Controller</a></h3>
                     </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/xgtjovPMvG/Billing-Coordinator">Billing Coordinator</a></h3>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/EjRINVP1PS/Graphic-Designer">Graphic Designer</a></h3>
                     </div>
                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Purchasing Manager</h3>
