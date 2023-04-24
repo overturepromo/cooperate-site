@@ -9,7 +9,6 @@ import Salvador from '../../../images/team/Warehouse/Salvador.jpg';
 import Ismeal from '../../../images/team/Warehouse/Ismeal.jpg';
 import Nancy from '../../../images/team/Warehouse/Nancy.jpg';
 import Jeremy from '../../../images/team/Warehouse/Jeremy.jpg';
-import Justin from '../../../images/team/Warehouse/Justin.jpg';
 import Estella from '../../../images/team/Warehouse/Estella.jpg';
 import Jacob from '../../../images/team/Warehouse/Jacob.jpg';
 import Abbey from '../../../images/team/Warehouse/AbbeyR.jpg';
@@ -141,15 +140,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Female2
-    },
-    Justin: {
-        name: 'Justin Koehler',
-        title: 'Special Projects Lead',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Justin
     },
     Estella: {
         name: 'Estella Diaz',
