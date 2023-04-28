@@ -33,7 +33,6 @@ class Sales extends Component {
             <div className="container">
                 <Element id="sales-orange" name="experts">Sales Staff</Element>
                 <div className="row">
-                    <Employee image={People.Adam.image} name={People.Adam.name} title={People.Adam.title} />
                     <Employee image={People.Amy.image} name={People.Amy.name} title={People.Amy.title} />
                     <Employee image={People.Alexandra.image} name={People.Alexandra.name} title={People.Alexandra.title} />
                     <Employee image={People.Angela.image} name={People.Angela.name} title={People.Angela.title} />
@@ -83,6 +82,7 @@ class Sales extends Component {
                     <NotPictured name={People.JacquelineJ.name} title={People.JacquelineJ.title} />
                     <NotPictured name={People.Jocelyn.name} title={People.Jocelyn.title} />
                     <NotPictured name={People.JulieH.name} title={People.JulieH.title} />
+                    <NotPictured name={People.Kaci.name} title={People.Kaci.title} />
                     <NotPictured name={People.Kara.name} title={People.Kara.title} />
                     <NotPictured name={People.KatieG.name} title={People.KatieG.title} />
                     <NotPictured name={People.LuisP.name} title={People.LuisP.title} />
@@ -90,7 +90,6 @@ class Sales extends Component {
                     <NotPictured name={People.Paulina.name} title={People.Paulina.title} />
                     <NotPictured name={People.RachelD.name} title={People.RachelD.title} />
                     <NotPictured name={People.Shelly.name} title={People.Shelly.title} />
-                    <NotPictured name={People.Stella.name} title={People.Stella.title} />
                     <NotPictured name={People.StephanieK.name} title={People.StephanieK.title} />
                     <NotPictured name={People.TiffanyC.name} title={People.TiffanyC.title} />
                     <NotPictured name={People.Tom.name} title={People.Tom.title} />

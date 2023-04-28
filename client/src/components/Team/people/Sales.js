@@ -50,7 +50,6 @@ import Erin from '../../../images/team/Sales/Erin_Boudreau.jpg';
 import Jamie from '../../../images/team/Sales/Jamie Billings.jpg';
 import SarahL from '../../../images/team/Sales/Sarah Lasam.jpg';
 import Sean from '../../../images/team/Sales/Sean Stevens.jpg';
-import Adam from '../../../images/team/Sales/Headshot_Crop_Adam_Fuller.jpg';
 import Carolyn from '../../../images/team/Sales/Headshot_Crop_Carolyn_Topps.jpg';
 import Katarina from '../../../images/team/Sales/Headshot_Crop_Katarina_Petronijevic.jpg';
 import Kelli from '../../../images/team/Sales/Headshot_Crop_Kelli Bennett.jpg';
@@ -630,15 +629,6 @@ export const People = {
         why: '',
         image: Female1
     },
-    Adam: {
-        name: 'Adam Fuller',
-        title: 'Account Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Adam
-    },
     Devon: {
         name: 'Devon Huston',
         title: 'Sales Account Admin',
@@ -756,15 +746,6 @@ export const People = {
         why: '',
         image: Female2
     },
-    Stella: {
-        name: 'Stella Topps',
-        title: 'Sales Account Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Female1
-    },
     AmyB: {
         name: 'Amy Burger',
         title: 'Sr. Account Executive',
@@ -881,5 +862,5 @@ export const People = {
         vacation: '',
         why: '',
         image: Female1
-    },                                                                              
+    },                                                                            
 }
