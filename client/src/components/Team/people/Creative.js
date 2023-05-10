@@ -141,5 +141,14 @@ export const People = {
         why: '',
         image: Female1
     },
+    Jamie: {
+        name: 'Jamie Nies',
+        title: 'Graphic Designer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }
 
