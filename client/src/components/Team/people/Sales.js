@@ -800,15 +800,6 @@ export const People = {
         why: '',
         image: Female1
     },
-    JulieH: {
-        name: 'Julie Haizel',
-        title: 'Account Executive',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Female1
-    },
     TiffanyC: {
         name: 'Tiffany Cobwell',
         title: 'Account Coordinator',
@@ -848,6 +839,24 @@ export const People = {
     Paulina: {
         name: 'Paulina Porras',
         title: 'Account Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    KimE: {
+        name: 'Kim Esson',
+        title: 'Account Director',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    }, 
+    Wendy: {
+        name: 'Wendy Coffey',
+        title: 'Account Director',
         bio: '',
         movie: '',
         vacation: '',

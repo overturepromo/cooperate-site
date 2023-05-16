@@ -107,18 +107,18 @@ class Jobs extends Component {
         return (
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
-                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/ThzVHON0bn/Account-Coordinator">Account Coordinator</a></h3>
-                    </div> */}
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/eQVeprIQMb/Account-Coordinator">Account Coordinator</a></h3>
                     </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/1K2oKLNqB3/Shipping-Coordinator">Shipping Coordinator</a></h3>
                     </div>
-                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/EjRINVP1PS/Graphic-Designer">Graphic Designer</a></h3>
-                    </div> */}
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/g43rbWcoBG/Training-Coordinator">Training Coordinator</a></h3>
+                    </div>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/8iVstydKlO/Training-Coordinator-Bilingual">Training Coordinator (Bilingual)</a></h3>
+                    </div>
                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Purchasing Manager</h3>
                         <h5 onClick={() => this.handleOn('acWaukegan')} className="view-button">View Details</h5>

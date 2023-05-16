@@ -80,10 +80,10 @@ class Sales extends Component {
                     <NotPictured name={People.Hal.name} title={People.Hal.title} />
                     <NotPictured name={People.JacquelineJ.name} title={People.JacquelineJ.title} />
                     <NotPictured name={People.Jocelyn.name} title={People.Jocelyn.title} />
-                    <NotPictured name={People.JulieH.name} title={People.JulieH.title} />
                     <NotPictured name={People.Kaci.name} title={People.Kaci.title} />
                     <NotPictured name={People.Kara.name} title={People.Kara.title} />
                     <NotPictured name={People.KatieG.name} title={People.KatieG.title} />
+                    <NotPictured name={People.KimE.name} title={People.KimE.title} />
                     <NotPictured name={People.LuisP.name} title={People.LuisP.title} />
                     <NotPictured name={People.Melanie.name} title={People.Melanie.title} />
                     <NotPictured name={People.Paulina.name} title={People.Paulina.title} />
@@ -92,6 +92,7 @@ class Sales extends Component {
                     <NotPictured name={People.StephanieK.name} title={People.StephanieK.title} />
                     <NotPictured name={People.TiffanyC.name} title={People.TiffanyC.title} />
                     <NotPictured name={People.Tom.name} title={People.Tom.title} />
+                    <NotPictured name={People.Wendy.name} title={People.Wendy.title} />
                     <NotPictured name={People.Zac.name} title={People.Zac.title} />
                 </div>
                 {/* All The modals */}
