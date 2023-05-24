@@ -2,8 +2,6 @@ import Jo from '../../../images/team/ExpertsPhotos/Jo.jpg'
 import Ron from '../../../images/team/ExpertsPhotos/Ron.jpg'
 import Joe from '../../../images/team/ExpertsPhotos/Joe.jpg'
 import Tej from '../../../images/team/ExpertsPhotos/Tej.jpg'
-import Mike from '../../../images/team/ExpertsPhotos/Mike.jpg'
-import Brian from '../../../images/team/ExpertsPhotos/Brian.jpg'
 import Christina from '../../../images/team/ExpertsPhotos/Christina.jpg'
 import David from '../../../images/team/ExpertsPhotos/David.jpg';
 import Lou from '../../../images/team/Board/Lou.jpg';
@@ -15,6 +13,8 @@ import Justin from '../../../images/team/Board/Justin.jpg';
 import JoeL from '../../../images/team/Operations/Joe_Levy.jpg';
 import Aldo from '../../../images/team/Operations/Aldo Rossi.jpg';
 import Sheehy from '../../../images/team/Operations/Sheehy.jpg';
+import Mike from '../../../images/team/ExpertsPhotos/Mike Wilson.png';
+import Brian from '../../../images/team/ExpertsPhotos/Brian Lisinski.png';
 
 
 import Female1 from '../../../images/team/Female1.jpg';

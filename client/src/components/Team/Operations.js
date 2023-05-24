@@ -53,6 +53,7 @@ class Operations extends Component {
                     <Employee image={People.Jeff.image} name={People.Jeff.name} title={People.Jeff.title} />
                     <Employee image={People.Maria.image} name={People.Maria.name} title={People.Maria.title} />
                     <Employee image={People.DavidM.image} name={People.DavidM.name} title={People.DavidM.title} />
+                    <Employee image={People.Maribel.image} name={People.Maribel.name} title={People.Maribel.title} />
                 </div>
                 <Element id="creative-orange">Not Pictured</Element>
                 <div className="row" style={{marginBottom: '50px'}}>
@@ -62,6 +63,7 @@ class Operations extends Component {
                     <NotPictured name={People.BrittneyH.name} title={People.BrittneyH.title} />
                     <NotPictured name={People.Cristian.name} title={People.Cristian.title} />
                     <NotPictured name={People.Emely.name} title={People.Emely.title} />
+                    <NotPictured name={People.IanP.name} title={People.IanP.title} />
                     <NotPictured name={People.Ian.name} title={People.Ian.title} />
                     <NotPictured name={People.Jennifer.name} title={People.Jennifer.title} />
                     <NotPictured name={People.Justin.name} title={People.Justin.title} />
