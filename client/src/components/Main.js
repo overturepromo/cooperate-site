@@ -18,7 +18,8 @@ import Sustainability from './Sustainability';
 import Kitting from './Kitting';
 import LongKitting from './LongKitting';
 import Portal from './Portal';
-import News from './News'
+import News from './News';
+import Leads from './Leads';
 
 
 const Main = () => (
@@ -42,6 +43,7 @@ const Main = () => (
       <Route path='/LongKitting' component={LongKitting} />
       <Route path='/Portal' component={Portal} />
       <Route path='/news' component={News} />
+      <Route path='/leads' component={Leads} />
       <Route component={Error} />
     </Switch>
   </main>

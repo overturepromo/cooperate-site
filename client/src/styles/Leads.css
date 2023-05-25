@@ -1,0 +1,64 @@
+.hero-leads {
+    background-image: url(/static/media/career_hero_v2.d244012c.png);
+    width: 100%;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leads-h1{
+    color: #ef7521;
+    font-weight: 900;
+}
+
+.leads-h2{
+    color: #ef7521;
+    font-weight: 900;
+}
+
+.leads-h4{
+    color: #888;
+    font-size: 24px;
+}
+
+.leads-form {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+div#hubform {
+    background-color: #8C909126;
+}
+
+.leads-img{
+    height: 250px;
+}
+
+.coke-image, .bank-image{
+    height: 225px;
+}
+
+.leads-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+
+    .leads-img{
+        margin-bottom: 25px;
+    }
+
+    .leads-images {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .coke-image, .bank-image{
+        margin-left: auto;
+    }
+
+}
