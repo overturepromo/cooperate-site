@@ -1,7 +1,7 @@
 .hero-leads {
     background-image: url(/static/media/career_hero_v2.d244012c.png);
     width: 100%;
-    height: 85px;
+    height: 100px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,12 +22,41 @@
 }
 
 .leads-form {
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 25px;
 }
 
 div#hubform {
     background-color: #8C909126;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.hs-form-ec8ff01a-ce33-4228-8091-40079b59f772_90659730-6201-408f-ab7a-d7f639f07c3e .hs-submit > .actions {
+    text-align: center;
+}
+
+.hs-form-ec8ff01a-ce33-4228-8091-40079b59f772_c4e54aad-e7b1-4556-9c1d-b7110f4bfcbd .hs-submit > .actions {
+    text-align: center;
+}
+
+.actions {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding: 17px 0px;
+    text-align: center !important;
+}
+
+.leads-forms-text p {
+    font-size: 16px;
+}
+
+.leads-forms-text {
+    padding-bottom: 15px;
+}
+
+.leads-forms-text p a {
+    color: #EE7623;
 }
 
 .leads-img{

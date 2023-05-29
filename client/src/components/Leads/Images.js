@@ -9,7 +9,7 @@ import AA from '../../images/Leads/AAMugMobile@3x.png';
 
 const Images = () => {
     return (
-        <div className="container">
+        <div className="container-fluid">
             <div className="leads-images">
                 <img src={Tik} className="leads-img tik-image" />
                 <img src={Coke} className="leads-img coke-image" />

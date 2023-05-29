@@ -30,9 +30,13 @@ class LeadForm extends Component {
                         <h1 className="leads-h1">OVERTURE</h1>
                         <h2 className="leads-h2">Your FREE Swag Kit Awaits!</h2>
                         <h4 className="leads-h4">As experts in kit curation, we can’t wait to show you what we’re capable of! Please take a moment to fill out this form so we can send a free swag kit your way!</h4>
+                        <div className="leads-forms-text">
+                           <p style={{fontWeight: 'bold'}}>Not sure where to start? We can help!</p>
+                           <p>Get in Touch: <a href="hello@overturepromo.com">hello@overturepromo.com</a></p>
+                       </div>
                     </div>
-                    <div id="hubform" className="col-md-6">
-                        <h4>Jambo Beans!</h4>
+                    <div className="col-md-6">
+                       <div id="hubform"></div> 
                     </div>
                 </div>
             </div>
