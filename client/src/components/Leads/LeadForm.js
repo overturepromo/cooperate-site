@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../../styles/Leads.css'
 import '../../styles/animate.css';
+import Orange from '../../images/Leads/Overture-leads.svg';
 
 class LeadForm extends Component {
 
@@ -27,7 +28,8 @@ class LeadForm extends Component {
             <div className="leads-form">
                 <div className="container">
                     <div className="col-md-6">
-                        <h1 className="leads-h1">OVERTURE</h1>
+                        {/* <h1 className="leads-h1">OVERTURE</h1> */}
+                        <img src={Orange} className="orange-boy" />
                         <h2 className="leads-h2">Your FREE Swag Kit Awaits!</h2>
                         <h4 className="leads-h4">As experts in kit curation, we can’t wait to show you what we’re capable of! Please take a moment to fill out this form so we can send a free swag kit your way!</h4>
                         <div className="leads-forms-text">
