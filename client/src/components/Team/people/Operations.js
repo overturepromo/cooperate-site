@@ -485,5 +485,14 @@ export const People = {
         why: '',
         image: Male1
     },
+    NickK: {
+        name: 'Nick Kesner',
+        title: 'Shipping Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
 
