@@ -78,6 +78,24 @@ div#hubform {
     margin-bottom: 25px;
 }
 
+input.hs-button.primary.large {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Proxima-bold;
+}
+
+input.hs-button.primary.large:hover {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Proxima-bold;
+}
+
+.hs-form-ec8ff01a-ce33-4228-8091-40079b59f772_5f3a34e1-155a-4d5b-a2aa-ae59ded34693 .hs-button{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Proxima-bold;
+}
+
 @media (max-width: 767px) {
 
     .leads-img{

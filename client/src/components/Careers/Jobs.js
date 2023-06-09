@@ -111,6 +111,9 @@ class Jobs extends Component {
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/eQVeprIQMb/Account-Coordinator">Account Coordinator</a></h3>
                     </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/3etyQRA45n/Account-Director">Account Director</a></h3>
+                    </div>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/VXf7PiCfzx/Web-Developer">Web Developer</a></h3>
                     </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
