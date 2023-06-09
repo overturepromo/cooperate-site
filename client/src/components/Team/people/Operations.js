@@ -18,7 +18,7 @@ import Grace from '../../../images/team/Operations/Grace.jpg';
 import Bethani from '../../../images/team/Operations/Bethani.jpg';
 import Holly from '../../../images/team/Operations/Holly.jpg';
 import Glenda from '../../../images/team/Operations/Glenda.jpg';
-import Jeff from '../../../images/team/Warehouse/Jeff.jpg';
+import Jeff from '../../../images/team/Operations/Jeff Norlin.png';
 import Troy from '../../../images/team/Operations/TroyN.jpg';
 import Maria from '../../../images/team/Operations/MariaA.jpg';
 import Annabelle from '../../../images/team/Operations/Annabelle.jpg'
@@ -35,6 +35,14 @@ import Elizabeth from '../../../images/team/Operations/Headshot_Crop_Elizabeth_K
 import EmilyJ from '../../../images/team/Operations/Headshot_Crop_Emily_Jones.jpg';
 import Lupe from '../../../images/team/Sales/Lupe.jpg'
 import Maribel from '../../../images/team/Operations/Maribel Banda.png';
+import AngelaB from '../../../images/team/Operations/Angela Barajas.png';
+import BrittneyH from '../../../images/team/Operations/Brittney Hartfield.png';
+import Cristian from '../../../images/team/Operations/Cristian Perez - Arredondo.png';
+import Emely from '../../../images/team/Operations/Emely Lobo.png';
+import Justin from '../../../images/team/Operations/Justin Christopher.png';
+import Michael from '../../../images/team/Operations/Michael Haake.png';
+import RachelK from '../../../images/team/Operations/Rachel King.png';
+import Wade from '../../../images/team/Operations/Wade Maki.png';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -348,7 +356,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: BrittneyH
     },
     Angela: {
         name: 'Angela Kowalczyk',
@@ -366,7 +374,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Justin
     },
     Wade: {
         name: 'Wade Maki',
@@ -375,7 +383,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: Wade
     },
     Lupe: {
         name: 'Lupe Carpio',
@@ -393,20 +401,11 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Cristian
     },
     Jennifer: {
         name: 'Jennifer Vigliano',
         title: 'Purchasing Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Female2
-    },
-    Emely: {
-        name: 'Emely Lobo',
-        title: 'Customer Care',
         bio: '',
         movie: '',
         vacation: '',
@@ -420,7 +419,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: RachelK
     },
     Emely: {
         name: 'Emely Lobo',
@@ -429,7 +428,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Emely
     },
     AngelaB: {
         name: 'Angela Barajas',
@@ -438,7 +437,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: AngelaB
     },
     Ian: {
         name: 'Ian Sheppard',
@@ -456,7 +455,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Michael
     },
     Bernadette: {
         name: 'Bernadette Walther',

@@ -20,7 +20,7 @@ import Blake from '../../../images/team/ExpertsPhotos/Blake.jpg';
 import David from '../../../images/team/ExpertsPhotos/David.jpg';
 import Bruce from '../../../images/team/Sales/Bruce.jpg';
 import Kimberlin from '../../../images/team/ExpertsPhotos/kimberlin.jpg'
-import Katie from '../../../images/team/Sales/Katie.jpg'
+import Katie from '../../../images/team/ExpertsPhotos/Katie Puente.png';
 import Jenna from '../../../images/team/Sales/Jenna.jpg'
 import Lindsay from '../../../images/team/Sales/Lindsay.jpg'
 

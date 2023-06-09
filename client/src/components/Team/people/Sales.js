@@ -10,7 +10,7 @@ import Kat from '../../../images/team/Sales/Kat.jpg'
 import Lindsay from '../../../images/team/Sales/Lindsay.jpg'
 import Lisa from '../../../images/team/Sales/Lisa.jpg'
 import Lupe from '../../../images/team/Sales/Lupe.jpg'
-import Brittani from '../../../images/team/Sales/Brittani.jpg'
+import Brittani from '../../../images/team/Sales/Brittani Michela.png';
 import Nicole from '../../../images/team/Sales/Nicole.jpg'
 import Renee from '../../../images/team/Sales/Renee.jpg'
 import Sara from '../../../images/team/Sales/Sara.jpg'
@@ -35,16 +35,16 @@ import Gabrielle from '../../../images/team/ECom/Gabrielle.jpg';
 import Sarah from '../../../images/team/ECom/Sarah.jpg';
 import Steven from '../../../images/team/ECom/Steven.jpg';
 import Will from '../../../images/team/ECom/Will.jpg';
-import Jessica from '../../../images/team/ECom/Jessica.jpg';
+import Jessica from '../../../images/team/Sales/Jessica Volstad.png';
 import Kristina from '../../../images/team/ECom/Kristina.jpg';
 import SarahC from '../../../images/team/ECom/SarahC.jpg';
 import Melissa from '../../../images/team/ECom/Melissa.jpg';
 import Mallory from '../../../images/team/ECom/Mallory.jpg';
 import NicoleS from '../../../images/team/Sales/Nicole.jpg';
 import Megan from '../../../images/team/Sales/Megan.jpg';
-import Rory from '../../../images/team/ECom/RoryTucker.jpg';
+import Rory from '../../../images/team/Sales/Rory Tucker.png';
 import ShannonL from '../../../images/team/Sales/ShannonL.jpg';
-import Kailee from '../../../images/team/Sales/Kailee.jpg';
+import Kailee from '../../../images/team/Sales/Kailee Murphy.png';
 import SaraM from '../../../images/team/Sales/Sara_Moll.jpg';
 import Erin from '../../../images/team/Sales/Erin_Boudreau.jpg';
 import Jamie from '../../../images/team/Sales/Jamie Billings.jpg';
@@ -60,6 +60,20 @@ import Lynette from '../../../images/team/Sales/Headshot_Crop_Lynette_Stwertnik.
 import MichelleF from '../../../images/team/Sales/Headshot_Crop_Michelle_Fisher.jpg';
 import MeganK from '../../../images/team/Sales/MeganKragenbrink.jpg';
 import Chris from '../../../images/team/Operations/Chris.jpg';
+import Cassie from '../../../images/team/Sales/Cassie Sackett.png';
+import Hal from '../../../images/team/Sales/Hal Narotzky.png';
+import JacquelineJ from '../../../images/team/Sales/Jackie James.png';
+import Jocelyn from '../../../images/team/Sales/Jocelyn Cash.png';
+import Kara from '../../../images/team/Sales/Kara Werchek.png';
+import KatieG from '../../../images/team/Sales/Katie Greider.png';
+import Melanie from '../../../images/team/Sales/Melanie Vess.png';
+import RachelD from '../../../images/team/Sales/Rachel Dudek.png';
+import Shelly from '../../../images/team/Sales/Shelly Aberson.png';
+import StephanieK from '../../../images/team/Sales/Stephanie Kerkovich.png';
+import TiffanyC from '../../../images/team/Sales/Tiffany Cobwell.png';
+import Tom from '../../../images/team/Sales/Tom Pfeifer.png';
+import Zac from '../../../images/team/Sales/Zac Moody.png';
+
 
 
 //These are the default photos to be used when photo no avail.
@@ -672,7 +686,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Jocelyn
     },
     Melanie: {
         name: "Melanie Vess",
@@ -681,7 +695,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Melanie
     },
     Tom: {
         name: "Tom Pfeifer",
@@ -690,7 +704,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Tom
     },
     Shelly: {
         name: "Shelly Aberson",
@@ -699,7 +713,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Shelly
     },
     Kara: {
         name: "Kara Werchek",
@@ -708,7 +722,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Kara
     },
     Hal: {
         name: "Hal Narotzky",
@@ -717,7 +731,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male2
+        image: Hal
     },
     MeganK: {
         name: 'Megan Kragenbrink',
@@ -744,7 +758,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Cassie
     },
     AmyB: {
         name: 'Amy Burger',
@@ -762,7 +776,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: KatieG
     },
     Amanda: {
         name: 'Amanda Emran',
@@ -780,7 +794,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Zac
     },
     RachelD: {
         name: 'Rachel Dudek',
@@ -789,7 +803,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: RachelD
     },
     StephanieK: {
         name: 'Stephanie Kerkovich',
@@ -798,7 +812,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: StephanieK
     },
     TiffanyC: {
         name: 'Tiffany Cobwell',
@@ -807,7 +821,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: TiffanyC
     },
     JacquelineJ: {
         name: 'Jacqueline James',
@@ -816,7 +830,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: JacquelineJ
     },
     LuisP: {
         name: 'Luis Pacheco',
