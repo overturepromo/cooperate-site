@@ -33,6 +33,7 @@ class Sales extends Component {
             <div className="container">
                 <Element id="sales-orange" name="experts">Sales Staff</Element>
                 <div className="row">
+                ` ` <Employee image={People.Amanda.image} name={People.Amanda.name} title={People.Amanda.title} />
                     <Employee image={People.Amy.image} name={People.Amy.name} title={People.Amy.title} />
                     <Employee image={People.Alexandra.image} name={People.Alexandra.name} title={People.Alexandra.title} />
                     <Employee image={People.Angela.image} name={People.Angela.name} title={People.Angela.title} />
@@ -87,7 +88,6 @@ class Sales extends Component {
                 </div>
                 <Element id="creative-orange">Not Pictured</Element>
                 <div className="row" style={{marginBottom: '50px'}}>
-                    <NotPictured name={People.Amanda.name} title={People.Amanda.title} />
                     <NotPictured name={People.AmyB.name} title={People.AmyB.title} />
                     <NotPictured name={People.AshleyL.name} title={People.AshleyL.title} />
                     <NotPictured name={People.Kaci.name} title={People.Kaci.title} />

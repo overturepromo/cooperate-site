@@ -73,6 +73,7 @@ import StephanieK from '../../../images/team/Sales/Stephanie Kerkovich.png';
 import TiffanyC from '../../../images/team/Sales/Tiffany Cobwell.png';
 import Tom from '../../../images/team/Sales/Tom Pfeifer.png';
 import Zac from '../../../images/team/Sales/Zac Moody.png';
+import Amanda from '../../../images/team/Sales/AmandaE.png';
 
 
 
@@ -785,7 +786,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Amanda
     },
     Zac: {
         name: 'Zac Moody',

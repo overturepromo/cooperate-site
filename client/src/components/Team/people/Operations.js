@@ -43,7 +43,8 @@ import Justin from '../../../images/team/Operations/Justin Christopher.png';
 import Michael from '../../../images/team/Operations/Michael Haake.png';
 import RachelK from '../../../images/team/Operations/Rachel King.png';
 import Wade from '../../../images/team/Operations/Wade Maki.png';
-import Ron from '../../../images/team/ExpertsPhotos/Ron.jpg'
+import Ron from '../../../images/team/ExpertsPhotos/Ron.jpg';
+import Angela from '../../../images/team/Operations/Angela.png'
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -366,7 +367,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Angela
     },
     Justin: {
         name: 'Justin Christopher',

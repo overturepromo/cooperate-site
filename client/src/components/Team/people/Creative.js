@@ -10,6 +10,7 @@ import Christopher from '../../../images/team/Creative/Chris Westby.jpg';
 import Evie from '../../../images/team/Creative/Evie Daniels.png';
 import Victoria from '../../../images/team/Creative/Victoria Robertson.png';
 import Elizabeth from '../../../images/team/Creative/Elizabeth Purtell.png';
+import Brandon from '../../../images/team/Creative/Brandon.png';
 
 import Female1 from '../../../images/team/Female1.jpg';
 import Male1 from '../../../images/team/Male1.jpg';
@@ -123,7 +124,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Brandon
     },
     Evie: {
         name: 'Evie Daniels',

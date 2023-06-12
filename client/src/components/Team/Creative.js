@@ -39,10 +39,10 @@ class Creative extends Component {
                     <Employee image={People.Christopher.image} name={People.Christopher.name} title={People.Christopher.title} />
                     <Employee image={People.Samantha.image} name={People.Samantha.name} title={People.Samantha.title} />
                     <Employee image={People.Evie.image} name={People.Evie.name} title={People.Evie.title} />
+                    <Employee image={People.Brandon.image} name={People.Brandon.name} title={People.Brandon.title} />
                 </div>
                 <Element id="creative-orange">Not Pictured</Element>
                 <div className="row" style={{marginBottom: '50px'}}>
-                    <NotPictured name={People.Brandon.name} title={People.Brandon.title} />
                     <NotPictured name={People.Jamie.name} title={People.Jamie.title} />
                     <NotPictured name={People.MeganKuerschner.name} title={People.MeganKuerschner.title} />
                 </div>
