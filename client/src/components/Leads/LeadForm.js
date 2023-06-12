@@ -28,10 +28,8 @@ class LeadForm extends Component {
             <div className="leads-form">
                 <div className="container">
                     <div className="col-md-6">
-                        {/* <h1 className="leads-h1">OVERTURE</h1> */}
-                        <img src={Orange} className="orange-boy" />
-                        <h2 className="leads-h2">Your FREE Swag Kit Awaits!</h2>
-                        <h4 className="leads-h4">As experts in kit curation, we can’t wait to show you what we’re capable of! Please take a moment to fill out this form so we can send a free swag kit your way!</h4>
+                        <h2 className="leads-h2">Amazing Swag from Diverse Suppliers</h2>
+                        <h4 className="leads-h4">We’re an award-winning minority-owned (and woman-led!) swag agency. Need high-quality branded merch that’s sustainably sourced or from diverse suppliers? We got you covered.</h4>
                         <div className="leads-forms-text">
                            <p style={{fontWeight: 'bold'}}>Not sure where to start? We can help!</p>
                            <p>Get in Touch: <a href="hello@overturepromo.com">hello@overturepromo.com</a></p>

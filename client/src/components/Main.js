@@ -43,7 +43,7 @@ const Main = () => (
       <Route path='/LongKitting' component={LongKitting} />
       <Route path='/Portal' component={Portal} />
       <Route path='/news' component={News} />
-      <Route path='/leads' component={Leads} />
+      <Route path='/viewpoint' component={Leads} />
       <Route component={Error} />
     </Switch>
   </main>
