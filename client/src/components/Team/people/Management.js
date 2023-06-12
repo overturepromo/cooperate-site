@@ -1,5 +1,4 @@
 import Jo from '../../../images/team/ExpertsPhotos/Jo.jpg'
-import Ron from '../../../images/team/ExpertsPhotos/Ron.jpg'
 import Joe from '../../../images/team/ExpertsPhotos/Joe.jpg'
 import Tej from '../../../images/team/ExpertsPhotos/Tej.jpg'
 import Christina from '../../../images/team/ExpertsPhotos/Christina.jpg'
@@ -31,15 +30,6 @@ export const People = {
         vacation: 'Kiawah Island, Kauai, Venice, Paris — and all the places I haven’t been yet.',
         why: 'My investment in Overture as a start-up was a bet on our superstar original sales managers, Joe Hazan and Dave Robbins. (It was a good bet!)',
         image: Jo
-    },
-    RonG: {
-        name: 'Ron Gilley',
-        title: 'Facilities Manager',
-        bio: 'Ron has over 30 years of experience in manufacturing, importing, operations and distribution as well as being a key member of several successful startups.',
-        movie: 'That’s a toss up.  As an avid sports fan and a crazy baseball nut, it’s either “The Sandlot” or  “ Field of Dreams”.',
-        vacation: 'Anyplace I can fish!',
-        why: ' The vision and commitment to excellence that the leadership team continues to cast is contagious.   What an incredible experience to work with the Overture team members!',
-        image: Ron
     },
     JoeH: {
         name: 'Joe Hazan',

@@ -32,6 +32,7 @@ class Operations extends Component {
             <div className="container">
                 <Element id="operations-orange">Operations</Element>
                 <div className="row">
+                    <Employee image={People.RonG.image} name={People.RonG.name} title={People.RonG.title} />
                     <Employee image={People.Serafin.image} name={People.Serafin.name} title={People.Serafin.title} />
                     <Employee image={People.AnnaN.image} name={People.AnnaN.name} title={People.AnnaN.title} />
                     <Employee image={People.Glenda.image} name={People.Glenda.name} title={People.Glenda.title} />

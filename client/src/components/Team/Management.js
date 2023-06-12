@@ -38,7 +38,6 @@ class Management extends Component {
                     <Employee image={People.TejS.image} name={People.TejS.name} title={People.TejS.title} clicked={() => this.openModal(3)} />
                     <Employee image={People.MikeW.image} name={People.MikeW.name} title={People.MikeW.title} clicked={() => this.openModal(4)} />
                     <Employee image={People.ChristinaN.image} name={People.ChristinaN.name} title={People.ChristinaN.title} clicked={() => this.openModal(6)} />
-                    <Employee image={People.RonG.image} name={People.RonG.name} title={People.RonG.title} clicked={() => this.openModal(1)} />
                     <Employee image={People.Aldo.image} name={People.Aldo.name} title={People.Aldo.title} />
                     <Employee image={People.ChrisS.image} name={People.ChrisS.name} title={People.ChrisS.title} />
                 </div>
@@ -66,14 +65,6 @@ class Management extends Component {
                         title={People.JoG.title} 
                         bio={People.JoG.bio} movie={People.JoG.movie} vacation={People.JoG.vacation} why={People.JoG.why}
                     close={() => this.closeModal()}  />
-                </Modal>
-                <Modal isOpen={this.state.showModal[1]} onRequestClose={this.closeModal} className="employee-modal">
-                    <WorkCard 
-                        image={People.RonG.image} 
-                        name={People.RonG.name} 
-                        title={People.RonG.title} 
-                        bio={People.RonG.bio} movie={People.RonG.movie} vacation={People.RonG.vacation} why={People.RonG.why}
-                    close={() => this.closeModal()} />
                 </Modal>
                 <Modal isOpen={this.state.showModal[2]} onRequestClose={this.closeModal} className="employee-modal">
                     <WorkCard 

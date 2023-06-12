@@ -43,6 +43,7 @@ import Justin from '../../../images/team/Operations/Justin Christopher.png';
 import Michael from '../../../images/team/Operations/Michael Haake.png';
 import RachelK from '../../../images/team/Operations/Rachel King.png';
 import Wade from '../../../images/team/Operations/Wade Maki.png';
+import Ron from '../../../images/team/ExpertsPhotos/Ron.jpg'
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -492,6 +493,15 @@ export const People = {
         vacation: '',
         why: '',
         image: Male1
+    },
+    RonG: {
+        name: 'Ron Gilley',
+        title: 'Facilities Manager',
+        bio: 'Ron has over 30 years of experience in manufacturing, importing, operations and distribution as well as being a key member of several successful startups.',
+        movie: 'That’s a toss up.  As an avid sports fan and a crazy baseball nut, it’s either “The Sandlot” or  “ Field of Dreams”.',
+        vacation: 'Anyplace I can fish!',
+        why: ' The vision and commitment to excellence that the leadership team continues to cast is contagious.   What an incredible experience to work with the Overture team members!',
+        image: Ron
     },
 }
 
