@@ -34,6 +34,13 @@ class LeadForm extends Component {
                            <p style={{fontWeight: 'bold'}}>Not sure where to start? We can help!</p>
                            <p>Get in Touch: <a href="hello@overturepromo.com">hello@overturepromo.com</a></p>
                        </div>
+                       <iframe src="https://player.vimeo.com/video/800642069?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        width="500" 
+                        height="281"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowfullscreen title="DEI at Overture">
+                        </iframe>
                     </div>
                     <div className="col-md-6">
                        <div id="hubform"></div> 
