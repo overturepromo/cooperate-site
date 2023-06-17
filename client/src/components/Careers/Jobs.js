@@ -116,9 +116,9 @@ class Jobs extends Component {
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/VXf7PiCfzx/Web-Developer">Web Developer</a></h3>
                     </div>
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/g43rbWcoBG/Training-Coordinator">Training Coordinator</a></h3>
-                    </div>
+                    </div> */}
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/8iVstydKlO/Training-Coordinator-Bilingual">Training Coordinator (Bilingual)</a></h3>
                     </div>
