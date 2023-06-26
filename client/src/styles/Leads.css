@@ -14,7 +14,7 @@
 .leads-h2{
     color: #ef7521;
     font-weight: 900;
-    font-size: 34px;
+    font-size: 30px;
 }
 
 .leads-h4{
@@ -75,7 +75,8 @@ div#hubform {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: baseline;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 input.hs-button.primary.large {

@@ -31,8 +31,6 @@ class LeadForm extends Component {
                         <h2 className="leads-h2">Amazing Swag from Diverse Suppliers</h2>
                         <h4 className="leads-h4">We’re an award-winning minority-owned (and woman-led!) swag agency. Need high-quality branded merch that’s sustainably sourced or from diverse suppliers? We got you covered.</h4>
                         <div className="leads-forms-text">
-                           <p style={{fontWeight: 'bold'}}>Not sure where to start? We can help!</p>
-                           <p>Get in Touch: <a href="hello@overturepromo.com">hello@overturepromo.com</a></p>
                        </div>
                        <iframe src="https://player.vimeo.com/video/800642069?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                         width="500" 
