@@ -366,4 +366,13 @@ export const People = {
         why: '',
         image: Male1
     },
+    Brian: {
+        name: 'Brian Mejia',
+        title: 'Warehouse Supervisor',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }

@@ -504,5 +504,23 @@ export const People = {
         why: ' The vision and commitment to excellence that the leadership team continues to cast is contagious.   What an incredible experience to work with the Overture team members!',
         image: Ron
     },
+    Ben: {
+        name: 'Ben Schillmoeller',
+        title: 'Training Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Noelia: {
+        name: 'Noelia Ruiz',
+        title: 'Training Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
 
