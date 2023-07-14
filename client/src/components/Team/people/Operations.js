@@ -28,7 +28,6 @@ import Serafin from '../../../images/team/Operations/Serafin Rodriguez.jpg';
 import Yanis from '../../../images/team/Operations/Yanis Tolbert.jpg';
 import AnnaN from '../../../images/team/Operations/Anna Nava.jpg';
 import Brenda from '../../../images/team/Operations/Brenda Munoz.jpg';
-import Javier from '../../../images/team/Operations/Javier Gaytan.jpg';
 import Brittney from '../../../images/team/Operations/Brittney Rodriguez.jpg';
 import Blair from '../../../images/team/Operations/Headshot_Crop_Blair_Ellis.jpg';
 import Elizabeth from '../../../images/team/Operations/Headshot_Crop_Elizabeth_Klaw.jpg';
@@ -279,15 +278,6 @@ export const People = {
         why: '',
         image: Maria
     },
-    Javier: {
-        name: 'Javier Gaytan',
-        title: 'Billing Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Javier
-    },
     AnnaN: {
         name: 'Anna Nava',
         title: 'HR Business Partner',
@@ -521,6 +511,15 @@ export const People = {
         vacation: '',
         why: '',
         image: Male1
+    },
+    KeylaP: {
+        name: 'Keyla Patricio',
+        title: 'Sr. Customer Care Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Keyla
     },
 }
 
