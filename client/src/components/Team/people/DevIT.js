@@ -137,4 +137,13 @@ export const People = {
         why: '',
         image: Josella
     },
+    KevinS: {
+        name: 'Kevin Scalzo',
+        title: 'Web Developer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
