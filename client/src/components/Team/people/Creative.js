@@ -153,5 +153,23 @@ export const People = {
         why: '',
         image: Female1
     },
+    Habi: {
+        name: 'Habi Ramirez',
+        title: 'Graphic Designer Intern',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    Liliibeth: {
+        name: 'Liliibeth Martinez',
+        title: 'Marketing Intern',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }
 

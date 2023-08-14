@@ -67,8 +67,10 @@ class Operations extends Component {
                 </div>
                 <Element id="creative-orange">Not Pictured</Element>
                 <div className="row" style={{marginBottom: '50px'}}>
+                    <NotPictured name={People.AndreaA.name} title={People.AndreaA.title} />
                     <NotPictured name={People.Ben.name} title={People.Ben.title} />
                     <NotPictured name={People.Bernadette.name} title={People.Bernadette.title} />
+                    <NotPictured name={People.Chance.name} title={People.Chance.title} />
                     <NotPictured name={People.IanP.name} title={People.IanP.title} />
                     <NotPictured name={People.Ian.name} title={People.Ian.title} />
                     <NotPictured name={People.Jennifer.name} title={People.Jennifer.title} />

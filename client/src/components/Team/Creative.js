@@ -44,6 +44,8 @@ class Creative extends Component {
                 <div className="row" style={{marginBottom: '50px'}}>
                     <NotPictured name={People.Jamie.name} title={People.Jamie.title} />
                     <NotPictured name={People.MeganKuerschner.name} title={People.MeganKuerschner.title} />
+                    <NotPictured name={People.Habi.name} title={People.Habi.title} />
+                    <NotPictured name={People.Liliibeth.name} title={People.Liliibeth.title} />
                 </div>
             </div>
         )

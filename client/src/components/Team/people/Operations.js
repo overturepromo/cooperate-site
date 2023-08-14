@@ -521,5 +521,23 @@ export const People = {
         why: '',
         image: Keyla
     },
+    AndreaA: {
+        name: 'Andrea Alvarez',
+        title: 'HR Intern',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    Chance: {
+        name: 'Chance Handy',
+        title: 'Customer Care Intern',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
 
