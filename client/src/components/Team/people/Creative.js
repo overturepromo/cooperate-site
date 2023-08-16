@@ -171,5 +171,14 @@ export const People = {
         why: '',
         image: Female1
     },
+    Drew: {
+        name: 'Drew Carella',
+        title: 'Graphic Designer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
 
