@@ -107,9 +107,9 @@ class Jobs extends Component {
         return (
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
-                    {/* <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/3etyQRA45n/Account-Director">Account Director</a></h3>
-                    </div> */}
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/NjCXIhBydr/Customer-Care-Supervisor">Customer Care Supervisor</a></h3>
+                    </div>
                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/akWhIkH98O/Purchasing-Assistant">Purchasing Assistant</a></h3>
                     </div> */}
