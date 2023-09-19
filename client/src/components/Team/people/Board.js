@@ -15,7 +15,7 @@ export const People = {
         why: 'The people!',
         image: Male1
     },
-    Lou: {
+    /*Lou: {
         name: 'Lou Weisbach',
         title: '',
         bio: 'Lou was the founder and CEO of HA-LO Advertising Specialties, which became the world’s largest promotional products company. In seven years, HA-LO grew revenues from $20 million to $770 million, and the stock market valuation of the company grew from $22 million to $1.25 billion. HA-LO accomplished this growth internally and by completing 34 acquisitions.  With a passion for sports development, Lou was CEO and co-founder of Stadium Capital Financing Group (SCFG), a majority-owned entity of Morgan Stanley Principal Investments which created a new form of finance for professional sports teams and university athletic departments without debt. A crusader for cures, Lou originated the concept of The American Center for Cures in 2000, seeking to create a new pathway towards curing diseases utilizing a focused, accountable, mission-based, globally-integrated approach. He was the Chairman of the Jefferson Trust for the Democratic Party and Chairman of the Giving Back Fund, an organization that managed foundations for athletes and entertainers. Lou twice served the Trump administration as a judge to select White House Fellows.  Lou recently held a senior role at Cancer Treatment Centers of America, and is involved in a major entertainment initiative, “The Lost Lands of Oz,” that includes television programming, motion pictures, musical theatre, and theme parks.  This year, and together with David Liu of Harvard University, Lou founded Americans Joining Together to Beat Covid-19 Mission',
@@ -23,7 +23,7 @@ export const People = {
         vacation: 'Beverly Hills',
         why: 'Friends, talent, unique skills and opportunity',
         image: Male2
-    },
+    },*/
     Trish: {
         name: 'Trish Harris-Schentag',
         title: '',

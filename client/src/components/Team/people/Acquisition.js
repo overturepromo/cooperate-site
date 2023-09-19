@@ -5,6 +5,7 @@ import Male2 from '../../../images/team/Male2.jpg';
 
 
 export const People = {
+  /*
     Lou: {
         name: 'Lou Weisbach',
         title: '',
@@ -14,6 +15,7 @@ export const People = {
         why: 'Friends, talent, unique skills and opportunity',
         image: Male1
     },
+    */
     Mark: {
         name: 'Mark Serdar',
         title: '',

@@ -47,7 +47,7 @@ class Management extends Component {
                     <Employee image={People.Trish.image} name={People.Trish.name} title={People.Trish.title} clicked={() => this.openModal(26)} />
                     <Employee image={People.Stuart.image} name={People.Stuart.name} title={People.Stuart.title} clicked={() => this.openModal(27)} />
                     <Employee image={People.Justin.image} name={People.Justin.name} title={People.Justin.title} clicked={() => this.openModal(28)} />
-                    <Employee image={People.Lou.image} name={People.Lou.name} title={People.Lou.title} clicked={() => this.openModal(22)} />
+                    {/* <Employee image={People.Lou.image} name={People.Lou.name} title={People.Lou.title} clicked={() => this.openModal(22)} /> */}
                     <Employee image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} clicked={() => this.openModal(0)} />
                 </div>
                 {/* <Element id="experts-orange" name="experts">The Acquisition Team</Element>
@@ -114,14 +114,14 @@ class Management extends Component {
                         bio={People.David.bio} movie={People.David.movie} vacation={People.David.vacation} why={People.David.why}
                     close={() => this.closeModal()} />
                 </Modal>
-                <Modal isOpen={this.state.showModal[22]} onRequestClose={this.closeModal} className="employee-modal">
+                {/* <Modal isOpen={this.state.showModal[22]} onRequestClose={this.closeModal} className="employee-modal">
                     <WorkCard 
                         image={People.Lou.image} 
                         name={People.Lou.name} 
                         title={People.Lou.title} 
                         bio={People.Lou.bio} movie={People.Lou.movie} vacation={People.Lou.vacation} why={People.Lou.why}
                     close={() => this.closeModal()}  />
-                </Modal>
+                </Modal> */}
                 <Modal isOpen={this.state.showModal[23]} onRequestClose={this.closeModal} className="employee-modal">
                     <WorkCard 
                         image={People.Mark.image} 

@@ -32,21 +32,21 @@ class Acquisition extends Component {
             <div className="container">
                 <Element id="experts-orange" name="experts">The Acquisition Team</Element>
                 <div className="row">
-                    <Employee image={People.Lou.image} name={People.Lou.name} title={People.Lou.title} clicked={() => this.openModal(0)} />
+                    {/* <Employee image={People.Lou.image} name={People.Lou.name} title={People.Lou.title} clicked={() => this.openModal(0)} /> */}
                     <Employee image={People.Mark.image} name={People.Mark.name} title={People.Mark.title} clicked={() => this.openModal(1)} />
                     <Employee image={People.Michael.image} name={People.Michael.name} title={People.Michael.title} clicked={() => this.openModal(2)} />
                 </div>
 
 
                 {/* All The modals */}
-                <Modal isOpen={this.state.showModal[0]} onRequestClose={this.closeModal} className="employee-modal">
+                {/* <Modal isOpen={this.state.showModal[0]} onRequestClose={this.closeModal} className="employee-modal">
                     <WorkCard 
                         image={People.Lou.image} 
                         name={People.Lou.name} 
                         title={People.Lou.title} 
                         bio={People.Lou.bio} movie={People.Lou.movie} vacation={People.Lou.vacation} why={People.Lou.why}
                     close={() => this.closeModal()}  />
-                </Modal>
+                </Modal> */}
                 <Modal isOpen={this.state.showModal[1]} onRequestClose={this.closeModal} className="employee-modal">
                     <WorkCard 
                         image={People.Mark.image} 

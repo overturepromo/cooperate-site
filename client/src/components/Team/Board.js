@@ -36,7 +36,7 @@ class Board extends Component {
                     <Employee image={People.Trish.image} name={People.Trish.name} title={People.Trish.title} clicked={() => this.openModal(1)} />
                     <Employee image={People.Stuart.image} name={People.Stuart.name} title={People.Stuart.title} clicked={() => this.openModal(2)} />
                     <Employee image={People.Justin.image} name={People.Justin.name} title={People.Justin.title} clicked={() => this.openModal(3)} />
-                    <Employee image={People.Lou.image} name={People.Lou.name} title={People.Lou.title} clicked={() => this.openModal(4)} />
+                    {/* <Employee image={People.Lou.image} name={People.Lou.name} title={People.Lou.title} clicked={() => this.openModal(4)} /> */}
                     <Employee image={People.JoG.image} name={People.JoG.name} title={People.JoG.title} clicked={() => this.openModal(5)} />
 
                 </div>
@@ -75,14 +75,14 @@ class Board extends Component {
                         bio={People.Justin.bio} movie={People.Justin.movie} vacation={People.Justin.vacation} why={People.Justin.why}
                     close={() => this.closeModal()}  />
                 </Modal>
-                <Modal isOpen={this.state.showModal[4]} onRequestClose={this.closeModal} className="employee-modal">
+                {/* <Modal isOpen={this.state.showModal[4]} onRequestClose={this.closeModal} className="employee-modal">
                     <WorkCard 
                         image={People.Lou.image} 
                         name={People.Lou.name} 
                         title={People.Lou.title} 
                         bio={People.Lou.bio} movie={People.Lou.movie} vacation={People.Lou.vacation} why={People.Lou.why}
                     close={() => this.closeModal()}  />
-                </Modal>
+                </Modal> */}
                 <Modal isOpen={this.state.showModal[5]} onRequestClose={this.closeModal} className="employee-modal">
                     <WorkCard 
                         image={People.JoG.image} 
