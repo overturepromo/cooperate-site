@@ -39,11 +39,11 @@ class Warehouse extends Component {
                     <Employee image={People.Nancy.image} name={People.Nancy.name} title={People.Nancy.title} />
                     <Employee image={People.Estella.image} name={People.Estella.name} title={People.Estella.title} />
                     <Employee image={People.Gonzalo.image} name={People.Gonzalo.name} title={People.Gonzalo.title} />
-                    <Employee image={People.Jacob.image} name={People.Jacob.name} title={People.Jacob.title} />
+                    {/* <Employee image={People.Jacob.image} name={People.Jacob.name} title={People.Jacob.title} /> */}
                     <Employee image={People.Joesph.image} name={People.Joesph.name} title={People.Joesph.title} />
                     <Employee image={People.MattC.image} name={People.MattC.name} title={People.MattC.title} />
                     <Employee image={People.MattN.image} name={People.MattN.name} title={People.MattN.title} />
-                    <Employee image={People.Juvenita.image} name={People.Juvenita.name} title={People.Juvenita.title} />
+                    {/* <Employee image={People.Juvenita.image} name={People.Juvenita.name} title={People.Juvenita.title} /> */}
                     <Employee image={People.Byron.image} name={People.Byron.name} title={People.Byron.title} />
                     <Employee image={People.Alejandra.image} name={People.Alejandra.name} title={People.Alejandra.title} />
                     <Employee image={People.Elizabeth.image} name={People.Elizabeth.name} title={People.Elizabeth.title} />
@@ -51,11 +51,11 @@ class Warehouse extends Component {
                     <Employee image={People.Guillermina.image} name={People.Guillermina.name} title={People.Guillermina.title} />
                     <Employee image={People.Edith.image} name={People.Edith.name} title={People.Edith.title} />
                     <Employee image={People.William.image} name={People.William.name} title={People.William.title} />
-                    <Employee image={People.Angelica.image} name={People.Angelica.name} title={People.Angelica.title} />
+                    {/* <Employee image={People.Angelica.image} name={People.Angelica.name} title={People.Angelica.title} /> */}
                     <Employee image={People.Doris.image} name={People.Doris.name} title={People.Doris.title} />
                     <Employee image={People.Michael.image} name={People.Michael.name} title={People.Michael.title} />
                     <Employee image={People.Brandy.image} name={People.Brandy.name} title={People.Brandy.title} />
-                    <Employee image={People.CarlosO.image} name={People.CarlosO.name} title={People.CarlosO.title} />
+                    {/* <Employee image={People.CarlosO.image} name={People.CarlosO.name} title={People.CarlosO.title} /> */}
                     <Employee image={People.Epi.image} name={People.Epi.name} title={People.Epi.title} />
                 </div>
                 <Element id="creative-orange">Not Pictured</Element>

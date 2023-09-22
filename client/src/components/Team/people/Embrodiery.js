@@ -9,22 +9,22 @@ import Carolina from '../../../images/team/Embrodiery/Carolina.jpg'
 import Dorotea from '../../../images/team/Embrodiery/Dorotea.jpg'
 import Zenaida from '../../../images/team/Embrodiery/Zenaida.jpg'
 import Victor from '../../../images/team/Embrodiery/Victor.jpg'
-import Tina from '../../../images/team/Embrodiery/Tina.jpg'
+// import Tina from '../../../images/team/Embrodiery/Tina.jpg'
 import Rolando from '../../../images/team/Embrodiery/RolandoPuck.jpg';
 import Inocente from '../../../images/team/Embrodiery/Inocente.jpg'
 import Debra from '../../../images/team/Embrodiery/DebraD.jpg';
 import MiguelG from '../../../images/team/Embrodiery/MiguelG.jpg';
-import Angelica from '../../../images/team/Embrodiery/AngelicaT.jpg';
+// import Angelica from '../../../images/team/Embrodiery/AngelicaT.jpg';
 import Mayra from '../../../images/team/Embrodiery/MayraC.jpg';
 import Alejandra from '../../../images/team/Embrodiery/Alejandra_Ayon.jpg';
 import Julyne from '../../../images/team/Embrodiery/Julyne_Ayala.jpg';
 import Martha from '../../../images/team/Embrodiery/Martha_Esparza.jpg';
-import Titiana from '../../../images/team/Embrodiery/Titiana_Atempa.jpg';
+// import Titiana from '../../../images/team/Embrodiery/Titiana_Atempa.jpg';
 import Citlali from '../../../images/team/Embrodiery/Citlali_Fuentes.jpg';
-import Gladys from '../../../images/team/Embrodiery/Gladys_Andrade.jpg';
+// import Gladys from '../../../images/team/Embrodiery/Gladys_Andrade.jpg';
 import Leomar from '../../../images/team/Embrodiery/Leomar_Santos.jpg';
 import Delfina from '../../../images/team/Embrodiery/Delfina_Garcia.jpg';
-import Esteban from '../../../images/team/Embrodiery/Esteban Garcia.jpg';
+// import Esteban from '../../../images/team/Embrodiery/Esteban Garcia.jpg';
 import Geovanni from '../../../images/team/Embrodiery/Geovanni Ramirez.jpg';
 import Mario from '../../../images/team/Embrodiery/Mario Carreno.jpg';
 
@@ -134,15 +134,15 @@ export const People = {
         why: '',
         image: Victor
     },
-    Tina: {
-        name: 'Tina Rodriguez',
-        title: 'Production Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Tina
-    },
+    // Tina: {
+    //     name: 'Tina Rodriguez',
+    //     title: 'Production Admin',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Tina
+    // },
     Rolando: {
         name: 'Rolando Puck',
         title: 'Production Manager',
@@ -197,15 +197,15 @@ export const People = {
         why: '',
         image: Male1
     },
-    Angelica: {
-        name: 'Angelica Tobon Castillo',
-        title: 'Screen Print Operator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Angelica
-    },
+    // Angelica: {
+    //     name: 'Angelica Tobon Castillo',
+    //     title: 'Screen Print Operator',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Angelica
+    // },
     Mayra: {
         name: 'Mayra Cruz',
         title: 'Production Receiving',
@@ -242,15 +242,15 @@ export const People = {
         why: '',
         image: Martha
     },
-    Titiana: {
-        name: 'Titiana Atempa',
-        title: 'Embroidery Operator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Titiana
-    },
+    // Titiana: {
+    //     name: 'Titiana Atempa',
+    //     title: 'Embroidery Operator',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Titiana
+    // },
     Citlali: {
         name: 'Citlali Fuentes',
         title: 'Screen Print Operator',
@@ -260,15 +260,15 @@ export const People = {
         why: '',
         image: Citlali
     },
-    Gladys: {
-        name: 'Gladys Andrade',
-        title: 'Screen Print Operator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Gladys
-    },
+    // Gladys: {
+    //     name: 'Gladys Andrade',
+    //     title: 'Screen Print Operator',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Gladys
+    // },
     Leomar: {
         name: 'Leomar Santos',
         title: 'Screen Print Operator',
@@ -287,15 +287,15 @@ export const People = {
         why: '',
         image: Delfina
     },
-    Esteban: {
-        name: 'Esteban Garcia',
-        title: 'Screen Print Associate',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Esteban
-    },
+    // Esteban: {
+    //     name: 'Esteban Garcia',
+    //     title: 'Screen Print Associate',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Esteban
+    // },
     Geovanni: {
         name: 'Geovanni Ramirez',
         title: 'Screen Print Operator',

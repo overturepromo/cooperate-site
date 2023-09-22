@@ -2,7 +2,7 @@ import Mario from '../../../images/team/Warehouse/Mario.jpg';
 import Mayla from '../../../images/team/Warehouse/Mayla.jpg';
 import MattC from '../../../images/team/Warehouse/MattC.jpg';
 import MattN from '../../../images/team/Warehouse/MattN.jpg';
-import Juvenita from '../../../images/team/Warehouse/Juevenita.jpg';
+// import Juvenita from '../../../images/team/Warehouse/Juevenita.jpg';
 import Karla from '../../../images/team/Warehouse/Karla.jpg';
 import Abi from '../../../images/team/Warehouse/Abi.jpg';
 import Salvador from '../../../images/team/Warehouse/Salvador.jpg';
@@ -10,7 +10,7 @@ import Ismeal from '../../../images/team/Warehouse/Ismeal.jpg';
 import Nancy from '../../../images/team/Warehouse/Nancy.jpg';
 import Jeremy from '../../../images/team/Warehouse/Jeremy.jpg';
 import Estella from '../../../images/team/Warehouse/Estella.jpg';
-import Jacob from '../../../images/team/Warehouse/Jacob.jpg';
+// import Jacob from '../../../images/team/Warehouse/Jacob.jpg';
 import Abbey from '../../../images/team/Warehouse/AbbeyR.jpg';
 import JulioR from '../../../images/team/Warehouse/JulioR.jpg';
 import Aristarco from '../../../images/team/Warehouse/AristarcoG.jpg';
@@ -26,11 +26,11 @@ import Araceli from '../../../images/team/Warehouse/Araceli.jpg';
 import Mona from '../../../images/team/Warehouse/MonaR.jpg';
 import Gonzalo from '../../../images/team/Warehouse/Gonzalo_Lopez.jpg';
 import William from '../../../images/team/Warehouse/William_Perrin.jpg';
-import Angelica from '../../../images/team/Warehouse/Angelica_Gonzalez.jpg';
+// import Angelica from '../../../images/team/Warehouse/Angelica_Gonzalez.jpg';
 import Doris from '../../../images/team/Warehouse/Doris_Quijada.jpg';
 import Michael from '../../../images/team/Warehouse/Michael_Wynn.jpg';
 import Brandy from '../../../images/team/Warehouse/Brandy Marban.jpg';
-import CarlosO from '../../../images/team/Warehouse/Carlos Otero.jpg';
+// import CarlosO from '../../../images/team/Warehouse/Carlos Otero.jpg';
 import Epi from '../../../images/team/Warehouse/Epigmenio Rodriguez.jpg';
 
 //These are the default photos to be used when photo no avail.
@@ -78,15 +78,15 @@ export const People = {
         why: '',
         image: MattN
     },
-    Juvenita: {
-        name: 'Juvenita Ocampo',
-        title: "Special Projects/Packer Nat'l Programs",
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Juvenita
-    },
+    // Juvenita: {
+    //     name: 'Juvenita Ocampo',
+    //     title: "Special Projects/Packer Nat'l Programs",
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Juvenita
+    // },
     Karla: {
         name: 'Karla Lainez',
         title: 'Shipping Lead ',
@@ -150,15 +150,15 @@ export const People = {
         why: '',
         image: Estella
     },
-    Jacob: {
-        name: 'Jacob Butler',
-        title: 'Receiving',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Jacob
-    },
+    // Jacob: {
+    //     name: 'Jacob Butler',
+    //     title: 'Receiving',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Jacob
+    // },
     Byron: {
         name: 'Byron Calvo',
         title: 'Special Projects',
@@ -303,15 +303,15 @@ export const People = {
         why: '',
         image: William
     },
-    Angelica: {
-        name: 'Angelica Gonzalez',
-        title: 'Special Projects',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Angelica
-    },
+    // Angelica: {
+    //     name: 'Angelica Gonzalez',
+    //     title: 'Special Projects',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Angelica
+    // },
     Doris: {
         name: 'Doris Quijada',
         title: 'Pick/Pack',
@@ -339,15 +339,15 @@ export const People = {
         why: '',
         image: Brandy
     },
-    CarlosO: {
-        name: 'Carlos Otero',
-        title: 'Receiving Associate',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: CarlosO
-    },
+    // CarlosO: {
+    //     name: 'Carlos Otero',
+    //     title: 'Receiving Associate',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: CarlosO
+    // },
     Epi: {
         name: 'Epi Rodriguez',
         title: 'Inventory Associate',

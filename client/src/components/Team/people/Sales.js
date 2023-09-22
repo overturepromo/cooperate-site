@@ -9,7 +9,7 @@ import Katie from '../../../images/team/Sales/Katie.jpg'
 import Kat from '../../../images/team/Sales/Kat.jpg'
 import Lindsay from '../../../images/team/Sales/Lindsay.jpg'
 import Lisa from '../../../images/team/Sales/Lisa.jpg'
-import Lupe from '../../../images/team/Sales/Lupe.jpg'
+// import Lupe from '../../../images/team/Sales/Lupe.jpg'
 import Brittani from '../../../images/team/Sales/Brittani Michela.png';
 import Nicole from '../../../images/team/Sales/Nicole.jpg'
 import Renee from '../../../images/team/Sales/Renee.jpg'
@@ -62,7 +62,7 @@ import MeganK from '../../../images/team/Sales/MeganKragenbrink.jpg';
 import Chris from '../../../images/team/Operations/Chris.jpg';
 import Cassie from '../../../images/team/Sales/Cassie Sackett.png';
 import Hal from '../../../images/team/Sales/Hal Narotzky.png';
-import JacquelineJ from '../../../images/team/Sales/Jackie James.png';
+//import JacquelineJ from '../../../images/team/Sales/Jackie James.png';
 import Jocelyn from '../../../images/team/Sales/Jocelyn Cash.png';
 import Kara from '../../../images/team/Sales/Kara Werchek.png';
 import KatieG from '../../../images/team/Sales/Katie Greider.png';
@@ -183,15 +183,15 @@ export const People = {
         why: '',
         image: Lisa
     },
-    Lupe: {
-        name: 'Lupe Carpio',
-        title: 'Account Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Lupe
-    },
+    // Lupe: {
+    //     name: 'Lupe Carpio',
+    //     title: 'Account Coordinator',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Lupe
+    // },
     Brittani: {
         name: 'Brittani Michela',
         title: 'Sr. Account Manager',
@@ -824,15 +824,15 @@ export const People = {
         why: '',
         image: TiffanyC
     },
-    JacquelineJ: {
-        name: 'Jacqueline James',
-        title: 'Sr. Account Executive',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: JacquelineJ
-    },
+    // JacquelineJ: {
+    //     name: 'Jacqueline James',
+    //     title: 'Sr. Account Executive',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: JacquelineJ
+    // },
     LuisP: {
         name: 'Luis Pacheco',
         title: 'Account Coordinator',

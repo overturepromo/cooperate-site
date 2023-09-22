@@ -16,7 +16,7 @@ import Keyla from '../../../images/team/Operations/Keyla.jpg';
 import Barb from '../../../images/team/Operations/Barbara.jpg';
 import Grace from '../../../images/team/Operations/Grace.jpg';
 import Bethani from '../../../images/team/Operations/Bethani.jpg';
-import Holly from '../../../images/team/Operations/Holly.jpg';
+// import Holly from '../../../images/team/Operations/Holly.jpg';
 import Glenda from '../../../images/team/Operations/Glenda.jpg';
 import Jeff from '../../../images/team/Operations/Jeff Norlin.png';
 import Troy from '../../../images/team/Operations/TroyN.jpg';
@@ -24,7 +24,7 @@ import Maria from '../../../images/team/Operations/MariaA.jpg';
 import Annabelle from '../../../images/team/Operations/Annabelle.jpg'
 import DavidM from '../../../images/team/Warehouse/DavidM.jpg';
 import Asia from '../../../images/team/Operations/Asia Rodgers.jpg';
-import Serafin from '../../../images/team/Operations/Serafin Rodriguez.jpg';
+// import Serafin from '../../../images/team/Operations/Serafin Rodriguez.jpg';
 import Yanis from '../../../images/team/Operations/Yanis Tolbert.jpg';
 import AnnaN from '../../../images/team/Operations/Anna Nava.jpg';
 import Brenda from '../../../images/team/Operations/Brenda Munoz.jpg';
@@ -32,8 +32,8 @@ import Brittney from '../../../images/team/Operations/Brittney Rodriguez.jpg';
 import Blair from '../../../images/team/Operations/Headshot_Crop_Blair_Ellis.jpg';
 import Elizabeth from '../../../images/team/Operations/Headshot_Crop_Elizabeth_Klaw.jpg';
 import EmilyJ from '../../../images/team/Operations/Headshot_Crop_Emily_Jones.jpg';
-import Lupe from '../../../images/team/Sales/Lupe.jpg'
-import Maribel from '../../../images/team/Operations/Maribel Banda.png';
+// import Lupe from '../../../images/team/Sales/Lupe.jpg'
+// import Maribel from '../../../images/team/Operations/Maribel Banda.png';
 import AngelaB from '../../../images/team/Operations/Angela Barajas.png';
 import BrittneyH from '../../../images/team/Operations/Brittney Hartfield.png';
 import Cristian from '../../../images/team/Operations/Cristian Perez - Arredondo.png';
@@ -197,15 +197,15 @@ export const People = {
         why: '',
         image: Barb
     },
-    Holly: {
-        name: 'Holly Duron',
-        title: 'Fulfillment Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Holly
-    },
+    // Holly: {
+    //     name: 'Holly Duron',
+    //     title: 'Fulfillment Coordinator',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Holly
+    // },
     Grace: {
         name: 'Grace Nelson',
         title: 'AP Clerk',
@@ -287,15 +287,15 @@ export const People = {
         why: '',
         image: AnnaN
     },
-    Serafin: {
-        name: 'Serafin Rodriguez',
-        title: 'Distribution Center Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Serafin
-    },
+    // Serafin: {
+    //     name: 'Serafin Rodriguez',
+    //     title: 'Distribution Center Manager',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Serafin
+    // },
     Yanis: {
         name: 'Yanis Tolbert',
         title: 'Billing Coordinator',
@@ -377,15 +377,15 @@ export const People = {
         why: '',
         image: Wade
     },
-    Lupe: {
-        name: 'Lupe Carpio',
-        title: 'Customer Care Asst Manager',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Lupe
-    },
+    // Lupe: {
+    //     name: 'Lupe Carpio',
+    //     title: 'Customer Care Asst Manager',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Lupe
+    // },
     Cristian: {
         name: 'Cristian Perez-Arredondo',
         title: 'Customer Care',
@@ -458,15 +458,15 @@ export const People = {
         why: '',
         image: Female1
     },
-    Maribel: {
-        name: 'Maribel Banda',
-        title: 'Customer Care',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Maribel
-    },
+    // Maribel: {
+    //     name: 'Maribel Banda',
+    //     title: 'Customer Care',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Maribel
+    // },
     IanP: {
         name: 'Ian Porta',
         title: 'Merchandising Manager',
