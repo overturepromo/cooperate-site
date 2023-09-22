@@ -157,7 +157,7 @@ export const People = {
         image: Katie
     },
     Kat: {
-        name: 'Kat Keefe',
+        name: 'Kat Heer',
         title: 'Account Coordinator',
         bio: '',
         movie: '',
