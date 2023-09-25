@@ -17,7 +17,7 @@ import Aristarco from '../../../images/team/Warehouse/AristarcoG.jpg';
 import JoesphY from '../../../images/team/Warehouse/JoesphY.jpg';
 import AlejandraE from '../../../images/team/Warehouse/AlejandraE.jpg';
 import Byron from '../../../images/team/Warehouse/BryonC.jpg';
-import DavidM from '../../../images/team/Warehouse/DavidM.jpg';
+// import DavidM from '../../../images/team/Warehouse/DavidM.jpg';
 import Elizabeth from '../../../images/team/Warehouse/ElizabethP.jpg';
 import MariaP from '../../../images/team/Warehouse/MariaP.jpg';
 import GloriaV from '../../../images/team/Warehouse/GloriaV.jpg';
@@ -195,15 +195,15 @@ export const People = {
         why: '',
         image: Aristarco
     },
-    David: {
-        name: 'David Montoya',
-        title: 'Special Projects',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: DavidM
-    },
+    // David: {
+    //     name: 'David Montoya',
+    //     title: 'Special Projects',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: DavidM
+    // },
     Elizabeth: {
         name: 'Elizabeth Pagan',
         title: 'Special Projects',

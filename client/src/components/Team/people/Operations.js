@@ -22,7 +22,7 @@ import Jeff from '../../../images/team/Operations/Jeff Norlin.png';
 import Troy from '../../../images/team/Operations/TroyN.jpg';
 import Maria from '../../../images/team/Operations/MariaA.jpg';
 import Annabelle from '../../../images/team/Operations/Annabelle.jpg'
-import DavidM from '../../../images/team/Warehouse/DavidM.jpg';
+// import DavidM from '../../../images/team/Warehouse/DavidM.jpg';
 import Asia from '../../../images/team/Operations/Asia Rodgers.jpg';
 // import Serafin from '../../../images/team/Operations/Serafin Rodriguez.jpg';
 import Yanis from '../../../images/team/Operations/Yanis Tolbert.jpg';
@@ -314,15 +314,15 @@ export const People = {
         why: '',
         image: Brenda
     },
-    DavidM: {
-        name: 'David Montoya',
-        title: 'Shipping Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: DavidM
-    },
+    // DavidM: {
+    //     name: 'David Montoya',
+    //     title: 'Shipping Coordinator',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: DavidM
+    // },
     Brittney: {
         name: 'Brittney Rodriguez',
         title: 'Purchasing Manager',
