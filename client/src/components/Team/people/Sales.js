@@ -401,8 +401,8 @@ export const People = {
     },
 
     Gabrielle: {
-        name: 'Gabrielle Whitmer',
-        title: 'Sr. Account Manager',
+        name: 'Gabby Whitmer',
+        title: 'Sr. Account Executive',
         bio: '',
         movie: '',
         vacation: '',
