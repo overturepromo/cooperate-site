@@ -120,7 +120,7 @@ class Jobs extends Component {
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/BkdpNd7koj/Customer-Care-Coordinator">Customer Care Coordinator</a></h3>
                     </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/DKeZBtnWnW/Hire-Lake-County-Job-Fair-Pipeline">Hire Lake County Job Fair - Pipeline</a></h3>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/DKeZBtnWnW/Overture-Promotions-Pipeline">Overture Promotions - Pipeline</a></h3>
                     </div>
                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/JAYogz20tU/Billing-Coordinator">Billing Coordinator</a></h3>
