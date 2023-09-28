@@ -26,7 +26,7 @@ export const People = {
     },*/
     Trish: {
         name: 'Trish Harris-Schentag',
-        title: '',
+        title: 'COO, Westbridge Capital',
         bio: 'Trish brings extensive financial and executive management experience to Westbridge Capital. Trish obtained her Chartered Accountant designation while working for the national accounting firms of Thorne Ernst and Whinney and KPMG. Moving from public practice into industry, Trish began a career of more than 20 years in the manufacturing technology industry working for such industry leaders as Nortel Canada and US tech giant Corning Inc. Through various roles, Trish has gained significant experience and expertise in senior financial management at both operational and corporate levels.',
         movie: 'The Big Short, The Secret Life of Walter Mitty',
         vacation: 'Absolutely the Canadian Rocky Mountains. But Palm Springs isn’t a bad back-up!',
