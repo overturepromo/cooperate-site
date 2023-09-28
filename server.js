@@ -10,6 +10,7 @@ const knox = require('knox');
 const awsS3Url = "https://s3.amazonaws.com/overtures-resumes/";
 const fs = require('fs');
 var enforce = require('express-sslify');
+const nocache = require('nocache');
 
 app.use(bodyParser.urlencoded({
   extended: false
@@ -18,6 +19,8 @@ app.use(bodyParser.json());
 const port = process.env.PORT || 5000;
 
 app.use(enforce.HTTPS({ trustProtoHeader: true }));
+app.use(nocache());
+app.set('etag', false)
 
 //Upload Storage function
 let newFilename = ''
