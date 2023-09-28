@@ -635,15 +635,6 @@ export const People = {
         why: '',
         image: Male1
     },
-    Kaci: {
-        name: 'Kaci Ericson',
-        title: 'Intern/Sales Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Female1
-    },
     Devon: {
         name: 'Devon Huston',
         title: 'Sales Account Admin',
