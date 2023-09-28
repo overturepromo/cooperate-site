@@ -375,4 +375,13 @@ export const People = {
         why: '',
         image: Male1
     },
+    Francisco: {
+        name: 'Francisco Cerda',
+        title: 'Distribution Center Manager',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
