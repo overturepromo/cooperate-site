@@ -38,11 +38,11 @@ const upload = multer({
 });
 
 //amazon s3 bucket storage
-const client = knox.createClient({
-  key: process.env.AWS_KEY,
-  secret: process.env.AWS_SECRET,
-  bucket: 'overtures-resumes'
-});
+// const client = knox.createClient({
+//   key: process.env.AWS_KEY,
+//   secret: process.env.AWS_SECRET,
+//   bucket: 'overtures-resumes'
+// });
 
 
 
