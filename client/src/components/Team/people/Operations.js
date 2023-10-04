@@ -530,5 +530,32 @@ export const People = {
         why: '',
         image: Male1
     },
+    Laroyce: {
+        name: "La'Royce Tanner",
+        title: 'Customer Care Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    MichelleB: {
+        name: 'Michelle Bridges',
+        title: 'Customer Care Supervisor',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    ThomasJ: {
+        name: 'Thomas Johnson',
+        title: 'Care Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
 
