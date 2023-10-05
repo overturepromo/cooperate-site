@@ -64,7 +64,6 @@ import Cassie from '../../../images/team/Sales/Cassie Sackett.png';
 import Hal from '../../../images/team/Sales/Hal Narotzky.png';
 //import JacquelineJ from '../../../images/team/Sales/Jackie James.png';
 import Jocelyn from '../../../images/team/Sales/Jocelyn Cash.png';
-import Kara from '../../../images/team/Sales/Kara Werchek.png';
 import KatieG from '../../../images/team/Sales/Katie Greider.png';
 import Melanie from '../../../images/team/Sales/Melanie Vess.png';
 import RachelD from '../../../images/team/Sales/Rachel Dudek.png';
@@ -706,15 +705,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Shelly
-    },
-    Kara: {
-        name: "Kara Werchek",
-        title: 'Sales Account Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Kara
     },
     Hal: {
         name: "Hal Narotzky",
