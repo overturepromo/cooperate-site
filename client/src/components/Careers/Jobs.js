@@ -33,6 +33,10 @@ class Jobs extends Component {
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/DKeZBtnWnW/Overture-Promotions-Pipeline">Overture Promotions - Pipeline</a></h3>
                     </div>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/Uqcl2wtncq/Account-Coordinator">Account-Coordinator</a></h3>
+                    </div>
+
                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3>Web Developer </h3>
                         <h5 onClick={() => this.handleOn('webDeveloper')} className="view-button">View Details</h5>
