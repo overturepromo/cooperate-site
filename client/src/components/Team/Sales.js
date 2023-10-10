@@ -90,6 +90,7 @@ class Sales extends Component {
                 <div className="row" style={{marginBottom: '50px'}}>
                     <NotPictured name={People.AmyB.name} title={People.AmyB.title} />
                     <NotPictured name={People.AshleyL.name} title={People.AshleyL.title} />
+                    <NotPictured name={People.CindyD.name} title={People.CindyD.title} />
                     <NotPictured name={People.KimE.name} title={People.KimE.title} />
                     <NotPictured name={People.LuisP.name} title={People.LuisP.title} />
                     <NotPictured name={People.Nolan.name} title={People.Nolan.title} />
