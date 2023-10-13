@@ -557,5 +557,14 @@ export const People = {
         why: '',
         image: Male1
     },
+    Tye: {
+        name: 'Tye Scott',
+        title: 'Customer Care Temp',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }
 
