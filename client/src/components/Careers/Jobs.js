@@ -40,7 +40,7 @@ class Jobs extends Component {
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/r05iH1qsie/Project-Administrator-Web-Development">Project Administrator, Web Development</a></h3>
                     </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/v6c025LppA/Vouching-Coordinator">Vouching-Coordinator</a></h3>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/v6c025LppA/Vouching-Coordinator">Vouching Coordinator</a></h3>
                     </div>
                     
 
