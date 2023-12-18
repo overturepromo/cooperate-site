@@ -28,19 +28,10 @@ class Jobs extends Component {
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
                     <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/Uqcl2wtncq/Account-Coordinator">Account Coordinator</a></h3>
-                    </div>
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/A4LURmVy7o/Account-Executive">Account Executive</a></h3>
                     </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/DKeZBtnWnW/Overture-Promotions-Pipeline">Overture Promotions - Pipeline</a></h3>
-                    </div>
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/r05iH1qsie/Project-Administrator-Web-Development">Project Administrator, Web Development</a></h3>
-                    </div>
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/v6c025LppA/Vouching-Coordinator">Vouching Coordinator</a></h3>
                     </div>
                     
 
