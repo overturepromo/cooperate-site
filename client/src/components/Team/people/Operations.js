@@ -29,7 +29,7 @@ import Yanis from '../../../images/team/Operations/Yanis Tolbert.jpg';
 import AnnaN from '../../../images/team/Operations/Anna Nava.jpg';
 import Brenda from '../../../images/team/Operations/Brenda Munoz.jpg';
 import Brittney from '../../../images/team/Operations/Brittney Rodriguez.jpg';
-import Blair from '../../../images/team/Operations/Headshot_Crop_Blair_Ellis.jpg';
+import Blair from '../../../images/team/Operations/Blair.jpg';
 import Elizabeth from '../../../images/team/Operations/Headshot_Crop_Elizabeth_Klaw.jpg';
 import EmilyJ from '../../../images/team/Operations/Headshot_Crop_Emily_Jones.jpg';
 // import Lupe from '../../../images/team/Sales/Lupe.jpg'
@@ -574,6 +574,15 @@ export const People = {
         vacation: '',
         why: '',
         image: Female1
+    },
+    Blair: {
+        name: 'Blair Ellis',
+        title: 'Billing Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Blair
     },
 }
 
