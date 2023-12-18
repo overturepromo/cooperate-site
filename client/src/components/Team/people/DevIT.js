@@ -146,4 +146,13 @@ export const People = {
         why: '',
         image: Male1
     },
+    Kinza: {
+        name: 'Kinza Haque',
+        title: 'Project Administrator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }

@@ -384,4 +384,13 @@ export const People = {
         why: '',
         image: Male1
     },
+    AlejandraC: {
+        name: 'Alejandra J Robles Casas',
+        title: 'Shipping Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }

@@ -886,4 +886,13 @@ export const People = {
         why: '',
         image: Female1                                                                            
     },
+    Tamia: {
+        name: 'Tamia Wheatley',
+        title: 'Account Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1                                                                            
+    },
 }

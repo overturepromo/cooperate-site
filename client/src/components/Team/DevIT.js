@@ -51,6 +51,7 @@ class DevIT extends Component {
                 <div className="row" style={{marginBottom: '50px'}}>
                     <NotPictured name={People.Mark.name} title={People.Mark.title} />
                     <NotPictured name={People.KevinS.name} title={People.KevinS.title} />
+                    <NotPictured name={People.Kinza.name} title={People.Kinza.title} />
                 </div>
             </div>
         )

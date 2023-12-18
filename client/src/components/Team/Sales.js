@@ -95,6 +95,7 @@ class Sales extends Component {
                     <NotPictured name={People.MariaAnn.name} title={People.MariaAnn.title} />
                     <NotPictured name={People.Nolan.name} title={People.Nolan.title} />
                     <NotPictured name={People.Philip.name} title={People.Philip.title} />
+                    <NotPictured name={People.Tamia.name} title={People.Tamia.title} />
                     <NotPictured name={People.Tracy.name} title={People.Tracy.title} />
                     <NotPictured name={People.Wendy.name} title={People.Wendy.title} />
                 </div>
