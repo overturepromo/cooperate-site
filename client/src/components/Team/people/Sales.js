@@ -832,15 +832,6 @@ export const People = {
         why: '',
         image: Female1
     },
-    KimE: {
-        name: 'Kim Esson',
-        title: 'Account Director',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Female1
-    }, 
     Wendy: {
         name: 'Wendy Coffey',
         title: 'Account Director',
@@ -885,4 +876,14 @@ export const People = {
         vacation: '',
         why: '',
         image: Male1                                                                               
-}}
+    },
+    MariaAnn: {
+        name: 'MariaAnn Savitz-Davis',
+        title: 'Account Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1                                                                            
+    },
+}
