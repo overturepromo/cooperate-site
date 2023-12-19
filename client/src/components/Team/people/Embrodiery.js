@@ -27,6 +27,13 @@ import Delfina from '../../../images/team/Embrodiery/Delfina_Garcia.jpg';
 // import Esteban from '../../../images/team/Embrodiery/Esteban Garcia.jpg';
 import Geovanni from '../../../images/team/Embrodiery/Geovanni Ramirez.jpg';
 import Mario from '../../../images/team/Embrodiery/Mario Carreno.jpg';
+import AlexisB from '../../../images/team/Embrodiery/AlexisB.jpg';
+import MariaA from '../../../images/team/Embrodiery/MariaA.jpg';
+import MelG from '../../../images/team/Embrodiery/MelG.jpg';
+import MiguelC from '../../../images/team/Embrodiery/MiguelC.jpg';
+import MonicaR from '../../../images/team/Embrodiery/MonicaR.jpg';
+import OlgaR from '../../../images/team/Embrodiery/OlgaR.jpg';
+import OscarB from '../../../images/team/Embrodiery/OscarB.jpg';
 
 import Male1 from '../../../images/team/Male1.jpg';
 import Male2 from '../../../images/team/Male2.jpg';
@@ -313,5 +320,68 @@ export const People = {
         vacation: '',
         why: '',
         image: Mario
+    },
+    AlexisB: {
+        name: '',
+        title: 'Production Receiving',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: AlexisB
+    },
+    MariaA: {
+        name: '',
+        title: 'Screen Print Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: MariaA
+    },
+    MelG: {
+        name: '',
+        title: 'Production Receiving',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: MelG
+    },
+    MiguelC: {
+        name: '',
+        title: 'Screen Print Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: MiguelC
+    },
+    MonicaR: {
+        name: '',
+        title: 'Screen Print Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: MonicaR
+    },
+    OlgaR: {
+        name: '',
+        title: 'Production Receiving',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: OlgaR
+    },
+    OscarB: {
+        name: '',
+        title: 'Screen Print Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: OscarB
     },
 }
