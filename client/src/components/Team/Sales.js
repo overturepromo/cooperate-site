@@ -63,6 +63,7 @@ class Sales extends Component {
                     <Employee image={People.KatieG.image} name={People.KatieG.name} title={People.KatieG.title} />                                       
                     <Employee image={People.Leunshe.image} name={People.Leunshe.name} title={People.Leunshe.title} />
                     <Employee image={People.Lisa.image} name={People.Lisa.name} title={People.Lisa.title} />
+                    <Employee image={People.LuisP.image} name={People.LuisP.name} title={People.LuisP.title} />
                     <Employee image={People.Lynette.image} name={People.Lynette.name} title={People.Lynette.title} />
                     <Employee image={People.Mallory.image} name={People.Mallory.name} title={People.Mallory.title} />
                     <Employee image={People.MeganK.image} name={People.MeganK.name} title={People.MeganK.title} /> 
@@ -70,6 +71,7 @@ class Sales extends Component {
                     <Employee image={People.Melanie.image} name={People.Melanie.name} title={People.Melanie.title} />                                       
                     <Employee image={People.MichelleF.image} name={People.MichelleF.name} title={People.MichelleF.title} />
                     <Employee image={People.Michelle.image} name={People.Michelle.name} title={People.Michelle.title} />
+                    <Employee image={People.Nolan.image} name={People.Nolan.name} title={People.Nolan.title} />
                     <Employee image={People.Roger.image} name={People.Roger.name} title={People.Roger.title} />
                     <Employee image={People.RachelD.image} name={People.RachelD.name} title={People.RachelD.title} />                                       
                     <Employee image={People.Rory.image} name={People.Rory.name} title={People.Rory.title} />
@@ -91,9 +93,7 @@ class Sales extends Component {
                     <NotPictured name={People.AmyB.name} title={People.AmyB.title} />
                     <NotPictured name={People.AshleyL.name} title={People.AshleyL.title} />
                     <NotPictured name={People.CindyD.name} title={People.CindyD.title} />
-                    <NotPictured name={People.LuisP.name} title={People.LuisP.title} />
                     <NotPictured name={People.MariaAnn.name} title={People.MariaAnn.title} />
-                    <NotPictured name={People.Nolan.name} title={People.Nolan.title} />
                     <NotPictured name={People.Philip.name} title={People.Philip.title} />
                     <NotPictured name={People.Tamia.name} title={People.Tamia.title} />
                     <NotPictured name={People.Tracy.name} title={People.Tracy.title} />

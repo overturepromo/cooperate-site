@@ -39,7 +39,7 @@ import Jessica from '../../../images/team/Sales/Jessica Volstad.png';
 import Kristina from '../../../images/team/ECom/Kristina.jpg';
 import SarahC from '../../../images/team/ECom/SarahC.jpg';
 import Melissa from '../../../images/team/ECom/Melissa.jpg';
-import Mallory from '../../../images/team/ECom/Mallory.jpg';
+import Mallory from '../../../images/team/Sales/Mallory.jpg';
 import NicoleS from '../../../images/team/Sales/Nicole.jpg';
 import Megan from '../../../images/team/Sales/Megan.jpg';
 import Rory from '../../../images/team/Sales/Rory Tucker.png';
@@ -73,6 +73,8 @@ import TiffanyC from '../../../images/team/Sales/Tiffany Cobwell.png';
 import Tom from '../../../images/team/Sales/Tom Pfeifer.png';
 import Zac from '../../../images/team/Sales/Zac Moody.png';
 import Amanda from '../../../images/team/Sales/AmandaE.png';
+import LuisP from '../../../images/team/Sales/LuisP.jpg';
+import Nolan from '../../../images/team/Sales/NolanE.jpg';
 
 
 
@@ -821,7 +823,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: LuisP
     },
     AshleyL: {
         name: 'Ashley Lewis',
@@ -848,7 +850,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Nolan
     },
     Tracy: {
         name: 'Tracy Queen',
