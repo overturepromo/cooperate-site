@@ -18,7 +18,7 @@ import Grace from '../../../images/team/Operations/Grace.jpg';
 import Bethani from '../../../images/team/Operations/Bethani.jpg';
 // import Holly from '../../../images/team/Operations/Holly.jpg';
 import Glenda from '../../../images/team/Operations/Glenda.jpg';
-import Jeff from '../../../images/team/Operations/Jeff Norlin.png';
+import Jeff from '../../../images/team/Operations/Jeff.jpg';
 import Troy from '../../../images/team/Operations/TroyN.jpg';
 import Maria from '../../../images/team/Operations/MariaA.jpg';
 import Annabelle from '../../../images/team/Operations/Annabelle.jpg'
@@ -28,14 +28,14 @@ import Asia from '../../../images/team/Operations/Asia Rodgers.jpg';
 import Yanis from '../../../images/team/Operations/Yanis Tolbert.jpg';
 import AnnaN from '../../../images/team/Operations/Anna Nava.jpg';
 import Brenda from '../../../images/team/Operations/Brenda Munoz.jpg';
-import Brittney from '../../../images/team/Operations/Brittney Rodriguez.jpg';
+import Brittney from '../../../images/team/Operations/BrittneyR.jpg';
 import Blair from '../../../images/team/Operations/Blair.jpg';
 import Elizabeth from '../../../images/team/Operations/Headshot_Crop_Elizabeth_Klaw.jpg';
 import EmilyJ from '../../../images/team/Operations/Headshot_Crop_Emily_Jones.jpg';
 // import Lupe from '../../../images/team/Sales/Lupe.jpg'
 // import Maribel from '../../../images/team/Operations/Maribel Banda.png';
 import AngelaB from '../../../images/team/Operations/Angela Barajas.png';
-import BrittneyH from '../../../images/team/Operations/Brittney Hartfield.png';
+import BrittneyH from '../../../images/team/Operations/BrittneyH.jpg';
 import Cristian from '../../../images/team/Operations/Cristian Perez - Arredondo.png';
 import Emely from '../../../images/team/Operations/Emely Lobo.png';
 import Justin from '../../../images/team/Operations/Justin Christopher.png';
@@ -44,6 +44,12 @@ import RachelK from '../../../images/team/Operations/Rachel King.png';
 import Wade from '../../../images/team/Operations/Wade Maki.png';
 import Ron from '../../../images/team/ExpertsPhotos/Ron.jpg';
 import Angela from '../../../images/team/Operations/Angela.png'
+import Ben from '../../../images/team/Operations/Ben.jpg';
+import Bernadette from '../../../images/team/Operations/Bernadette.jpg';
+import Jennifer from '../../../images/team/Operations/Jennifer.jpg';
+import NickK from '../../../images/team/Operations/NickK.jpg';
+import Noelia from '../../../images/team/Operations/Noelia.jpg';
+
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -402,7 +408,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female2
+        image: Jennifer
     },
     RachelK: {
         name: 'Rachel King',
@@ -447,7 +453,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Bernadette
     },
     // Maribel: {
     //     name: 'Maribel Banda',
@@ -474,7 +480,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: NickK
     },
     RonG: {
         name: 'Ron Gilley',
@@ -492,7 +498,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Ben
     },
     Noelia: {
         name: 'Noelia Ruiz',
@@ -501,7 +507,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Noelia
     },
     KeylaP: {
         name: 'Keyla Patricio',
