@@ -322,7 +322,7 @@ export const People = {
         image: Mario
     },
     AlexisB: {
-        name: '',
+        name: 'Alexis Benjamin',
         title: 'Production Receiving',
         bio: '',
         movie: '',
@@ -331,7 +331,7 @@ export const People = {
         image: AlexisB
     },
     MariaA: {
-        name: '',
+        name: 'Maria De Albarran',
         title: 'Screen Print Associate',
         bio: '',
         movie: '',
@@ -340,7 +340,7 @@ export const People = {
         image: MariaA
     },
     MelG: {
-        name: '',
+        name: 'Mel Gube',
         title: 'Production Receiving',
         bio: '',
         movie: '',
@@ -349,7 +349,7 @@ export const People = {
         image: MelG
     },
     MiguelC: {
-        name: '',
+        name: 'Miguel Cruz',
         title: 'Screen Print Operator',
         bio: '',
         movie: '',
@@ -358,7 +358,7 @@ export const People = {
         image: MiguelC
     },
     MonicaR: {
-        name: '',
+        name: 'Monica Rameriz',
         title: 'Screen Print Associate',
         bio: '',
         movie: '',
@@ -367,7 +367,7 @@ export const People = {
         image: MonicaR
     },
     OlgaR: {
-        name: '',
+        name: 'Olga Reif',
         title: 'Production Receiving',
         bio: '',
         movie: '',
@@ -376,7 +376,7 @@ export const People = {
         image: OlgaR
     },
     OscarB: {
-        name: '',
+        name: 'Oscar Bosque',
         title: 'Screen Print Operator',
         bio: '',
         movie: '',
