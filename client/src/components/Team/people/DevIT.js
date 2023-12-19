@@ -12,7 +12,7 @@ import Zuckerberg from '../../../images/team/Operations/zuckerberg.jpg';
 import Igor from '../../../images/team/Operations/Igor.jpg';
 import Josella from '../../../images/team/Sales/Josella.jpg';
 import Brian from '../../../images/team/Operations/Brian Rahn.png';
-
+import KevinS from '../../../images/team/Operations/KevinS.jpg';
 
 import Female1 from '../../../images/team/Female1.jpg';
 import Male1 from '../../../images/team/Male1.jpg';
@@ -144,7 +144,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: KevinS
     },
     Kinza: {
         name: 'Kinza Haque',

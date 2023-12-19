@@ -43,6 +43,7 @@ class DevIT extends Component {
                     <Employee image={People.Kevin.image} name={People.Kevin.name} title={People.Kevin.title} />
                     <Employee image={People.Dave.image} name={People.Dave.name} title={People.Dave.title} />
                     <Employee image={People.Brian.image} name={People.Brian.name} title={People.Brian.title} />
+                    <Employee image={People.KevinS.image} name={People.KevinS.name} title={People.KevinS.title} />
                     <Employee image={People.Jacob.image} name={People.Jacob.name} title={People.Jacob.title} />
                     <Employee image={People.Sam.image} name={People.Sam.name} title={People.Sam.title} />
                     <Employee image={People.Briana.image} name={People.Briana.name} title={People.Briana.title} />
@@ -50,7 +51,6 @@ class DevIT extends Component {
                 <Element id="creative-orange">Not Pictured</Element>
                 <div className="row" style={{marginBottom: '50px'}}>
                     <NotPictured name={People.Mark.name} title={People.Mark.title} />
-                    <NotPictured name={People.KevinS.name} title={People.KevinS.title} />
                     <NotPictured name={People.Kinza.name} title={People.Kinza.title} />
                 </div>
             </div>

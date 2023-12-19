@@ -11,6 +11,9 @@ import Evie from '../../../images/team/Creative/Evie Daniels.png';
 import Victoria from '../../../images/team/Creative/Victoria Robertson.png';
 import Elizabeth from '../../../images/team/Creative/Elizabeth Purtell.png';
 import Brandon from '../../../images/team/Creative/Brandon.png';
+import Drew from '../../../images/team/Creative/Drew.jpg';
+import Jamie from '../../../images/team/Creative/Jamie.jpg';
+import MeganKuerschner from '../../../images/team/Creative/MeganKuerschner.jpg';
 
 import Female1 from '../../../images/team/Female1.jpg';
 import Male1 from '../../../images/team/Male1.jpg';
@@ -142,7 +145,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: MeganKuerschner
     },
     Jamie: {
         name: 'Jamie Nies',
@@ -151,7 +154,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Female1
+        image: Jamie
     },
     Habi: {
         name: 'Habi Ramirez',
@@ -178,7 +181,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Drew
     },
 }
 
