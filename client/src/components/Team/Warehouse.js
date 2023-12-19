@@ -35,6 +35,7 @@ class Warehouse extends Component {
                     <Employee image={People.Abi.image} name={People.Abi.name} title={People.Abi.title} />
                     <Employee image={People.Mario.image} name={People.Mario.name} title={People.Mario.title} />
                     <Employee image={People.Ismeal.image} name={People.Ismeal.name} title={People.Ismeal.title} />
+                    <Employee image={People.Brian.image} name={People.Brian.name} title={People.Brian.title} />
                     <Employee image={People.Salvador.image} name={People.Salvador.name} title={People.Salvador.title} />
                     <Employee image={People.Nancy.image} name={People.Nancy.name} title={People.Nancy.title} />
                     <Employee image={People.Estella.image} name={People.Estella.name} title={People.Estella.title} />
@@ -61,7 +62,6 @@ class Warehouse extends Component {
                 <Element id="creative-orange">Not Pictured</Element>
                 <div className="row" style={{marginBottom: '50px'}}>
                     <NotPictured name={People.AlejandraC.name} title={People.AlejandraC.title} />
-                    <NotPictured name={People.Brian.name} title={People.Brian.title} />
                     <NotPictured name={People.Francisco.name} title={People.Francisco.title} />
                     <NotPictured name={People.Natalie.name} title={People.Natalie.title} />
                 </div>

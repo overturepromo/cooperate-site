@@ -32,6 +32,7 @@ import Michael from '../../../images/team/Warehouse/Michael_Wynn.jpg';
 import Brandy from '../../../images/team/Warehouse/Brandy Marban.jpg';
 // import CarlosO from '../../../images/team/Warehouse/Carlos Otero.jpg';
 import Epi from '../../../images/team/Warehouse/Epigmenio Rodriguez.jpg';
+import Brian from '../../../images/team/Warehouse/Brian.jpg';
 
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
@@ -373,7 +374,7 @@ export const People = {
         movie: '',
         vacation: '',
         why: '',
-        image: Male1
+        image: Brian
     },
     Francisco: {
         name: 'Francisco Cerda',
