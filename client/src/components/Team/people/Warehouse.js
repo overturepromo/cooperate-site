@@ -34,6 +34,32 @@ import Brandy from '../../../images/team/Warehouse/Brandy Marban.jpg';
 import Epi from '../../../images/team/Warehouse/Epigmenio Rodriguez.jpg';
 import Brian from '../../../images/team/Warehouse/Brian.jpg';
 
+//new hires 12-23. Delete comment once live
+import AlexO from '../../../images/team/Warehouse/AlexO.jpg';
+import AndresD from '../../../images/team/Warehouse/AndresD.jpg';
+import AraceliG from '../../../images/team/Warehouse/AracelicaG.jpg';
+import ArmandoR from '../../../images/team/Warehouse/ArmandoR.jpg';
+import BridianaO from '../../../images/team/Warehouse/BridianaO.jpg';
+import DenineR from '../../../images/team/Warehouse/DenineR.jpg';
+import DianaC from '../../../images/team/Warehouse/DianaC.jpg';
+import EduardoS from '../../../images/team/Warehouse/EduardoS.jpg';
+import ElisaG from '../../../images/team/Warehouse/ElisaG.jpg';
+import EmmelyM from '../../../images/team/Warehouse/EmmelyM.jpg';
+import IvonR from '../../../images/team/Warehouse/IvonR.jpg';
+import JuanaC from '../../../images/team/Warehouse/JuanaC.jpg';
+import LauraG from '../../../images/team/Warehouse/LauraG.jpg';
+import LizbethM from '../../../images/team/Warehouse/LizbethM.jpg';
+import LucyG from '../../../images/team/Warehouse/LucyG.jpg';
+import MariaQ from '../../../images/team/Warehouse/MariaQ.jpg';
+import MariaS from '../../../images/team/Warehouse/MariaS.jpg';
+import MiroslavaC from '../../../images/team/Warehouse/MiroslavaC.jpg';
+import NallelyZ from '../../../images/team/Warehouse/NallelyZ.jpg';
+import NemecisF from '../../../images/team/Warehouse/NemecisF.jpg';
+import SelenaM from '../../../images/team/Warehouse/SelenaM.jpg';
+import VeronicaT from '../../../images/team/Warehouse/VeronicaT.jpg';
+import VictorV from '../../../images/team/Warehouse/VictorV.jpg';
+import ZaidV from '../../../images/team/Warehouse/ZaidV.jpg';
+
 //These are the default photos to be used when photo no avail.
 import Male1 from '../../../images/team/Male1.jpg';
 import Male2 from '../../../images/team/Male2.jpg';
@@ -393,5 +419,221 @@ export const People = {
         vacation: '',
         why: '',
         image: Female1
+    },
+    AlexO: {
+        name: 'Alex Obispo',
+        title: 'Receiving Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: AlexO
+    },
+    AndresD: {
+        name: 'Andres Delgado',
+        title: 'Shipping Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: AndresD
+    },
+    AraceliG: {
+        name: 'Araceli Garcia',
+        title: 'Warehouse Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: AraceliG
+    },
+    ArmandoR: {
+        name: 'Armando Ramirez',
+        title: 'Receiving Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: ArmandoR
+    },
+    BridianaO: {
+        name: 'Bridiana Osorio',
+        title: 'Shipping Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: BridianaO
+    },
+    DenineR: {
+        name: 'Denine Rodgers',
+        title: 'Warehouse Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: DenineR
+    },
+    DianaC: {
+        name: 'Diana Cordova',
+        title: 'Receiving',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: DianaC
+    },
+    EduardoS: {
+        name: 'Eduardo Sanchez',
+        title: 'Receiving Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: EduardoS
+    },
+    ElisaG: {
+        name: 'Elisa Gano',
+        title: 'Shipping Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: ElisaG
+    },
+    EmmelyM: {
+        name: 'Emmely Montoya',
+        title: 'Warehouse Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: EmmelyM
+    },
+    IvonR: {
+        name: 'Ivon Romero',
+        title: 'Pick/Pack',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: IvonR
+    },
+    JuanaC: {
+        name: 'Juana Contreras',
+        title: 'Warehouse Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: JuanaC
+    },
+    LauraG: {
+        name: 'Laura Gonzalez',
+        title: 'Pick/Pack',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: LauraG
+    },
+    LizbethM: {
+        name: 'Lizbeth Martinez',
+        title: 'Inventory Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: LizbethM
+    },
+    LucyG: {
+        name: 'Lucy Garcia',
+        title: 'Warehouse Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: LucyG
+    },
+    MariaQ: {
+        name: 'Maria Quijada',
+        title: 'Pick/Pack',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: MariaQ
+    },
+    MariaS: {
+        name: 'Maria Sanchez',
+        title: 'Pick/Pack',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: MariaS
+    },
+    MiroslavaC: {
+        name: 'Miroslava Chavez',
+        title: 'Warehouse Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: MiroslavaC
+    },
+    NallelyZ: {
+        name: 'Nallely Zamora',
+        title: 'Pick/Pack',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: NallelyZ
+    },
+    NemecisF: {
+        name: 'Nemecis Farfan',
+        title: 'Receiving Coordinator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: NemecisF
+    },
+    SelenaM: {
+        name: 'Selena Martinez',
+        title: 'Warehouse Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: SelenaM
+    },
+    VeronicaT: {
+        name: 'Veronica Tamayo',
+        title: 'Inventory Kitting',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: VeronicaT
+    },
+    VictorV: {
+        name: 'Victor Vazquez',
+        title: 'Warehouse Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: VictorV
+    },
+    ZaidV: {
+        name: 'Zaid Vazquez',
+        title: 'Warehouse Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: ZaidV
     },
 }
