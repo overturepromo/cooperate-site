@@ -55,7 +55,6 @@ import Katarina from '../../../images/team/Sales/Headshot_Crop_Katarina_Petronij
 import Kelli from '../../../images/team/Sales/Headshot_Crop_Kelli Bennett.jpg';
 import Kyle from '../../../images/team/Sales/Headshot_Crop_Kyle_Carson.jpg';
 import Lauren from '../../../images/team/Sales/Headshot_Crop_Lauren_LeMay.jpg';
-import Leunshe from '../../../images/team/Sales/Headshot_Crop_Leunshe_Heim.jpg';
 import Lynette from '../../../images/team/Sales/Headshot_Crop_Lynette_Stwertnik.jpg';
 import MichelleF from '../../../images/team/Sales/Headshot_Crop_Michelle_Fisher.jpg';
 import MeganK from '../../../images/team/Sales/MeganKragenbrink.jpg';
@@ -644,15 +643,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Male2
-    },
-    Leunshe: {
-        name: "Leunshe' Heim",
-        title: 'Sales Account Admin',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Leunshe
     },
     Carolyn: {
         name: "Carolyn Topps",
