@@ -590,5 +590,14 @@ export const People = {
         why: '',
         image: Blair
     },
+    DianaM: {
+        name: 'Diana Gallaga Mendoza',
+        title: 'Customer Care',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }
 
