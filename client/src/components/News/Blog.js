@@ -8,9 +8,6 @@ const Blog = () => {
             <div className="container">
                 <p className="basic">Stay up to date on everything Overture Promotions, including recognition, industry news, and acquisitions.</p>
                 <h4 className="news-orange">Overture in the News</h4>
-                <p className="news-strong">October 2023</p>
-                <p className="basic">Overture Promotions is awarded a silver Ecovadis medal.</p>
-                <a href="/ecovadis" className="news-link">https://www.overturepromotions.com/ecovadis</a>
                 <p className="news-strong">September 2022</p>
                 <p className="basic">Overture Promotions makes a tree planting pledge as part of their sustainability initiatives.</p>
                 <a href="https://www.asicentral.com/news/newsletters/promogram/september-2022/overture-promotions-makes-tree-planting-pledge/" className="news-link" target="blank">https://www.asicentral.com/news/newsletters/promogram/september-2022/overture-promotions-makes-tree-planting-pledge/</a>
@@ -51,7 +48,9 @@ const Blog = () => {
                 <a href="https://www.asicentral.com/news/magazines/counselor/october-2021/power-50-2021-no-36-jo-gilley-overture-promotions" className="news-link" target="blank">https://www.asicentral.com/news/magazines/counselor/october-2021/power-50-2021-no-36-jo-gilley-overture-promotions</a>
                 
                 <h4 className="news-orange">Press Releases</h4>
-                <p className="basic">Nothing for this section yet.</p>
+                <p className="news-strong">October 2023</p>
+                <p className="basic">Overture Promotions is awarded a silver Ecovadis medal.</p>
+                <a href="/ecovadis" className="news-link">https://www.overturepromotions.com/ecovadis</a>
             </div>
         </div>
     )
