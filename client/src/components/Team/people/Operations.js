@@ -44,7 +44,7 @@ import RachelK from '../../../images/team/Operations/Rachel King.png';
 import Wade from '../../../images/team/Operations/Wade Maki.png';
 import Ron from '../../../images/team/ExpertsPhotos/Ron.jpg';
 import Angela from '../../../images/team/Operations/Angela.png'
-import Ben from '../../../images/team/Operations/Ben.jpg';
+// import Ben from '../../../images/team/Operations/Ben.jpg';
 import Bernadette from '../../../images/team/Operations/Bernadette.jpg';
 import Jennifer from '../../../images/team/Operations/Jennifer.jpg';
 import NickK from '../../../images/team/Operations/NickK.jpg';
@@ -491,15 +491,15 @@ export const People = {
         why: ' The vision and commitment to excellence that the leadership team continues to cast is contagious.   What an incredible experience to work with the Overture team members!',
         image: Ron
     },
-    Ben: {
-        name: 'Ben Schillmoeller',
-        title: 'Training Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Ben
-    },
+    // Ben: {
+    //     name: 'Ben S',
+    //     title: 'Training Coordinator',
+    //     bio: '',
+    //     movie: '',
+    //     vacation: '',
+    //     why: '',
+    //     image: Ben
+    // },
     Noelia: {
         name: 'Noelia Ruiz',
         title: 'Training Coordinator',
