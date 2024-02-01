@@ -636,4 +636,22 @@ export const People = {
         why: '',
         image: ZaidV
     },
+    AndreT: {
+        name: 'Andre Tucker',
+        title: 'Pick/Pack',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
+    MichaelA: {
+        name: 'Michael Aguilar',
+        title: 'Receiving Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }

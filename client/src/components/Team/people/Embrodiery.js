@@ -384,4 +384,22 @@ export const People = {
         why: '',
         image: OscarB
     },
+    SontinaL: {
+        name: 'Sontina Lozano',
+        title: 'Production Receiving Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    JoseG: {
+        name: 'José Luis Guadarrama',
+        title: 'Screen Print Operator',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1
+    },
 }

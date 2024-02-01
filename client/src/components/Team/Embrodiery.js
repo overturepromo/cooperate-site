@@ -3,6 +3,7 @@ import Modal from 'react-modal';
 import {Element} from "react-scroll";
 import Employee from './Employee';
 import { People } from './people/Embrodiery';
+import NotPictured from './NotPictured';
 
 import '../../styles/Team.css'
 
@@ -64,6 +65,11 @@ class Embrodiery extends Component {
                     <Employee image={People.MonicaR.image} name={People.MonicaR.name} title={People.MonicaR.title} />
                     <Employee image={People.OlgaR.image} name={People.OlgaR.name} title={People.OlgaR.title} />
                     <Employee image={People.OscarB.image} name={People.OscarB.name} title={People.OscarB.title} />
+                </div>
+                <Element id="creative-orange">Not Pictured</Element>
+                <div className="row" style={{marginBottom: '50px'}}>
+                    <NotPictured name={People.JoseG.name} title={People.JoseG.title} />
+                    <NotPictured name={People.SontinaL.name} title={People.SontinaL.title} />
                 </div>
             </div>
         )
