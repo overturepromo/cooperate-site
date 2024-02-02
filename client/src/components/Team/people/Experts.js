@@ -290,7 +290,7 @@ export const People = {
         image: Jenna
     },
     Katie: {
-        name: 'Katie Puente',
+        name: 'Katie Costanzo',
         title: 'Sales',
         bio: '',
         movie: 'The Man Who Knew Too Little',
