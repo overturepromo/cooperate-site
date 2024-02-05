@@ -887,4 +887,13 @@ export const People = {
         why: '',
         image: Female1                                                                            
     },
+    MatthewC: {
+        name: 'Matthew Christoff',
+        title: 'Account Executive',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Male1                                                                          
+    },
 }
