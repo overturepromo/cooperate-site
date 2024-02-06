@@ -654,4 +654,22 @@ export const People = {
         why: '',
         image: Male1
     },
+    Iziss: {
+        name: 'Iziss Cordoba Sotelo',
+        title: 'Inventory Associate',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
+    AnaR: {
+        name: 'Ana Alvarado Ríos',
+        title: 'Pick/Pack',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }
