@@ -28,9 +28,6 @@ class Jobs extends Component {
             <div className='container' style={{marginTop: '20px'}}>
                 <div className="jobs-box">
                     <div style={{borderTop: '1px solid #d8dadc'}}>
-                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/59JvBLauAN/Account-Executive">Account Executive</a></h3>
-                    </div>
-                    <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/kwrIC2KwE9/Account-Coordinator">Account Coordinator</a></h3>
                     </div>
                     <div style={{borderTop: '1px solid #d8dadc'}}>
