@@ -860,15 +860,6 @@ export const People = {
         why: '',
         image: Female1
     },
-    Philip: {
-        name: 'Philip Montano',
-        title: 'Account Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Male1                                                                               
-    },
     MariaAnn: {
         name: 'MariaAnn Savitz-Davis',
         title: 'Account Coordinator',
