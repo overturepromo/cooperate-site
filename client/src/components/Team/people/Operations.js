@@ -12,7 +12,6 @@ import Ashley from '../../../images/team/Operations/Ashley.jpg'
 import Tiffany from '../../../images/team/Operations/Tiffany.jpg';
 import Carolyn from '../../../images/team/Warehouse/Carolyn.jpg';
 import Chris from '../../../images/team/Operations/Chris.jpg';
-import Keyla from '../../../images/team/Operations/Keyla.jpg';
 import Barb from '../../../images/team/Operations/Barbara.jpg';
 import Grace from '../../../images/team/Operations/Grace.jpg';
 import Bethani from '../../../images/team/Operations/Bethani.jpg';
@@ -184,15 +183,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Chris
-    },
-    Keyla: {
-        name: 'Keyla Patricio',
-        title: 'Fulfillment Shipping Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Keyla
     },
     Barb: {
         name: 'Barb Zukowski',
@@ -508,15 +498,6 @@ export const People = {
         vacation: '',
         why: '',
         image: Noelia
-    },
-    KeylaP: {
-        name: 'Keyla Patricio',
-        title: 'Sr. Customer Care Coordinator',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Keyla
     },
     AndreaA: {
         name: 'Andrea Alvarez',
