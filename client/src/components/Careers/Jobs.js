@@ -39,6 +39,12 @@ class Jobs extends Component {
                     <div style={{borderTop: '1px solid #d8dadc'}}>
                         <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/DKeZBtnWnW/Overture-Promotions-Pipeline">Overture Promotions - Pipeline</a></h3>
                     </div>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/5yx9jfSRUE/Customer-Care-Coordinator">Customer Care Coordinator</a></h3>
+                    </div>
+                    <div style={{borderTop: '1px solid #d8dadc'}}>
+                        <h3><a className="apply-link" target='blank' href="https://overturepromotions.applytojob.com/apply/ENAluBI7Rp/Customer-Care-Specialist">Customer Care Specialist</a></h3>
+                    </div>
                     
 
                     {/* <div style={{borderTop: '1px solid #d8dadc'}}>
