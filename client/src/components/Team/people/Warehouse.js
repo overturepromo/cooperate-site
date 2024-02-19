@@ -339,15 +339,6 @@ export const People = {
     //     why: '',
     //     image: Angelica
     // },
-    Doris: {
-        name: 'Doris Quijada',
-        title: 'Pick/Pack',
-        bio: '',
-        movie: '',
-        vacation: '',
-        why: '',
-        image: Doris
-    },
     Michael: {
         name: 'Michael Wynn',
         title: 'Pick/Pack',
