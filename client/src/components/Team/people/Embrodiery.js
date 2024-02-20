@@ -402,4 +402,13 @@ export const People = {
         why: '',
         image: Male1
     },
+    AnaI: {
+        name: 'Ana Cecilia Porras Iara',
+        title: 'Embroidery Trimmer',
+        bio: '',
+        movie: '',
+        vacation: '',
+        why: '',
+        image: Female1
+    },
 }
