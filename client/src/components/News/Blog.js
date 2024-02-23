@@ -11,6 +11,17 @@ const Blog = () => {
           recognition, industry news, and acquisitions.
         </p>
         <h4 className="news-orange">Overture in the News</h4>
+        <p className="news-strong">February 2024</p>
+        <p className="basic">
+          Overture Promotions plants 100,000 trees in partnership with Ecologi.
+        </p>
+        <a
+          href="https://members.asicentral.com/news/newsletters/promogram/february-2024/overture-promotions-plants-100-000-trees?referral=PG"
+          className="news-link"
+          target="blank"
+        >
+          https://members.asicentral.com/news/newsletters/promogram/february-2024/overture-promotions-plants-100-000-trees?referral=PG
+        </a>
         <p className="news-strong">September 2022</p>
         <p className="basic">
           Overture Promotions makes a tree planting pledge as part of their
