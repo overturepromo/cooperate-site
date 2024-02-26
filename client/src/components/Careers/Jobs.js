@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { Helmet } from "react-helmet";
-import WebDeveloper from "./Positions/WebDeveloper";
 
 import "../../styles/Careers.css";
 

@@ -10,7 +10,6 @@ import Privacy from "./Privacy";
 import Terms from "./Terms";
 import Error from "./Error";
 import CoreValues from "./Core";
-import PPE from "./PPE";
 import ProtectiveInfo from "./ProtectiveInfo";
 import CSR from "./CSR";
 import Diversity from "./Diversity";
@@ -35,7 +34,6 @@ const Main = () => (
       <Route path="/privacy" component={Privacy} />
       <Route path="/terms" component={Terms} />
       <Route path="/corevalues" component={CoreValues} />
-      <Route path="/ppe" component={PPE} />
       <Route path="/protectiveinfo" component={ProtectiveInfo} />
       <Route path="/csr" component={CSR} />
       <Route path="/diversity" component={Diversity} />
