@@ -1,4 +1,4 @@
-import Jo from "../../../images/team/ExpertsPhotos/Jo.jpg";
+import JoG from "../../../images/team/ExpertsPhotos/Jo.jpg";
 import Joe from "../../../images/team/ExpertsPhotos/Joe.jpg";
 import Tej from "../../../images/team/ExpertsPhotos/Tej.jpg";
 import Christina from "../../../images/team/ExpertsPhotos/Christina.jpg";
@@ -25,7 +25,7 @@ export const People = {
     vacation:
       "Kiawah Island, Kauai, Venice, Paris — and all the places I haven’t been yet.",
     why: "My investment in Overture as a start-up was a bet on our superstar original sales managers, Joe Hazan and Dave Robbins. (It was a good bet!)",
-    image: Jo,
+    image: JoG,
   },
   JoeH: {
     name: "Joe Hazan",
