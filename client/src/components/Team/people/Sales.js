@@ -864,4 +864,13 @@ export const People = {
     why: "",
     image: Male1,
   },
+  LilianaN: {
+    name: "Liliana Nunez",
+    title: "Account Coordinatore",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Male1,
+  },
 };
