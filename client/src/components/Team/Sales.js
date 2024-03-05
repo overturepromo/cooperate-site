@@ -34,7 +34,6 @@ class Sales extends Component {
           Sales Staff
         </Element>
         <div className="row">
-          ` `{" "}
           <Employee
             image={People.Amanda.image}
             name={People.Amanda.name}
