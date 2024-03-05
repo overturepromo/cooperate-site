@@ -11,6 +11,17 @@ const Blog = () => {
           recognition, industry news, and acquisitions.
         </p>
         <h4 className="news-orange">Overture in the News</h4>
+        <p className="news-strong">March 2024</p>
+        <p className="basic">
+          Overture Promotions reaches 100K trees planted milestone.
+        </p>
+        <a
+          href="https://media.ppai.org/ppai-newslink/overture-promotions-plants-100-000th-tree-in-sustainability-initiative/?utm_campaign=Newslink&utm_medium=email&_hsmi=296740136&_hsenc=p2ANqtz--gKwTMw9HaOgGj-gHCpATX6lzI9G3iK5-hGTr48ZtisGGuxFfTnqxj5AL4hIqR-u-Dt5EINZIL__4_a_R3JuFdZhNK4A&utm_content=296740136&utm_source=hs_email"
+          className="news-link"
+          target="blank"
+        >
+          https://media.ppai.org/ppai-newslink/overture-promotions-plants-100-000th-tree-in-sustainability-initiative/?utm_campaign=Newslink&utm_medium=email&_hsmi=296740136&_hsenc=p2ANqtz--gKwTMw9HaOgGj-gHCpATX6lzI9G3iK5-hGTr48ZtisGGuxFfTnqxj5AL4hIqR-u-Dt5EINZIL__4_a_R3JuFdZhNK4A&utm_content=296740136&utm_source=hs_email
+        </a>
         <p className="news-strong">February 2024</p>
         <p className="basic">
           Overture Promotions plants 100,000 trees in partnership with Ecologi.
