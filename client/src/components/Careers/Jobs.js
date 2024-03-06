@@ -64,7 +64,7 @@ class Jobs extends Component {
                 target="blank"
                 href="https://overturepromotions.applytojob.com/apply/ENAluBI7Rp/Customer-Care-Specialist"
               >
-                Customer Care Specialist
+                Customer Care Administrator
               </a>
             </h3>
           </div>
