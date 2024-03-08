@@ -526,4 +526,13 @@ export const People = {
     why: "",
     image: Male1,
   },
+  NicoleB: {
+    name: "Nicole Buchert",
+    title: "Vouching Coordinator",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Male1,
+  },
 };
