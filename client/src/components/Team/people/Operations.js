@@ -535,4 +535,13 @@ export const People = {
     why: "",
     image: Male1,
   },
+  AllenM: {
+    name: "Allen Meggs",
+    title: "Customer Care Administrator",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Male1,
+  },
 };

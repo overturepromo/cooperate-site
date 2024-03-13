@@ -51,17 +51,6 @@ class Jobs extends Component {
               <a
                 className="apply-link"
                 target="blank"
-                href="https://overturepromotions.applytojob.com/apply/ENAluBI7Rp/Customer-Care-Specialist"
-              >
-                Customer Care Administrator
-              </a>
-            </h3>
-          </div>
-          <div style={{ borderTop: "1px solid #d8dadc" }}>
-            <h3>
-              <a
-                className="apply-link"
-                target="blank"
                 href="https://overturepromotions.applytojob.com/apply/zcgavBTwGM/Purchasing-Assistant"
               >
                 Purchasing Assistant
