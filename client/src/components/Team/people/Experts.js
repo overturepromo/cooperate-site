@@ -315,7 +315,7 @@ export const People = {
     image: Katie,
   },
   Lindsay: {
-    name: "Lindsay Oswalt",
+    name: "Lindsay Hoffman",
     title: "Training Manager",
     bio: "",
     movie: "",
