@@ -1,7 +1,7 @@
 import JoG from "../../../images/team/ExpertsPhotos/Jo.jpg";
 import Joe from "../../../images/team/ExpertsPhotos/Joe.jpg";
 import Tej from "../../../images/team/ExpertsPhotos/Tej.jpg";
-import Christina from "../../../images/team/ExpertsPhotos/Christina.jpg";
+import Christina from "../../../images/team/ExpertsPhotos/Christina Nelson.png";
 import David from "../../../images/team/ExpertsPhotos/David.jpg";
 import MichaelN from "../../../images/team/Board/MichaelN.jpg";
 import MichaelM from "../../../images/team/Board/MichaelM.jpg";
