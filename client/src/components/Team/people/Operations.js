@@ -40,6 +40,9 @@ import Bernadette from "../../../images/team/Operations/Bernadette.jpg";
 import Jennifer from "../../../images/team/Operations/Jennifer.jpg";
 import NickK from "../../../images/team/Operations/NickK.jpg";
 import Noelia from "../../../images/team/Operations/Noelia.jpg";
+import AmandaW from "../../../images/team/Operations/Amanda Wolf.png";
+import Laroyce from "../../../images/team/Operations/La'Royce Tanner.png";
+import MichelleB from "../../../images/team/Operations/Michelle Bridges.png";
 
 //These are the default photos to be used when photo no avail.
 import Male1 from "../../../images/team/Male1.jpg";
@@ -461,7 +464,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Female1,
+    image: Laroyce,
   },
   MichelleB: {
     name: "Michelle Bridges",
@@ -470,7 +473,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Female1,
+    image: MichelleB,
   },
   ThomasJ: {
     name: "Thomas Johnson",
@@ -543,5 +546,14 @@ export const People = {
     vacation: "",
     why: "",
     image: Male1,
+  },
+  AmandaW: {
+    name: "Amanda Wolf",
+    title: "Vouching Coordinator",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: AmandaW,
   },
 };
