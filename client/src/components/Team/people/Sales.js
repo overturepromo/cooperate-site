@@ -70,6 +70,8 @@ import Zac from "../../../images/team/Sales/Zac Moody.png";
 import Amanda from "../../../images/team/Sales/AmandaE.png";
 import LuisP from "../../../images/team/Sales/LuisP.jpg";
 import Nolan from "../../../images/team/Sales/NolanE.jpg";
+import AmandaG from "../../../images/team/Sales/Amanda Grimes.png";
+import MariaAnn from "../../../images/team/Sales/MariaAnn.png";
 
 //These are the default photos to be used when photo no avail.
 import Male1 from "../../../images/team/Male1.jpg";
@@ -844,7 +846,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Female1,
+    image: MariaAnn,
   },
   Tamia: {
     name: "Tamia Wheatley",
@@ -866,11 +868,20 @@ export const People = {
   },
   LilianaN: {
     name: "Liliana Nunez",
-    title: "Account Coordinatore",
+    title: "Account Coordinator",
     bio: "",
     movie: "",
     vacation: "",
     why: "",
     image: Male1,
+  },
+  AmandaG: {
+    name: "Amanda Grimes",
+    title: "Account Coordinator",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: AmandaG,
   },
 };
