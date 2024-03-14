@@ -51,6 +51,14 @@ import SelenaM from "../../../images/team/Warehouse/SelenaM.jpg";
 import VeronicaT from "../../../images/team/Warehouse/VeronicaT.jpg";
 import VictorV from "../../../images/team/Warehouse/VictorV.jpg";
 import ZaidV from "../../../images/team/Warehouse/ZaidV.jpg";
+import AlejandraC from "../../../images/team/NewWarehouse/Alejandra.png";
+import AnaR from "../../../images/team/NewWarehouse/Ana.png";
+import AndreT from "../../../images/team/NewWarehouse/Andre Tucker.png";
+import DianaM from "../../../images/team/NewWarehouse/Diana Mendoza.png";
+import Daisy from "../../../images/team/NewWarehouse/Diasy Cordova.png";
+import Iziss from "../../../images/team/NewWarehouse/Iziss.png";
+import KevinD from "../../../images/team/NewWarehouse/Kevin Delgado.png";
+import MichaelA from "../../../images/team/NewWarehouse/Michael.png";
 
 //These are the default photos to be used when photo no avail.
 import Male1 from "../../../images/team/Male1.jpg";
@@ -381,7 +389,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Female1,
+    image: AlejandraC,
   },
   AlexO: {
     name: "Alex Obispo",
@@ -606,7 +614,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Male1,
+    image: AndreT,
   },
   MichaelA: {
     name: "Michael Aguilar",
@@ -615,7 +623,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Male1,
+    image: MichaelA,
   },
   Iziss: {
     name: "Iziss Cordoba Sotelo",
@@ -624,7 +632,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Female1,
+    image: Iziss,
   },
   AnaR: {
     name: "Ana Alvarado Ríos",
@@ -633,6 +641,33 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Female1,
+    image: AnaR,
+  },
+  DianaM: {
+    name: "Diana Gallaga-Mendoza",
+    title: "Shipping Coordinator",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: DianaM,
+  },
+  Daisy: {
+    name: "Daisy Cordova",
+    title: "Inventory Kitting",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Daisy,
+  },
+  KevinD: {
+    name: "Kevin Delgado",
+    title: "Receiving Associate",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: KevinD,
   },
 };
