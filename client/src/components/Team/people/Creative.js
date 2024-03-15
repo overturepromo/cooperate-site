@@ -8,7 +8,7 @@ import Aaron from "../../../images/team/Creative/AaronB.jpg";
 import Samantha from "../../../images/team/Creative/Samantha-Logan-square.jpg";
 import Christopher from "../../../images/team/Creative/Chris Westby.jpg";
 import Evie from "../../../images/team/Creative/Evie Daniels.png";
-import Victoria from "../../../images/team/Creative/Victoria Robertson.png";
+import Victoria from "../../../images/team/Creative/Tori updated image.png";
 import Elizabeth from "../../../images/team/Creative/Elizabeth Purtell.png";
 import Brandon from "../../../images/team/Creative/Brandon.png";
 import Drew from "../../../images/team/Creative/Drew.jpg";
