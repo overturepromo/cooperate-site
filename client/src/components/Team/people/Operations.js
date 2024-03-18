@@ -556,4 +556,13 @@ export const People = {
     why: "",
     image: AmandaW,
   },
+  JordanW: {
+    name: "Jordan Walter",
+    title: "Customer Care Coordinator",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Male1,
+  },
 };
