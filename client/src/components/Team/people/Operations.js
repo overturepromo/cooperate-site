@@ -565,4 +565,13 @@ export const People = {
     why: "",
     image: Male1,
   },
+  MalloryF: {
+    name: "Mallory Fracek",
+    title: "Purchasing Assistant",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Female1,
+  },
 };
