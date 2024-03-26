@@ -177,6 +177,13 @@ const Blog = () => {
         </a>
 
         <h4 className="news-orange">Press Releases</h4>
+        <p className="news-strong">March 2024</p>
+        <p className="basic">
+          Overture successfully completes its SOC 2 Type 2 audit.
+        </p>
+        <a href="/socaudit" className="news-link">
+          https://www.overturepromotions.com/socaudit
+        </a>
         <p className="news-strong">February 2024</p>
         <p className="basic">
           Overture Promotions plants 100K trees in partnership with Ecologi.
