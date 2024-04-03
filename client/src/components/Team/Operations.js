@@ -172,11 +172,6 @@ class Operations extends Component {
             title={People.NickK.title}
           />
           <Employee
-            image={People.AngelaB.image}
-            name={People.AngelaB.name}
-            title={People.AngelaB.title}
-          />
-          <Employee
             image={People.Cristian.image}
             name={People.Cristian.name}
             title={People.Cristian.title}

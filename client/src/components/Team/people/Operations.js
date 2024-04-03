@@ -26,7 +26,6 @@ import Brenda from "../../../images/team/Operations/Brenda Munoz.jpg";
 import Brittney from "../../../images/team/Operations/BrittneyR.jpg";
 import Blair from "../../../images/team/Operations/Blair.jpg";
 import EmilyJ from "../../../images/team/Operations/Headshot_Crop_Emily_Jones.jpg";
-import AngelaB from "../../../images/team/Operations/Angela Barajas.png";
 import BrittneyH from "../../../images/team/Operations/BrittneyH.jpg";
 import Cristian from "../../../images/team/Operations/Cristian Perez - Arredondo.png";
 import Emely from "../../../images/team/Operations/Emely Lobo.png";
@@ -374,15 +373,6 @@ export const People = {
     vacation: "",
     why: "",
     image: Emely,
-  },
-  AngelaB: {
-    name: "Angela Barajas",
-    title: "Customer Care",
-    bio: "",
-    movie: "",
-    vacation: "",
-    why: "",
-    image: AngelaB,
   },
   Michael: {
     name: "Michael Haake",
