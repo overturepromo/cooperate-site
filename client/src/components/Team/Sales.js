@@ -294,10 +294,6 @@ class Sales extends Component {
         <Element id="creative-orange">Not Pictured</Element>
         <div className="row" style={{ marginBottom: "50px" }}>
           <NotPictured name={People.AmyB.name} title={People.AmyB.title} />
-          <NotPictured
-            name={People.AshleyL.name}
-            title={People.AshleyL.title}
-          />
           <NotPictured name={People.CindyD.name} title={People.CindyD.title} />
           <NotPictured
             name={People.LilianaN.name}

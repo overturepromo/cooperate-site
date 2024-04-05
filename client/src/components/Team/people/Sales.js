@@ -794,15 +794,6 @@ export const People = {
     why: "",
     image: LuisP,
   },
-  AshleyL: {
-    name: "Ashley Lewis",
-    title: "Account Manager",
-    bio: "",
-    movie: "",
-    vacation: "",
-    why: "",
-    image: Female1,
-  },
   Wendy: {
     name: "Wendy Coffey",
     title: "Account Director",
