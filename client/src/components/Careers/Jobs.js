@@ -51,17 +51,6 @@ class Jobs extends Component {
               <a
                 className="apply-link"
                 target="blank"
-                href="https://overturepromotions.applytojob.com/apply/PXtEDdk0T3/Customer-Care-Coordinator"
-              >
-                Customer Care Coordinator
-              </a>
-            </h3>
-          </div>
-          <div style={{ borderTop: "1px solid #d8dadc" }}>
-            <h3>
-              <a
-                className="apply-link"
-                target="blank"
                 href="https://overturepromotions.applytojob.com/apply/DKeZBtnWnW/Overture-Promotions-Pipeline"
               >
                 Overture Promotions - Pipeline
