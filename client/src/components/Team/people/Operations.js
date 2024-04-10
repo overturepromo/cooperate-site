@@ -564,4 +564,13 @@ export const People = {
     why: "",
     image: Female1,
   },
+  MaribelB: {
+    name: "Maribel Banda",
+    title: "Customer Care Coordinator",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Female1,
+  },
 };

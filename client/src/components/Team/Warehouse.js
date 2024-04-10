@@ -308,6 +308,10 @@ class Warehouse extends Component {
             title={People.Francisco.title}
           />
           <NotPictured
+            name={People.JulianC.name}
+            title={People.JulianC.title}
+          />
+          <NotPictured
             name={People.Natalie.name}
             title={People.Natalie.title}
           />
