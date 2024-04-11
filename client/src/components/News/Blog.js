@@ -11,6 +11,17 @@ const Blog = () => {
           recognition, industry news, and acquisitions.
         </p>
         <h4 className="news-orange">Overture in the News</h4>
+        <p className="news-strong">April 2024</p>
+        <p className="basic">
+          Overture Promotions Hires ESG Compliance Specialist.
+        </p>
+        <a
+          href="https://members.asicentral.com/news/industry-news/april-2024/overture-promotions-hires-esg-compliance-specialist/?referral=PG"
+          className="news-link"
+          target="blank"
+        >
+          https://members.asicentral.com/news/industry-news/april-2024/overture-promotions-hires-esg-compliance-specialist/?referral=PG
+        </a>
         <p className="news-strong">March 2024</p>
         <p className="basic">
           Overture Promotions reaches 100K trees planted milestone.
@@ -177,6 +188,14 @@ const Blog = () => {
         </a>
 
         <h4 className="news-orange">Press Releases</h4>
+        <p className="news-strong">April 2024</p>
+        <p className="basic">
+          Overture Promotions hired Andrew Kelly to a newly created,
+          Environmental, Social, and Corporate Governance (ESG) role.
+        </p>
+        <a href="/kelly" className="news-link">
+          https://www.overturepromotions.com/kelly
+        </a>
         <p className="news-strong">March 2024</p>
         <p className="basic">
           Overture successfully completes its SOC 2 Type 2 audit.
