@@ -199,7 +199,6 @@ class Operations extends Component {
         </div>
         <Element id="creative-orange">Not Pictured</Element>
         <div className="row" style={{ marginBottom: "50px" }}>
-          <NotPictured name={People.AllenM.name} title={People.AllenM.title} />
           <NotPictured
             name={People.AndreaA.name}
             title={People.AndreaA.title}
