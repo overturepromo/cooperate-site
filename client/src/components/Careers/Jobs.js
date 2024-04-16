@@ -40,9 +40,20 @@ class Jobs extends Component {
               <a
                 className="apply-link"
                 target="blank"
-                href="https://overturepromotions.applytojob.com/apply/vEfx2zhceU/Account-Executive"
+                href="https://overturepromotions.applytojob.com/apply/vbMwiQsLv5/Customer-Care-Administrator"
               >
-                Account Executive
+                Customer Care Administrator
+              </a>
+            </h3>
+          </div>
+          <div style={{ borderTop: "1px solid #d8dadc" }}>
+            <h3>
+              <a
+                className="apply-link"
+                target="blank"
+                href="https://overturepromotions.applytojob.com/apply/jy2whYciZl/Purchasing-Coordinator"
+              >
+                Purchasing Coordinator
               </a>
             </h3>
           </div>
