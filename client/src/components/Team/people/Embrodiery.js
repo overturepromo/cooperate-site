@@ -29,7 +29,6 @@ import MiguelC from "../../../images/team/Embrodiery/MiguelC.jpg";
 import MonicaR from "../../../images/team/Embrodiery/MonicaR.jpg";
 import OlgaR from "../../../images/team/Embrodiery/OlgaR.jpg";
 import OscarB from "../../../images/team/Embrodiery/OscarB.jpg";
-import JoseG from "../../../images/team/Embrodiery/JoseG.png";
 import SontinaL from "../../../images/team/Embrodiery/Sontia.png";
 
 import Male1 from "../../../images/team/Male1.jpg";
@@ -342,15 +341,6 @@ export const People = {
     vacation: "",
     why: "",
     image: SontinaL,
-  },
-  JoseG: {
-    name: "José Luis Guadarrama",
-    title: "Screen Print Operator",
-    bio: "",
-    movie: "",
-    vacation: "",
-    why: "",
-    image: JoseG,
   },
   AnaI: {
     name: "Ana Cecilia Porras Iara",
