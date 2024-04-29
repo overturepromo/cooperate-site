@@ -19,7 +19,7 @@ import Glenda from "../../../images/team/Operations/Glenda.jpg";
 import Jeff from "../../../images/team/Operations/Jeff.jpg";
 import Troy from "../../../images/team/Operations/TroyN.jpg";
 import Maria from "../../../images/team/Operations/MariaA.jpg";
-import Annabelle from "../../../images/team/Operations/Annabelle.jpg";
+import Annabelle from "../../../images/team/Operations/Annabelle.png";
 import Yanis from "../../../images/team/Operations/Yanis Tolbert.jpg";
 import AnnaN from "../../../images/team/Operations/Anna Nava.jpg";
 import Brenda from "../../../images/team/Operations/Brenda Munoz.jpg";
@@ -42,6 +42,14 @@ import Noelia from "../../../images/team/Operations/Noelia.jpg";
 import AmandaW from "../../../images/team/Operations/Amanda Wolf.png";
 import Laroyce from "../../../images/team/Operations/La'Royce Tanner.png";
 import MichelleB from "../../../images/team/Operations/Michelle Bridges.png";
+import AndrewK from "../../../images/team/Operations/Andrew K.png";
+import Rebecca from "../../../images/team/Operations/Becca C.png";
+import IanP from "../../../images/team/Operations/Ian Porta2.png";
+import JordanW from "../../../images/team/Operations/Jordan W2.png";
+import MalloryF from "../../../images/team/Operations/Mallory F2.png";
+import NicoleB from "../../../images/team/Operations/NicoleB.png";
+import ThomasJ from "../../../images/team/Operations/Tommy J2.png";
+import Tye from "../../../images/team/Operations/Tye S2.png";
 
 //These are the default photos to be used when photo no avail.
 import Male1 from "../../../images/team/Male1.jpg";
@@ -295,12 +303,12 @@ export const People = {
   },
   Rebecca: {
     name: "Rebecca Coleman",
-    title: "Sr. Purchasing Coordinator",
+    title: "Senior Purchasing Coordinator",
     bio: "",
     movie: "",
     vacation: "",
     why: "",
-    image: Female2,
+    image: Rebecca,
   },
   BrittneyH: {
     name: "Brittney Hartfield",
@@ -399,7 +407,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Male1,
+    image: IanP,
   },
   NickK: {
     name: "Nick Kesner",
@@ -472,7 +480,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Male1,
+    image: ThomasJ,
   },
   Tye: {
     name: "Tye Scott",
@@ -481,7 +489,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Male1,
+    image: Tye,
   },
   Chloe: {
     name: "Chloe Gibb",
@@ -517,7 +525,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Male1,
+    image: AndrewK,
   },
   NicoleB: {
     name: "Nicole Buchert",
@@ -526,7 +534,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Male1,
+    image: NicoleB,
   },
   AmandaW: {
     name: "Amanda Wolf",
@@ -544,7 +552,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Male1,
+    image: JordanW,
   },
   MalloryF: {
     name: "Mallory Fracek",
@@ -553,7 +561,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Female1,
+    image: MalloryF,
   },
   MaribelB: {
     name: "Maribel Banda",

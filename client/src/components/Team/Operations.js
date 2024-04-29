@@ -37,6 +37,41 @@ class Operations extends Component {
             title={People.RonG.title}
           />
           <Employee
+            image={People.Troy.image}
+            name={People.Troy.name}
+            title={People.Troy.title}
+          />
+          <Employee
+            image={People.Corinne.image}
+            name={People.Corinne.name}
+            title={People.Corinne.title}
+          />
+          <Employee
+            image={People.Trina.image}
+            name={People.Trina.name}
+            title={People.Trina.title}
+          />
+          <Employee
+            image={People.Brittney.image}
+            name={People.Brittney.name}
+            title={People.Brittney.title}
+          />
+          <Employee
+            image={People.IanP.image}
+            name={People.IanP.name}
+            title={People.IanP.title}
+          />
+          <Employee
+            image={People.Don.image}
+            name={People.Don.name}
+            title={People.Don.title}
+          />
+          <Employee
+            image={People.AndrewK.image}
+            name={People.AndrewK.name}
+            title={People.AndrewK.title}
+          />
+          <Employee
             image={People.AnnaN.image}
             name={People.AnnaN.name}
             title={People.AnnaN.title}
@@ -57,14 +92,9 @@ class Operations extends Component {
             title={People.Noelia.title}
           />
           <Employee
-            image={People.Don.image}
-            name={People.Don.name}
-            title={People.Don.title}
-          />
-          <Employee
-            image={People.Corinne.image}
-            name={People.Corinne.name}
-            title={People.Corinne.title}
+            image={People.Jeff.image}
+            name={People.Jeff.name}
+            title={People.Jeff.title}
           />
           <Employee
             image={People.Eileen.image}
@@ -77,14 +107,9 @@ class Operations extends Component {
             title={People.Liz.title}
           />
           <Employee
-            image={People.Troy.image}
-            name={People.Troy.name}
-            title={People.Troy.title}
-          />
-          <Employee
-            image={People.Brittney.image}
-            name={People.Brittney.name}
-            title={People.Brittney.title}
+            image={People.Rebecca.image}
+            name={People.Rebecca.name}
+            title={People.Rebecca.title}
           />
           <Employee
             image={People.Morgan.image}
@@ -122,6 +147,11 @@ class Operations extends Component {
             title={People.Jennifer.title}
           />
           <Employee
+            image={People.MalloryF.image}
+            name={People.MalloryF.name}
+            title={People.MalloryF.title}
+          />
+          <Employee
             image={People.Grace.image}
             name={People.Grace.name}
             title={People.Grace.title}
@@ -142,24 +172,9 @@ class Operations extends Component {
             title={People.Justin.title}
           />
           <Employee
-            image={People.Trina.image}
-            name={People.Trina.name}
-            title={People.Trina.title}
-          />
-          <Employee
             image={People.Annabelle.image}
             name={People.Annabelle.name}
             title={People.Annabelle.title}
-          />
-          <Employee
-            image={People.Jeff.image}
-            name={People.Jeff.name}
-            title={People.Jeff.title}
-          />
-          <Employee
-            image={People.Maria.image}
-            name={People.Maria.name}
-            title={People.Maria.title}
           />
           <Employee
             image={People.Wade.image}
@@ -172,6 +187,26 @@ class Operations extends Component {
             title={People.NickK.title}
           />
           <Employee
+            image={People.Maria.image}
+            name={People.Maria.name}
+            title={People.Maria.title}
+          />
+          <Employee
+            image={People.AmandaW.image}
+            name={People.AmandaW.name}
+            title={People.AmandaW.title}
+          />
+          <Employee
+            image={People.NicoleB.image}
+            name={People.NicoleB.name}
+            title={People.NicoleB.title}
+          />
+          <Employee
+            image={People.MichelleB.image}
+            name={People.MichelleB.name}
+            title={People.MichelleB.title}
+          />
+          <Employee
             image={People.Cristian.image}
             name={People.Cristian.name}
             title={People.Cristian.title}
@@ -182,19 +217,24 @@ class Operations extends Component {
             title={People.Emely.title}
           />
           <Employee
-            image={People.AmandaW.image}
-            name={People.AmandaW.name}
-            title={People.AmandaW.title}
-          />
-          <Employee
             image={People.Laroyce.image}
             name={People.Laroyce.name}
             title={People.Laroyce.title}
           />
           <Employee
-            image={People.MichelleB.image}
-            name={People.MichelleB.name}
-            title={People.MichelleB.title}
+            image={People.JordanW.image}
+            name={People.JordanW.name}
+            title={People.JordanW.title}
+          />
+          <Employee
+            image={People.ThomasJ.image}
+            name={People.ThomasJ.name}
+            title={People.ThomasJ.title}
+          />
+          <Employee
+            image={People.Tye.image}
+            name={People.Tye.name}
+            title={People.Tye.title}
           />
         </div>
         <Element id="creative-orange">Not Pictured</Element>
@@ -203,40 +243,13 @@ class Operations extends Component {
             name={People.AndreaA.name}
             title={People.AndreaA.title}
           />
-          <NotPictured
-            name={People.AndrewK.name}
-            title={People.AndrewK.title}
-          />
-
           <NotPictured name={People.Chance.name} title={People.Chance.title} />
           <NotPictured name={People.Chloe.name} title={People.Chloe.title} />
           <NotPictured name={People.DianaM.name} title={People.DianaM.title} />
-          <NotPictured name={People.IanP.name} title={People.IanP.title} />
-          <NotPictured
-            name={People.JordanW.name}
-            title={People.JordanW.title}
-          />
-          <NotPictured
-            name={People.MalloryF.name}
-            title={People.MalloryF.title}
-          />
           <NotPictured
             name={People.MaribelB.name}
             title={People.MaribelB.title}
           />
-          <NotPictured
-            name={People.NicoleB.name}
-            title={People.NicoleB.title}
-          />
-          <NotPictured
-            name={People.Rebecca.name}
-            title={People.Rebecca.title}
-          />
-          <NotPictured
-            name={People.ThomasJ.name}
-            title={People.ThomasJ.title}
-          />
-          <NotPictured name={People.Tye.name} title={People.Tye.title} />
         </div>
       </div>
     );
