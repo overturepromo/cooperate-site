@@ -30,7 +30,7 @@ import Brittany from "../../../images/team/ECom/Brittany.jpg";
 import Dean from "../../../images/team/ECom/Dean.jpg";
 import Katelynn from "../../../images/team/ECom/Katelynn.jpg";
 import NicoleV from "../../../images/team/ECom/Nicole.jpg";
-import Gabrielle from "../../../images/team/ECom/Gabrielle.jpg";
+import Gabrielle from "../../../images/team/Sales/Gabby W2.png";
 import Sarah from "../../../images/team/ECom/Sarah.jpg";
 import Steven from "../../../images/team/ECom/Steven.jpg";
 import Will from "../../../images/team/ECom/Will.jpg";
@@ -72,6 +72,11 @@ import LuisP from "../../../images/team/Sales/LuisP.jpg";
 import Nolan from "../../../images/team/Sales/NolanE.jpg";
 import AmandaG from "../../../images/team/Sales/Amanda Grimes.png";
 import MariaAnn from "../../../images/team/Sales/MariaAnn.png";
+import AmyB from "../../../images/team/Sales/Amy B.png";
+import LilianaN from "../../../images/team/Sales/Lili N2.png";
+import MatthewC from "../../../images/team/Sales/Matthew C2.png";
+import Tracy from "../../../images/team/Sales/Tracy Q.png";
+import Wendy from "../../../images/team/Sales/Wendy C.png";
 
 //These are the default photos to be used when photo no avail.
 import Male1 from "../../../images/team/Male1.jpg";
@@ -729,7 +734,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Female2,
+    image: AmyB,
   },
   KatieG: {
     name: "Katie Greider",
@@ -801,7 +806,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Female1,
+    image: Wendy,
   },
   Nolan: {
     name: "Nolan Elsing",
@@ -819,7 +824,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Female1,
+    image: Tracy,
   },
   CindyD: {
     name: "Cindy Denton",
@@ -855,7 +860,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Male1,
+    image: MatthewC,
   },
   LilianaN: {
     name: "Liliana Nunez",
@@ -864,7 +869,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Male1,
+    image: LilianaN,
   },
   AmandaG: {
     name: "Amanda Grimes",

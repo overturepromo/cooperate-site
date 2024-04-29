@@ -45,6 +45,11 @@ class Sales extends Component {
             title={People.AmandaG.title}
           />
           <Employee
+            image={People.AmyB.image}
+            name={People.AmyB.name}
+            title={People.AmyB.title}
+          />
+          <Employee
             image={People.Amy.image}
             name={People.Amy.name}
             title={People.Amy.title}
@@ -166,6 +171,11 @@ class Sales extends Component {
             title={People.KatieG.title}
           />
           <Employee
+            image={People.LilianaN.image}
+            name={People.LilianaN.name}
+            title={People.LilianaN.title}
+          />
+          <Employee
             image={People.Lisa.image}
             name={People.Lisa.name}
             title={People.Lisa.title}
@@ -184,6 +194,11 @@ class Sales extends Component {
             image={People.Mallory.image}
             name={People.Mallory.name}
             title={People.Mallory.title}
+          />
+          <Employee
+            image={People.MatthewC.image}
+            name={People.MatthewC.name}
+            title={People.MatthewC.title}
           />
           <Employee
             image={People.MeganK.image}
@@ -271,6 +286,11 @@ class Sales extends Component {
             title={People.StephanieK.title}
           />
           <Employee
+            image={People.Tracy.image}
+            name={People.Tracy.name}
+            title={People.Tracy.title}
+          />
+          <Employee
             image={People.TiffanyC.image}
             name={People.TiffanyC.name}
             title={People.TiffanyC.title}
@@ -279,6 +299,11 @@ class Sales extends Component {
             image={People.Tom.image}
             name={People.Tom.name}
             title={People.Tom.title}
+          />
+          <Employee
+            image={People.Wendy.image}
+            name={People.Wendy.name}
+            title={People.Wendy.title}
           />
           <Employee
             image={People.Will.image}
@@ -293,19 +318,8 @@ class Sales extends Component {
         </div>
         <Element id="creative-orange">Not Pictured</Element>
         <div className="row" style={{ marginBottom: "50px" }}>
-          <NotPictured name={People.AmyB.name} title={People.AmyB.title} />
           <NotPictured name={People.CindyD.name} title={People.CindyD.title} />
-          <NotPictured
-            name={People.LilianaN.name}
-            title={People.LilianaN.title}
-          />
-          <NotPictured
-            name={People.MatthewC.name}
-            title={People.MatthewC.title}
-          />
           <NotPictured name={People.Tamia.name} title={People.Tamia.title} />
-          <NotPictured name={People.Tracy.name} title={People.Tracy.title} />
-          <NotPictured name={People.Wendy.name} title={People.Wendy.title} />
         </div>
         {/* All The modals */}
         <Modal
