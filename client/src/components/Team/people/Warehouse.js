@@ -59,6 +59,8 @@ import Daisy from "../../../images/team/NewWarehouse/Diasy Cordova.png";
 import Iziss from "../../../images/team/NewWarehouse/Iziss.png";
 import KevinD from "../../../images/team/NewWarehouse/Kevin Delgado.png";
 import MichaelA from "../../../images/team/NewWarehouse/Michael.png";
+import Jacob from "../../../images/team/Warehouse/Jacob B2.png";
+import Frank from "../../../images/team/Warehouse/Frank C.png";
 
 //These are the default photos to be used when photo no avail.
 import Male1 from "../../../images/team/Male1.jpg";
@@ -175,15 +177,15 @@ export const People = {
     why: "",
     image: Estella,
   },
-  // Jacob: {
-  //     name: 'Jacob Butler',
-  //     title: 'Receiving',
-  //     bio: '',
-  //     movie: '',
-  //     vacation: '',
-  //     why: '',
-  //     image: Jacob
-  // },
+  Jacob: {
+    name: "Jacob Butler",
+    title: "Receiving",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Jacob,
+  },
   Byron: {
     name: "Byron Calvo",
     title: "Special Projects",
@@ -380,7 +382,7 @@ export const People = {
     movie: "",
     vacation: "",
     why: "",
-    image: Male1,
+    image: Frank,
   },
   AlejandraC: {
     name: "Alejandra J Robles Casas",

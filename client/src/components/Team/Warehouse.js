@@ -32,6 +32,11 @@ class Warehouse extends Component {
         <Element id="warehouse-orange">Warehouse</Element>
         <div className="row">
           <Employee
+            image={People.Francisco.image}
+            name={People.Francisco.name}
+            title={People.Francisco.title}
+          />
+          <Employee
             image={People.Abi.image}
             name={People.Abi.name}
             title={People.Abi.title}
@@ -71,7 +76,11 @@ class Warehouse extends Component {
             name={People.Gonzalo.name}
             title={People.Gonzalo.title}
           />
-          {/* <Employee image={People.Jacob.image} name={People.Jacob.name} title={People.Jacob.title} /> */}
+          <Employee
+            image={People.Jacob.image}
+            name={People.Jacob.name}
+            title={People.Jacob.title}
+          />
           <Employee
             image={People.Joesph.image}
             name={People.Joesph.name}
@@ -303,10 +312,6 @@ class Warehouse extends Component {
         </div>
         <Element id="creative-orange">Not Pictured</Element>
         <div className="row" style={{ marginBottom: "50px" }}>
-          <NotPictured
-            name={People.Francisco.name}
-            title={People.Francisco.title}
-          />
           <NotPictured
             name={People.JulianC.name}
             title={People.JulianC.title}
