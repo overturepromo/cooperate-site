@@ -77,6 +77,7 @@ import LilianaN from "../../../images/team/Sales/Lili N2.png";
 import MatthewC from "../../../images/team/Sales/Matthew C2.png";
 import Tracy from "../../../images/team/Sales/Tracy Q.png";
 import Wendy from "../../../images/team/Sales/Wendy C.png";
+import Annabelle from "../../../images/team/Operations/Annabelle.png";
 
 //These are the default photos to be used when photo no avail.
 import Male1 from "../../../images/team/Male1.jpg";
@@ -879,5 +880,14 @@ export const People = {
     vacation: "",
     why: "",
     image: AmandaG,
+  },
+  Annabelle: {
+    name: "Annabelle Cocom",
+    title: "Account Admin",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Annabelle,
   },
 };

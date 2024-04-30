@@ -54,7 +54,6 @@ import ZaidV from "../../../images/team/Warehouse/ZaidV.jpg";
 import AlejandraC from "../../../images/team/NewWarehouse/Alejandra.png";
 import AnaR from "../../../images/team/NewWarehouse/Ana.png";
 import AndreT from "../../../images/team/NewWarehouse/Andre Tucker.png";
-import DianaM from "../../../images/team/NewWarehouse/Diana Mendoza.png";
 import Daisy from "../../../images/team/NewWarehouse/Diasy Cordova.png";
 import Iziss from "../../../images/team/NewWarehouse/Iziss.png";
 import KevinD from "../../../images/team/NewWarehouse/Kevin Delgado.png";
@@ -644,15 +643,6 @@ export const People = {
     vacation: "",
     why: "",
     image: AnaR,
-  },
-  DianaM: {
-    name: "Diana Gallaga-Mendoza",
-    title: "Shipping Coordinator",
-    bio: "",
-    movie: "",
-    vacation: "",
-    why: "",
-    image: DianaM,
   },
   Daisy: {
     name: "Daisy Cordova",
