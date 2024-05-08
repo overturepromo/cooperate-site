@@ -572,4 +572,13 @@ export const People = {
     why: "",
     image: DianaM,
   },
+  KathleenK: {
+    name: "Kathleen Kraybill",
+    title: "Purchasing Coordinator",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Female1,
+  },
 };
