@@ -180,4 +180,13 @@ export const People = {
     why: "",
     image: Drew,
   },
+  TimothyC: {
+    name: "Timothy Conn",
+    title: "Graphic Designer Intern",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Female1,
+  },
 };
