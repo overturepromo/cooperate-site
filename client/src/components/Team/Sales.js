@@ -323,7 +323,6 @@ class Sales extends Component {
         </div>
         <Element id="creative-orange">Not Pictured</Element>
         <div className="row" style={{ marginBottom: "50px" }}>
-          <NotPictured name={People.CindyD.name} title={People.CindyD.title} />
           <NotPictured name={People.Tamia.name} title={People.Tamia.title} />
         </div>
         {/* All The modals */}

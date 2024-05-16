@@ -152,4 +152,13 @@ export const People = {
     why: "",
     image: Kinza,
   },
+  Dale: {
+    name: "Dale Burmeister",
+    title: "Web Developer",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Male1,
+  },
 };

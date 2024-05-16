@@ -827,15 +827,6 @@ export const People = {
     why: "",
     image: Tracy,
   },
-  CindyD: {
-    name: "Cindy Denton",
-    title: "Sr. Account Executive",
-    bio: "",
-    movie: "",
-    vacation: "",
-    why: "",
-    image: Female1,
-  },
   MariaAnn: {
     name: "MariaAnn Savitz-Davis",
     title: "Account Coordinator",
