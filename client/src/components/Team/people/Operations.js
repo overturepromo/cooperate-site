@@ -582,4 +582,13 @@ export const People = {
     why: "",
     image: KathleenK,
   },
+  JayliaS: {
+    name: "Jaylia Swift",
+    title: "Customer Care Administrator",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Female1,
+  },
 };
