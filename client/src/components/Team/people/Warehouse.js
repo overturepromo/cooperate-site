@@ -671,4 +671,13 @@ export const People = {
     why: "",
     image: Male1,
   },
+  LevettiaW: {
+    name: "Levettia Walton",
+    title: "Pick/Pack",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Female1,
+  },
 };
