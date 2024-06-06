@@ -680,4 +680,13 @@ export const People = {
     why: "",
     image: Female1,
   },
+  Jacques: {
+    name: "Jacques Miller",
+    title: "Inventory Associate",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Male1,
+  },
 };
