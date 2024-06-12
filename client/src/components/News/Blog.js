@@ -11,6 +11,18 @@ const Blog = () => {
           recognition, industry news, and acquisitions.
         </p>
         <h4 className="news-orange">Overture in the News</h4>
+        <p className="news-strong">June 2024</p>
+        <p className="basic">
+          Overture Promotions celebrates 6 years in partnership with local
+          domestic violence shelter, A Safe Place.
+        </p>
+        <a
+          href="https://members.asicentral.com/news/industry-news/june-2024/the-bright-side-overture-promotions-hits-6-year-milestone-with-domestic-violence-shelter/"
+          className="news-link"
+          target="blank"
+        >
+          https://members.asicentral.com/news/industry-news/june-2024/the-bright-side-overture-promotions-hits-6-year-milestone-with-domestic-violence-shelter/
+        </a>
         <p className="news-strong">April 2024</p>
         <p className="basic">
           Overture Promotions Hires ESG Compliance Specialist.
