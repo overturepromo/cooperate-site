@@ -881,4 +881,13 @@ export const People = {
     why: "",
     image: Annabelle,
   },
+  AudreyM: {
+    name: "Audrey MacVicar",
+    title: "Sales Intern",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Female1,
+  },
 };
