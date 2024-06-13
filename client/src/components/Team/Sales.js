@@ -35,11 +35,6 @@ class Sales extends Component {
         </Element>
         <div className="row">
           <Employee
-            image={People.Amanda.image}
-            name={People.Amanda.name}
-            title={People.Amanda.title}
-          />
-          <Employee
             image={People.AmandaG.image}
             name={People.AmandaG.name}
             title={People.AmandaG.title}
