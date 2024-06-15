@@ -689,4 +689,13 @@ export const People = {
     why: "",
     image: Male1,
   },
+  Carnell: {
+    name: "Carnell Tibbs",
+    title: "Inventory Associate",
+    bio: "",
+    movie: "",
+    vacation: "",
+    why: "",
+    image: Male1,
+  },
 };
